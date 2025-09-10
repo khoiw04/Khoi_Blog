@@ -3,17 +3,33 @@
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
-
+import cloudflare from '@astrojs/cloudflare'
 import react from '@astrojs/react';
+import rehypeAddButtonClass from './src/lib/rehypeAddButtonClass.js';
 
 import tailwindcss from '@tailwindcss/vite';
+
+import expressiveCode from 'astro-expressive-code';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://example.com',
-  integrations: [mdx(), sitemap(), react()],
+  markdown: {
+    rehypePlugins: [rehypeAddButtonClass()]
+  },
+  integrations: [
+    expressiveCode(),
+    mdx(),
+    sitemap(),
+    react(),
+    (await import("astro-compress")).default(),
+  ],
 
   vite: {
     plugins: [tailwindcss()],
   },
+  output: 'server',
+  adapter: cloudflare({
+    imageService: "compile"
+  }),
 });

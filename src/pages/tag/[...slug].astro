@@ -1,0 +1,111 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '@/components/HeadSeo.astro';
+import Footer from '@/components/Footer.astro';
+import Header from '@/components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
+import NavigateLink from '@/components/NavigateLink.astro';
+import Search from '@/components/presenters/search';
+import { tagsEnum } from '@/data/tags';
+import { Image } from 'astro:assets';
+import FormattedDate from '@/components/FormattedDate.astro';
+import { capitalize, formatTagLabel } from '@/lib/utils';
+
+export async function getStaticPaths() {
+	return tagsEnum.map(tag => ({
+		params: { slug: tag.toLowerCase() }
+	}));
+}
+
+const { slug: tag } = Astro.params;
+const capitalizedTag = capitalize(tag);
+const formalLabel = formatTagLabel(tag);
+const posts = await getCollection('blog')
+
+const filteredPosts = posts
+  .filter(post => post.data.tags.includes(capitalizedTag as typeof tagsEnum[number]))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 2rem;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			ul li {
+				width: 100%;
+			}
+			ul li * {
+				text-decoration: none;
+				transition: 0.2s ease;
+			}
+			ul li img {
+				margin-bottom: 0.5rem;
+				border-radius: 12px;
+			}
+			ul li a {
+				display: block;
+			}
+			.title {
+				margin: 0;
+				color: rgb(var(--black));
+				line-height: 1;
+			}
+			.date {
+				margin: 0;
+				color: rgb(var(--gray));
+			}
+			ul li a:hover h4,
+			ul li a:hover .date {
+				color: rgb(var(--accent));
+			}
+			ul a:hover img {
+				box-shadow: var(--box-shadow);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<header class="sticky top-10 mb-5 md:mb-0 md:top-20.25 flex flex-row justify-between">
+				<NavigateLink class='md:mb-8' />
+				<Search client:load posts={posts} />
+			</header>
+            <section class="pt-6">
+
+                <h1 class="font-[Editorial] capitalize">Tag: {formalLabel}</h1>
+
+                {filteredPosts.length === 0 ? (
+                <p class="text-muted-foreground pt-2">Không có bài viết nào với tag này.</p>
+                ) : (
+				<p class="text-muted-foreground pt-3 pb-8">
+					Đã thấy tổng cộng {filteredPosts.length} bài viết.
+				</p>
+                <ul class="space-y-4">
+                    {filteredPosts.map(post => (
+						<li>
+							<a href={`/blog/${post.id}/`}>
+								{post.data.heroImage && (
+									<Image width={720} height={360} src={post.data.heroImage} alt="" />
+								)}
+								<h4 class="title font-[Editorial] pt-4">{post.data.title}</h4>
+								<p class="date">
+									<FormattedDate date={post.data.pubDate} />
+								</p>
+							</a>
+						</li>
+                    ))}
+                </ul>
+                )}
+            </section>
+		</main>
+		<Footer />
+	</body>
+</html>
