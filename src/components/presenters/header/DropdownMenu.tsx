@@ -5,12 +5,23 @@ import {
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  DropdownMenuSeparator
 } from "@/components/ui/dropdown-menu"
+import { languages } from "@/i18n/ui"
+import { useTranslations } from "@/i18n/utils"
+import type { DropdownHeaderType } from "@/types/ui/Dropdown"
 import { LucideFolderArchive, LucideHouse, LucideRss } from "lucide-react"
 import { useState } from "react"
 
-export default function DropdownMenuHeader() {
+export default function DropdownMenuHeader({lang}: DropdownHeaderType) {
     const [open, setOpen] = useState<boolean>(false)
+    const t = useTranslations(lang)
+    const configNav = {
+        about: t('nav.about'),
+        blog: t('nav.blog'),
+        home: t('nav.home'),
+    }
+
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -51,24 +62,34 @@ export default function DropdownMenuHeader() {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-40" align="start">
                 <DropdownMenuGroup>
-                    <a href="/">
+                    <a href={`/${lang}`}>
                         <DropdownMenuItem>
                             <LucideHouse />
-                            Home
+                            {configNav.home}
                         </DropdownMenuItem>
                     </a>
-                    <a href="/blog">
+                    <a href={`/${lang}/blog`}>
                         <DropdownMenuItem>
                             <LucideRss />
-                            Blog
+                            {configNav.blog}
                         </DropdownMenuItem>
                     </a>
-                    <a href="/about">
+                    <a href={`/${lang}/about`}>
                         <DropdownMenuItem>
                             <LucideFolderArchive />
-                            Project
+                            {configNav.about}
                         </DropdownMenuItem>
                     </a>
+                </DropdownMenuGroup>
+                <DropdownMenuSeparator />
+                <DropdownMenuGroup>
+                    {Object.entries(languages).map(([lang, label]) => (
+                        <a href={`/${lang}`}>
+                            <DropdownMenuItem>
+                                {label}
+                            </DropdownMenuItem>
+                        </a>
+                    ))}
                 </DropdownMenuGroup>
             </DropdownMenuContent>
         </DropdownMenu>

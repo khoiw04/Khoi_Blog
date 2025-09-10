@@ -4,18 +4,21 @@ import Footer from '@/components/Footer.astro';
 import Header from '@/components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
 import NavigateLink from '@/components/NavigateLink.astro';
+import { useGetTranslations } from '@/i18n/utils';
+
+const configTranslations = useGetTranslations(Astro)
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={configTranslations.lang}>
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header />
+		<Header lang={configTranslations.lang} />
 		<main>
 			<header class="sticky top-10 mb-5 md:mb-0 md:top-20.25 flex flex-row justify-between">
-				<NavigateLink class='md:mb-8' />
+				<NavigateLink class='md:mb-8' name={configTranslations.navigateBack} />
 			</header>
 			<section class="text-primary">
                 <h1 class="font-bold mb-4">404 - Không tìm thấy trang</h1>

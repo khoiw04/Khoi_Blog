@@ -4,6 +4,7 @@ import type { Root } from 'hast';
 export default function rehypeAddButtonClass(): (tree: Root) => void {
   return function (tree) {
     visit(tree, 'element', (node) => {
+      console.log('Visiting:', node.tagName);
       const targetTags = [
         'p', 'li', 'div', 'ul', 'ol',
         'h1', 'h2', 'h3', 'h4', 'h5', 'h6',

@@ -1,11 +1,11 @@
 ---
 import type { HTMLAttributes } from 'astro/types';
-type Props = HTMLAttributes<'a'>;
+type Props = HTMLAttributes<'button'>;
 
 const { name = 'Quay lại', class: className, ...props } = Astro.props;
 ---
 
-<button type="button" onclick="if (document.referrer) history.back(); else window.location.href='/'" class:list={["flex flex-row gap-2 items-center", className]}>
+<button {...props} type="button" onclick="if (document.referrer) history.back(); else window.location.href='/'" class:list={["flex flex-row gap-2 items-center", className]}>
 	<svg
 		xmlns="http://www.w3.org/2000/svg" 
 		width="16" 

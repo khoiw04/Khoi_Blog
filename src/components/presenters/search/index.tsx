@@ -11,26 +11,21 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command"
-import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import type { SearchTypeProps } from "@/types/ui/Search"
 import { tagsObj } from "@/data/tags"
-import { ScrollArea } from "@/components/ui/scroll-area"
+import { useTranslations } from "@/i18n/utils"
+import useMenuOpen from "@/components/container/useMenuOpen"
 
-export default function Component({ posts }: SearchTypeProps) {
-  const [open, setOpen] = useState(false)
-
-  useEffect(() => {
-    const down = (e: KeyboardEvent) => {
-      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault()
-        setOpen((open) => !open)
-      }
-    }
-
-    document.addEventListener("keydown", down)
-    return () => document.removeEventListener("keydown", down)
-  }, [])
+export default function Component({ posts, lang }: SearchTypeProps) {
+  const { open, setOpen } = useMenuOpen()
+  const t = useTranslations(lang)
+  const configCMD = {
+    placeholder: t('searchCMD.placeholder'),
+    code: t('searchCMD.heading.code'),
+    post: t('searchCMD.heading.post'),
+    empty: t('searchCMD.empty')
+  }
 
   return (
     <>
@@ -45,10 +40,10 @@ export default function Component({ posts }: SearchTypeProps) {
         />
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Tìm thông tin..." />
+        <CommandInput placeholder={configCMD.placeholder} />
         <CommandList>
-          <CommandEmpty>Không thấy thông tin.</CommandEmpty>
-          <CommandGroup heading="Lập Trình">
+          <CommandEmpty>{configCMD.empty}</CommandEmpty>
+          <CommandGroup heading={configCMD.code}>
             {tagsObj.map((tag, i) => (
               <a key={`tags_${i}`} href={`/tag/${tag.name.toLowerCase()}`}>
                 <CommandItem>
@@ -62,7 +57,7 @@ export default function Component({ posts }: SearchTypeProps) {
               </a>
             ))}
           </CommandGroup>
-          <CommandGroup heading="Bài Viết">
+          <CommandGroup heading={configCMD.post}>
             {posts.map((post, i) => (
               <a href={`/blog/${post.id}/`} key={`blog_${i}`}>
                 <CommandItem>

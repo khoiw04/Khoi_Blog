@@ -19,7 +19,9 @@ export default defineConfig({
   },
   integrations: [
     expressiveCode(),
-    mdx(),
+    mdx({
+      rehypePlugins: [rehypeAddButtonClass()]
+    }),
     sitemap(),
     react(),
     (await import("astro-compress")).default(),
@@ -27,6 +29,10 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
+  },
+  i18n: {
+    locales: ["vi", "en"],
+    defaultLocale: "en",
   },
   output: 'server',
   adapter: cloudflare({
