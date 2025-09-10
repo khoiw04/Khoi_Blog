@@ -15,7 +15,7 @@ const blog = defineCollection({
 			updatedDate: z.coerce.date().optional(),
 			heroImage: image().optional(),
 			tags: z.array(z.enum(tagsEnum))
-		}),
+		})
 });
 
 export const collections = { blog };

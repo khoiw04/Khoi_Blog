@@ -4,11 +4,11 @@ import type { Root } from 'hast';
 export default function rehypeAddButtonClass(): (tree: Root) => void {
   return function (tree) {
     visit(tree, 'element', (node) => {
-      console.log('Visiting:', node.tagName);
+      console.log('rehypeAddButtonClass is running');
       const targetTags = [
         'p', 'li', 'div', 'ul', 'ol',
         'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
-        'blockquote', 'pre', 'code', 'figure', 'table', 'section'
+        'blockquote', 'pre', 'code', 'figure', 'table'
       ];
 
       const classList = node.properties?.className;

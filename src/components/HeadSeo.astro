@@ -28,6 +28,8 @@ const { title, description, image = FallbackImage } = Astro.props;
 	title={SITE_TITLE}
 	href={new URL('rss.xml', Astro.site)}
 />
+<link rel="alternate" type="application/rss+xml" title="RSS - English" href={new URL('rss-en.xml', Astro.site)} />
+<link rel="alternate" type="application/rss+xml" title="RSS - Tiếng Việt" href={new URL('ren-vi.xml', Astro.site)} />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->

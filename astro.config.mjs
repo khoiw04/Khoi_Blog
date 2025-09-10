@@ -5,11 +5,12 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import cloudflare from '@astrojs/cloudflare'
 import react from '@astrojs/react';
-import rehypeAddButtonClass from './src/lib/rehypeAddButtonClass.js';
+import rehypeAddButtonClass from './src/lib/rehypeAddButtonClass';
 
 import tailwindcss from '@tailwindcss/vite';
 
 import expressiveCode from 'astro-expressive-code';
+import remarkAddButtonClass from '@/lib/remarkAddButtonClass';
 
 // https://astro.build/config
 export default defineConfig({
