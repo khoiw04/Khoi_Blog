@@ -1,3 +1,3 @@
 import type { langKeyType } from "../data/returnType";
 
-export type DropdownHeaderType = { lang: langKeyType }
+export type DropdownHeaderType = { lang: langKeyType, currentPath: string }

@@ -15,3 +15,9 @@ export function formatTagLabel(tag: string): string {
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
 }
+
+export function getLocaleUrl(lang: string, currentPath: string) {
+  const segments = currentPath.split('/');
+  segments[1] = lang;
+  return segments.join('/');
+}

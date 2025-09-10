@@ -9,11 +9,12 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { languages } from "@/i18n/ui"
 import { useTranslations } from "@/i18n/utils"
+import { getLocaleUrl } from "@/lib/utils"
 import type { DropdownHeaderType } from "@/types/ui/Dropdown"
 import { LucideFolderArchive, LucideHouse, LucideRss } from "lucide-react"
 import { useState } from "react"
 
-export default function DropdownMenuHeader({lang}: DropdownHeaderType) {
+export default function DropdownMenuHeader({lang, currentPath}: DropdownHeaderType) {
     const [open, setOpen] = useState<boolean>(false)
     const t = useTranslations(lang)
     const configNav = {
@@ -84,7 +85,7 @@ export default function DropdownMenuHeader({lang}: DropdownHeaderType) {
                 <DropdownMenuSeparator />
                 <DropdownMenuGroup>
                     {Object.entries(languages).map(([lang, label]) => (
-                        <a href={`/${lang}`}>
+                        <a href={`${getLocaleUrl(lang, currentPath)}`}>
                             <DropdownMenuItem>
                                 {label}
                             </DropdownMenuItem>
