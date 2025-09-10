@@ -80,7 +80,7 @@ const filteredPosts = posts
 		<main>
 			<header class="sticky top-10 mb-5 md:mb-0 md:top-20.25 flex flex-row justify-between">
 				<NavigateLink class='md:mb-8' name='Back' />
-				<Search lang={configTranslations.lang} client:load posts={posts} />
+				<Search lang={configTranslations.lang} client:visible posts={posts} />
 			</header>
             <section class="pt-6">
 

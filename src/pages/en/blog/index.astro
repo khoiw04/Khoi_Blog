@@ -27,7 +27,7 @@ const posts = (await getCollection('blog')).sort(
 		<main>
 			<header class="sticky top-10 mb-5 md:mb-0 md:top-20.25 flex flex-row justify-between">
 				<NavigateLink class='md:mb-8' name={configTranslations.navigateBack} />
-				<Search client:load posts={posts} lang={configTranslations.lang} />
+				<Search client:visible posts={posts} lang={configTranslations.lang} />
 			</header>
 			<section>
 				<ul>

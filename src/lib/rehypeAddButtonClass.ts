@@ -4,7 +4,8 @@ import type { Root } from 'hast';
 export default function rehypeAddButtonClass(): (tree: Root) => void {
   return function (tree) {
     visit(tree, 'element', (node) => {
-      console.log('rehypeAddButtonClass is running');
+      if (!node || typeof node !== 'object') return;
+
       const targetTags = [
         'p', 'li', 'div', 'ul', 'ol',
         'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
@@ -30,9 +31,16 @@ export default function rehypeAddButtonClass(): (tree: Root) => void {
           node.properties.className.push('button');
         }
 
-        if (node.tagName === 'blockquote' && node.children) {
+        if (
+          node.tagName === 'blockquote' &&
+          Array.isArray(node.children)
+        ) {
           node.children.forEach((child) => {
-            if (child.type === 'element') {
+            if (
+              child &&
+              typeof child === 'object' &&
+              child.type === 'element'
+            ) {
               child.properties = child.properties || {};
               if (!Array.isArray(child.properties.className)) {
                 child.properties.className = child.properties.className

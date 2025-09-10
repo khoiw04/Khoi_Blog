@@ -85,7 +85,7 @@ export default function DropdownMenuHeader({lang, currentPath}: DropdownHeaderTy
                 <DropdownMenuSeparator />
                 <DropdownMenuGroup>
                     {Object.entries(languages).map(([lang, label]) => (
-                        <a href={`${getLocaleUrl(lang, currentPath)}`}>
+                        <a key={label} href={`${getLocaleUrl(lang, currentPath)}`}>
                             <DropdownMenuItem>
                                 {label}
                             </DropdownMenuItem>

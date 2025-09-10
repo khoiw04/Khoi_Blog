@@ -12,7 +12,7 @@ const currentPath = Astro.url.pathname
 >
   <div class="w-full max-w-[720px] mx-auto flex h-8 items-center justify-between">
     <DropdownMenu 
-      client:load 
+      client:visible 
       currentPath={currentPath} 
       lang={configTranslations.lang} 
     />
