@@ -10,7 +10,7 @@ export default defineEcConfig({
   frames: {
     showCopyToClipboardButton: true
   },
-  themes: ['light-plus', 'dark-plus'],
+  themes: ['everforest-light', 'dark-plus'],
   bundledLangs: ['astro', 'sass', 'typescript', 'css', 'scss', 'javascript'],
   defaultProps: {
     wrap: true,
@@ -34,7 +34,7 @@ export default defineEcConfig({
     codePaddingBlock: '1.2rem',
     codePaddingInline: '1.5rem',
     codeBackground: 'var(--background)',
-    codeFontFamily: "JetBrains, 'Fira Code', monospace",
+    codeFontFamily: "JetBrains, Fira Code, monospace",
     uiFontSize: '0.76rem',
     uiPaddingBlock: '0.312rem',
     borderColor: ({ theme }) => 'transparent',
