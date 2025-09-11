@@ -1,4 +1,4 @@
-import type { langKeyType } from "@/types/data/returnType";
+import type { langKeyType } from "@/types";
 import { actions, isInputError } from "astro:actions";
 import { useState } from "react";
 

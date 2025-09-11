@@ -1,0 +1,30 @@
+---
+import { Image } from "astro:assets";
+import FormattedDate from "./FormattedDate.astro";
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  posts: Array<CollectionEntry<'blog'>>;
+}
+
+const { posts } = Astro.props
+---
+
+
+{posts.map((post) => {
+	const [postLang, ...slugParts] = post.id.split('/');
+	const slug = slugParts.join('/');
+	return (
+		<li>
+			<a href={`/${postLang}/blog/${slug}`}>
+					{post.data.heroImage && (
+						<Image width={720} height={360} src={post.data.heroImage} alt="" />
+					)}
+					<h4 class="font-[Editorial] pt-4">{post.data.title}</h4>
+					<p>
+						<FormattedDate date={post.data.pubDate} />
+					</p>
+			</a>
+		</li>
+	);
+})}

@@ -1,0 +1,21 @@
+---
+import ThemeToggle from '@/components/presenters/header.ThemeToggle.astro';
+import DropdownMenu from '@/components/presenters/header.DropdownMenu';
+import { useGetTranslations } from '@/i18n';
+
+const configTranslations = useGetTranslations(Astro)
+const currentPath = Astro.url.pathname
+---
+
+<header
+  class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60"
+>
+  <div class="w-full max-w-[720px] mx-auto flex h-8 items-center justify-between">
+    <DropdownMenu
+      client:visible
+      currentPath={currentPath}
+      configTranslations={configTranslations}
+    />
+    <ThemeToggle />
+  </div>
+</header>

@@ -27,6 +27,10 @@ export const ui = {
     'contact.form.placeholderFirstName': 'Ten',
     'contact.form.placeholderLastName': 'Ho',
     'contact.form.placeholderMessage': 'Hãy để lời bình luận',
+    'index.info.description': 'Một người máy biết nói',
+    'index.nav.blog': 'Bài Viết',
+    'index.nav.about': 'Về Tôi',
+    'index.nav.send': 'Gửi',
   },
   en: {
     'nav.home': 'Home',
@@ -49,5 +53,9 @@ export const ui = {
     'contact.form.placeholderFirstName': 'First Name',
     'contact.form.placeholderLastName': 'Last Name',
     'contact.form.placeholderMessage': 'Leave the comment',
+    'index.info.description': 'The errors showing up.',
+    'index.nav.blog': 'Blog',
+    'index.nav.about': 'About',
+    'index.nav.send': 'Send',
   },
 } as const;

@@ -1,4 +1,4 @@
-import { typeMissionContactVi, typeMissionContactEn } from "@/data/formSettings";
+import { typeMissionContactVi, typeMissionContactEn } from "@/data";
 import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
 

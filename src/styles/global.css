@@ -2,13 +2,20 @@
 @import "tw-animate-css";
 @import "./font.css";
 @import './layout.css';
-@import './scrollBar.css';
-@import "./tabMarkdown.css";
-@import './fontMarkdown.css';
-@import './blurMarkdown.css';
+@import './effect.css';
+@import './postStyle.css';
 @plugin "daisyui";
 
 @custom-variant dark (&:is(.dark *));
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+	}
+  body {
+    @apply bg-background text-foreground;
+	}
+}
 
 :root {
   interpolate-size: allow-keywords;
@@ -179,13 +186,4 @@ body {
 	overflow-wrap: break-word;
 	color: var(--foreground);
 	min-height: 100vh;
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-	}
-  body {
-    @apply bg-background text-foreground;
-	}
 }

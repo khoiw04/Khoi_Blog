@@ -2,7 +2,7 @@
 title: 'Markdown Style Guide'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Jun 19 2024'
-heroImage: '@/assets/blog-placeholder-1.jpg'
+heroImage: '../../../assets/blog-placeholder-1.jpg'
 tags: ["Tanstack", "Rust", "Tauri"]
 ---
 
@@ -30,11 +30,8 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ## Images
 
-### Syntax
+::spotify{url="https://open.spotify.com/type/xxxxx"}
 
-```markdown
-![Alt text](./full/or/relative/path/of/image)
-```
 
 ### Output
 

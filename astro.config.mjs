@@ -5,22 +5,49 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import cloudflare from '@astrojs/cloudflare'
 import react from '@astrojs/react';
-import rehypeAddButtonClass from './src/lib/rehypeAddButtonClass.js';
+import rehypeAddButtonClass from './src/plugins/rehypeAddButtonClass.js';
+import playformInline from '@playform/inline'
+import remarkMath from 'remark-math'
+import remarkDirective from 'remark-directive'
+import rehypeKatex from 'rehype-katex'
+import remarkEmbeddedMedia from './src/plugins/remark-embedded-media.mjs'
+import rehypeCleanup from './src/plugins/rehype-cleanup.mjs'
+import rehypeImageProcessor from './src/plugins/rehype-image-processor.mjs'
 
 import tailwindcss from '@tailwindcss/vite';
 
 import expressiveCode from 'astro-expressive-code';
+import { imageConfig } from './src/lib/image-config.js';
+import { themeConfig } from './src/config.js';
+
+const plugins = {
+    remarkPlugins: [remarkMath, remarkDirective, remarkEmbeddedMedia],
+    rehypePlugins: [rehypeKatex, rehypeCleanup, rehypeImageProcessor, rehypeAddButtonClass]
+}
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: themeConfig.site.website,
   markdown: {
-    rehypePlugins: [rehypeAddButtonClass]
+    shikiConfig: {
+      theme: 'css-variables',
+      wrap: false
+    },
+    ...plugins
+  },
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: imageConfig
+    },
   },
   integrations: [
+    playformInline({
+      Exclude: [(file) => file.toLowerCase().includes('katex')]
+    }),
     expressiveCode(),
     mdx({
-      rehypePlugins: [rehypeAddButtonClass]
+      ...plugins
     }),
     sitemap(),
     react(),

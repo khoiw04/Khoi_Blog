@@ -1,4 +1,4 @@
-import type { langKeyType } from '@/types/data/returnType';
+import type { langKeyType } from '@/types';
 import { ui, defaultLang } from './ui';
 import type { AstroGlobal } from 'astro';
 
@@ -46,5 +46,9 @@ export function useGetTranslations(Astro: AstroGlobal) {
     contactFirstName: t('contact.form.placeholderFirstName'),
     contactLastName: t('contact.form.placeholderLastName'),
     contactMessage: t('contact.form.placeholderMessage'),
+    indexHeaderDescription: t('index.info.description'),
+    indexNavBlog: t('index.nav.blog'),
+    indexNavAbout: t('index.nav.about'),
+    indexNavSend: t('index.nav.send'),
   }
 }
