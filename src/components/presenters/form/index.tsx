@@ -7,11 +7,11 @@ import useContactForm from '@/components/container/useContactForm'
 import type { ContactPropsFormType } from '@/types/ui/ContactForm'
 
 export default function Component({ configTranslations }: ContactPropsFormType) {
-  const { errorsContact, onContactSubmit } = useContactForm(configTranslations.lang)
+  const { errorsContact, onContactSubmit } = useContactForm()
   return (
     <form 
       className="shadow-xs max-w-100 px-4 mx-auto **:focus-within:z-10"
-      onSubmit={onContactSubmit}
+      onSubmit={async (e) => onContactSubmit(e, configTranslations.lang)}
     >
       <div className="relative">
         <Input

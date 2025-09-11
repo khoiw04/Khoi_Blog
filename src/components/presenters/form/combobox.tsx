@@ -31,7 +31,7 @@ export default function Component({ configTranslations } : ContactPropsFormType)
               </span>
             ) : (
               <span className="text-muted-foreground">
-                {configTranslations.placeholder}
+                {configTranslations.contactPlaceholderCheckbox}
               </span>
             )}
             <input id="type" type="hidden" className='sr-only' name="type" value={value} />

@@ -1,20 +1,13 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
 @import "tailwindcss";
 @import "tw-animate-css";
-@import "./expressive-code.css";
 @import "./font.css";
 @import './layout.css';
-@import './blurMarkdown.css';
 @import './scrollBar.css';
+@import "./tabMarkdown.css";
+@import './fontMarkdown.css';
+@import './blurMarkdown.scss';
 @plugin "daisyui";
 
-/*
-  ---break---
- */
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -103,23 +96,6 @@
 	}
 }
 
-body {
-	font-family: "Atkinson", sans-serif;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	background: var(--background);
-	background-size: 100% 600px;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	color: var(--foreground);
-	min-height: 100vh;
-}
-
-/*
-  ---break---
- */
-
 @theme inline {
 	--radius-sm: calc(var(--radius) - 4px);
 	--radius-md: calc(var(--radius) - 2px);
@@ -158,10 +134,6 @@ body {
 	--color-sidebar-ring: var(--sidebar-ring);
 }
 
-/*
-  ---break---
- */
-
 .dark {
 	--background: oklch(0.141 0.005 285.823);
 	--foreground: oklch(0.985 0 0);
@@ -196,9 +168,18 @@ body {
 	--sidebar-ring: oklch(0.552 0.016 285.938);
 }
 
-/*
-  ---break---
- */
+body {
+	font-family: "Atkinson", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: var(--background);
+	background-size: 100% 600px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	color: var(--foreground);
+	min-height: 100vh;
+}
 
 @layer base {
   * {

@@ -31,3 +31,7 @@ export const checkBoxMissionContactEn = [
         icon: LucideBriefcaseBusiness
     }
 ] as const
+
+export const ContactScriptForm = 'https://script.google.com/macros/s/AKfycbxkIuVNfcXYIhLEWT2CJ2LLviZNnwaHSw50RKtYlkS055I_Zj6NB18Xn8Svt4xGV3a5IA/exec'
+export const googleFormID = '1iyJaydW-2fKknab89oMDIylP6h1wepA3eQhGCpd21O0'
+export const ContactGoogleForm = `https://docs.google.com/forms/u/0/d/e/${googleFormID}/formResponse`

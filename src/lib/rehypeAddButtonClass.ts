@@ -1,9 +1,9 @@
-import { visit } from 'unist-util-visit';
-import type { Root } from 'hast';
+import { visitParents } from 'unist-util-visit-parents';
+import type { Root, Element } from 'hast';
 
 export default function rehypeAddButtonClass(): (tree: Root) => void {
   return function (tree) {
-    visit(tree, 'element', (node) => {
+    visitParents(tree, 'element', (node: Element, ancestors) => {
       if (!node || typeof node !== 'object') return;
 
       const targetTags = [
@@ -12,15 +12,16 @@ export default function rehypeAddButtonClass(): (tree: Root) => void {
         'blockquote', 'pre', 'code', 'figure', 'table'
       ];
 
-      const classList = node.properties?.className;
-      const isExpressiveCodeFigure =
-        node.tagName === 'figure' &&
-        ((Array.isArray(classList) && classList.includes('expressive-code')) ||
-         (typeof classList === 'string' && classList.includes('expressive-code')));
+      const shouldTag = targetTags.includes(node.tagName);
 
-      const shouldTag = targetTags.includes(node.tagName) || isExpressiveCodeFigure;
+      const isInsideBlockquote = ancestors.some(
+        (ancestor) =>
+          typeof ancestor === 'object' &&
+          'tagName' in ancestor &&
+          ancestor.tagName === 'blockquote'
+      );
 
-      if (shouldTag) {
+      if (shouldTag && !isInsideBlockquote) {
         node.properties = node.properties || {};
         if (!Array.isArray(node.properties.className)) {
           node.properties.className = node.properties.className
@@ -29,29 +30,6 @@ export default function rehypeAddButtonClass(): (tree: Root) => void {
         }
         if (!node.properties.className.includes('button')) {
           node.properties.className.push('button');
-        }
-
-        if (
-          node.tagName === 'blockquote' &&
-          Array.isArray(node.children)
-        ) {
-          node.children.forEach((child) => {
-            if (
-              child &&
-              typeof child === 'object' &&
-              child.type === 'element'
-            ) {
-              child.properties = child.properties || {};
-              if (!Array.isArray(child.properties.className)) {
-                child.properties.className = child.properties.className
-                  ? [String(child.properties.className)]
-                  : [];
-              }
-              if (!child.properties.className.includes('button')) {
-                child.properties.className.push('button');
-              }
-            }
-          });
         }
       }
     });

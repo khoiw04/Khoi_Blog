@@ -33,10 +33,10 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
         />
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder={configTranslations.placeholder} />
+        <CommandInput placeholder={configTranslations.searchCMDplaceholder} />
         <CommandList>
-          <CommandEmpty>{configTranslations.empty}</CommandEmpty>
-          <CommandGroup heading={configTranslations.code}>
+          <CommandEmpty>{configTranslations.searchCMDempty}</CommandEmpty>
+          <CommandGroup heading={configTranslations.searchCMDcode}>
             {tagsObj.map((tag, i) => (
               <a key={`tags_${i}`} href={`/${configTranslations.lang}/tag/${tag.name.toLowerCase()}`}>
                 <CommandItem>
@@ -50,7 +50,7 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
               </a>
             ))}
           </CommandGroup>
-          <CommandGroup heading={configTranslations.post}>
+          <CommandGroup heading={configTranslations.searchCMDpost}>
             {posts.map((post, i) => (
               <a href={`${getLocaleUrl(configTranslations.lang, post.id)}`} key={`blog_${i}`}>
                 <CommandItem>
