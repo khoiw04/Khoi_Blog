@@ -36,6 +36,14 @@ export function useGetTranslations(Astro: AstroGlobal) {
     placeholder: t('searchCMD.placeholder'),
     code: t('searchCMD.heading.code'),
     post: t('searchCMD.heading.post'),
-    empty: t('searchCMD.empty')
+    empty: t('searchCMD.empty'),
+    title404: t('404.title'),
+    description404: t('404.description'),
+    contactShowError: t('contact.form.showError'),
+    contactSubmit: t('contact.form.submit'),
+    contactPlaceholderCheckbox: t('contact.form.placeholderCheckBox'),
+    contactFirstName: t('contact.form.placeholderFirstName'),
+    contactLastName: t('contact.form.placeholderLastName'),
+    contactMessage: t('contact.form.placeholderMessage'),
   }
 }

@@ -11,10 +11,10 @@ const currentPath = Astro.url.pathname
   class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60"
 >
   <div class="w-full max-w-[720px] mx-auto flex h-8 items-center justify-between">
-    <DropdownMenu 
-      client:visible 
-      currentPath={currentPath} 
-      lang={configTranslations.lang} 
+    <DropdownMenu
+      client:visible
+      currentPath={currentPath}
+      lang={configTranslations.lang}
     />
     <ThemeToggle />
   </div>

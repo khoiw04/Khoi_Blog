@@ -40,6 +40,19 @@ import { Button } from "@/components/ui/button";
     updateIcons(isDark);
   };
 
+  const updateColorSchemeMeta = (isDark) => {
+    let metaTag = document.querySelector('meta[name="color-scheme"]');
+
+    if (!metaTag && isDark) {
+      metaTag = document.createElement('meta');
+      metaTag.name = 'color-scheme';
+      metaTag.content = 'light dark';
+      document.head.appendChild(metaTag);
+    } else if (metaTag && !isDark) {
+      metaTag.remove();
+    }
+  };
+
   const observeThemeChanges = () => {
     const observer = new MutationObserver(() => {
       const isDark = document.documentElement.classList.contains("dark");
@@ -60,6 +73,7 @@ import { Button } from "@/components/ui/button";
       sunIcon.style.display = isDark ? "none" : "inline";
       moonIcon.style.display = isDark ? "inline" : "none";
     }
+    updateColorSchemeMeta(isDark);
   };
 
   const setupToggleButton = () => {

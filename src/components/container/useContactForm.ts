@@ -1,0 +1,42 @@
+import type { langKeyType } from "@/types/data/returnType";
+import { actions, isInputError } from "astro:actions";
+import { useState } from "react";
+
+export default function useContactForm(lang: langKeyType) {
+    const [errors, setErrors] = useState<Array<string>>([]);
+
+    const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+        setErrors([]);
+
+        const formData = new FormData(e.currentTarget)
+        const actionStragery = {
+          vi: actions.contactVi(formData),
+          en: actions.contactEn(formData)
+        }
+        const { data, error } = await actionStragery[lang]
+
+        if (data) {
+          alert(data.message)
+        } else if (error && isInputError(error)) {
+          console.log(error.fields)
+          const fields = error.fields;
+          const newErrors: string[] = [];
+
+          if (fields.email) newErrors.push(...fields.email);
+          if (fields.firstName) newErrors.push(...fields.firstName);
+          if (fields.lastName) newErrors.push(...fields.lastName);
+          if (fields.type) newErrors.push(...fields.type);
+          if (fields.message) newErrors.push(...fields.message);
+
+          setErrors(newErrors);
+        } else {
+          setErrors(["Có lỗi xảy ra. Vui lòng thử lại."]);
+        }
+    }
+
+    return {
+        onContactSubmit: onSubmit,
+        errorsContact: errors
+    }
+}

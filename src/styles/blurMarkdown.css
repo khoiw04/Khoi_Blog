@@ -1,7 +1,8 @@
 /* ─────────────── Base Styles ─────────────── */
 .button,
 .expressive-code,
-table {
+table,
+blockquote {
   padding: 0.15rem 0.15rem;
   cursor: pointer;
   will-change: background-color, color, filter, transform;
@@ -9,12 +10,9 @@ table {
   /* Transition mặc định cho blur và opacity — có delay */
   transition: filter 150ms ease 100ms, opacity 150ms ease 100ms, color 150ms ease 100ms;
 }
-blockquote {
-  cursor: pointer;
-  will-change: background-color, color, filter, transform;
 
-  /* Transition mặc định cho blur và opacity — có delay */
-  transition: filter 150ms ease 100ms, opacity 150ms ease 100ms, color 150ms ease 100ms;
+blockquote {
+  padding: 0em 0em !important;
 }
 
 /* ─────────────── Hover Effects ─────────────── */
@@ -24,10 +22,19 @@ blockquote:hover,
 table:hover {
   background-color: var(--primary-foreground);
   color: var(--primary);
-  transform: scale(1.05);
+  transform: scale(1);
 
   /* Khi hover vào — override transition để chạy ngay */
   transition: background-color 150ms ease, color 150ms ease, transform 150ms ease, filter 150ms ease 0ms, opacity 150ms ease 0ms;
+}
+
+@media (min-width: 550px) {
+  .button:hover,
+  blockquote:hover,
+  .expressive-code:hover,
+  table:hover {
+    transform: scale(1.05);
+  }
 }
 
 /* ─────────────── Blur Targets When Hovered ─────────────── */

@@ -10,7 +10,6 @@ import rehypeAddButtonClass from './src/lib/rehypeAddButtonClass.js';
 import tailwindcss from '@tailwindcss/vite';
 
 import expressiveCode from 'astro-expressive-code';
-// import remarkAddButtonClass from '@/lib/remarkAddButtonClass';
 
 // https://astro.build/config
 export default defineConfig({

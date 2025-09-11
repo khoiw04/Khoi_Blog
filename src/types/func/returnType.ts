@@ -1,3 +1,4 @@
+import type { useGetTranslations } from '@/i18n/utils';
 import { getCollection } from 'astro:content';
 
 async function getBlogPosts() {
@@ -5,3 +6,4 @@ async function getBlogPosts() {
 }
 
 export type postBlogCollection = Awaited<ReturnType<typeof getBlogPosts>>
+export type useGetTranslationsType = ReturnType<typeof useGetTranslations>

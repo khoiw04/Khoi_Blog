@@ -21,8 +21,8 @@ const configTranslations = useGetTranslations(Astro)
 				<NavigateLink class='md:mb-8' name={configTranslations.navigateBack} />
 			</header>
 			<section class="text-primary">
-                <h1 class="font-bold mb-4">404 - Không tìm thấy trang</h1>
-                <p class="mb-6">Trang bạn đang tìm không tồn tại hoặc đã bị di chuyển.</p>
+                <h1 class="font-bold mb-4">{configTranslations.title404}</h1>
+                <p class="mb-6">{configTranslations.description404}</p>
 			</section>
 		</main>
 		<Footer />

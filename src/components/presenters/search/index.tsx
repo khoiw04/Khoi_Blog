@@ -16,6 +16,7 @@ import type { SearchTypeProps } from "@/types/ui/Search"
 import { tagsObj } from "@/data/tags"
 import { useTranslations } from "@/i18n/utils"
 import useMenuOpen from "@/components/container/useMenuOpen"
+import { getLocaleUrl } from "@/lib/utils"
 
 export default function Component({ posts, lang }: SearchTypeProps) {
   const { open, setOpen } = useMenuOpen()
@@ -45,7 +46,7 @@ export default function Component({ posts, lang }: SearchTypeProps) {
           <CommandEmpty>{configCMD.empty}</CommandEmpty>
           <CommandGroup heading={configCMD.code}>
             {tagsObj.map((tag, i) => (
-              <a key={`tags_${i}`} href={`/tag/${tag.name.toLowerCase()}`}>
+              <a key={`tags_${i}`} href={`/${lang}/tag/${tag.name.toLowerCase()}`}>
                 <CommandItem>
                     <tag.icon
                       size={16}
@@ -59,7 +60,7 @@ export default function Component({ posts, lang }: SearchTypeProps) {
           </CommandGroup>
           <CommandGroup heading={configCMD.post}>
             {posts.map((post, i) => (
-              <a href={`/blog/${post.id}/`} key={`blog_${i}`}>
+              <a href={`${getLocaleUrl(lang, post.id)}`} key={`blog_${i}`}>
                 <CommandItem>
                     <ArrowUpRightIcon
                         size={16}

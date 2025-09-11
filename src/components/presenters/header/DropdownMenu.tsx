@@ -11,7 +11,7 @@ import { languages } from "@/i18n/ui"
 import { useTranslations } from "@/i18n/utils"
 import { getLocaleUrl } from "@/lib/utils"
 import type { DropdownHeaderType } from "@/types/ui/Dropdown"
-import { LucideFolderArchive, LucideHouse, LucideRss } from "lucide-react"
+import { LucideFolderArchive, LucideHouse, LucidePaperclip, LucideRss } from "lucide-react"
 import { useState } from "react"
 
 export default function DropdownMenuHeader({lang, currentPath}: DropdownHeaderType) {
@@ -92,6 +92,13 @@ export default function DropdownMenuHeader({lang, currentPath}: DropdownHeaderTy
                         </a>
                     ))}
                 </DropdownMenuGroup>
+                <DropdownMenuSeparator />
+                    <a href={`/${lang}/form`}>
+                        <DropdownMenuItem>
+                            <LucidePaperclip />
+                            Gửi Form
+                        </DropdownMenuItem>
+                    </a>
             </DropdownMenuContent>
         </DropdownMenu>
     )
