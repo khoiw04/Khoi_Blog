@@ -5,7 +5,7 @@
 @import './scrollBar.css';
 @import "./tabMarkdown.css";
 @import './fontMarkdown.css';
-@import './blurMarkdown.scss';
+@import './blurMarkdown.css';
 @plugin "daisyui";
 
 @custom-variant dark (&:is(.dark *));

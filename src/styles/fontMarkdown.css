@@ -7,9 +7,6 @@ ul,
 .expressive-code {
 	margin-bottom: 1em;
 }
-.prose p {
-	margin-bottom: 2em;
-}
 textarea {
 	width: 100%;
 }
@@ -26,13 +23,15 @@ pre > code {
 	all: unset;
 }
 code {
+    font-family: JetBrains;
 	color: var(--primary);
+    font-weight: 600;
 	background-color: var(--primary-foreground);
 }
 blockquote {
 	border-left: 4px solid var(--primary);
 	padding: 0 0 0 20px;
-	margin: 0px;
+	margin: 2rem;
 }
 hr {
 	border: none;
@@ -46,6 +45,7 @@ table {
     width: 60%;
     text-indent: initial;
     border-radius: .375rem;
+    margin-bottom: .375rem;
 }
 thead {
     vertical-align: middle;

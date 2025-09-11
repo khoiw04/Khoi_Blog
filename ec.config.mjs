@@ -55,7 +55,7 @@ export default defineEcConfig({
       editorTabBarBorderBottomColor: ({ resolveSetting }) =>
         resolveSetting('borderColor'),
       editorTabBarBackground: ({ theme }) => 'var(--background)',
-      editorActiveTabIndicatorTopColor: ({ theme }) => 'var(--card-foreground)',
+      editorActiveTabIndicatorTopColor: ({ theme }) => 'var(--accent)',
       editorTabBarBorderColor: ({ resolveSetting }) => 'var(--background)',
       editorActiveTabIndicatorHeight: ({ resolveSetting }) => '0.123rem',
       editorTabsMarginBlockStart: 4,
@@ -69,7 +69,7 @@ export default defineEcConfig({
       //button
       inlineButtonBackgroundActiveOpacity: 0.3,
       inlineButtonBackgroundHoverOrFocusOpacity: 0.2,
-      tooltipSuccessBackground: ({ theme }) => 'var(--card-foreground)'
+      tooltipSuccessBackground: ({ theme }) => 'var(--accent)'
     }
   },
   useDarkModeMediaQuery: true,

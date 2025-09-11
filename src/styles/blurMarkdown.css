@@ -1,0 +1,103 @@
+/* ─────────────── Base Styles ─────────────── */
+.button,
+.tabs,
+.expressive-code {
+  border-radius: 0.15rem;
+  padding: 0.15rem 0.15rem;
+  cursor: pointer;
+  will-change: background-color, color, filter, transform;
+  transition: filter 150ms ease 100ms, opacity 150ms ease 100ms, color 150ms ease 100ms;
+}
+
+table,
+blockquote {
+  cursor: pointer;
+  will-change: background-color, color, filter, transform;
+  transition: filter 150ms ease 100ms, opacity 150ms ease 100ms, color 150ms ease 100ms;
+}
+
+blockquote > p {
+  border-radius: 0.5rem;
+  padding: 0.5rem 4rem !important;
+  margin-bottom: 0px;
+}
+
+/* ─────────────── Hover Effects ─────────────── */
+.button:hover,
+.tabs:hover,
+.expressive-code:hover,
+table:hover,
+blockquote:hover {
+  background-color: var(--primary-foreground);
+  color: var(--primary);
+  transform: scale(1);
+  transition: background-color 150ms ease, color 150ms ease, transform 150ms ease, filter 150ms ease 0ms, opacity 150ms ease 0ms;
+}
+
+@media (min-width: 550px) {
+  .button:hover,
+  .tabs:hover,
+  .expressive-code:hover,
+  table:hover,
+  blockquote:hover {
+    transform: scale(1.05);
+  }
+}
+
+/* ─────────────── Blur Targets When Hovered ─────────────── */
+.button:hover ~ .button,
+.button:hover ~ .tabs,
+.button:hover ~ .expressive-code,
+.button:hover ~ table,
+.button:hover ~ blockquote,
+.tabs:hover ~ .button,
+.tabs:hover ~ .tabs,
+.tabs:hover ~ .expressive-code,
+.tabs:hover ~ table,
+.tabs:hover ~ blockquote,
+.expressive-code:hover ~ .button,
+.expressive-code:hover ~ .tabs,
+.expressive-code:hover ~ .expressive-code,
+.expressive-code:hover ~ table,
+.expressive-code:hover ~ blockquote,
+table:hover ~ .button,
+table:hover ~ .tabs,
+table:hover ~ .expressive-code,
+table:hover ~ table,
+table:hover ~ blockquote,
+blockquote:hover ~ .button,
+blockquote:hover ~ .tabs,
+blockquote:hover ~ .expressive-code,
+blockquote:hover ~ table,
+blockquote:hover ~ blockquote,
+
+.button:has(~ .button:hover),
+.button:has(~ .tabs:hover),
+.button:has(~ .expressive-code:hover),
+.button:has(~ table:hover),
+.button:has(~ blockquote:hover),
+.tabs:has(~ .button:hover),
+.tabs:has(~ .tabs:hover),
+.tabs:has(~ .expressive-code:hover),
+.tabs:has(~ table:hover),
+.tabs:has(~ blockquote:hover),
+.expressive-code:has(~ .button:hover),
+.expressive-code:has(~ .tabs:hover),
+.expressive-code:has(~ .expressive-code:hover),
+.expressive-code:has(~ table:hover),
+.expressive-code:has(~ blockquote:hover),
+table:has(~ .button:hover),
+table:has(~ .tabs:hover),
+table:has(~ .expressive-code:hover),
+table:has(~ table:hover),
+table:has(~ blockquote:hover),
+blockquote:has(~ .button:hover),
+blockquote:has(~ .tabs:hover),
+blockquote:has(~ .expressive-code:hover),
+blockquote:has(~ table:hover),
+blockquote:has(~ blockquote:hover) {
+  filter: blur(1px);
+  opacity: 0.6;
+  color: var(--code-border-background);
+  transition: filter 150ms ease 0ms, opacity 150ms ease 0ms, color 150ms ease 0ms;
+}
