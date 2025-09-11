@@ -53,9 +53,6 @@ export default defineConfig({
     react(),
     (await import("astro-compress")).default(),
   ],
-  redirects: {
-    '/': '/en'
-  },
   vite: {
     plugins: [tailwindcss()],
   },
