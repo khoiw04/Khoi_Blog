@@ -14,20 +14,38 @@ export async function getSortedFilteredBlog() {
   )
 }
 
-export async function getSortedVietnameBlog() {
-  const blog = await getSortedFilteredBlog()
-  return blog.filter(
-    post => post.id.startsWith(`vi/`));
+export async function getSortedVietnamBlog() {
+  const blog = await getSortedFilteredBlog();
+  return blog
+    .filter(post => post.id.startsWith('vi/'))
+    .map(post => {
+      const [, ...slugParts] = post.id.split('/');
+      const slug = slugParts.join('/');
+      return {
+        ...post,
+        lang: 'vi',
+        slug,
+      };
+    });
 }
 
 export async function getSortedEnglishBlog() {
-  const blog = await getSortedFilteredBlog()
-  return blog.filter(
-    post => post.id.startsWith(`en/`));
+  const blog = await getSortedFilteredBlog();
+  return blog
+    .filter(post => post.id.startsWith('en/'))
+    .map(post => {
+      const [, ...slugParts] = post.id.split('/');
+      const slug = slugParts.join('/');
+      return {
+        ...post,
+        lang: 'en',
+        slug,
+      };
+    });
 }
 
-export async function getSortedVietnameTag(capitalizedTag: typeof tagsEnum[number]) {
-  const blog = await getSortedVietnameBlog()
+export async function getSortedVietnamTag(capitalizedTag: typeof tagsEnum[number]) {
+  const blog = await getSortedVietnamBlog()
   return blog.filter(post => post.data.tags?.includes(
     capitalizedTag)
   )

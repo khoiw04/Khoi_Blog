@@ -1,22 +1,17 @@
 ---
 import { Image } from "astro:assets";
 import FormattedDate from "./FormattedDate.astro";
-import type { CollectionEntry } from "astro:content";
+import type { postsArrayType } from "@/types";
 
-export interface Props {
-  posts: Array<CollectionEntry<'blog'>>;
-}
+export type Props = postsArrayType
 
 const { posts } = Astro.props
 ---
 
-
 {posts.map((post) => {
-	const [postLang, ...slugParts] = post.id.split('/');
-	const slug = slugParts.join('/');
 	return (
 		<li>
-			<a href={`/${postLang}/blog/${slug}`}>
+			<a href={`/${post.lang}/blog/${post.slug}`}>
 					{post.data.heroImage && (
 						<Image width={720} height={360} src={post.data.heroImage} alt="" />
 					)}

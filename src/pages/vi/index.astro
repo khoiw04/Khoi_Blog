@@ -5,11 +5,11 @@ import Header from '@/components/Layouts/Header.astro';
 import { themeConfig } from '@/config';
 import { useGetTranslations } from '@/i18n';
 import HeaderIndex from '@/components/pages/index';
-import { getSortedVietnameBlog } from '@/lib/draft';
+import { getSortedVietnamBlog } from '@/lib/draft';
 import ComponentItem from '@/components/Layouts/ComponentItem.astro';
 
 const configTranslations = useGetTranslations(Astro)
-const posts = (await getSortedVietnameBlog()).slice(0, 4)
+const posts = (await getSortedVietnamBlog()).slice(0, 4)
 ---
 
 <!doctype html>

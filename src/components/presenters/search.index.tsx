@@ -15,7 +15,6 @@ import { Button } from "@/components/ui/button"
 import type { SearchTypeProps } from "@/types"
 import { tagsObj } from "@/data"
 import useMenuOpen from "@/components/container/useMenuOpen"
-import { getLocaleUrl } from "@/lib/utils"
 
 export default function Component({ posts, configTranslations }: SearchTypeProps) {
   const { open, setOpen } = useMenuOpen()
@@ -52,7 +51,7 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
           </CommandGroup>
           <CommandGroup heading={configTranslations.searchCMDpost}>
             {posts.map((post, i) => (
-              <a href={`${getLocaleUrl(configTranslations.lang, post.id)}`} key={`blog_${i}`}>
+              <a href={`/${configTranslations.lang}/blog/${post.slug}`} key={`blog_${i}`}>
                 <CommandItem>
                     <ArrowUpRightIcon
                         size={16}

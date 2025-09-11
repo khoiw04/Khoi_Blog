@@ -1,5 +1,4 @@
-import type { CollectionEntry } from "astro:content";
-import type { postBlogCollection, useGetTranslationsType } from ".";
+import type { getSortedBlogType, useGetTranslationsType } from ".";
 
 export type DropdownHeaderType = { 
     configTranslations: useGetTranslationsType, 
@@ -7,7 +6,7 @@ export type DropdownHeaderType = {
 }
 
 export type SearchTypeProps = {
-    posts: postBlogCollection; 
+    posts: Awaited<getSortedBlogType>; 
     configTranslations: useGetTranslationsType
 }
 
@@ -20,5 +19,5 @@ export type HeaderIndexType = {
 }
 
 export type postsArrayType = { 
-    posts: Array<CollectionEntry<'blog'>> 
+    posts: Awaited<getSortedBlogType>
 }

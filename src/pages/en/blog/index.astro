@@ -1,8 +1,6 @@
 ---
-import { Image } from 'astro:assets';
 import BaseHead from '@/components/Layouts/HeadSeo.astro';
 import Footer from '@/components/Layouts/Footer.astro';
-import FormattedDate from '@/components/Layouts/FormattedDate.astro';
 import Header from '@/components/Layouts/Header.astro';
 import { themeConfig } from '@/config';
 import NavigateLink from '@/components/Layouts/NavigateLink.astro';
@@ -10,6 +8,7 @@ import Search from '@/components/presenters/search.index';
 import { useGetTranslations } from '@/i18n';
 import { getSortedEnglishBlog } from '@/lib/draft';
 import LayoutHeader from '@/components/Layouts/LayoutHeader.astro';
+import ComponentItem from '@/components/Layouts/ComponentItem.astro';
 
 const configTranslations = useGetTranslations(Astro)
 const posts = await getSortedEnglishBlog()
@@ -29,25 +28,7 @@ const posts = await getSortedEnglishBlog()
 			</LayoutHeader>
 			<section>
 				<ul>
-				{
-					posts.map((post) => {
-					const [postLang, ...slugParts] = post.id.split('/');
-					const slug = slugParts.join('/');
-					return (
-						<li>
-						<a href={`/${postLang}/blog/${slug}`}>
-							{post.data.heroImage && (
-								<Image width={720} height={360} src={post.data.heroImage} alt="" eagerly-loaded />
-							)}
-							<h4 class="font-[Editorial] pt-4">{post.data.title}</h4>
-							<p>
-								<FormattedDate date={post.data.pubDate} />
-							</p>
-						</a>
-						</li>
-					);
-					})
-				}
+					<ComponentItem posts={posts} />
 				</ul>
 			</section>
 		</main>

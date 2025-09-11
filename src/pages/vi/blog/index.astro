@@ -5,13 +5,13 @@ import Header from '@/components/Layouts/Header.astro';
 import NavigateLink from '@/components/Layouts/NavigateLink.astro';
 import Search from '@/components/presenters/search.index';
 import { useGetTranslations } from '@/i18n';
-import { getSortedVietnameBlog } from '@/lib/draft';
+import { getSortedVietnamBlog } from '@/lib/draft';
 import { themeConfig } from '@/config'
 import LayoutHeader from '@/components/Layouts/LayoutHeader.astro';
 import ComponentItem from '@/components/Layouts/ComponentItem.astro';
 
 const configTranslations = useGetTranslations(Astro)
-const posts = await getSortedVietnameBlog()
+const posts = await getSortedVietnamBlog()
 ---
 
 <!doctype html>
