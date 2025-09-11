@@ -4,12 +4,15 @@ import {
 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { checkBoxMissionContactVi } from "@/data/formSettings"
+import { checkBoxMissionContactVi, checkBoxMissionContactEn } from "@/data/formSettings"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import type { ContactPropsFormType } from "@/types/ui/ContactForm"
 
-export default function Component({ placeholder } : { placeholder: any }) {
+export default function Component({ configTranslations } : ContactPropsFormType) {
   const [open, setOpen] = useState<boolean>(false)
   const [value, setValue] = useState<string>("")
+  const dataMission = configTranslations.lang === 'vi' ? checkBoxMissionContactVi : checkBoxMissionContactEn
+
   return (
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
@@ -23,12 +26,12 @@ export default function Component({ placeholder } : { placeholder: any }) {
             {value ? (
               <span className="flex min-w-0 items-center gap-2">
                 <span className="truncate">
-                  {checkBoxMissionContactVi.find((item) => item.name === value)?.name}
+                  {dataMission.find((item) => item.name === value)?.name}
                 </span>
               </span>
             ) : (
               <span className="text-muted-foreground">
-                {placeholder}
+                {configTranslations.placeholder}
               </span>
             )}
             <input id="type" type="hidden" className='sr-only' name="type" value={value} />
@@ -44,7 +47,7 @@ export default function Component({ placeholder } : { placeholder: any }) {
           align="center"
         >
           <DropdownMenuGroup>
-            {checkBoxMissionContactVi.map((item) => (
+            {dataMission.map((item) => (
               <DropdownMenuItem
                 key={item.name}
                 onSelect={() => {

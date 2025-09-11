@@ -8,20 +8,13 @@ import {
   DropdownMenuSeparator
 } from "@/components/ui/dropdown-menu"
 import { languages } from "@/i18n/ui"
-import { useTranslations } from "@/i18n/utils"
 import { getLocaleUrl } from "@/lib/utils"
 import type { DropdownHeaderType } from "@/types/ui/Dropdown"
 import { LucideFolderArchive, LucideHouse, LucidePaperclip, LucideRss } from "lucide-react"
 import { useState } from "react"
 
-export default function DropdownMenuHeader({lang, currentPath}: DropdownHeaderType) {
+export default function DropdownMenuHeader({configTranslations, currentPath}: DropdownHeaderType) {
     const [open, setOpen] = useState<boolean>(false)
-    const t = useTranslations(lang)
-    const configNav = {
-        about: t('nav.about'),
-        blog: t('nav.blog'),
-        home: t('nav.home'),
-    }
 
     return (
         <DropdownMenu>
@@ -63,22 +56,22 @@ export default function DropdownMenuHeader({lang, currentPath}: DropdownHeaderTy
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-40" align="start">
                 <DropdownMenuGroup>
-                    <a href={`/${lang}`}>
+                    <a href={`/${configTranslations.lang}`}>
                         <DropdownMenuItem>
                             <LucideHouse />
-                            {configNav.home}
+                            {configTranslations.navhome}
                         </DropdownMenuItem>
                     </a>
-                    <a href={`/${lang}/blog`}>
+                    <a href={`/${configTranslations.lang}/blog`}>
                         <DropdownMenuItem>
                             <LucideRss />
-                            {configNav.blog}
+                            {configTranslations.navblog}
                         </DropdownMenuItem>
                     </a>
-                    <a href={`/${lang}/about`}>
+                    <a href={`/${configTranslations.lang}/about`}>
                         <DropdownMenuItem>
                             <LucideFolderArchive />
-                            {configNav.about}
+                            {configTranslations.navabout}
                         </DropdownMenuItem>
                     </a>
                 </DropdownMenuGroup>
@@ -93,10 +86,10 @@ export default function DropdownMenuHeader({lang, currentPath}: DropdownHeaderTy
                     ))}
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
-                    <a href={`/${lang}/form`}>
+                    <a href={`/${configTranslations.lang}/form`}>
                         <DropdownMenuItem>
                             <LucidePaperclip />
-                            Gửi Form
+                            {configTranslations.navform}
                         </DropdownMenuItem>
                     </a>
             </DropdownMenuContent>

@@ -1,3 +1,3 @@
-import type { langKeyType } from "../data/returnType";
+import type { useGetTranslationsType } from "../func/returnType";
 
-export type DropdownHeaderType = { lang: langKeyType, currentPath: string }
+export type DropdownHeaderType = { configTranslations: useGetTranslationsType, currentPath: string }

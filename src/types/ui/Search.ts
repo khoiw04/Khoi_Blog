@@ -1,5 +1,3 @@
-import type { ui } from "@/i18n/ui";
-import type { postBlogCollection } from "../func/returnType";
-import type { langKeyType } from "../data/returnType";
+import type { postBlogCollection, useGetTranslationsType } from "../func/returnType";
 
-export type SearchTypeProps = {posts: postBlogCollection; lang: langKeyType}
+export type SearchTypeProps = {posts: postBlogCollection; configTranslations: useGetTranslationsType}

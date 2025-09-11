@@ -14,7 +14,7 @@ const currentPath = Astro.url.pathname
     <DropdownMenu
       client:visible
       currentPath={currentPath}
-      lang={configTranslations.lang}
+      configTranslations={configTranslations}
     />
     <ThemeToggle />
   </div>

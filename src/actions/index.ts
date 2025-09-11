@@ -1,4 +1,4 @@
-import { typeMissionContactVi } from "@/data/formSettings";
+import { typeMissionContactVi, typeMissionContactEn } from "@/data/formSettings";
 import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
 
@@ -36,13 +36,13 @@ export const server = {
       firstName: z
         .string({ message: 'First Name not empty' }),
       type: z
-        .enum(typeMissionContactVi, { message: 'Checkbox must be correct value' }),
+        .enum(typeMissionContactEn, { message: 'Checkbox must be correct value' }),
       message: z
         .string({ message: 'Message not empty' })
         .min(10, 'Message must have more 10 length')
     }),
     handler: async () => {
-      return { message: 'Hoàn tất' };
+      return { message: 'Successful' };
     },
   }),
 };

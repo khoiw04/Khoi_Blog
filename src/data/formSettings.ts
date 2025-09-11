@@ -15,3 +15,19 @@ export const checkBoxMissionContactVi = [
         icon: LucideBriefcaseBusiness
     }
 ] as const
+
+export const typeMissionContactEn = ['Message', 'Cooperation', 'Occupation'] as const
+export const checkBoxMissionContactEn = [
+    {
+        name: 'Message',
+        icon: LucideMessageCircle
+    },
+    {
+        name: 'Cooperation',
+        icon: LucideBlend
+    },
+    {
+        name: 'Occupation',
+        icon: LucideBriefcaseBusiness
+    }
+] as const

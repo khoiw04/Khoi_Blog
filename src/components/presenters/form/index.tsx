@@ -43,7 +43,7 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
           />
         </div>
       </div>
-      <ComboBox placeholder={configTranslations.contactPlaceholderCheckbox} />
+      <ComboBox configTranslations={configTranslations} />
       <Textarea
         id='message'
         name='message'

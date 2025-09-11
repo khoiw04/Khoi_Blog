@@ -25,7 +25,7 @@ const posts = await getCollection('blog')
 
 const configTranslations = useGetTranslations(Astro as any)
 const filteredPosts = posts
-  .filter(post => post.data.tags.includes(capitalizedTag as typeof tagsEnum[number]))
+  .filter(post => post.data.tags?.includes(capitalizedTag as typeof tagsEnum[number]))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .filter(post => post.id.startsWith(`${configTranslations.lang}/`))
 ---
@@ -78,8 +78,8 @@ const filteredPosts = posts
 		<Header />
 		<main>
 			<header class="sticky top-10 mb-5 md:mb-0 md:top-20.25 flex flex-row justify-between">
-				<NavigateLink class='md:mb-8' name={configTranslations.navigateBack} />
-				<Search client:visible lang={configTranslations.lang} posts={posts} />
+				<NavigateLink class='md:mb-8' name={configTranslations.navnavigateBack} />
+				<Search client:visible configTranslations={configTranslations} posts={posts} />
 			</header>
             <section class="pt-6">
 
@@ -87,11 +87,11 @@ const filteredPosts = posts
 
                 {filteredPosts.length === 0 ? (
                 <p class="text-muted-foreground pt-2">
-					{configTranslations.noFound}
+					{configTranslations.tagnoFound}
 				</p>
                 ) : (
 				<p class="text-muted-foreground pt-3 pb-8">
-					{configTranslations.total}: {filteredPosts.length} {" "} {configTranslations.posts}
+					{configTranslations.tagtotal}: {filteredPosts.length} {" "} {configTranslations.tagposts}
 				</p>
                 <ul class="space-y-4">
 					{
