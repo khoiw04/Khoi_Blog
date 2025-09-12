@@ -58,7 +58,7 @@ export default defineConfig({
   },
   i18n: {
     locales: ["vi", "en"],
-    defaultLocale: "en",
+    defaultLocale: "vi",
   },
   output: 'server',
   adapter: cloudflare({

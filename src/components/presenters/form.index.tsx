@@ -10,7 +10,7 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
   const { errorsContact, onContactSubmit } = useContactForm()
   return (
     <form 
-      className="shadow-xs max-w-100 px-4 mx-auto **:focus-within:z-10"
+      className="no-prose shadow-xs max-w-100 px-4 mx-auto **:focus-within:z-10"
       onSubmit={async (e) => onContactSubmit(e, configTranslations.lang)}
     >
       <div className="relative">

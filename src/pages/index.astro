@@ -3,8 +3,8 @@ import BaseHead from '@/components/Layouts/HeadSeo.astro';
 import Footer from '@/components/Layouts/Footer.astro';
 import Header from '@/components/Layouts/Header.astro';
 import { themeConfig } from '@/config';
-import NavigateLink from '@/components/Layouts/NavigateLink.astro';
 import { useGetTranslations } from '@/i18n';
+import { Separator } from '@/components/ui/separator';
 
 const configTranslations = useGetTranslations(Astro)
 ---
@@ -16,14 +16,15 @@ const configTranslations = useGetTranslations(Astro)
 	</head>
 	<body>
 		<Header lang={configTranslations.lang} />
-		<main>
-			<header class="sticky top-10 mb-5 md:mb-0 md:top-20.25 flex flex-row justify-between">
-				<NavigateLink class='md:mb-8' name={configTranslations.navnavigateBack} />
-			</header>
-			<section class="text-primary">
-                <h1 class="font-[Editorial] mb-4">{configTranslations.title404}</h1>
-                <p class="mb-6">{configTranslations.description404}</p>
-			</section>
+		<main class="flex flex-col items-center justify-center">
+			<h1 class="font-[Editorial] mb-4">{configTranslations.title404}</h1>
+			<div class="flex h-6 items-center mt-4 space-x-4 *:cursor-pointer text-sm">
+				<a href={`/${configTranslations.lang}/blog`}>Blog</a>
+				<Separator orientation="vertical" />
+				<a href={`/${configTranslations.lang}/about`}>About</a>
+				<Separator orientation="vertical" />
+				<a href={`/${configTranslations.lang}/form`}>Send</a>
+			</div>
 		</main>
 		<Footer />
 	</body>

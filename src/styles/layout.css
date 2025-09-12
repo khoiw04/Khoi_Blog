@@ -16,6 +16,8 @@ body {
 	overflow-wrap: break-word;
 	color: var(--foreground);
 	min-height: 100vh;
+	text-autospace: normal;
+	text-rendering: optimizeLegibility;
 }
 @media (max-width: 720px) {
 	body {
@@ -39,14 +41,6 @@ body {
 		min-height: calc(99.84dvh - 64px);
 	}
 }
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-	}
-  body {
-    @apply bg-background text-foreground;
-	}
-}
 ::selection {
   background-color: var(--popover);
   color: oklch(0.6 0.12 38.6);
@@ -61,6 +55,8 @@ html.dark::selection {
 html {
 	background: var(--background);
 	scrollbar-color: #888 #f0f0f0;
+	overscroll-behavior-y: contain;
+	-webkit-overflow-scrolling: touch;
 }
 
 /* Dark theme */
@@ -85,4 +81,13 @@ html.dark ::-webkit-scrollbar-track {
 }
 html.dark ::-webkit-scrollbar-thumb {
   background-color: #444;
+}
+
+@layer base {
+  * {
+    	@apply border-border outline-ring/50 m-0 p-0;
+	}
+  body {
+    	@apply bg-background text-foreground;
+	}
 }

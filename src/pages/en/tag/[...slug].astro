@@ -1,5 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseHead from '@/components/Layouts/HeadSeo.astro';
 import Footer from '@/components/Layouts/Footer.astro';
 import Header from '@/components/Layouts/Header.astro';
@@ -7,11 +6,9 @@ import { themeConfig } from '@/config';
 import NavigateLink from '@/components/Layouts/NavigateLink.astro';
 import Search from '@/components/presenters/search.index';
 import { tagsEnum } from '@/data';
-import { Image } from 'astro:assets';
-import FormattedDate from '@/components/Layouts/FormattedDate.astro';
 import { capitalize, formatTagLabel } from '@/lib/utils';
 import { useGetTranslations } from '@/i18n';
-import { getSortedEnglishTag } from '@/lib/draft';
+import { getSortedEnglishBlog, getSortedEnglishTag } from '@/lib/draft';
 import LayoutTag from '@/components/Layouts/LayoutTag.astro';
 import LayoutHeader from '@/components/Layouts/LayoutHeader.astro';
 import ComponentItem from '@/components/Layouts/ComponentItem.astro';
@@ -25,7 +22,7 @@ export async function getStaticPaths() {
 const { slug: tag } = Astro.params;
 const capitalizedTag = capitalize(tag) as typeof tagsEnum[number];
 const formalLabel = formatTagLabel(tag);
-const posts = await getCollection('blog')
+const posts = await getSortedEnglishBlog()
 const configTranslations = useGetTranslations(Astro as any)
 
 const filteredPosts = await getSortedEnglishTag(capitalizedTag)
@@ -54,7 +51,7 @@ const filteredPosts = await getSortedEnglishTag(capitalizedTag)
 				</p>
                 ) : (
 				<p class="text-muted-foreground pt-3 pb-8">
-					{configTranslations.tagtotal}: {filteredPosts.length} {" "} {configTranslations.tagposts}
+					{configTranslations.tagtotal} {filteredPosts.length} {" "} {configTranslations.tagposts}
 				</p>
                 <ul class="space-y-4">
 					<ComponentItem posts={filteredPosts} />

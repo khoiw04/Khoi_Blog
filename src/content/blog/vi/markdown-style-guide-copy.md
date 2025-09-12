@@ -4,6 +4,7 @@ pubDate: 'Jul 08 2022'
 description: 'Lorem ipsum dolor sit amet'
 heroImage: '../../../assets/blog-placeholder-5.jpg'
 tags: ["Tanstack", "Rust", "Tauri"]
+dev: true
 ---
 
 This theme does not define more levels of headlines. If needed, you can define them in `src/styles/post.css`.

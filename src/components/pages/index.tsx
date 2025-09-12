@@ -26,11 +26,17 @@ export default function HeaderIndex({ configTranslations }: HeaderIndexType) {
 			<>
 				<Separator className="my-2" />
 				<div className="flex h-6 items-center mt-4 space-x-4 *:cursor-pointer text-sm">
-					<a href={`/${configTranslations.lang}/blog`}>Blog</a>
+					<a href={`/${configTranslations.lang}/blog`}>
+						{configTranslations.navblog}
+					</a>
 					<Separator orientation="vertical" />
-					<a href={`/${configTranslations.lang}/about`}>About</a>
+					<a href={`/${configTranslations.lang}/about`}>
+						{configTranslations.navabout}
+					</a>
 					<Separator orientation="vertical" />
-					<a href={`/${configTranslations.lang}/form`}>Send</a>
+					<a href={`/${configTranslations.lang}/form`}>
+						{configTranslations.navform}
+					</a>
 				</div>
 			</>
 			}

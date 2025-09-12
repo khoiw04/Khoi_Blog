@@ -16,12 +16,6 @@ blockquote {
   transition: filter 150ms ease 100ms, opacity 150ms ease 100ms, color 150ms ease 100ms;
 }
 
-blockquote > p {
-  border-radius: 0.5rem;
-  padding: 0.5rem 4rem !important;
-  margin-bottom: 0px;
-}
-
 /* ─────────────── Hover Effects ─────────────── */
 .button:hover,
 .tabs:hover,
@@ -96,6 +90,87 @@ blockquote:has(~ .tabs:hover),
 blockquote:has(~ .expressive-code:hover),
 blockquote:has(~ table:hover),
 blockquote:has(~ blockquote:hover) {
+  filter: blur(1px);
+  opacity: 0.6;
+  color: var(--code-border-background);
+  transition: filter 150ms ease 0ms, opacity 150ms ease 0ms, color 150ms ease 0ms;
+}
+
+
+/* ─────────────── Active Effects ─────────────── */
+.button:active,
+.tabs:active,
+.expressive-code:active,
+table:active,
+blockquote:active {
+  background-color: var(--primary-foreground);
+  color: var(--primary);
+  transform: scale(1);
+  transition: background-color 150ms ease, color 150ms ease, transform 150ms ease, filter 150ms ease 0ms, opacity 150ms ease 0ms;
+}
+
+@media (min-width: 550px) {
+  .button:active,
+  .tabs:active,
+  .expressive-code:active,
+  table:active,
+  blockquote:active {
+    transform: scale(1.05);
+  }
+}
+
+/* ─────────────── Blur Targets When Active ─────────────── */
+.button:active ~ .button,
+.button:active ~ .tabs,
+.button:active ~ .expressive-code,
+.button:active ~ table,
+.button:active ~ blockquote,
+.tabs:active ~ .button,
+.tabs:active ~ .tabs,
+.tabs:active ~ .expressive-code,
+.tabs:active ~ table,
+.tabs:active ~ blockquote,
+.expressive-code:active ~ .button,
+.expressive-code:active ~ .tabs,
+.expressive-code:active ~ .expressive-code,
+.expressive-code:active ~ table,
+.expressive-code:active ~ blockquote,
+table:active ~ .button,
+table:active ~ .tabs,
+table:active ~ .expressive-code,
+table:active ~ table,
+table:active ~ blockquote,
+blockquote:active ~ .button,
+blockquote:active ~ .tabs,
+blockquote:active ~ .expressive-code,
+blockquote:active ~ table,
+blockquote:active ~ blockquote,
+
+.button:has(~ .button:active),
+.button:has(~ .tabs:active),
+.button:has(~ .expressive-code:active),
+.button:has(~ table:active),
+.button:has(~ blockquote:active),
+.tabs:has(~ .button:active),
+.tabs:has(~ .tabs:active),
+.tabs:has(~ .expressive-code:active),
+.tabs:has(~ table:active),
+.tabs:has(~ blockquote:active),
+.expressive-code:has(~ .button:active),
+.expressive-code:has(~ .tabs:active),
+.expressive-code:has(~ .expressive-code:active),
+.expressive-code:has(~ table:active),
+.expressive-code:has(~ blockquote:active),
+table:has(~ .button:active),
+table:has(~ .tabs:active),
+table:has(~ .expressive-code:active),
+table:has(~ table:active),
+table:has(~ blockquote:active),
+blockquote:has(~ .button:active),
+blockquote:has(~ .tabs:active),
+blockquote:has(~ .expressive-code:active),
+blockquote:has(~ table:active),
+blockquote:has(~ blockquote:active) {
   filter: blur(1px);
   opacity: 0.6;
   color: var(--code-border-background);
