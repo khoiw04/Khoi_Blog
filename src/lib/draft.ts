@@ -1,3 +1,4 @@
+import { themeConfig } from '@/config'
 import type { alltagsEnum } from '@/data'
 import { getCollection, type CollectionEntry } from 'astro:content'
 
@@ -18,7 +19,7 @@ export async function getSortedVietnamBlog() {
   const blog = await getSortedFilteredBlog();
   return blog
     .filter(post => post.id.startsWith('vi/'))
-    .filter(post => !post.data.dev)
+    .filter(post => themeConfig.post.filterDev ? !post.data.dev : true)
     .map(post => {
       const [, ...slugParts] = post.id.split('/');
       const slug = slugParts.join('/');
@@ -34,7 +35,7 @@ export async function getSortedEnglishBlog() {
   const blog = await getSortedFilteredBlog();
   return blog
     .filter(post => post.id.startsWith('en/'))
-    .filter(post => !post.data.dev)
+    .filter(post => themeConfig.post.filterDev ? !post.data.dev : true)
     .map(post => {
       const [, ...slugParts] = post.id.split('/');
       const slug = slugParts.join('/');

@@ -39,6 +39,7 @@ export interface PostSettings {
   imageViewer: boolean
   copyCode: boolean
   linkCard: boolean
+  filterDev: boolean
 }
 
 // Theme configuration type
