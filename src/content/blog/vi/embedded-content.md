@@ -7,6 +7,19 @@ tags: ["Tanstack", "Rust", "Tauri"]
 dev: true
 ---
 
+:::warning[Thử nghiệm]
+Không nên đi tiếp!
+:::
+
+
+:::info
+Thông tin thêm về tính năng này.
+:::
+
+:::tip
+Mẹo: Bạn có thể dùng shortcut để tăng tốc.
+:::
+
 Use these directives to embed media:
 
 ```

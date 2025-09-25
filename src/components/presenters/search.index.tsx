@@ -52,7 +52,11 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
           <CommandGroup heading={configTranslations.searchCMDpost}>
             {posts.map((post, i) => (
               <a href={`/${configTranslations.lang}/blog/${post.slug}`} key={`blog_${i}`}>
-                <CommandItem>
+                <CommandItem 
+                  onSelect={() => {
+                    window.location.href = `/${configTranslations.lang}/blog/${post.slug}`;
+                  }}
+                >
                     <ArrowUpRightIcon
                         size={16}
                         className="opacity-60"

@@ -1,0 +1,40 @@
+.admonition {
+	padding: 1.25rem 1.5rem;
+	margin: 1.5rem 0;
+	border: 1px solid var(--sidebar-border);
+	background-color: var(--background) !important;
+	border-radius: 0.75rem !important;
+}
+
+.admonition-title {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.admonition {
+	color: var(--admonition-color, inherit);
+}
+
+.admonition-warning {
+	--admonition-color: #8a6d3b;
+}
+
+.admonition-info {
+	--admonition-color: #31708f;
+}
+
+.admonition-danger {
+	--admonition-color: #a94442;
+}
+
+.dark .admonition-warning {
+  --admonition-color: #f6e27a;
+}
+
+.dark .admonition-info {
+  --admonition-color: #8ac7ff;
+}
+
+.dark .admonition-danger {
+  --admonition-color: #ff9a9a;
+}

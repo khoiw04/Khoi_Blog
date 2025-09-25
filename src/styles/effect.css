@@ -1,178 +1,120 @@
 /* ─────────────── Base Styles ─────────────── */
 .button,
 .tabs,
-.expressive-code {
+.expressive-code,
+table,
+blockquote,
+.admonition {
   border-radius: 0.15rem;
   padding: 0.15rem 0.15rem;
   cursor: pointer;
-  will-change: background-color, color, filter, transform;
-  transition: filter 150ms ease 100ms, opacity 150ms ease 100ms, color 150ms ease 100ms;
+  transition: transform 150ms ease, filter 150ms ease, opacity 150ms ease;
+  will-change: transform, filter, opacity;
 }
 
-table,
-blockquote {
-  cursor: pointer;
-  will-change: background-color, color, filter, transform;
-  transition: filter 150ms ease 100ms, opacity 150ms ease 100ms, color 150ms ease 100ms;
-}
-
-/* ─────────────── Hover Effects ─────────────── */
+/* ─────────────── Hover & Active Effects ─────────────── */
 .button:hover,
 .tabs:hover,
 .expressive-code:hover,
 table:hover,
-blockquote:hover {
-  background-color: var(--primary-foreground);
-  color: var(--primary);
-  transform: scale(1);
-  transition: background-color 150ms ease, color 150ms ease, transform 150ms ease, filter 150ms ease 0ms, opacity 150ms ease 0ms;
+blockquote:hover,
+.admonition:hover,
+.button:active,
+.tabs:active,
+.expressive-code:active,
+table:active,
+blockquote:active,
+.admonition:active {
+  transform: scale(1.05);
+  z-index: 1;
 }
 
-@media (min-width: 550px) {
-  .button:hover,
-  .tabs:hover,
-  .expressive-code:hover,
-  table:hover,
-  blockquote:hover {
-    transform: scale(1.05);
-  }
-}
-
-/* ─────────────── Blur Targets When Hovered ─────────────── */
-.button:hover ~ .button,
-.button:hover ~ .tabs,
-.button:hover ~ .expressive-code,
-.button:hover ~ table,
-.button:hover ~ blockquote,
-.tabs:hover ~ .button,
-.tabs:hover ~ .tabs,
-.tabs:hover ~ .expressive-code,
-.tabs:hover ~ table,
-.tabs:hover ~ blockquote,
-.expressive-code:hover ~ .button,
-.expressive-code:hover ~ .tabs,
-.expressive-code:hover ~ .expressive-code,
-.expressive-code:hover ~ table,
-.expressive-code:hover ~ blockquote,
-table:hover ~ .button,
-table:hover ~ .tabs,
-table:hover ~ .expressive-code,
-table:hover ~ table,
-table:hover ~ blockquote,
-blockquote:hover ~ .button,
-blockquote:hover ~ .tabs,
-blockquote:hover ~ .expressive-code,
-blockquote:hover ~ table,
-blockquote:hover ~ blockquote,
-
+/* ─────────────── Blur Targets Before ─────────────── */
 .button:has(~ .button:hover),
 .button:has(~ .tabs:hover),
 .button:has(~ .expressive-code:hover),
 .button:has(~ table:hover),
 .button:has(~ blockquote:hover),
+.button:has(~ .admonition:hover),
+
 .tabs:has(~ .button:hover),
 .tabs:has(~ .tabs:hover),
 .tabs:has(~ .expressive-code:hover),
 .tabs:has(~ table:hover),
 .tabs:has(~ blockquote:hover),
+.tabs:has(~ .admonition:hover),
+
 .expressive-code:has(~ .button:hover),
 .expressive-code:has(~ .tabs:hover),
 .expressive-code:has(~ .expressive-code:hover),
 .expressive-code:has(~ table:hover),
 .expressive-code:has(~ blockquote:hover),
+.expressive-code:has(~ .admonition:hover),
+
 table:has(~ .button:hover),
 table:has(~ .tabs:hover),
 table:has(~ .expressive-code:hover),
 table:has(~ table:hover),
 table:has(~ blockquote:hover),
+table:has(~ .admonition:hover),
+
 blockquote:has(~ .button:hover),
 blockquote:has(~ .tabs:hover),
 blockquote:has(~ .expressive-code:hover),
 blockquote:has(~ table:hover),
-blockquote:has(~ blockquote:hover) {
-  filter: blur(1px);
-  opacity: 0.6;
+blockquote:has(~ blockquote:hover),
+blockquote:has(~ .admonition:hover),
+
+.admonition:has(~ .button:hover),
+.admonition:has(~ .tabs:hover),
+.admonition:has(~ .expressive-code:hover),
+.admonition:has(~ table:hover),
+.admonition:has(~ blockquote:hover),
+.admonition:has(~ .admonition:hover),
+
+/* ─────────────── Blur Targets After ─────────────── */
+.button:hover ~ .button,
+.button:hover ~ .tabs,
+.button:hover ~ .expressive-code,
+.button:hover ~ table,
+.button:hover ~ blockquote,
+.button:hover ~ .admonition,
+
+.tabs:hover ~ .button,
+.tabs:hover ~ .tabs,
+.tabs:hover ~ .expressive-code,
+.tabs:hover ~ table,
+.tabs:hover ~ blockquote,
+.tabs:hover ~ .admonition,
+
+.expressive-code:hover ~ .button,
+.expressive-code:hover ~ .tabs,
+.expressive-code:hover ~ .expressive-code,
+.expressive-code:hover ~ table,
+.expressive-code:hover ~ blockquote,
+.expressive-code:hover ~ .admonition,
+
+table:hover ~ .button,
+table:hover ~ .tabs,
+table:hover ~ .expressive-code,
+table:hover ~ table,
+table:hover ~ blockquote,
+table:hover ~ .admonition,
+
+blockquote:hover ~ .button,
+blockquote:hover ~ .tabs,
+blockquote:hover ~ .expressive-code,
+blockquote:hover ~ table,
+blockquote:hover ~ blockquote,
+blockquote:hover ~ .admonition,
+
+.admonition:hover ~ .button,
+.admonition:hover ~ .tabs,
+.admonition:hover ~ .expressive-code,
+.admonition:hover ~ table,
+.admonition:hover ~ blockquote,
+.admonition:hover ~ .admonition {
+  filter: blur(2px);
+  opacity: 0.4;
   color: var(--code-border-background);
-  transition: filter 150ms ease 0ms, opacity 150ms ease 0ms, color 150ms ease 0ms;
-}
-
-
-/* ─────────────── Active Effects ─────────────── */
-.button:active,
-.tabs:active,
-.expressive-code:active,
-table:active,
-blockquote:active {
-  background-color: var(--primary-foreground);
-  color: var(--primary);
-  transform: scale(1);
-  transition: background-color 150ms ease, color 150ms ease, transform 150ms ease, filter 150ms ease 0ms, opacity 150ms ease 0ms;
-}
-
-@media (min-width: 550px) {
-  .button:active,
-  .tabs:active,
-  .expressive-code:active,
-  table:active,
-  blockquote:active {
-    transform: scale(1.05);
-  }
-}
-
-/* ─────────────── Blur Targets When Active ─────────────── */
-.button:active ~ .button,
-.button:active ~ .tabs,
-.button:active ~ .expressive-code,
-.button:active ~ table,
-.button:active ~ blockquote,
-.tabs:active ~ .button,
-.tabs:active ~ .tabs,
-.tabs:active ~ .expressive-code,
-.tabs:active ~ table,
-.tabs:active ~ blockquote,
-.expressive-code:active ~ .button,
-.expressive-code:active ~ .tabs,
-.expressive-code:active ~ .expressive-code,
-.expressive-code:active ~ table,
-.expressive-code:active ~ blockquote,
-table:active ~ .button,
-table:active ~ .tabs,
-table:active ~ .expressive-code,
-table:active ~ table,
-table:active ~ blockquote,
-blockquote:active ~ .button,
-blockquote:active ~ .tabs,
-blockquote:active ~ .expressive-code,
-blockquote:active ~ table,
-blockquote:active ~ blockquote,
-
-.button:has(~ .button:active),
-.button:has(~ .tabs:active),
-.button:has(~ .expressive-code:active),
-.button:has(~ table:active),
-.button:has(~ blockquote:active),
-.tabs:has(~ .button:active),
-.tabs:has(~ .tabs:active),
-.tabs:has(~ .expressive-code:active),
-.tabs:has(~ table:active),
-.tabs:has(~ blockquote:active),
-.expressive-code:has(~ .button:active),
-.expressive-code:has(~ .tabs:active),
-.expressive-code:has(~ .expressive-code:active),
-.expressive-code:has(~ table:active),
-.expressive-code:has(~ blockquote:active),
-table:has(~ .button:active),
-table:has(~ .tabs:active),
-table:has(~ .expressive-code:active),
-table:has(~ table:active),
-table:has(~ blockquote:active),
-blockquote:has(~ .button:active),
-blockquote:has(~ .tabs:active),
-blockquote:has(~ .expressive-code:active),
-blockquote:has(~ table:active),
-blockquote:has(~ blockquote:active) {
-  filter: blur(1px);
-  opacity: 0.6;
-  color: var(--code-border-background);
-  transition: filter 150ms ease 0ms, opacity 150ms ease 0ms, color 150ms ease 0ms;
 }

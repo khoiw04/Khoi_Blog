@@ -21,7 +21,23 @@ export default function rehypeAddButtonClass(): (tree: Root) => void {
           ancestor.tagName === 'blockquote'
       );
 
-      if (shouldTag && !isInsideBlockquote) {
+      const isInsideAdmonition = ancestors.some((ancestor) => {
+        if (
+          typeof ancestor === 'object' &&
+          'properties' in ancestor &&
+          ancestor.properties &&
+          Array.isArray(ancestor.properties.className)
+        ) {
+          return ancestor.properties.className.some((cls) => {
+            if (typeof cls !== 'string') return false;
+            return cls === 'admonition' || cls.startsWith('admonition-');
+          });
+        }
+        return false;
+      });
+
+
+      if (shouldTag && !isInsideBlockquote && !isInsideAdmonition) {
         node.properties = node.properties || {};
         if (!Array.isArray(node.properties.className)) {
           node.properties.className = node.properties.className

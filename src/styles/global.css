@@ -3,6 +3,7 @@
 @import "./font.css";
 @import './layout.css';
 @import './effect.css';
+@import './admonition.css';
 @import './post.css';
 @plugin "daisyui";
 

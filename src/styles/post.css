@@ -604,3 +604,9 @@ img {
     background-color: var(--backdrop-accent)
 }
 
+/* Padding-Inline */
+@media (max-width: 550px) {
+  .prose {
+    padding-inline: 1rem;
+  }
+}
