@@ -1,4 +1,4 @@
-import type { tagsEnum } from '@/data'
+import type { alltagsEnum } from '@/data'
 import { getCollection, type CollectionEntry } from 'astro:content'
 
 export async function getFilteredBlog() {
@@ -18,6 +18,7 @@ export async function getSortedVietnamBlog() {
   const blog = await getSortedFilteredBlog();
   return blog
     .filter(post => post.id.startsWith('vi/'))
+    .filter(post => !post.data.dev)
     .map(post => {
       const [, ...slugParts] = post.id.split('/');
       const slug = slugParts.join('/');
@@ -33,6 +34,7 @@ export async function getSortedEnglishBlog() {
   const blog = await getSortedFilteredBlog();
   return blog
     .filter(post => post.id.startsWith('en/'))
+    .filter(post => !post.data.dev)
     .map(post => {
       const [, ...slugParts] = post.id.split('/');
       const slug = slugParts.join('/');
@@ -44,14 +46,14 @@ export async function getSortedEnglishBlog() {
     });
 }
 
-export async function getSortedVietnamTag(capitalizedTag: typeof tagsEnum[number]) {
+export async function getSortedVietnamTag(capitalizedTag: typeof alltagsEnum[number]) {
   const blog = await getSortedVietnamBlog()
   return blog.filter(post => post.data.tags?.includes(
     capitalizedTag)
   )
 }
 
-export async function getSortedEnglishTag(capitalizedTag: typeof tagsEnum[number]) {
+export async function getSortedEnglishTag(capitalizedTag: typeof alltagsEnum[number]) {
   const blog = await getSortedEnglishBlog()
   return blog.filter(post => post.data.tags?.includes(
     capitalizedTag)

@@ -2,23 +2,16 @@ import type { langKeyType } from '@/types';
 import { ui, defaultLang } from './ui';
 import type { AstroGlobal } from 'astro';
 
-export function getLangFromUrl(url: URL): langKeyType {
-  const [, lang] = url.pathname.split('/');
-  return lang in ui ? lang as langKeyType : defaultLang;
-}
-
-export function useTranslations(lang: keyof typeof ui) {
-  return function t(key: keyof typeof ui[typeof defaultLang]) {
-    if (ui[lang]?.[key]) return ui[lang][key];
-
-    if (ui[defaultLang]?.[key]) return ui[defaultLang][key];
-
-    return key;
+export function useTranslations(key: keyof typeof ui) { 
+  return function t(val: keyof typeof ui['vi' | 'en']) {
+    if (ui[key]?.[val]) return ui[key][val];
+    return ui[defaultLang][val];
   };
 }
 
 export function useLang(Astro: AstroGlobal) {
-  return getLangFromUrl(Astro.url);
+  const [, lang] = Astro.url.pathname.split('/');
+  return lang in ui ? lang as langKeyType : defaultLang;
 }
 
 export function useGetTranslations(Astro: AstroGlobal) {
@@ -36,6 +29,7 @@ export function useGetTranslations(Astro: AstroGlobal) {
     navform: t('nav.form'),
     searchCMDplaceholder: t('searchCMD.placeholder'),
     searchCMDcode: t('searchCMD.heading.code'),
+    searchCMDscience: t('searchCMD.heading.science'),
     searchCMDpost: t('searchCMD.heading.post'),
     searchCMDempty: t('searchCMD.empty'),
     title404: t('404.title'),

@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/command"
 import { Button } from "@/components/ui/button"
 import type { SearchTypeProps } from "@/types"
-import { tagsObj } from "@/data"
+import { devtagsObj, sciencetagsObj } from "@/data"
 import useMenuOpen from "@/components/container/useMenuOpen"
 
 export default function Component({ posts, configTranslations }: SearchTypeProps) {
@@ -36,23 +36,49 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
         <CommandList>
           <CommandEmpty>{configTranslations.searchCMDempty}</CommandEmpty>
           <CommandGroup heading={configTranslations.searchCMDcode}>
-            {tagsObj.map((tag, i) => (
-              <a key={`tags_${i}`} href={`/${configTranslations.lang}/tag/${tag.name.toLowerCase()}`}>
-                <CommandItem>
+            {devtagsObj.map((tag, i) => {
+              const name = configTranslations.lang === 'vi' ? tag.nameVi : tag.nameEn
+              return (
+              <a key={`tags_${i}`} href={`/${configTranslations.lang}/tag/${name.toLowerCase()}`}>
+                <CommandItem
+                  onSelect={() => {
+                    window.location.href = `/${configTranslations.lang}/tag/${name.toLowerCase()}`;
+                  }}                
+                >
                     <tag.icon
                       size={16}
                       aria-hidden="true"
                       className="opacity-60"
                     />
-                    <span>{tag.name}</span>
+                    <span>{name}</span>
                 </CommandItem>
               </a>
-            ))}
+            )})}
+          </CommandGroup>
+          <CommandGroup heading={configTranslations.searchCMDscience}>
+            {sciencetagsObj.map((tag, i) => {
+              const name = configTranslations.lang === 'vi' ? tag.nameVi : tag.nameEn
+              return (
+              <a key={`tags_${i}`} href={`/${configTranslations.lang}/tag/${name.toLowerCase()}`}>
+                <CommandItem
+                  onSelect={() => {
+                    window.location.href = `/${configTranslations.lang}/tag/${name.toLowerCase()}`;
+                  }}                
+                >
+                    <tag.icon
+                      size={16}
+                      aria-hidden="true"
+                      className="opacity-60"
+                    />
+                    <span>{name}</span>
+                </CommandItem>
+              </a>
+            )})}
           </CommandGroup>
           <CommandGroup heading={configTranslations.searchCMDpost}>
             {posts.map((post, i) => (
               <a href={`/${configTranslations.lang}/blog/${post.slug}`} key={`blog_${i}`}>
-                <CommandItem 
+                <CommandItem
                   onSelect={() => {
                     window.location.href = `/${configTranslations.lang}/blog/${post.slug}`;
                   }}

@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
-import { tagsEnum } from '../data/tagsPosts';
+import { alltagsEnum } from '../data/tagsPosts';
 
 const blog = defineCollection({
 	// Load Markdown and MDX files in the `src/content/blog/` directory.
@@ -14,7 +14,11 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: image().optional(),
-			tags: z.array(z.enum(tagsEnum)).optional(),
+			tags: z.array(
+				z.string().refine(val => alltagsEnum.includes(val as typeof alltagsEnum[number]), {
+					message: "Tag invaild",
+				})
+			).optional(),
 			dev: z.boolean().optional()
 		})
 });
