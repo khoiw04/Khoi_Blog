@@ -5,13 +5,14 @@ export default function rehypeAddButtonClass(): (tree: Root) => void {
   return function (tree) {
     visitParents(tree, 'element', (node: Element, ancestors) => {
       if (!node || typeof node !== 'object') return;
-
+      
       const targetTags = [
         'p', 'li', 'div', 'ul', 'ol',
         'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
         'blockquote', 'pre', 'code', 'figure', 'table'
       ];
-
+      
+      const parent = ancestors[ancestors.length - 1];
       const shouldTag = targetTags.includes(node.tagName);
 
       const isInsideBlockquote = ancestors.some(
@@ -36,8 +37,12 @@ export default function rehypeAddButtonClass(): (tree: Root) => void {
         return false;
       });
 
+      const isDirectChildOfLi =
+        typeof parent === 'object' &&
+        'tagName' in parent &&
+        parent.tagName === 'li';
 
-      if (shouldTag && !isInsideBlockquote && !isInsideAdmonition) {
+      if (shouldTag && !isInsideBlockquote && !isInsideAdmonition && !isDirectChildOfLi) {
         node.properties = node.properties || {};
         if (!Array.isArray(node.properties.className)) {
           node.properties.className = node.properties.className

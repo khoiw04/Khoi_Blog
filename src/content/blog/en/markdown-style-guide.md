@@ -31,8 +31,11 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ## Images
 
-::spotify{url="https://open.spotify.com/type/xxxxx"}
+### Syntax
 
+```markdown
+![Alt text](./full/or/relative/path/of/image)
+```
 
 ### Output
 

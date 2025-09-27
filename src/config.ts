@@ -34,6 +34,6 @@ export const themeConfig: ThemeConfig = {
     imageViewer: true, // Enable image viewer
     copyCode: true, // Enable copy button in code blocks
     linkCard: true, // Enable link card
-    filterDev: import.meta.env.DEV ? false : true
+    filterDev: true
   }
 }

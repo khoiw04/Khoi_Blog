@@ -3,7 +3,6 @@
 .tabs,
 .expressive-code,
 table,
-blockquote,
 .admonition {
   border-radius: 0.15rem;
   padding: 0.15rem 0.15rem;
@@ -17,13 +16,11 @@ blockquote,
 .tabs:hover,
 .expressive-code:hover,
 table:hover,
-blockquote:hover,
 .admonition:hover,
 .button:active,
 .tabs:active,
 .expressive-code:active,
 table:active,
-blockquote:active,
 .admonition:active {
   transform: scale(1.05);
   z-index: 1;
@@ -34,42 +31,30 @@ blockquote:active,
 .button:has(~ .tabs:hover),
 .button:has(~ .expressive-code:hover),
 .button:has(~ table:hover),
-.button:has(~ blockquote:hover),
 .button:has(~ .admonition:hover),
 
 .tabs:has(~ .button:hover),
 .tabs:has(~ .tabs:hover),
 .tabs:has(~ .expressive-code:hover),
 .tabs:has(~ table:hover),
-.tabs:has(~ blockquote:hover),
 .tabs:has(~ .admonition:hover),
 
 .expressive-code:has(~ .button:hover),
 .expressive-code:has(~ .tabs:hover),
 .expressive-code:has(~ .expressive-code:hover),
 .expressive-code:has(~ table:hover),
-.expressive-code:has(~ blockquote:hover),
 .expressive-code:has(~ .admonition:hover),
 
 table:has(~ .button:hover),
 table:has(~ .tabs:hover),
 table:has(~ .expressive-code:hover),
 table:has(~ table:hover),
-table:has(~ blockquote:hover),
 table:has(~ .admonition:hover),
-
-blockquote:has(~ .button:hover),
-blockquote:has(~ .tabs:hover),
-blockquote:has(~ .expressive-code:hover),
-blockquote:has(~ table:hover),
-blockquote:has(~ blockquote:hover),
-blockquote:has(~ .admonition:hover),
 
 .admonition:has(~ .button:hover),
 .admonition:has(~ .tabs:hover),
 .admonition:has(~ .expressive-code:hover),
 .admonition:has(~ table:hover),
-.admonition:has(~ blockquote:hover),
 .admonition:has(~ .admonition:hover),
 
 /* ─────────────── Blur Targets After ─────────────── */
@@ -77,42 +62,30 @@ blockquote:has(~ .admonition:hover),
 .button:hover ~ .tabs,
 .button:hover ~ .expressive-code,
 .button:hover ~ table,
-.button:hover ~ blockquote,
 .button:hover ~ .admonition,
 
 .tabs:hover ~ .button,
 .tabs:hover ~ .tabs,
 .tabs:hover ~ .expressive-code,
 .tabs:hover ~ table,
-.tabs:hover ~ blockquote,
 .tabs:hover ~ .admonition,
 
 .expressive-code:hover ~ .button,
 .expressive-code:hover ~ .tabs,
 .expressive-code:hover ~ .expressive-code,
 .expressive-code:hover ~ table,
-.expressive-code:hover ~ blockquote,
 .expressive-code:hover ~ .admonition,
 
 table:hover ~ .button,
 table:hover ~ .tabs,
 table:hover ~ .expressive-code,
 table:hover ~ table,
-table:hover ~ blockquote,
 table:hover ~ .admonition,
-
-blockquote:hover ~ .button,
-blockquote:hover ~ .tabs,
-blockquote:hover ~ .expressive-code,
-blockquote:hover ~ table,
-blockquote:hover ~ blockquote,
-blockquote:hover ~ .admonition,
 
 .admonition:hover ~ .button,
 .admonition:hover ~ .tabs,
 .admonition:hover ~ .expressive-code,
 .admonition:hover ~ table,
-.admonition:hover ~ blockquote,
 .admonition:hover ~ .admonition {
   filter: blur(2px);
   opacity: 0.4;

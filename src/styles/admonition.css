@@ -1,5 +1,5 @@
 .admonition {
-	padding: 1.25rem 1.5rem;
+	padding: 0rem 1.5rem;
 	margin: 1.5rem 0;
 	border: 1px solid var(--sidebar-border);
 	background-color: var(--background) !important;
@@ -7,7 +7,7 @@
 }
 
 .admonition-title {
-	font-weight: bold;
+	font-weight: var(--font-weight-bold);
 	margin-bottom: 0.5em;
 }
 
@@ -20,7 +20,11 @@
 }
 
 .admonition-info {
-	--admonition-color: #31708f;
+	--admonition-color: oklch(41.531% 0.07644 234.404);
+}
+
+.admonition-result {
+	--admonition-color: oklch(41.531% 0.07644 234.404);
 }
 
 .admonition-danger {
@@ -32,7 +36,11 @@
 }
 
 .dark .admonition-info {
-  --admonition-color: #8ac7ff;
+  --admonition-color: oklch(80.92% 0.10157 247.11);
+}
+
+.dark .admonition-result {
+  --admonition-color: oklch(80.92% 0.10157 247.11);
 }
 
 .dark .admonition-danger {

@@ -25,10 +25,15 @@
   margin: 3.75em 0 1.75em 0;
 }
 
+.prose h2 {
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-extrabold);
+}
+
 /* Bold text */
 .prose strong,
 .prose b {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-extrabold);
 }
 
 /* Italic text */
@@ -58,6 +63,10 @@
   margin: 1.75em 0;
 }
 
+li.button p {
+  margin: 0em 0;
+}
+
 /* Tables */
 .prose table {
   table-layout: fixed;
@@ -67,7 +76,7 @@
   margin: 1.75em 0;
   font-size: var(--font-size-m);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 0.65rem;
   overflow: hidden;
 }
 
@@ -197,7 +206,6 @@ img {
 .prose blockquote {
   border-left: 2px solid var(--border);
   margin: 0 0 1.75em 0.125em;
-  padding: 0 0 0 20px;
   text-align: left;
 }
 

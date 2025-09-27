@@ -5,13 +5,13 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import cloudflare from '@astrojs/cloudflare'
 import react from '@astrojs/react';
-import rehypeAddButtonClass from './src/plugins/rehypeAddButtonClass.js';
 import playformInline from '@playform/inline'
 import remarkMath from 'remark-math'
 import remarkDirective from 'remark-directive'
 import rehypeKatex from 'rehype-katex'
-import remarkEmbeddedMedia from './src/plugins/remark-embedded-media.mjs'
 import rehypeCleanup from './src/plugins/rehype-cleanup.mjs'
+import remarkEmbeddedMedia from './src/plugins/remark-embedded-media.mjs'
+import rehypeAddButtonClass from './src/plugins/rehype-add-button-class.js';
 import rehypeImageProcessor from './src/plugins/rehype-image-processor.mjs'
 import remarkAdmonitions from './src/plugins/remark-admonitions.mjs'
 import tailwindcss from '@tailwindcss/vite';
