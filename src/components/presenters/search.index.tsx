@@ -59,10 +59,10 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
             {sciencetagsObj.map((tag, i) => {
               const name = configTranslations.lang === 'vi' ? tag.nameVi : tag.nameEn
               return (
-              <a key={`tags_${i}`} href={`/${configTranslations.lang}/tag/${name.toLowerCase()}`}>
+              <a key={`tags_${i}`} href={`/${configTranslations.lang}/tag/${name}`}>
                 <CommandItem
                   onSelect={() => {
-                    window.location.href = `/${configTranslations.lang}/tag/${name.toLowerCase()}`;
+                    window.location.href = `/${configTranslations.lang}/tag/${name}`;
                   }}                
                 >
                     <tag.icon

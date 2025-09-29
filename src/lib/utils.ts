@@ -11,7 +11,7 @@ export function capitalize(str: string) {
 
 export function formatTagLabel(tag: string): string {
   return tag
-    .split(/[-_ ]+/) // tách theo -, _, hoặc khoảng trắng
+    .split(/[-_ ]+/)
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(' ');
 }

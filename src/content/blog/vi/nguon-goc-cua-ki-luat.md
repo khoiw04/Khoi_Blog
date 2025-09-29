@@ -58,7 +58,7 @@ Về Ép Buộc
 
 Để hình thành, Ép Buộc cần dựa trên cơ chế:
 
-- **Anterior Cingulate Cortex (aMccc)** — vùng não ép buộc bản thân  
+- **Anterior Mid Cingulate Cortex (aMccc)** — vùng não ép buộc bản thân  
 - Đây là vùng xử lý xung đột và cưỡng chế hành vi khi không có phần thưởng — như một trung tâm điều khiển ý chí  
 
 **Hãy tưởng tượng:**

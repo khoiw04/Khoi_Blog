@@ -15,17 +15,16 @@ import ComponentItem from '@/components/Layouts/ComponentItem.astro';
 
 export async function getStaticPaths() {
 	return alltagsEnum.map(tag => ({
-		params: { slug: tag.toLowerCase() }
+		params: { slug: tag }
 	}));
 }
 
 const { slug: tag } = Astro.params;
-const capitalizedTag = capitalize(tag) as typeof alltagsEnum[number];
 const formalLabel = formatTagLabel(tag);
 const posts = await getSortedVietnamBlog()
 
 const configTranslations = useGetTranslations(Astro as any)
-const filteredPosts = await getSortedVietnamTag(capitalizedTag)
+const filteredPosts = await getSortedVietnamTag(tag)
 ---
 <!doctype html>
 <html lang={configTranslations.lang}>

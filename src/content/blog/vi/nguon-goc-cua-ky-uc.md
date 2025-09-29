@@ -36,6 +36,14 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 | **Điểm Kết Thúc (Synapse)**        | Chuyển tín hiệu điện thành tín hiệu hóa học cho Dendrite                                |
 | **Nút Tận Cùng (Terminal Button)** | Giải phóng chất dẫn truyền thần kinh (Dopamine, Oxytocin, Noradrenaline, …) vào Synapse |
 
+![Mạng lưới Neuron](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lifewire.com%2Fthmb%2FeH5E3lf2twuxmdbZxMZOxf4tC0w%3D%2F5000x3750%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fwhat-is-neural-network-bd8fc6a5fb6f40bba291b64e609ee0b7.jpeg&f=1&nofb=1&ipt=0042e3905169057cbd70f0342bf1fe0f80a632bac650137c796e2d7ec26ecbe9)
+
+![Bộ phận Neuron](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fexatin.info%2Fwp-content%2Fuploads%2Fdiagram-of-a-neuron-the-neuron-is-the-building-block-of-the-nervous-system.jpg&f=1&nofb=1&ipt=1676c26d520e6d1779bada885446b4efff05583dcd417297450a94967b44abab)
+
+![Engram là Mạng lưới Thần Kinh nhỏ lưu trữ Ký Ức](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F5a151755bff2007c8dffebcb%2Fa768f1c7-d798-41e9-bd9f-ba366dba0fa8%2Fengram_cells.001.png&f=1&nofb=1&ipt=f319e3e81ccb96ca27939b079c8c9ecdf440d5f435d26709c155925c710442a0)
+
+![AI cũng hoạt động tương tự như vậy](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-VLgsWZpm6uY%2FX0OuINMdAXI%2FAAAAAAAAXjg%2FI0mYiOvx4C4mbV5Uoe__GeDPgvRftV2oQCLcBGAsYHQ%2Fs1920%2Fp1.jpg&f=1&nofb=1&ipt=fc92431d041b0798babbd3850a76e9320c8696b553dde3138d2411a996ec5e8c)
+
 :::result[Kết Luận]
 **Mạng lưới Thần Kinh** như nào, **Ký Ức** trả lại như vậy  
 * tiêu cực, **tiêu cực**  
@@ -61,7 +69,7 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 - **Long-Term Potentiation** – tăng cường Synapse
 
 | **Cơ chế**              | Vai trò                                            |
-| ------------------- | -------------------------------------------------- |
+| ----------------------- | -------------------------------------------------- |
 | **Học tập & Lặp lại**   | Tạo kết nối mới hoặc củng cố kết nối cũ            |
 | **Cảm xúc Mạnh**        | Gắn với cảm xúc để ký ức lưu sâu                   |
 | **Tập trung**           | Kích hoạt vùng não liên quan                       |
@@ -74,16 +82,16 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 ### Mỗi loại Ký Ức được ở Engram (Mạng lưới Thần Kinh nhỏ) trong Vùng Não Liên Quan:
 
 | **Loại Ký Ức** | Vùng Não Liên Quan                      |
-| ---------- | --------------------------------------- |
+| -------------- | --------------------------------------- |
 | **Ngắn Hạn**   | Prefrontal Cortex                       |
-| **Dài Hạn**    | Hippocampus, Vỏ Não                     |
+| **Dài Hạn**    | Hippocampus, Các vùng Não               |
 | **Cảm Xúc**    | Amygdala                                |
 | **Vận Động**   | Cerebellum, Basal Ganglia, Motor Cortex |
 
-### Để gợi Ký Ức, cần 2 yếu tố:
+### Để gợi Ký Ức, cần 2 yếu tố
 
 | **Yếu tố gợi ký ức**        | Vai trò           |
-| ----------------------- | ----------------- |
+| --------------------------- | ----------------- |
 | **State-Dependent (60%)**   | Dựa trên cảm xúc  |
 | **Context-Dependent (40%)** | Dựa trên bối cảnh |
 
@@ -93,22 +101,58 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 * Hocmone
 
 | **Giai đoạn**     | Mô tả                                            |
-| ------------- | ------------------------------------------------ |
+| ----------------- | ------------------------------------------------ |
 | **Tiếp nhận**     | Lưu Short-term Memory vào Prefrontal Cortex      |
 | **Mã hóa**        | Đổi sang Long-term Memory nhờ Hippocampus        |
 | **Tăng cường**    | Gắn sâu bằng cảm xúc và hormone                  |
 | **Phân phối**     | Di chuyển đến Vỏ Não tương ứng                   |
 | **Kích hoạt lại** | Dựa trên cảm xúc và bối cảnh, Engram được gọi ra |
 
-### Để Quên Ký Ức
+### Để quên Ký Ức (Long-term Memory), có 4 dạng
+* Không thể Truy Xuất
+* Không thể Ghi Nhớ
+* Bị Xóa
+  * Ngắn Hạn: Mạng Neuron Tắt Đèn
+  * Dài Hạn: Gãy Synapse, Yếu Hạt Neron
 
 | **Dạng**                | Mô tả                                             | Cơ chế thần kinh                                                             |
-| ------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ----------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Không thể Truy Xuất** | Ký ức vẫn tồn tại nhưng không thể gọi ra đúng lúc | Engram không được kích hoạt                                                  |
 | **Không thể Ghi Nhớ**   | Thông tin không được mã hóa đủ mạnh               | Hippocampus không hoạt động hiệu quả                                         |
 | **Bị Xóa**              | Ký ức từng tồn tại nhưng đã bị loại bỏ            | Synapse bị gãy, Hạt Neuron yếu, mạng nơ-ron tái cấu trúc, bị ghi đè hoặc xóa |
 | **Ngắn Hạn**            | Mất tạm thời do gián đoạn hoạt động nơ-ron        | Tín hiệu điện không được duy trì                                             |
 | **Quên có chủ đích**    | Cố tình không nhớ đến một ký ức cụ thể            | Prefrontal Cortex phối hợp với ACC để ức chế Engram                          |
+
+### Để tăng Ký Ức (Short-term Memory), áp dụng Chunking Memory
+
+Working Memory trong Não Trước Chán (Sự Kết hợp giữa Short-term Memory và Não Trước Chán)
+
+* Dung lượng của Working Memory là 4 ± 1 đơn vị
+
+* Dung lượng của Chunking Memory là 7 ± 2 đơn vị
+
+Ví dụ
+
+* dãy số “1-9-9-5-2-0-2-5”, hóa chunk thành “1995” và “2025”
+
+→ Não trước trán xử lý 2 khối như 2 đơn vị, giúp tiết kiệm tài nguyên nhận thức.
+
+
+
+:::info[Khái Niệm]
+
+* Short-term Memory là Trí Nhớ Ngắn Hạn
+
+* Long-term Memory là Trí Nhớ Dài Hạn
+
+* Working Memory là Trí Nhớ Ngắn Hạn + Não Trước Chán
+
+* Chunking Memory là Working Memory + Chunk
+
+* Não trước Chán là Vùng Não Suy Nghĩ
+
+:::
+
 
 ## 4. Kết Luận
 

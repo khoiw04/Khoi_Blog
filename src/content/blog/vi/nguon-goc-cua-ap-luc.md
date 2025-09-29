@@ -77,7 +77,7 @@ Rối loạn Hocmone là Cortisol tăng quá cao trong khi Serotonin quá thấp
 
 **Kết Luận**
 
-Rối loạn Hocmone hình thành khi Cortisol tăng quá cao
+> Rối loạn Hocmone hình thành khi Cortisol tăng quá cao
 
 ## 3. Hậu Quả
 

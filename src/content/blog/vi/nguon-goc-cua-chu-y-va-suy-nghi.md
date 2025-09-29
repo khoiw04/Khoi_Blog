@@ -19,9 +19,10 @@ Chú Ý Chủ Động dựa trên 3 Yếu tố:
 * **Bộ Lọc Chú Ý**: Lọc Đầu Vào  
 * **Bộ Lọc Nơ-ron**: Lọc Thông Tin  
 
-Chú Ý Tự Động dựa trên 2 Yếu tố:
+Chú Ý Tự Động dựa trên 3 Yếu tố:
 
 * **Hệ thống Reticular Activating System (RAS)**: Chú ý Sự Tương Phản  
+* **Độ Mạnh Hocmone**: Độ Mạnh, Yếu của Cảm Xúc
 * **Dopamine**: Tốc Độ Hứng Thú qua Tốc Độ Hiểu Thông Tin  
 
 ## 2. Quy Luật

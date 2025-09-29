@@ -46,6 +46,15 @@ const alltagsEnum = [
   ...devtagsObj.map(data => data.nameVi),
   ...sciencetagsObj.map(data => data.nameEn),
   ...sciencetagsObj.map(data => data.nameVi),
-]
+  // "Tanstack",
+  // "Tauri",
+  // "Rust",
+  // "Why?",
+  // "Curious",
+  // "Source",
+  // "Nguồn Gốc",
+  // "Tò Mò",
+  // "Tại Sao"
+] as const
 
 export { devtagsObj, sciencetagsObj, alltagsEnum }

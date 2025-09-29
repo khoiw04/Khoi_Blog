@@ -14,11 +14,12 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: image().optional(),
-			tags: z.array(
-				z.string().refine(val => alltagsEnum.includes(val as typeof alltagsEnum[number]), {
-					message: "Tag invaild",
-				})
-			).optional(),
+			// tags: z.array(
+			// 	z.string().refine(val => alltagsEnum.includes(val as typeof alltagsEnum[number]), {
+			// 		message: "Tag invaild",
+			// 	})
+			// ).optional(),
+			tags: z.array(z.enum(alltagsEnum)).optional(),
 			dev: z.boolean().optional()
 		})
 });
