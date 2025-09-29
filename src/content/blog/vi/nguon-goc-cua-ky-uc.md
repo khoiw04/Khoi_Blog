@@ -153,6 +153,21 @@ Ví dụ
 
 :::
 
+:::result[Tóm Tắt]
+**Nhớ là do:**
+
+* Nhớ sâu dựa trên độ Mạnh của Hocmone Cảm Xúc
+
+* Nhớ lâu là do suy nghĩ Lặp Đi Lặp Lại
+
+
+
+**Quên là do:**
+
+* Não quên là do độ Yếu của Hocmone Cảm Xúc
+
+* Não quên là do tần suất Sử Dụng 
+:::
 
 ## 4. Kết Luận
 
