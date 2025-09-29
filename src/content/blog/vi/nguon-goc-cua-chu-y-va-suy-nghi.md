@@ -45,7 +45,7 @@ Chú Ý Tự Động dựa trên 2 Yếu tố:
 | **Loại thông tin** | **Thalamus** (Giới hạn đầu vào) | **Não trước trán** (Giới hạn xử lý) |
 |----------------|----------------------------------|--------------------------------------|
 | **Âm thanh**       | ~3–5 tín hiệu nổi bật mỗi giây | ~1–2 luồng âm thanh có thể tập trung |
-| **Hình ảnh**       | ~4–6 hình ảnh vận thể mỗi giây | ~2 hình ảnh duy trì trong trí nhớ    |
+| **Hình ảnh**       | ~4–6 hình ảnh rõ ràng mỗi giây | ~2 hình ảnh duy trì trong trí nhớ    |
 | **Vận động**       | ~2–3 chuyển động rõ ràng mỗi giây | ~1–2 hành động có thể lên kế hoạch |
 
 :::info[Khái Niệm]

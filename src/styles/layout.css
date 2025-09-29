@@ -42,7 +42,7 @@ body {
 	}
 }
 ::selection {
-  background-color: var(--popover);
+  background-color: oklch(91.483% 0.01938 41.573);
   color: oklch(0.6 0.12 38.6);
 }
 
