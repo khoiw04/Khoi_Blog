@@ -73,32 +73,45 @@ const embedHandlers = {
 
   // Youtube
   youtube: (node) => {
-    let videoId = node.attributes?.id ?? ''
-    const url = node.attributes?.url ?? ''
+    let videoId = node.attributes?.id ?? '';
+    const url = node.attributes?.url ?? '';
+    let time = 0;
 
     if (!videoId && url) {
-      const match = url.match(/(?:v=|\/embed\/|youtu\.be\/)([\w-]{11})/)
-      if (match) videoId = match[1]
+      const match = url.match(/(?:v=|\/embed\/|youtu\.be\/)([\w-]{11})/);
+      if (match) videoId = match[1];
+
+      const timeMatch = url.match(/[?&]t=(\d+)/);
+      if (timeMatch) {
+        time = parseInt(timeMatch[1]);
+      }
     }
 
     if (!videoId) {
-      return false
+      return false;
+    }
+
+    let embedUrl = `https://www.youtube.com/embed/${videoId}`;
+
+    if (time > 0) {
+      embedUrl += `?start=${time}`;
     }
 
     return `
-    <figure class="button">
-      <iframe
-        style="border-radius:6px"
-        src="https://www.youtube.com/embed/${videoId}"
-        title="YouTube video player"
-        loading="lazy"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </figure>
-    `
+      <figure class="button">
+        <iframe
+          style="border-radius:0.65rem"
+          src="${embedUrl}"
+          title="YouTube video player"
+          loading="lazy"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </figure>
+    `;
   },
+
 
   // Bilibili
   bilibili: (node) => {

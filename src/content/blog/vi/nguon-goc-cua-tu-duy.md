@@ -66,7 +66,7 @@ Trích từ Một Lời trong “Toxic Productivity”:
 
 > _Các bạn không take action, khi nhìn lại bạn vẫn chỉ là version bây giờ của bạn mà thôi._
 
-::youtube{url="<https://youtu.be/csPULYgl6qs?si=hESuoXZFhE08fZIO&t=375>"}
+::youtube{url="https://www.youtube.com/watch?v=csPULYgl6qs&t=375s"}
 
 ## 4. Kết Luận
 

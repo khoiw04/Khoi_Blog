@@ -21,7 +21,7 @@ tags: ["Nguồn Gốc"]
 
 ## 2. Quy Luật
 
-Để hình thành, Áp Lực chỉ cần cơ chế:
+### Để hình thành, Áp Lực chỉ cần cơ chế:
 
 * Ép Buộc *aka. Anterior Cingulate Cortex (aMccc)*
 * Quá Tải
@@ -98,7 +98,7 @@ Rối loạn Hocmone hình thành khi Cortisol tăng quá cao
 
 Qua đây mới thấy, Con Người chúng ta không Yếu Đuối, chỉ là ai Đột Quỵ trước mà thôi
 
-::youtube{url="<https://youtu.be/4DEK3cia8cI?si=18PNILwlhLi-XZ0Z&t=922>"}
+::youtube{url="https://www.youtube.com/watch?v=4DEK3cia8cI&t=922s"}
 
 Bài viết tiếp theo là *Tại sao Cơ thể luôn lướt Điện Thoại, Nghe Nhạc, tìm những thứ Kích Thích khi Áp Lực*
 
