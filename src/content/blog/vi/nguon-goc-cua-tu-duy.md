@@ -62,9 +62,9 @@ Về Khả năng Sử dụng, gồm 2 Yếu Tố:
 5. **Đánh Giá** Lập luận, nhận xét, đưa ra quan điểm dựa trên tiêu chí.
 6. **Sáng Tạo** Tạo ra ý tưởng mới, giải pháp mới, kết nối kiến thức nhờ Chế Độ Phân Tán.
 
-Trích từ Một Lời trong “Toxic Productivity”:
+Vậy nên Trích từ Một Lời trong “Toxic Productivity”:
 
-> _Các bạn không take action, khi nhìn lại bạn vẫn chỉ là version bây giờ của bạn mà thôi._
+> _"Các bạn không take action, khi nhìn lại bạn vẫn chỉ là version bây giờ của bạn mà thôi."_ -- Nguyen Duy Thanh
 
 ::youtube{url="https://www.youtube.com/watch?v=csPULYgl6qs&t=375s"}
 

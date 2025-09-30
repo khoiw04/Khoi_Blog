@@ -36,9 +36,15 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 | **Điểm Kết Thúc (Synapse)**        | Chuyển tín hiệu điện thành tín hiệu hóa học cho Dendrite                                |
 | **Nút Tận Cùng (Terminal Button)** | Giải phóng chất dẫn truyền thần kinh (Dopamine, Oxytocin, Noradrenaline, …) vào Synapse |
 
-![Mạng lưới Neuron](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lifewire.com%2Fthmb%2FeH5E3lf2twuxmdbZxMZOxf4tC0w%3D%2F5000x3750%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fwhat-is-neural-network-bd8fc6a5fb6f40bba291b64e609ee0b7.jpeg&f=1&nofb=1&ipt=0042e3905169057cbd70f0342bf1fe0f80a632bac650137c796e2d7ec26ecbe9)
+> Quá trình Truyền Tín Hiệu
+> 
+> Terminal Button → Synapse → Dendrite → Soma → Axon → _Myelin + Ranvier_ → Terminal Button
+> 
+> Nút Tận Cùng → Điểm Kết Thúc → Nhánh → Thân → Dây → _Bao + Nút_ → Nút Tận Cùng
 
-![Bộ phận Neuron](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fexatin.info%2Fwp-content%2Fuploads%2Fdiagram-of-a-neuron-the-neuron-is-the-building-block-of-the-nervous-system.jpg&f=1&nofb=1&ipt=1676c26d520e6d1779bada885446b4efff05583dcd417297450a94967b44abab)
+![Mạng lưới Thần Kinh](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lifewire.com%2Fthmb%2FeH5E3lf2twuxmdbZxMZOxf4tC0w%3D%2F5000x3750%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fwhat-is-neural-network-bd8fc6a5fb6f40bba291b64e609ee0b7.jpeg&f=1&nofb=1&ipt=0042e3905169057cbd70f0342bf1fe0f80a632bac650137c796e2d7ec26ecbe9)
+
+![Bộ phận Nơ-ron](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fexatin.info%2Fwp-content%2Fuploads%2Fdiagram-of-a-neuron-the-neuron-is-the-building-block-of-the-nervous-system.jpg&f=1&nofb=1&ipt=1676c26d520e6d1779bada885446b4efff05583dcd417297450a94967b44abab)
 
 ![Engram là Mạng lưới Thần Kinh nhỏ lưu trữ Ký Ức](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F5a151755bff2007c8dffebcb%2Fa768f1c7-d798-41e9-bd9f-ba366dba0fa8%2Fengram_cells.001.png&f=1&nofb=1&ipt=f319e3e81ccb96ca27939b079c8c9ecdf440d5f435d26709c155925c710442a0)
 
@@ -141,15 +147,15 @@ Ví dụ
 
 :::info[Khái Niệm]
 
-* Short-term Memory là Trí Nhớ Ngắn Hạn
+* **Short-term Memory** là Trí Nhớ Ngắn Hạn
 
-* Long-term Memory là Trí Nhớ Dài Hạn
+* **Long-term Memory** là Trí Nhớ Dài Hạn
 
-* Working Memory là Trí Nhớ Ngắn Hạn + Não Trước Chán
+* **Working Memory** là Trí Nhớ Ngắn Hạn + Não Trước Chán
 
-* Chunking Memory là Working Memory + Chunk
+* **Chunking Memory** là Working Memory + Chunk
 
-* Não trước Chán là Vùng Não Suy Nghĩ
+* **Não trước Chán** là Vùng Não Suy Nghĩ
 
 :::
 

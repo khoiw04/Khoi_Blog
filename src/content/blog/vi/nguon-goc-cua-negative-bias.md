@@ -31,6 +31,12 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 
 * Ưu tiên Kí Ức Tiêu Cực
 
+* Phản Ứng Tiêu Cực gấp 10 lần
+
+* Nhớ Tiêu Cực gấp 5 lần
+
+* Quên Tiêu Cực nhanh hơn
+
 ### Negative Bias nhờ:
 
 * nhờ Thời Tổ Tiên, kéo dài hàng nghìn năm trước Công Nguyên
