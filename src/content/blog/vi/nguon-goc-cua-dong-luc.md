@@ -42,7 +42,7 @@ Dopamine là một hocmone “Động Lực“ cho ta sự Phấn Đấu qua cá
 
 ## 2. Quy luật
 
-### Dopamine -- Động Lực được Giải Phóng khi
+### **Dopamine -- Động Lực được Giải Phóng khi**
 
 * Kì vọng Phần Thưởng
 
@@ -52,7 +52,13 @@ Dopamine là một hocmone “Động Lực“ cho ta sự Phấn Đấu qua cá
 >
 >→ Khi Đạt được Phần Thưởng, làm tăng cường Bộ Não hoạt động, kích thích Chúng ta làm tiếp
 
-### Dopamine chỉ Thích Phần Thưởng, không phải Cách Thức
+### **3 Trường hợp Kỳ Vọng**
+
+ * Nếu phần thưởng **ĐÚNG** như kỳ vọng → Dopamine tiết ra vừa Đủ → cảm giác “Trọn Vẹn” → Hành vi được Đóng vòng, không làm nữa
+ * Nếu phần thưởng **VƯỢT** kỳ vọng → Dopamine tiết ra Mạnh → cảm giác “Phấn Khích”, muốn làm tiếp
+ * Nếu phần thưởng **THẤP** hơn kỳ vọng → Dopamine tiết ra Ít → cảm giác “Thiếu”, “chưa đủ”, ”Chán” → Từ bỏ hành vi không hiệu quả
+
+### **Dopamine chỉ Thích Phần Thưởng, không phải Cách Thức**
 
 > Dopamine không trung thành với ”Cách Thức”, mà trung thành với Phần Thưởng.
 >

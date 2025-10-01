@@ -66,12 +66,13 @@ tags: ["Nguồn Gốc"]
 * Xử lý bởi **Hệ thống Limbic** — **Hệ 1**  
 * Dựa trên mạng lưới thần kinh đã có  
 * Kích hoạt bởi trải nghiệm, ký ức, cảm xúc quen thuộc  
-* Xử lý trong vài mili giây  
+* Kết hợp thông tin mới (do Phần Người -- Não Trước Trán tạo ra)
+* Xử lý trong vài mili giây
 → Phản xạ tức khắc
 
 ### Về Chậm mà Chắc
 
-* Xử lý bởi **Não Trước Chán** — **Hệ 2**  
+* Xử lý bởi **Não Trước Trán** — **Hệ 2**  
 * Dựa trên mạng lưới thần kinh mới hoặc kết hợp  
 * Kích hoạt bởi thông tin chưa quen thuộc  
 * Xử lý từ 4 giây trở lên  

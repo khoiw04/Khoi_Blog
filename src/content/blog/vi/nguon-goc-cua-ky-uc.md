@@ -94,14 +94,14 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 | **Cảm Xúc**    | Amygdala                                |
 | **Vận Động**   | Cerebellum, Basal Ganglia, Motor Cortex |
 
-### Để gợi Ký Ức, cần 2 yếu tố
+### **Để gợi Ký Ức, cần 2 yếu tố**
 
 | **Yếu tố gợi ký ức**        | Vai trò           |
 | --------------------------- | ----------------- |
 | **State-Dependent (60%)**   | Dựa trên cảm xúc  |
 | **Context-Dependent (40%)** | Dựa trên bối cảnh |
 
-### Để lưu Ký Ức (Long-term Memory), cần 3 yếu tố
+### **Để lưu Ký Ức (Long-term Memory), cần 3 yếu tố**
 * Short-term Memory
 * Hippocampus
 * Hocmone
@@ -110,11 +110,11 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 | ----------------- | ------------------------------------------------ |
 | **Tiếp nhận**     | Lưu Short-term Memory vào Prefrontal Cortex      |
 | **Mã hóa**        | Đổi sang Long-term Memory nhờ Hippocampus        |
-| **Tăng cường**    | Gắn sâu bằng cảm xúc và hormone                  |
+| **Tăng cường**    | Gắn sâu bằng cảm xúc và Hocmone                  |
 | **Phân phối**     | Di chuyển đến Vỏ Não tương ứng                   |
 | **Kích hoạt lại** | Dựa trên cảm xúc và bối cảnh, Engram được gọi ra |
 
-### Để quên Ký Ức (Long-term Memory), có 4 dạng
+### **Để quên Ký Ức (Long-term Memory), có 4 dạng**
 * Không thể Truy Xuất
 * Không thể Ghi Nhớ
 * Bị Xóa
@@ -129,7 +129,7 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 | **Ngắn Hạn**            | Mất tạm thời do gián đoạn hoạt động nơ-ron        | Tín hiệu điện không được duy trì                                             |
 | **Quên có chủ đích**    | Cố tình không nhớ đến một ký ức cụ thể            | Prefrontal Cortex phối hợp với ACC để ức chế Engram                          |
 
-### Để tăng Ký Ức (Short-term Memory), áp dụng Chunking Memory
+### **Để tăng Ký Ức (Short-term Memory), áp dụng Chunking Memory**
 
 Working Memory trong Não Trước Chán (Sự Kết hợp giữa Short-term Memory và Não Trước Chán)
 

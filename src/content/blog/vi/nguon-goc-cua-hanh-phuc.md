@@ -87,7 +87,7 @@ là ghi nhớ, nhớ lại theo cảm xúc.
 Khi Vui thì nhớ Tích Cực  
 Khi Buồn thì nhớ Tiêu Cực
 
-| Hormone | Trạng thái | Ảnh hưởng đến trí nhớ | 
+| Hocmone | Trạng thái | Ảnh hưởng đến trí nhớ | 
 | --- | --- | --- | 
 | **Oxytocin** | Yêu thương, thư giãn | Ghi nhớ tích cực, xã hội, dễ hồi tưởng khi cảm xúc tương tự | 
 | **Cortisol** | Căng thẳng, lo âu, tập trung | Ghi nhớ _gấp 10 lần_ hơn tích cực nhưng tiêu cực, dễ nhớ lại khi stress do Negative Bias | 
