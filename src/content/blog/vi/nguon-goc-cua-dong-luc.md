@@ -42,6 +42,18 @@ Dopamine là một hocmone “Động Lực“ cho ta sự Phấn Đấu qua cá
 
 ## 2. Quy luật
 
+### Dopamine -- Động Lực được Giải Phóng khi
+
+* Kì vọng Phần Thưởng
+
+* Đạt Phần Thưởng
+
+>→ Động Lực đã bắt đầu, khi Chúng Ta đang Kỳ vọng Phần Thưởng
+>
+>→ Khi Đạt được Phần Thưởng, làm tăng cường Bộ Não hoạt động, kích thích Chúng ta làm tiếp
+
+### Dopamine chỉ Thích Phần Thưởng, không phải Cách Thức
+
 > Dopamine không trung thành với ”Cách Thức”, mà trung thành với Phần Thưởng.
 >
 > Chung Một Phần Thưởng, Hai Cách Thức khác nhau thì Mong Muốn và Sảng Khoái đều khác nhau

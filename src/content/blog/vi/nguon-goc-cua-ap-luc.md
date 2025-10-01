@@ -13,7 +13,7 @@ tags: ["Nguồn Gốc"]
 
 > Đây là Lí do Bài Viết này được Tồn Tại
 
-*Lưu ý: Bài viết này Liên Hệ bài viết “Nguồn gốc của* Kỉ Luật“
+*Lưu ý: Bài viết này Liên Hệ bài viết “Nguồn gốc của Kỉ Luật“*
 
 ## 1. Khái niệm
 
