@@ -13,13 +13,13 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái Niệm
 
-Chú Ý Chủ Động dựa trên 3 Yếu tố:
+### Chú Ý Chủ Động dựa trên 3 Yếu tố:
 
 * **Cortisol**: Hocmone Tập Trung  
 * **Bộ Lọc Chú Ý**: Lọc Đầu Vào  
 * **Bộ Lọc Nơ-ron**: Lọc Thông Tin  
 
-Chú Ý Tự Động dựa trên 3 Yếu tố:
+### Chú Ý Tự Động dựa trên 3 Yếu tố:
 
 * **Hệ thống Reticular Activating System (RAS)**: Chú ý Sự Tương Phản  
 * **Độ Mạnh Hocmone**: Độ Mạnh, Yếu của Cảm Xúc
@@ -30,16 +30,16 @@ Chú Ý Tự Động dựa trên 3 Yếu tố:
 ### Để hình thành, Chú Ý Chủ Động chỉ cần Yếu Tố:
 
 * **Cortisol**  
-  * Cơ Chế: Căng Thẳng, Tập Trung  
-  * Điều Kiện: Cortisol Tăng Cao  
+  Cơ Chế: Căng Thẳng, Tập Trung  
+  Điều Kiện: Cortisol Tăng Cao  
 
 * **Bộ Lọc Chú Ý**  
-  * Cơ Chế: Tắc Nghẽn Cổ Chai Tự Nhiên  
-  * Điều Kiện: Thalamus Luôn Hoạt động  
+  Cơ Chế: Tắc Nghẽn Cổ Chai Tự Nhiên  
+  Điều Kiện: Thalamus Luôn Hoạt động  
 
 * **Bộ Lọc Nơ-ron**  
-  * Cơ Chế: Tắc Nghẽn Cổ Chai Não Trước Chán  
-  * Điều Kiện: Suy Nghĩ  
+  Cơ Chế: Tắc Nghẽn Cổ Chai Não Trước Chán  
+  Điều Kiện: Suy Nghĩ  
 
 ### Bảng Giới Hạn Xử Lý
 

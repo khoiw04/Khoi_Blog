@@ -22,15 +22,15 @@ Tính Cách dựa trên 3 cơ chế:
 
 ## 2. Quy Luật
 
-Về Gen Cảm Xúc: 10%, quyết định ưu tiên Căng Thẳng hay Hạnh Phúc, Cortisol hay Serotonin
+**Về Gen Cảm Xúc: 10%,** quyết định ưu tiên Căng Thẳng hay Hạnh Phúc, Cortisol hay Serotonin
 
-Về Động Lực Sống: 50%, quyết định làm Người hay theo Buồm Gió, thích nghi theo Môi Trường
+**Về Động Lực Sống: 50%,** quyết định làm Người hay theo Buồm Gió, thích nghi theo Môi Trường
 
-Về Môi Trường: 40%, quyết định cảm xúc Tiêu Cực hay Tích Cực:
+**Về Môi Trường: 40%,** quyết định cảm xúc Tiêu Cực hay Tích Cực:
 
-  * xung quanh Tích Cực gợi lại Tích Cực, Raphe Nuclei
+  * xung quanh Tích Cực gợi lại Tích Cực
 
-  * xung quanh Tiêu Cực gợi lại Tiêu Cực, Amygdala
+  * xung quanh Tiêu Cực gợi lại Tiêu Cực
 
 ## 3. Kết Luận
 
@@ -48,6 +48,6 @@ Hiểu được Ba cơ chế này giúp Ta không chỉ nhận diện Tính Các
 
 | Nguồn | Nội dung chính | Link tham khảo | 
 | --- | --- | --- | 
-| **Developmental Psychology – APA** | Nghiên cứu đa thế hệ cho thấy tính cách chịu ảnh hưởng đồng thời từ yếu tố di truyền và môi trường sống. Các đặc điểm như sự tận tâm hay cảm giác bị cô lập có thể được khuếch đại hoặc giảm nhẹ tùy theo hoàn cảnh xã hội và kinh tế. | [Xem bài nghiên cứu tại đây](https://psycnet.apa.org/fulltext/2021-14131-001.html) | 
-| **Journal of Personality and Social Psychology – APA** | Nghiên cứu chuyên sâu về ảnh hưởng của gen và môi trường đến sự hình thành tính cách, đặc biệt là các đặc điểm như hướng ngoại, tận tâm và ổn định cảm xúc. | [Xem bài nghiên cứu tại đây](https://doi.org/10.1037/pspp0000395) | 
-| **Psychology Pressbooks – Canada** | Giải thích cách gen truyền đặc điểm tính cách qua các thế hệ, và cách môi trường cá nhân ảnh hưởng đến sự phát triển tính cách. Nêu rõ rằng không có một gen duy nhất quyết định tính cách, mà là sự phối hợp của nhiều gen và trải nghiệm sống. | [Xem bài học tại đây](https://psychology.pressbooks.tru.ca/chapter/14-5-genetic-and-environmental-influences-on-personality/) | 
+| **Developmental Psychology – APA** | Nghiên cứu đa thế hệ cho thấy tính cách chịu ảnh hưởng đồng thời từ yếu tố di truyền và môi trường sống. Các đặc điểm như sự tận tâm hay cảm giác bị cô lập có thể được khuếch đại hoặc giảm nhẹ tùy theo hoàn cảnh xã hội và kinh tế. | [Xem tại đây](https://psycnet.apa.org/fulltext/2021-14131-001.html) | 
+| **Journal of Personality and Social Psychology – APA** | Nghiên cứu chuyên sâu về ảnh hưởng của gen và môi trường đến sự hình thành tính cách, đặc biệt là các đặc điểm như hướng ngoại, tận tâm và ổn định cảm xúc. | [Xem tại đây](https://doi.org/10.1037/pspp0000395) | 
+| **Psychology Pressbooks – Canada** | Giải thích cách gen truyền đặc điểm tính cách qua các thế hệ, và cách môi trường cá nhân ảnh hưởng đến sự phát triển tính cách. Nêu rõ rằng không có một gen duy nhất quyết định tính cách, mà là sự phối hợp của nhiều gen và trải nghiệm sống. | [Xem tại đây](https://psychology.pressbooks.tru.ca/chapter/14-5-genetic-and-environmental-influences-on-personality/) | 
