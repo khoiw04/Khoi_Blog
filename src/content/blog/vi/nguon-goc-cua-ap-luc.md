@@ -46,7 +46,7 @@ aMccc là vùng não giúp ta cưỡng chế hành vi khi không có phần thư
 
 ### Về Quá Tải
 
-Quá Tải là Não trước Chán có quá nhiều Thông Tin, Vấn Đề không thể xử lý
+Quá Tải là Não trước Trán có quá nhiều Thông Tin, Vấn Đề không thể xử lý
 
 **Ví dụ:**
 
@@ -85,7 +85,7 @@ Rối loạn Hocmone là Cortisol tăng quá cao trong khi Serotonin quá thấp
 | --- | --- | 
 | **Cảm xúc** | Lo âu, Cáu gắt, Chán nản, Không thể Vui, Lạm Dụng Dopamine mới có thể, Suy giảm Nhận Thức, Trí Nhớ. Burnout | 
 | **Hành vi – Sinh học** | Kiểm soát Quá Mức, Ăn uống Vô độ, Mất ngủ | 
-| **Thể chất – Nội tạng** | Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Suy giảm Hippocampus, Não Trước Chán và Khả năng Sinh sản Hạt Neuron, Thoãi Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim. | 
+| **Thể chất – Nội tạng** | Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Suy giảm Hippocampus, Não Trước Trán và Khả năng Sinh sản Hạt Neuron, Thoãi Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim. | 
 
 ## 4. Kết Luận
 

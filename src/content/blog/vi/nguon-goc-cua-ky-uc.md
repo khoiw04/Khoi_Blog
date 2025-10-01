@@ -131,7 +131,7 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 
 ### **Để tăng Ký Ức (Short-term Memory), áp dụng Chunking Memory**
 
-Working Memory trong Não Trước Chán (Sự Kết hợp giữa Short-term Memory và Não Trước Chán)
+Working Memory trong Não Trước Trán (Sự Kết hợp giữa Short-term Memory và Não Trước Trán)
 
 * Dung lượng của Working Memory là 4 ± 1 đơn vị
 
@@ -151,11 +151,11 @@ Ví dụ
 
 * **Long-term Memory** là Trí Nhớ Dài Hạn
 
-* **Working Memory** là Trí Nhớ Ngắn Hạn + Não Trước Chán
+* **Working Memory** là Trí Nhớ Ngắn Hạn + Não Trước Trán
 
 * **Chunking Memory** là Working Memory + Chunk
 
-* **Não trước Chán** là Vùng Não Suy Nghĩ
+* **Não trước Trán** là Vùng Não Suy Nghĩ
 
 :::
 

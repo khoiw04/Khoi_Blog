@@ -52,45 +52,44 @@ Dopamine là một hocmone “Động Lực“ cho ta sự Phấn Đấu qua cá
 >
 >→ Khi Đạt được Phần Thưởng, làm tăng cường Bộ Não hoạt động, kích thích Chúng ta làm tiếp
 
-### **3 Trường hợp Kỳ Vọng**
+### **Khi Dopamine được tiết ra khi Đạt Phần Thưởng**
 
- * Nếu phần thưởng **ĐÚNG** như kỳ vọng → Dopamine tiết ra vừa Đủ → cảm giác “Trọn Vẹn” → Hành vi được Đóng vòng, không làm nữa
+#### **Sự Kỳ Vọng**
+
+ * Nếu phần thưởng **ĐÚNG** như kỳ vọng → Dopamine tiết ra vừa Đủ → cảm giác “Trọn Vẹn” → Hành vi được Đóng vòng, Không làm nữa
  * Nếu phần thưởng **VƯỢT** kỳ vọng → Dopamine tiết ra Mạnh → cảm giác “Phấn Khích”, muốn làm tiếp
  * Nếu phần thưởng **THẤP** hơn kỳ vọng → Dopamine tiết ra Ít → cảm giác “Thiếu”, “chưa đủ”, ”Chán” → Từ bỏ hành vi không hiệu quả
 
-### **Dopamine chỉ Thích Phần Thưởng, không phải Cách Thức**
+#### **Độ Bất Ngờ**
 
-> Dopamine không trung thành với ”Cách Thức”, mà trung thành với Phần Thưởng.
->
-> Chung Một Phần Thưởng, Hai Cách Thức khác nhau thì Mong Muốn và Sảng Khoái đều khác nhau
->
-Hãy tưởng tượng, Bạn tra cứu Từ Điển, Bạn chọn cách nào?
+ * Nếu phần thưởng **Mới Lạ, Bất Ngờ** → Dopamine tăng mạnh → Bộ Não đánh giá là đáng giá
+ * Nếu phần thưởng **Lặp lại, Quen thuộc** → Dopamine tiết ra ít hơn → Bộ Não có thể đánh giá là “đã đủ”
 
- * Google Dịch
+#### **Nỗ Lực Bỏ ra**
 
- * Một Cuốn Từ Điển dày 1000 trang và nặng 5kg
+ * Nếu **Bỏ nhiều Công Sức** để đạt Phần Thưởng mà Phần Thưởng **XỨNG ĐÁNG** → Dopamine tiết ra nhiều hơn → cảm giác “đáng công”
 
-Hãy tưởng tượng, Bạn tò mò Thứ Bạn Muốn, Bạn chọn cách nào?
+ * Nếu **quá Dễ Dàng** mà Phần Thưởng **KHÔNG XỨNG ĐÁNG**, đã làm → Dopamine tiết ra ít → cảm giác “chưa đủ”
 
- * Hỏi AI
+![Bảng so sánh Phần Thưởng xứng đáng hay không? -- "Flow"](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.diygenius.com%2Fwp-content%2Fuploads%2F2015%2F08%2Fchallenge-and-skills.jpg&f=1&nofb=1&ipt=deb05e6559145ceadee6a51e0a62001898f9258c27a5fc34ece3f73587ac8c1e)
 
- * Đọc 3-4 cuốn sách
+:::result[Tóm Tắt]
 
-Hãy tưởng tượng, Bạn gặp Vấn Đề Tranh Cãi ngoài Xã Hội, Bạn chọn cách nào?
+Nếu Phần thưởng đúng như Kỳ Vọng và bỏ Ra Công Sức Vừa Đủ → Dopamine "tăng đều" → Chỉ Duy Trì
 
- * Bạn chỉ nhận Phần Đúng về Mình
-
- * Bạn Giải thích, Lắng Nghe Ý Kiến đôi bên, Giải quyết Vấn Đề Cốt Lõi
-
-:::result[Kết Luận]
-
- Đây là Minh Chứng Sống, Dopamine không trung thành với ”Cách Thức”, mà trung thành với “Phần Thưởng“.
-
- Nó chỉ cho ta nhiều “Động Lực” khi “Cách Thức” *Aka. Kỳ Vọng* càng Dễ Dàng, Nhanh Chóng, Nhẹ Nhàng
+Nếu Phần thưởng Vượt Kỳ Vọng và Bỏ Ra Công Sức Ít hoặc Vừa Đủ → Dopamine "tăng mạnh" → Tò Mò, Khám Phá thêm
 
 :::
 
-## 3. Kết Luận
+## 3. Liên Hệ
+
+### Khi Một Người đặt Câu hỏi _“Tại sao trời mưa?”_, làm sao để biết Học Sinh nào nhận được Câu Trả Lời "[**Đúng như Kỳ Vọng**](#3-trường-hợp-kỳ-vọng)" hay "[**Vượt Kỳ Vọng**](#3-trường-hợp-kỳ-vọng)"?
+
+* Nếu Học Sinh đó đã đoán được trước và bỏ ra công sức vừa đủ thì câu trả lời chỉ đúng như kỳ vọng → Dopamine tiết ra vừa đủ → cảm giác “à, đúng rồi” → hài lòng và duy trì.
+
+* Nếu Học Sinh đó chưa từng biết và bỏ ra công sức ít hoặc vừa đủ thì câu trả lời vượt kỳ vọng → Dopamine tiết ra mạnh → cảm giác “ồ, hay quá!” → muốn tìm hiểu thêm.
+
+## 4. Kết Luận
 
 Đây là Mở Đầu cho những Vấn Đề Nan Giải Tiếp theo.
 

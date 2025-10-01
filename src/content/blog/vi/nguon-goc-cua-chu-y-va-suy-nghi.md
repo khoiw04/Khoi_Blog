@@ -38,7 +38,7 @@ tags: ["Nguồn Gốc"]
   Điều Kiện: Thalamus Luôn Hoạt động  
 
 * **Bộ Lọc Nơ-ron**  
-  Cơ Chế: Tắc Nghẽn Cổ Chai Não Trước Chán  
+  Cơ Chế: Tắc Nghẽn Cổ Chai Não Trước Trán  
   Điều Kiện: Suy Nghĩ  
 
 ### Bảng Giới Hạn Xử Lý
@@ -68,15 +68,17 @@ tags: ["Nguồn Gốc"]
 * Kích hoạt bởi trải nghiệm, ký ức, cảm xúc quen thuộc  
 * Kết hợp thông tin mới (do Phần Người -- Não Trước Trán tạo ra)
 * Xử lý trong vài mili giây
-→ Phản xạ tức khắc
+
+  → Phản xạ tức khắc
 
 ### Về Chậm mà Chắc
 
 * Xử lý bởi **Não Trước Trán** — **Hệ 2**  
 * Dựa trên mạng lưới thần kinh mới hoặc kết hợp  
 * Kích hoạt bởi thông tin chưa quen thuộc  
-* Xử lý từ 4 giây trở lên  
-→ Phân tích sâu, tiêu hao năng lượng
+* Xử lý từ 4 giây trở lên
+
+  → Phân tích sâu, tiêu hao năng lượng
 
 ### Bảng So Sánh Hệ 1 và Hệ 2
 
@@ -117,7 +119,7 @@ tags: ["Nguồn Gốc"]
 * No-Go: “Bật đèn đỏ” để ức chế hành động  
 
 **Người Điều hành**  
-* Não Trước Chán: ra lệnh  
+* Não Trước Trán: ra lệnh  
 * Thể Vân (Striatum): thi hành  
   * Thể vân lưng: vận động, thói quen  
   * Thể vân bụng: động lực, phần thưởng, cảm xúc  
