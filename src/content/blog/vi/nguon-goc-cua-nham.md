@@ -19,7 +19,7 @@ tags: ["Nguồn Gốc"]
 ## 2. Quy Luật
 Để Nhầm, chỉ cần: **Mạng Lưới Thần Kinh hoạt động chưa kịp thời**
 
-![Minh họa Mạng lưới Thần Kinh](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.theconversation.com%2Ffiles%2F374303%2Foriginal%2Ffile-20201210-18-elk4m.jpg%3Fixlib%3Drb-1.1.0%26rect%3D0%252C22%252C7500%252C5591%26q%3D45%26auto%3Dformat%26w%3D754%26fit%3Dclip&f=1&nofb=1&ipt=0e49c855f571e06452bf053732e173f6a300fcaeb2dfd15d813bb9a66a5fadca)
+::youtube{url="https://www.youtube.com/watch?v=qr2gR0UOlfg"}
 
 :::info[Khái Niệm]
 **Mạng Lưới Thần Kinh là Ký Ức của Chúng Ta**
@@ -38,4 +38,4 @@ tags: ["Nguồn Gốc"]
 - Bạn đi nhầm đường vì tuyến đường cũ từng được sử dụng thường xuyên hơn  
 - Mạng lưới thần kinh ưu tiên đường quen → dẫn đến nhầm lẫn
 ## 4. Kết Luận
-Kết quả của Từ “Nhầm” đơn giản là Bộ Não bạn chưa kịp Truy Xuất Thông Tin mà Bạn cần mà thôi
+Kết quả của Từ “Nhầm” đơn giản là Mạng Lưới Thần Kinh của Bạn chưa kịp Thay Đổi mà thôi

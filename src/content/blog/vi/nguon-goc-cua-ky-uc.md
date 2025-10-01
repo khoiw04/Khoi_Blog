@@ -58,16 +58,21 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 
 ## 2. Quy Luật
 
-### Để hình thành, Mạng Lưới Thần Kinh chỉ cần cơ chế:
+### **Để hình thành,** Mạng Lưới Thần Kinh cần 3 Yếu Tố:
 
-- Thở sâu
-- Ăn uống Đủ Chất: 
-  - Vitamin B, 
-  - Omega-3, 
-  - Axit Folic, 
-  - Sắt, 
-  - Kẽm, 
-  - …
+- **Có nhiều Thông Tin Đầu vào** -- Dữ liệu Thô
+- **Có nhiều Thông Tin Liên Kết** -- Dữ liệu Liên Kết Đầu Vào
+- **Có nhiều Thông Tin Đầu Ra** -- Dữ liệu Kết Quả
+
+![Lấy Deep Learning của AI làm Ví Dụ do Học từ Con Người](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyangxiaozhou.github.io%2Fassets%2Fcnn-covid-19%2Fdeep-nn.jpg&f=1&nofb=1&ipt=7de3f909c6335c55cb4e1a2f161d6b931502cb12c372d741a9fe6791700c058f)
+
+:::info[Khái Niệm]
+- **Dữ liệu Đầu Vào:** Thông tin bên ngoài hấp thụ
+- **Dữ liệu Liên Kết:** Thông tin giống với thông tin đầu vào + từng được dùng sử dụng lần trước đó.
+- **Dữ liệu Kết Quả:** Thông tin đã qua Chọn Lọc
+
+> 2D chỉ là Ví Dụ dễ nhìn, hãy tưởng tượng 3D để hình dung cách Mạng Lưới Thần Kinh di chuyển từng vùng trong Bộ Não
+:::
 
 ### Để thay đổi, Mạng Lưới Thần Kinh cần:
 
