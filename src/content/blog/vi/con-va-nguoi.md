@@ -48,10 +48,14 @@ tags: ["Tại Sao"]
 * Phần Con là Cơ Thể  
 * Cơ Thể được Thiết kế để Sinh Tồn  
 * Nếu trong Hoàn Cảnh đầu tiên, Phần Người làm như nào  
-* Trong các Hoàn Cảnh sau:
-  - Phần Con phản xạ theo Thói Quen, theo Thông Tin Đã Biết, theo Thông tin đã Được Luyện
+* Thì trong các Hoàn Cảnh sau: Phần Con phản xạ theo Thói Quen, theo Thông Tin Đã Biết, theo Thông tin đã Được Luyện
 
 ### **Làm sao để tránh Phần Con bị Hại**
+
+#### * Đảm bảo Thông Tin không Xấu:
+  - Vì hệ 1 tư duy theo kết quả có sẵn
+  - Nếu từng thấy ai đó tư duy “gây tổn thương = giải quyết vấn đề” 2 lần trở đi
+    - Những mẫu hình này được lưu vào bộ nhớ cảm xúc, và khi gặp tình huống tương tự, hệ 1 có thể tự động kích hoạt phản ứng tương ứng — dù ta chưa từng làm.
 
 #### * Đảm bảo Thông Tin đã Biết:
   - chưa thành Thói Quen
@@ -81,7 +85,7 @@ Nếu hành vi được **Não trước Trán nhận thức là có Lợi**, và
 Dù chúng ta có ý định tư duy logic, **Phần Con (Limbic)** vẫn luôn hoạt động song song và **chen ngang luôn quá trình suy luận**.
 
 - Khi Não trước Trán hiểu thông tin đó, Phần Con tiết Hocmone để phản ứng thông tin đó  
-- *Khiến Ta không thèm nhìn thông tin tiếp theo và ngăn cản quá trình đào sâu, truy luận* do Dopamine được tiết ra vì nghĩ đã **Đạt Phần Thưởng** rồi, làm mất động lực để nghĩ thêm vì chỉ muốn duy trì
+- *Khiến Ta không thèm nhìn thông tin tiếp theo và ngăn cản quá trình đào sâu* do Dopamine được tiết ra vì nghĩ đã **Đạt Phần Thưởng Kì Vọng** rồi, làm mất động lực để nghĩ thêm vì đã hài lòng, chỉ muốn duy trì
 :::
 
 ## 4. Kết Luận

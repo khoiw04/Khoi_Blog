@@ -17,7 +17,7 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái niệm
 
-Áp Lực dựa trên Cortisol — Căng Thẳng
+Áp Lực là Cortisol — Tập Trung tăng cao
 
 ## 2. Quy Luật
 

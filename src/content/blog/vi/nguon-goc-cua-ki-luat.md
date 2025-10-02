@@ -25,7 +25,7 @@ Kỉ Luật dựa trên 2 loại:
 
 ## 2. Quy Luật
 
-Về Thói Quen
+### Về Thói Quen
 
 Để hình thành, Thói Quen cần dựa trên 2 cơ chế:
 
@@ -101,7 +101,7 @@ Về Ép Buộc
 - Sửa Thói Quen qua Nhận biết Kiến thức  
 - Chỉ Ép Buộc qua Phần Thưởng mình muốn  
 
-Bài tiếp theo sẽ là **Nguồn gốc của Hạnh Phúc** và **Hậu quả của Căng Thẳng**
+Bài tiếp theo sẽ là **Nguồn gốc của Hạnh Phúc** và **Nguồn gốc của Áp Lực**
 
 ---
 

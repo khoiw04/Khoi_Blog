@@ -35,8 +35,6 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 
 * Nhớ Tiêu Cực gấp 5 lần
 
-* Quên Tiêu Cực nhanh hơn
-
 ### Negative Bias nhờ:
 
 * nhờ Thời Tổ Tiên, kéo dài hàng nghìn năm trước Công Nguyên

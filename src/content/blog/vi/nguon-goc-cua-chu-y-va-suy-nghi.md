@@ -19,7 +19,7 @@ tags: ["Nguồn Gốc"]
 * **Bộ Lọc Chú Ý**: Lọc Đầu Vào  
 * **Bộ Lọc Nơ-ron**: Lọc Thông Tin  
 
-### Chú Ý Tự Động dựa trên 3 Yếu tố:
+### Chú Ý Bị Động dựa trên 3 Yếu tố:
 
 * **Hệ thống Reticular Activating System (RAS)**: Chú ý Sự Tương Phản  
 * **Độ Mạnh Hocmone**: Độ Mạnh, Yếu của Cảm Xúc

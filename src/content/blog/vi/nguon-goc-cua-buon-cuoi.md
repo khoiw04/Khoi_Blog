@@ -23,11 +23,11 @@ tags: ["Nguồn Gốc"]
 
 * **Phần Thưởng:**
 
+  * Liên kết Thông tin Tốt
+
   * Không nghĩ tới
 
   * An toàn
-
-  * Đúng ý
 
   * Hiểu
 
@@ -35,11 +35,12 @@ Giờ ngược lại, nếu Trò Đùa, không buồn cười, do đâu?
 
 * Không Hiểu
 
-* Không Bất Ngờ
-
 * Không An Toàn
 
-* Không Đúng Ý
+* Không Bất Ngờ
+
+* Liên kết Thông tin Xấu
+
 
 > 1 trong 4 sẽ khiến Trò Đùa mất vui, gây căng thẳng
 
