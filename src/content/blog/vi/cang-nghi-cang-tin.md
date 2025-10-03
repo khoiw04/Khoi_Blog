@@ -17,17 +17,13 @@ tags: ["Tại Sao"]
 
 ### **Trước đây Tôi từng Nói**
 
-:::info
+:::info[Học Sâu — Deep Learning]
 
-\[Học Sâu — Deep Learning\]
-
-
-
-* Soma, Axon, Synapse, Myelin  
+* Soma, Axon, Synapse, Myelin
 * Thân Thần Kinh, Dây Thần Kinh, Khe Nứt, Tăng Tốc  
 
 > Chỉ có thể Rèn Luyện qua Sự Lặp đi Lặp lại và Dopamine  
->
+
 :::
 
 → Điều đó Áp Dụng **cả Càng Nghĩ Càng Tin**

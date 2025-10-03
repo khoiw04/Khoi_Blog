@@ -33,10 +33,10 @@ aMccc là vùng não giúp ta cưỡng chế hành vi khi không có phần thư
 
 **Ví dụ:**
 
-* Tại sao ta dậy sớm để học bài dù rất buồn ngủ?
-* Tại sao ta vẫn đi làm dù không có hứng thú?
-* Tại sao ta vẫn tập thể dục dù không thấy kết quả?
-* Tại sao ta vẫn đi làm dù bị sếp quỵt lương trước đó?
+* Tại sao Ta dậy sớm để học bài dù rất buồn ngủ?
+* Tại sao Ta vẫn đi làm dù không có hứng thú?
+* Tại sao Ta vẫn tập thể dục dù không thấy kết quả?
+* Tại sao Ta vẫn đi làm dù bị sếp quỵt lương trước đó?
 
 → Dù bạn không có Phần Thưởng, bạn vẫn ép mình đi.
 
@@ -73,7 +73,7 @@ Rối loạn Hocmone là Cortisol tăng quá cao trong khi Serotonin quá thấp
 * Tại sao Ta thấy trống rỗng sau khi hoàn thành một mục tiêu lớn?
 * Tại sao Ta dễ nổi nóng khi đang đói hoặc thiếu ngủ?
 
-→ Cortisol tăng do cảm giác bị “truy đuổi” bởi trách nhiệm, còn Dopamine giảm đột ngột sau khi đạt phần thưởng, Serotonin không đủ để cân bằng cảm xúc.
+→ Cortisol tăng do cảm giác bị ép buộc bởi trách nhiệm, còn Dopamine giảm đột ngột sau khi đạt phần thưởng, Serotonin không đủ để cân bằng cảm xúc.
 
 **Kết Luận**
 
@@ -100,7 +100,7 @@ Qua đây mới thấy, Con Người chúng ta không Yếu Đuối, chỉ là a
 
 ::youtube{url="https://www.youtube.com/watch?v=4DEK3cia8cI&t=922s"}
 
-Bài viết tiếp theo là *Tại sao Cơ thể luôn lướt Điện Thoại, Nghe Nhạc, tìm những thứ Kích Thích khi Áp Lực*
+Bài viết tiếp theo là *[Tại sao Cơ thể luôn lướt Điện Thoại, Nghe Nhạc, tìm những thứ Kích Thích khi Áp Lực](./tai-sao-co-the-tim-nhung-thu-kich-thich)*
 
 ---
 

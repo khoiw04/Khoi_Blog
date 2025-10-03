@@ -142,7 +142,20 @@ Working Memory trong Não Trước Trán (Sự Kết hợp giữa Short-term Mem
 
 * Dung lượng của Chunking Memory là 7 ± 2 đơn vị
 
-Ví dụ
+Ví dụ về Đơn Vị
+
+Giới hạn xử lý Âm thanh của Não Trước Trán — Hệ 2 là 2 Luồng âm thanh trong 4 ± 1 đơn vị
+
+Giả sử nghe một người nói câu sau: *“Chiều nay, tôi sẽ đi siêu thị mua rau, thịt và trái cây.”*
+
+1. **Thời gian:** “Chiều nay”  
+2. **Hành động:** “đi siêu thị”  
+3. **Mục tiêu:** “mua rau, thịt và trái cây”  
+4. **Chủ thể:** “tôi sẽ” (người thực hiện hành động)
+
+→ Chạm Ngưỡng 4 Đơn Vị, nếu vượt qua sẽ bắt đầu bỏ sót
+
+Ví dụ về Chunking
 
 * dãy số “1-9-9-5-2-0-2-5”, hóa chunk thành “1995” và “2025”
 
