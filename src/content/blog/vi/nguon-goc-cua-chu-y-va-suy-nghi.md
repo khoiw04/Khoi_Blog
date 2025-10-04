@@ -49,6 +49,8 @@ tags: ["Nguồn Gốc"]
 | **Hình ảnh**       | ~4–6 hình ảnh rõ ràng mỗi giây | ~2 hình ảnh duy trì trong trí nhớ    |
 | **Vận động**       | ~2–3 chuyển động rõ ràng mỗi giây | ~1–2 hành động có thể lên kế hoạch |
 
+_“Các con số chỉ mang tính minh họa, thực tế não chỉ tập trung hiệu quả vào rất 1-2 đối tượng cùng lúc. ”_
+
 :::info[Khái Niệm]
 * Tắc Nghẽn Cổ Chai là Giới hạn Bộ Phận có thể Xử lý  
 * Thalamus là Trạm Chuyển tiếp Thông Tin  
@@ -139,7 +141,7 @@ tags: ["Nguồn Gốc"]
 
 ## 4. Kết Luận
 
-Thằng này Bơ mình thật, chỉ có 2 luồng âm thanh, lời mình nói chỉ là “Tạm biệt nhé“, hoàn toàn Hệ thống Limbic hiểu và sinh ra Hocmone nhưng chọn ACC -- Ép Buộc không phản ứng
+Thằng này Bơ mình thật, chỉ có 2 luồng âm thanh, lời mình nói chỉ là “Tạm biệt nhé“, hoàn toàn Hệ thống Limbic hiểu và sinh ra Hocmone nhưng chọn ACC -- Ép Buộc ức chế phản ứng
 
 ---
 

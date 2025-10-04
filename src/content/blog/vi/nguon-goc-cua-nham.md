@@ -22,7 +22,7 @@ tags: ["Nguồn Gốc"]
 ::youtube{url="https://www.youtube.com/watch?v=qr2gR0UOlfg"}
 
 :::info[Khái Niệm]
-**Mạng Lưới Thần Kinh là Ký Ức của Chúng Ta**
+**Ký ức được lưu giữ trong các kết nối thần kinh (synapse). Khi mạng lưới này thay đổi, ký ức cũng thay đổi theo**
 - Mạng Lưới Thần Kinh như nào, Ký Ức trả như vậy  
 - Mạng Lưới luôn thay đổi tùy theo Cảm Xúc và Bối Cảnh
 :::

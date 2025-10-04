@@ -27,22 +27,18 @@ tags: ["Nguồn Gốc"]
 
   * Không nghĩ tới
 
-  * An toàn
-
   * Hiểu
 
 Giờ ngược lại, nếu Trò Đùa, không buồn cười, do đâu?
 
 * Không Hiểu
 
-* Không An Toàn
-
 * Không Bất Ngờ
 
 * Liên kết Thông tin Xấu
 
 
-> 1 trong 4 sẽ khiến Trò Đùa mất vui, gây căng thẳng
+> 1 trong 3 sẽ khiến Trò Đùa mất vui, gây căng thẳng
 
 ## 3. Kết Luận
 

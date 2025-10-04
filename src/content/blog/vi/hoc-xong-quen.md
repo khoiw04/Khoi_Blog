@@ -32,15 +32,15 @@ tags: ["Tại Sao"]
 
 ### Nếu học trong Áp Lực
 
-* Khi ghi kiến thức trong Áp Lực, chỉ có thể truy xuất Kiến thức khi Áp Lực  
-* Khi ghi kiến thức trong Vui Vẻ, chỉ có thể truy xuất Kiến thức khi Vui Vẻ  
-* Khi ghi kiến thức trong Buồn Bã, chỉ có thể truy xuất Kiến thức khi Buồn Bã
+* Khi ghi kiến thức trong Áp Lực, ưu tiên truy xuất Kiến thức khi Áp Lực  
+* Khi ghi kiến thức trong Vui Vẻ, ưu tiên truy xuất Kiến thức khi Vui Vẻ  
+* Khi ghi kiến thức trong Buồn Bã, ưu tiên truy xuất Kiến thức khi Buồn Bã
 
 ### Nếu học trong Lớp học
 
-* Khi ghi kiến thức trong Lớp học, chỉ có thể truy xuất Kiến thức khi bối cảnh liên quan đến Lớp Học  
-* Khi ghi kiến thức trong Văn Phòng, chỉ có thể truy xuất Kiến thức khi bối cảnh liên quan đến Văn Phòng  
-* Khi ghi kiến thức trong Công Viên, chỉ có thể truy xuất Kiến thức khi bối cảnh liên quan đến Công Viên
+* Khi ghi kiến thức trong Lớp học, ưu tiên truy xuất Kiến thức khi bối cảnh liên quan đến Lớp Học  
+* Khi ghi kiến thức trong Văn Phòng, ưu tiên truy xuất Kiến thức khi bối cảnh liên quan đến Văn Phòng  
+* Khi ghi kiến thức trong Công Viên, ưu tiên truy xuất Kiến thức khi bối cảnh liên quan đến Công Viên
 
 ### *“Tại sao Thi xong Quên hết nhỉ?“*
 

@@ -14,7 +14,7 @@ tags: ["Nguồn Gốc"]
 
 Tính Cách dựa trên 3 cơ chế:
 
-* Gen Cảm Xúc
+* Gen
 
 * Động Lực Sống
 
@@ -22,7 +22,7 @@ Tính Cách dựa trên 3 cơ chế:
 
 ## 2. Quy Luật
 
-**Về Gen Cảm Xúc: 10%,** quyết định ưu tiên Căng Thẳng hay Hạnh Phúc, Cortisol hay Serotonin
+**Về Gen: 10%,** quyết định ưu tiên Căng Thẳng hay Hạnh Phúc, Cortisol hay Serotonin
 
 **Về Động Lực Sống: 50%,** quyết định làm Người hay theo Buồm Gió, thích nghi theo Môi Trường
 
@@ -36,7 +36,7 @@ Tính Cách dựa trên 3 cơ chế:
 
 Tính Cách không phải là thứ cố định hay ngẫu nhiên. Nó là kết quả của sự tương tác giữa ba cơ chế:
 
-* **Gen Cảm Xúc**: Là nền tảng sinh học, tạo ra xu hướng phản ứng cảm xúc ban đầu.
+* **Gen**: Là nền tảng sinh học, tạo ra xu hướng phản ứng cảm xúc ban đầu.
 * **Động Lực Sống**: Là động cơ nội tại, định hướng hành vi và lựa chọn cá nhân.
 * **Môi Trường**: Là yếu tố bên ngoài, kích hoạt và củng cố các phản ứng cảm xúc và hành vi.
 

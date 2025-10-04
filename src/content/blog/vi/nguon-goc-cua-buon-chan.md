@@ -18,7 +18,7 @@ tags: ["Nguồn Gốc"]
 
 Buồn Chán chỉ dựa vào Cơ Chế: **Chế Độ Phân Tán**
 
-* **Chế Độ Phân Tán:** ngược lại Chế Độ Tập Trung, toàn bộ Năng Lượng, dải đều Vùng Não  
+* **Chế Độ Phân Tán:** ngược lại Chế Độ Tập Trung, toàn bộ Năng Lượng, kích hoạt Default Mode Network – mạng lưới mặc định, giúp não kết nối ý tưởng từ nhiều vùng khác nhau
 * **Chế Độ Tập Trung:** ngược lại Chế Độ Phân Tán, toàn bộ Năng Lượng, dải vào Não Trước Trán
 
 ## 2. So sánh Chế độ Tập trung và Chế độ Phân tán
@@ -46,7 +46,7 @@ Buồn Chán chỉ dựa vào Cơ Chế: **Chế Độ Phân Tán**
 
 ## 4. Kết Luận
 
-Buồn Trán là cách Cơ Thể nghỉ ngơi, phục hồi, kết nối kiến thức
+Buồn Chán là cách Cơ Thể nghỉ ngơi, phục hồi, kết nối kiến thức
 
 ---
 

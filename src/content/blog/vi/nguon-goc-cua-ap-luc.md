@@ -17,7 +17,7 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái niệm
 
-Áp Lực là Cortisol — Tập Trung tăng cao
+Áp Lực là Cortisol — Tập Trung tăng cao trong ngắn hạn và cả năng lượng, nhưng nếu kéo dài sẽ gây hại.
 
 ## 2. Quy Luật
 

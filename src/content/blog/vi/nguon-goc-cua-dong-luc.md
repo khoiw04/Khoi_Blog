@@ -28,7 +28,7 @@ Dopamine là một hocmone “Động Lực“ cho ta sự Phấn Đấu qua cá
 
 * “Mong Muốn“: *Aka. Kỳ vọng.* Khi ta mong muốn đạt được Phần Thưởng, Động Lực được giải phóng để ta Phấn Đấu -- tăng cường Bộ Não
 
-* “Sảng Khoái“: *Aka. Tăng cường Giác Quan.* Khi ta đạt được Phần Thưởng, Động Lực được giải phóng để ta Sung Sướng -- tăng cường Giác Quan
+* “Sảng Khoái“: *Aka. Tăng cường Giác Quan.* Khi ta đạt được Phần Thưởng, Động Lực được giải phóng Endorphin để ta Sung Sướng -- tăng cường Giác Quan
 
 :::result[Kết Luận]
 

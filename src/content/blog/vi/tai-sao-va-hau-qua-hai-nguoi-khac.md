@@ -66,7 +66,7 @@ tags: ["Tại Sao"]
 #### **Bị Động**
 
 * *Cảm Xúc — Hệ 1:* Lí do hầu hết Hệ 1 thích Hại Người Khác khi coi họ là “Vấn Đề“
-  * **Cao hơn Họ**
+  * **Cao hơn Họ** — Superiority theory
   * **Nắm quyền** Kiểm Soát, được Nói thứ Nói, được Nghĩ thứ Nghĩ
   * **Xả Stress** — Áp Lực do cảm nhận Dopamine và Endorphin trước đó
   * **Đơn giản Ta thích hại người khác**

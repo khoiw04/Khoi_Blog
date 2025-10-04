@@ -16,7 +16,7 @@ tags: ["Tại Sao"]
 
 **Hiểu, Nhớ, Tin** chỉ dựa trên Ký Ức
 
-> Toàn bộ Thông tin tiếp thu đều ghi vào Trí nhớ Dài hạn (Long-term Memory)
+> Toàn bộ Thông tin tiếp thu thì Một phần chỉ đi vào Trí nhớ Dài hạn (Long-term Memory)
 >
 > Toàn bộ Thông tin đều là Nhớ
 

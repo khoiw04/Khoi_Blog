@@ -38,25 +38,25 @@ tags: ["Nguồn Gốc"]
 
 ### Sự khác biệt giữa Trẻ Con và Người Lớn
 
-**Người Lớn > Trẻ Con**
+**Người Lớn vs Trẻ Con**
 
 #### Khả năng di chuyển
 
-1. Nhiều Vấn Đề > Ít Vấn Đề  
-2. Chế độ Tập Trung > Chế độ Phân Tán  
-3. Di chuyển ít > Di chuyển nhiều  
+1. Nhiều Vấn Đề ≠ Ít Vấn Đề  
+2. Chế độ Tập Trung ≠ Chế độ Phân Tán  
+3. Di chuyển ít ≠ Di chuyển nhiều  
 
 #### Số lượng Câu hỏi
 
-1. Nhiều thông tin > Ít thông tin  
-2. Ít tò mò > Nhiều tò mò  
-3. Ít câu hỏi > Nhiều câu hỏi  
+1. Nhiều thông tin ≠ Ít thông tin  
+2. Ít tò mò ≠ Nhiều tò mò  
+3. Ít câu hỏi ≠ Nhiều câu hỏi  
 
 #### Cách xử lý
 
-1. Kiến thức > Không có  
-2. Sử dụng Mạng Lưới Thần Kinh như thông tin liên quan và cách xử lý vấn đề liên quan trước đó > Không có  
-3. Tổng hợp thông tin, tra cứu… > Phá Đồ  
+1. Kiến thức ≠ Không có  
+2. Sử dụng Mạng Lưới Thần Kinh như thông tin liên quan và cách xử lý vấn đề liên quan trước đó ≠ Không có  
+3. Tổng hợp thông tin, tra cứu… ≠ Phá Đồ  
 
 #### Tóm tắt
 
@@ -87,4 +87,4 @@ tags: ["Nguồn Gốc"]
 - **Duy trì Động Lực** do khó tiếp cận và bỏ nhiều công sức để đào sâu
 
 ## 4. Kết Luận
-Sự khác biệt cuối cùng của Cả 2 phiên bản là Lượng Thông tin = Chất Lượng / Số Lượng > 0.5
+Trẻ con vui vì ít biết, người lớn chán vì biết quá nhiều

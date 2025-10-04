@@ -40,6 +40,13 @@ tags: ["Tại Sao"]
 
 * Tô mạnh thêm vào Dây Thần Kinh xấu
 
+### Ngắt vòng lặp
+- Tránh kích thích (cue)
+
+- Thay thế hành vi bằng hành vi khác
+
+- Tạo phần thưởng mới lành mạnh
+
 ## 2. Kết Luận
 
 Cơ thể đã thích nghi với những dây thần kinh và hình thành từ thói quen suy nghĩ đó

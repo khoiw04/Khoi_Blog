@@ -25,6 +25,7 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 * Mỗi hạt Nơ-ron gồm Soma, Axon, Dendrite, Synapse, Myelin, Ranvier
 
 > AI (Deep Learning) cũng dựa vào Cơ Chế này
+> Lưu ý: Mọi thông tin đi qua hệ thống trí nhớ, nhưng chỉ một phần được củng cố thành trí nhớ dài hạn
 
 | Thành phần                         | Chức năng                                                                               |
 | ---------------------------------- | --------------------------------------------------------------------------------------- |
