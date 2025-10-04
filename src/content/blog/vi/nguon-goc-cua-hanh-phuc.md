@@ -108,10 +108,10 @@ Hãy thở 4-4-4-4
 
 :::
 
-### Feeling Good or Feeling Right?
+### Cảm thấy Tốt hay Cảm thấy Đúng?
 
-* Feeling Good là hiện Hạnh Phúc bạn đang có
-* Feeling Right là quá trình đó cho Bạn “Động Lực”, cho Bạn kết quả Bạn Kì Vọng, dù Áp Lực, bạn Vẫn Thích
+* Cảm thấy Tốt là hiện Hạnh Phúc bạn đang có
+* Cảm thấy Đúng là dù Áp Lực mà quá trình đó cho Bạn “Động Lực”, cho Bạn kết quả Bạn Kì Vọng, bạn Vẫn Thích
 
 $$
 
@@ -119,15 +119,36 @@ $$
 
 $$
 
-### Flow
+### Dòng Chảy
 
 * Hạnh Phúc Dài Hạn **Không phải là kết quả Bạn Kì Vọng**
 * Hạnh Phúc Dài Hạn là **Quá Trình Bạn nhận được** Hạnh Phúc thông qua lúc bạn "Động Lực"
+* Hạnh Phúc Dài Hạn là **Quá Trình Bạn Tập trung đạt** _Phần Thưởng Nhỏ_ lúc bạn đạt Phần Thưởng Lớn
 * Không phải Kết Quả hay Kì Vọng
+
+#### Ví dụ: Phần thưởng nhỏ trong Phần thưởng Lớn
+- Tạo trò đùa khi Nhịn Cười
+- Bắt đôi thông khi Chơi Cờ Vua
+- Bốc 4 con +4 khi Chơi UNO
+- Hiểu lời khách hàng khi Tiếp thị
 
 > Cuộc Sống không phải là Điểm Kết Thúc mà là Cả Quá Trính
 
 ::youtube{url="https://www.youtube.com/watch?v=flZOePCCsu0"}
+
+:::info[Khái Niệm]
+Phần thưởng Nhỏ là Những phần thưởng dí dỏm trong quá trình đạt Phần thưởng Lớn, điều đó sẽ 
+- dễ Tập trung
+- dễ Suy nghĩ
+- dễ sinh ra Cảm Xúc
+
+khi đạt Phần Thưởng
+:::
+:::info[Cộng Thêm]
+Nếu chỉ tập trung đạt Phần Thưởng lớn, sẽ dễ Áp Lực khi suy nghĩ bị "Kẹt" và nghĩ sang điều khác vì Mạng Lưới Thần Kinh bị "Kẹt" nên không biết đi đâu và đi sang hướng khác
+
+Nếu đang Áp Lực, thì Hướng đi tiếp theo sẽ là Suy nghĩ Tiêu Cực do Cơ chế Truy xuất Ký Ức theo Cảm Xúc
+:::
 
 ## 4. Kết Luận
 

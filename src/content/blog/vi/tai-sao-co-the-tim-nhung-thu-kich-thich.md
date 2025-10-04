@@ -9,14 +9,15 @@ tags: ["Tại Sao"]
 * *“Mình Không còn Áp Lực, Không còn Lướt Điện Thoại, Nghe Nhạc“*
 
 > Đây là Lí do Bài Viết này được Tồn Tại  
-> *Lưu ý: Bài viết này Liên Hệ bài viết “[Nguồn gốc của Tư Duy](./nguon-goc-cua-tu-duy)“ và “[Nguồn gốc của Động Lực](./nguon-goc-cua-dong-luc)“*
+> *Lưu ý: Bài viết này Liên Hệ bài viết “[Nguồn gốc của Động Lực](./nguon-goc-cua-dong-luc)“ và “[Nguồn gốc của Tư Duy](./nguon-goc-cua-tu-duy)“*
 
 ## 1. Khái niệm
 
 ### Từ Vựng Hằng Ngày
 
 - Áp Lực là Cortisol — Tập Trung tăng cao  
-- Endorphin là Hocmone giảm Áp Lực khi đạt Phần Thưởng  
+- Endorphin là Hocmone giảm Áp Lực khi đạt Phần Thưởng
+- Dopamine Spike là Phần Thưởng Bất Ngờ hoặc Nhanh Chóng  
 - Thói Quen: lối sống, cách sống hay hoạt động do lặp đi lặp lại lâu ngày thành quen, khó thay đổi  
 - Hệ 1: Tư duy Cảm Xúc
 
@@ -50,6 +51,23 @@ tags: ["Tại Sao"]
 
 ### **Quá trình Rèn luyện Kích Thích**
 
+#### Giai đoạn 1: Mới Tiếp Cận 
+  - Bộ Não bạn nhận ra Kích Thích là Phần Thưởng hơn cả Kỳ Vọng, 
+  - Bạn tò mò, sử dụng liên tục
+#### Giai đoạn 2: Lì Dopamine
+  - Lúc này không còn thích nữa
+  - Vì lúc này đã biết quen với Phần Thưởng này như nào, không còn "hơn cả Kỳ Vọng" như lúc đầu
+#### Giai đoạn 3: Khi stress -- Căng thẳng
+  - Lúc này Căng thẳng là Hệ 1 kỳ vọng xả Stress
+  - Kích thích vẫn tạo Dopamine Spike vì Nó nhanh tạo Phần Thưởng và dễ tiếp cận, điều đó vẫn làm Bạn xả Stress
+  - Đồng thời, đáp ứng đúng nhu cầu "Xả Stress"
+  - Cả 2 Dopamine cộng hưởng: Tạo xả Stress cao hơn
+  - → Phần thưởng: Áp Lực giảm xuống qua Endorphin
+#### Giai đoạn 4: Lặp lại
+  - Mỗi lần Áp Lực, Hệ 1 kỳ vọng xả Stress
+  - Mỗi lần xả Stress, Rèn luyện Dây Thần Kinh tìm Kích Thích qua Sự Lặp đi lặp lại và Dopamine
+
+#### Ví dụ:
 - Mỗi lần Áp Lực, bạn tìm Điện Thoại để giải trí  
 - Tiết ra Dopamine nhờ Xem Video hay  
 - Sự Lặp đi Lặp lại nhờ Dễ tiếp cận  
@@ -65,52 +83,52 @@ tags: ["Tại Sao"]
 
 ### Khi thành Thói Quen và So sánh
 
-#### **Khi thấy Điện Thoại — Áp Lực**
+#### Khi thấy Điện Thoại — Áp Lực
 
 - Input Layer: Áp Lực, Điện Thoại  
-- Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Xem Điện Thoại → Thấy Sảng khoãi”  
+- Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Xem Điện Thoại → Thấy Sảng khoãi → Giảm Stress”  
 - Output Layer: Hành vi tự Nảy Số: Tiếp cận Điện Thoại + Cảm xúc: Sung Sướng
 
-#### **Khi thấy Điện Thoại — Nhẹ Nhõm**
+#### Khi thấy Điện Thoại — Nhẹ Nhõm
 
 - Input Layer: Nhẹ nhõm, Điện Thoại  
-- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Xem Điện Thoại → Nhàm Chán”  
+- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Xem Điện Thoại → Thấy Sảng khoãi → Không còn Stress để giảm”
 - Output Layer: Hành vi tự Nảy Số: Bỏ Điện Thoại + Cảm xúc: Buồn Ngủ
 
-#### **Khi thấy Rượu Bia — Áp Lực**
+#### Khi thấy Rượu Bia — Áp Lực
 
 - Input Layer: Áp Lực, Rượu Bia  
 - Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Uống Rượu Bia → Quên chuyện cũ → Nhẹ nhõm”  
 - Output Layer: Hành vi tự Nảy Số: Uống Rượu Bia + Cảm xúc: Hí hửng
 
-#### **Khi thấy Rượu Bia — Nhẹ Nhõm**
+#### Khi thấy Rượu Bia — Nhẹ Nhõm
 
 - Input Layer: Nhẹ Nhõm, Rượu Bia  
 - Hidden Layer: Kích hoạt ký ức: “Mỗi lần Nhẹ Nhõm → Uống Rượu Bia → Không quên gì cả → Bình thường”  
 - Output Layer: Hành vi tự Nảy Số: Lúc khác uống Rượu Bia + Cảm xúc: Nhàm Chán
 
-#### **Khi thấy Xem Phim — Áp Lực**
+#### Khi thấy Xem Phim — Áp Lực
 
 - Input Layer: Áp Lực, Phim Ảnh  
 - Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Xem Phim → Cao Trào Cảm Xúc → Tạo Endorphin mạnh nhờ Cao Trào → Quên chuyện cũ → Giảm Căng Thẳng”  
 - Output Layer: Hành vi tự Nảy Số: Xem Phim + Cảm xúc: Hạnh Phúc
 
-#### **Khi thấy Xem Phim — Nhẹ Nhõm**
+#### Khi thấy Xem Phim — Nhẹ Nhõm
 
 - Input Layer: Nhẹ nhõm, Phim Ảnh  
 - Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Xem Phim Ảnh → Học hỏi cách viết Kịch Bản, tư duy của các Nhà Làm Phim”  
 - Output Layer: Hành vi tự Nảy Số: Tò Mò tư duy của Nhà Làm Phim + Cảm xúc: Phấn Khích
 
-#### **Khi thấy Nghe Nhạc — Áp Lực**
+#### Khi thấy Nghe Nhạc — Áp Lực
 
 - Input Layer: Áp Lực, Nghe Nhạc  
 - Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Nghe Nhạc → Gợi lại Cảm Xúc Tích Cực → Tạo Endorphin mạnh nhờ Cảm Xúc tích cực → Quên chuyện cũ → Giảm Căng Thẳng”  
 - Output Layer: Hành vi tự Nảy Số: Nghe Nhạc + Cảm xúc: Hạnh Phúc
 
-#### **Khi thấy Nghe Nhạc — Nhẹ Nhõm**
+#### Khi thấy Nghe Nhạc — Nhẹ Nhõm
 
 - Input Layer: Nhẹ nhõm, Nghe Nhạc  
-- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Nghe Nhạc → Không gợi lại gì → Tạo Endorphin yếu — không đủ → Ồn Ào”  
+- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Nghe Nhạc → Không gợi lại gì → Tạo Endorphin yếu — Không đủ → Ồn Ào”  
 - Output Layer: Hành vi tự Nảy Số: Tắt Nhạc + Cảm xúc: Bực Mình
 
 | Trạng Thái   | Input Layer                                              | Hidden Layer                                                          | Output Layer                                                        |
@@ -126,6 +144,14 @@ tags: ["Tại Sao"]
 
 :::
 
+:::result[Tóm Tắt]
+
+- Đơn giản Khi Áp Lực, Hệ 1 kỳ vọng giảm stress → Nên dễ nghiện
+- Về sau không còn Áp Lực, Hệ 1 không còn kỳ vọng vì hết Áp Lực để giảm → Kích thích xong Mệt ngay sau khi Dopamine xuống dốc → Bỏ
+
+ 
+:::
+
 ## 4. Kết Luận
 
 Đơn giản là Hệ 1 tự nhảy số, lấn áp cảm xúc khiến Hệ 2 không thể tư duy liền  
@@ -135,4 +161,4 @@ Những đồ Kích thích chỉ hoạt động mạnh khi đủ điều kiện:
 - Dễ Tiếp Kiện
 
 → Những thứ Kích thích sẽ tạo cảm giác Giải Tỏa nhanh và mạnh, sẽ tạo Dopamine rèn luyện Thói Quen hơn  
-Còn những lúc không Áp Lực, cảm giác Giải Tỏa nhanh và mạnh không tác dụng, không có Dopamine rèn luyện Thói Quen lúc không có Áp 
+Còn những lúc không Áp Lực, cảm giác Giải Tỏa nhanh và mạnh không tác dụng, không có Dopamine rèn luyện Thói Quen lúc không có Áp Lực

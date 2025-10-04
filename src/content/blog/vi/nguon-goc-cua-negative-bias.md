@@ -58,25 +58,33 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 
 ## 2. Quy Luật
 
-### Để hình thành, Negative Bias chỉ cần 2 Yếu Tố:
+### **Để hình thành, Negative Bias chỉ cần 2 Yếu Tố:**
 
 * Căng thẳng (Cortisol tăng cao)
 
 * Trải Nghiệm Tiêu Cực
 
-### Để quên Suy nghĩ Tiêu Cực, chỉ cần 2 Yếu Tố:
+### **Để quên Suy nghĩ Tiêu Cực:**
 
-* Chủ động:
+#### **Mục tiêu:** Cố không nghĩ tới để Làm hạt Neuron yếu đi
+  * dùng aMccc 
+  * Tập Trung 1 Thứ
+  * Giảm Cortisol -- Cảm xúc Tiêu Cực để dừng Ưu Tiên Suy nghĩ Tiêu Cực
 
-  * Cố không nghĩ tới qua aMccc
+#### **Cách của Tôi là Tập trung 1 Thứ:**
+  * Lúc tập trung: Tập trung đạt Phần Thưởng dí dỏm xung quanh trong quá trình đạt Phần Thưởng chính
+  * Lúc không tập trung: Chỉ Tập trung Thở Breathing Box
 
-  * Làm hạt Neuron yếu đi
+#### **Ví dụ**
+  * Thiền = Tập trung Thở
+  * Những cơn nghiện = Suy nghĩ Tiêu Cực
+  * Những cơn nghiện luôn ập tới suy nghĩ = Những suy nghĩ Tiêu cực luôn ập tới suy nghĩ
+  * Bị cơn nghiện cuốn theo cảm xúc = Bị suy nghĩ Tiêu cực cuốn theo cảm xúc
+  * Những cơn nghiện tan biến = Những suy nghĩ Tiêu Cực tan biến
+  * Lí do: Nếu không Suy nghĩ Lặp đi Lặp lại và đạt Phần Thưởng, Dây Thần Kinh không được củng cố → Yếu và Quên
 
-* Bị động:
+::youtube{url="https://youtu.be/KoB2cqmYZNg?si=99p1KN8lKtXvOrIl&t=564"}
 
-  * Sau hơn 2 năm
-
-  * Trải nghiệm Tích Cực liên tục
 
 :::info[Khái Niệm]
 

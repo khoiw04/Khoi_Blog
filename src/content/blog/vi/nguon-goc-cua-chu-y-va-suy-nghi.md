@@ -94,7 +94,7 @@ tags: ["Nguồn Gốc"]
 | **Ưu điểm**                | Nhanh, tiết kiệm năng lượng| Chính xác, có chiều sâu  |
 | **Nhược điểm**             | Thiên kiến nhận thức       | Chậm, dễ mệt             |
 
-## Chu Trình Suy Nghĩ
+### Chu Trình Suy Nghĩ
 
 1. **Tiếp Nhận Thông Tin**  
    Thalamus nhận tín hiệu cảm giác  
@@ -126,9 +126,20 @@ tags: ["Nguồn Gốc"]
 * Dopamine: kích hoạt Go hoặc No-Go  
 :::
 
+### Suy nghĩ khi bị Kẹt
+
+1. **Bắt đầu Kẹt** Mỗi lần Tập trung mà bị "Kẹt" không nghĩ ra được
+2. **Suy Nghĩ bắt đầu thay đổi**
+
+   Mạng Lưới Thần Kinh bị "Kẹt" theo Suy Nghĩ nên sẽ thay đổi theo hướng khác
+
+   Nếu đang Áp Lực thì thay đổi theo hướng Áp Lực
+
+   Vì Cơ chế Truy xuất Ký Ức theo Cảm Xúc
+
 ## 4. Kết Luận
 
-Thằng này Bơ mình thật, chỉ có 2 luồng âm thanh, lời mình nói chỉ là “Tạm biệt nhé“, hoàn toàn Hệ thống Limbic hiểu và sinh ra Hocmone nhưng chọn No-Go Pathway
+Thằng này Bơ mình thật, chỉ có 2 luồng âm thanh, lời mình nói chỉ là “Tạm biệt nhé“, hoàn toàn Hệ thống Limbic hiểu và sinh ra Hocmone nhưng chọn ACC -- Ép Buộc không phản ứng
 
 ---
 

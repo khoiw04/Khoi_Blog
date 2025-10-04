@@ -66,29 +66,23 @@ tags: ["Tại Sao"]
 #### **Bị Động**
 
 * *Cảm Xúc — Hệ 1:* Lí do hầu hết Hệ 1 thích Hại Người Khác khi coi họ là “Vấn Đề“
-  * **Nắm quyền** Kiểm Soát, được Nói thứ Nói, được Nghĩ thứ Nghĩ
   * **Cao hơn Họ**
+  * **Nắm quyền** Kiểm Soát, được Nói thứ Nói, được Nghĩ thứ Nghĩ
   * **Xả Stress** — Áp Lực do cảm nhận Dopamine và Endorphin trước đó
+  * **Đơn giản Ta thích hại người khác**
   * **Không thấy “Vấn Đề“ nữa**
-
-* **Lúc Hệ 2 coi Họ xấu như nào, hành xử như nào**
-* **Về sau Hệ 1 tư duy như thế**
 
 :::result[Kết Quả]
 
-Nhìn thấy họ → Ký ức tiêu cực → Tức giận → Hệ 1 phản ứng để giải quyết → Vấn đề gốc vẫn còn → Lặp lại
+* **Lúc Hệ 2 coi Họ xấu như nào, hành xử như nào**
+* **Về sau Hệ 1 tư duy như thế**
 
 :::
 
 * Lí do:
   * Khi coi ai đó là Vấn Đề
-  * **Hệ 1 tự “nảy số“ theo Thói Quen** liên quan đến Vấn Đề như Bối Cảnh, Khuôn Mặt, Dáng Người, … đã có trong Ký Ức
+  * **Hệ 1 tự “nảy số“ theo Thói Quen liên quan đến Vấn Đề** như Bối Cảnh, Khuôn Mặt, Dáng Người, … đã có trong Ký Ức
   * → Từ Đó, tự suy ra kết quả để ứng biến
-
-* Ví dụ: 
-  * **Input Layer → Một người hiền + Áp lực bản thân**
-  * **Hidden Layer → Xử lý thông tin liên quan đến người hiền và áp lực bản thân** _(Dây thần kinh nào được luyện nhiều thì được ưu tiên tới kết quả nhanh)_
-  * **Output Layer → Hành hạ họ**
 
 :::info[Gợi Ý]
 
@@ -105,6 +99,12 @@ Ta có thể vận dụng Kiến Thức này trong các trường hợp tương 
 #### **Cả Hai: Phần Người cho Phần Con tự hành động**
 
 ## 3. Liên Hệ
+
+### Ví dụ về Hệ 1 tự "Nảy Số"
+
+  * **Input Layer → Một người hiền + Áp lực bản thân**
+  * **Hidden Layer → Xử lý thông tin liên quan đến người hiền và áp lực bản thân** _(Dây thần kinh nào được luyện nhiều thì được ưu tiên tới kết quả nhanh)_
+  * **Output Layer → Hành hạ họ**
 
 ### Hậu quả để lại cho Đôi Bên
 
@@ -125,6 +125,7 @@ Ta có thể vận dụng Kiến Thức này trong các trường hợp tương 
     * Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Suy giảm Hippocampus, Não Trước Trán và Khả năng Sinh sản Hạt Neuron, Thoái Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim.
 
 #### Về Họ:
+  * **Hệ 1 của Họ** học theo Ta
   * **Nhớ Ta 2 năm** trở đi không hết
   * **Mỗi lần nhớ Ta, Mỗi lần Bực**
     * Vì Mỗi lần Não Họ tự Suy nghĩ về Ta (do Negative Bias), Dây Thần Kinh về Ta ngày càng được rèn luyện

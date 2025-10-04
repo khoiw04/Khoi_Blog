@@ -72,7 +72,7 @@ Vậy nên Trích từ Một Lời trong “Toxic Productivity”:
 
 ## 4. Kết Luận
 
-> Để tăng khả năng Tư Duy,
+Để tăng khả năng Tư Duy,
 
 ### Về Học Tập
 
