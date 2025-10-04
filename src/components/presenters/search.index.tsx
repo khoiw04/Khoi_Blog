@@ -35,7 +35,7 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
         <CommandInput placeholder={configTranslations.searchCMDplaceholder} />
         <CommandList>
           <CommandEmpty>{configTranslations.searchCMDempty}</CommandEmpty>
-          <CommandGroup heading={configTranslations.searchCMDcode}>
+          {/* <CommandGroup heading={configTranslations.searchCMDcode}>
             {devtagsObj.map((tag, i) => {
               const name = configTranslations.lang === 'vi' ? tag.nameVi : tag.nameEn
               return (
@@ -54,7 +54,7 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
                 </CommandItem>
               </a>
             )})}
-          </CommandGroup>
+          </CommandGroup> */}
           <CommandGroup heading={configTranslations.searchCMDscience}>
             {sciencetagsObj.map((tag, i) => {
               const name = configTranslations.lang === 'vi' ? tag.nameVi : tag.nameEn

@@ -110,37 +110,37 @@ tags: ["Tại Sao"]
 #### Khi thấy Xem Phim — Áp Lực
 
 - Input Layer: Áp Lực, Phim Ảnh  
-- Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Xem Phim → Cao Trào Cảm Xúc → Tạo Endorphin mạnh nhờ Cao Trào → Quên chuyện cũ → Giảm Căng Thẳng”  
+- Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Xem Phim → Cao Trào Cảm Xúc → Tạo Endorphin nhờ Cao Trào → Quên chuyện cũ → Giảm Căng Thẳng”  
 - Output Layer: Hành vi tự Nảy Số: Xem Phim + Cảm xúc: Hạnh Phúc
 
 #### Khi thấy Xem Phim — Nhẹ Nhõm
 
 - Input Layer: Nhẹ nhõm, Phim Ảnh  
-- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Xem Phim Ảnh → Học hỏi cách viết Kịch Bản, tư duy của các Nhà Làm Phim”  
+- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Xem Phim Ảnh → Nhớ lại việc Học hỏi cách viết Kịch Bản, tư duy của các Nhà Làm Phim”  
 - Output Layer: Hành vi tự Nảy Số: Tò Mò tư duy của Nhà Làm Phim + Cảm xúc: Phấn Khích
 
 #### Khi thấy Nghe Nhạc — Áp Lực
 
 - Input Layer: Áp Lực, Nghe Nhạc  
-- Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Nghe Nhạc → Gợi lại Cảm Xúc Tích Cực → Tạo Endorphin mạnh nhờ Cảm Xúc tích cực → Quên chuyện cũ → Giảm Căng Thẳng”  
+- Hidden Layer: Kích thích lại dây thần kinh: “Mỗi lần Áp lực → Nghe Nhạc → Gợi lại Cảm Xúc Tích Cực → Tạo Endorphin nhờ Cảm Xúc tích cực → Quên chuyện cũ → Giảm Căng Thẳng”
 - Output Layer: Hành vi tự Nảy Số: Nghe Nhạc + Cảm xúc: Hạnh Phúc
 
 #### Khi thấy Nghe Nhạc — Nhẹ Nhõm
 
 - Input Layer: Nhẹ nhõm, Nghe Nhạc  
-- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Nghe Nhạc → Không gợi lại gì → Tạo Endorphin yếu — Không đủ → Ồn Ào”  
+- Hidden Layer: Kích hoạt ký ức “Mỗi lần Nhẹ nhõm → Nghe Nhạc → Có gợi lại → Tạo Endorphin → Không giảm gì cả → Ồn Ào”  
 - Output Layer: Hành vi tự Nảy Số: Tắt Nhạc + Cảm xúc: Bực Mình
 
 | Trạng Thái   | Input Layer                                              | Hidden Layer                                                          | Output Layer                                                        |
 | ------------ | -------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | **Áp Lực**   | Áp Lực + Kích Thích | “Áp Lực → Kích Thích → Endorphin → Giảm căng thẳng”  | Kích Thích + Sung Sướng |
-| **Nhẹ Nhõm** | Nhẹ Nhõm + Kích Thích | “Nhẹ Nhõm → Kích Thích → Không hiệu quả → Nhàm Chán” | Bỏ qua + Buồn Ngủ |
+| **Nhẹ Nhõm** | Nhẹ Nhõm + Kích Thích | “Nhẹ Nhõm → Kích Thích → Không giảm gì cả → Nhàm Chán” | Bỏ qua + Buồn Ngủ |
 
 
 :::result[Kết Luận]
 
-- Lí do khi Áp Lực, Ta tìm thứ Kích Thích, Hiệu quả cao qua Endorphin giảm Áp Lực → tiết Dopamine mạnh để rèn luyện Dây Thần Kinh liên quan đến Áp Lực + Kích Thích mạnh → Nghiện khi Áp Lực  
-- Nhưng hết Áp Lực, Những đồ Kích thích không hiệu quả vì Endorphin không còn gì để giảm → tiết Dopamine ít để củng cố Dây Thần Kinh giữa trạng thái Nhẹ Nhõm + Kích thích không đủ → Vứt Bỏ khi Nhẹ Nhõm
+- Lí do khi Áp Lực, Ta tìm thứ Kích Thích, Hiệu quả cao qua Endorphin giảm Áp Lực → tiết Dopamine mạnh để rèn luyện Dây Thần Kinh liên quan đến Áp Lực + Kích Thích → Nghiện khi Áp Lực  
+- Nhưng hết Áp Lực, Những đồ Kích thích không hiệu quả vì Endorphin không còn gì để giảm → tiết Dopamine ít để củng cố Dây Thần Kinh giữa trạng thái Nhẹ Nhõm + Kích thích → Hiếm lạm dụng khi Nhẹ Nhõm
 
 :::
 
