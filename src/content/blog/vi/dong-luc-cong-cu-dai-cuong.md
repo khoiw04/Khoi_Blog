@@ -18,7 +18,7 @@ tags: ["Tại Sao"]
 
 * **Động Lực** là Dopamine — Hocmone tăng Hoạt Động Bộ Não khi thấy Phần Thưởng và Dự Doán Phần Thưởng
 * **Công Cụ** là Công Việc & Dụng Cụ
-* **Đại Cương** là Lớn — Tổng Quát & Xương Sống — Cốt Lõi
+* **Đại Cương** là Lớn — Tổng Quát & Xương Sống — Kiến Thức Cốt Lõi
 
 ## 2. Quy Luật
 
@@ -106,7 +106,7 @@ Cái điều quan trọng nó không phải Đại Cương hay Công Cụ,
 Kiểu gì thì kiểu, tôi cũng học cả 2  
 Cái điều Cốt Lõi nãy giờ tôi kể, là **Câu Hỏi Bạn Đặt** ra, thứ tạo Dopamine
 
-* **Câu Hỏi** là Dự Đoán Phần Thưởng
+* **Câu Hỏi** là lúc Dự Đoán Phần Thưởng
 * **Câu Trả Lời** là Phần Thưởng
 * **Dopamine** được tiết ra khi Đặt Câu Hỏi, tăng Hoạt động Não Bộ cả khi thấy **Câu Hỏi** và **Câu Trả Lời**
 * _Kích thích chúng ta Tìm Tòi, Tò Mò, Đòi Hỏi_

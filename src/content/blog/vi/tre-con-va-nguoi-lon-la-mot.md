@@ -21,7 +21,7 @@ tags: ["Nguồn Gốc"]
 - **Kỳ vọng = Công Sức x Phần Thưởng**
   - Phần Thưởng cao  
   - Công Sức bỏ ra ít  
-  - Là Phần Thưởng vượt Kỳ Vọng
+  - → Là Phần Thưởng vượt Kỳ Vọng
 
 ## 2. Quy Luật
 
@@ -31,7 +31,7 @@ tags: ["Nguồn Gốc"]
 
 - **Sự Chú ý và Tò Mò của Con Người dựa trên 3 Yếu Tố:**
   - **Hệ Thống Chú Ý:** Qua sự Tương Phản  
-  - **Độ mạnh Cảm Xúc:** Qua Dopamine Spike qua thông tin có vẻ bề ngoài Đơn Giản và dẫn đến kết quả Mới Lạ  
+  - **Độ mạnh Cảm Xúc:** Qua Dopamine Spike nhờ thông tin có vẻ bề ngoài Đơn Giản và dẫn đến kết quả Mới Lạ  
   - **Duy trì Động Lực:** Dopamine nền
 
 ## 3. Liên Hệ
@@ -55,7 +55,7 @@ tags: ["Nguồn Gốc"]
 #### Cách xử lý
 
 1. Kiến thức ≠ Không có  
-2. Sử dụng Mạng Lưới Thần Kinh như thông tin liên quan và cách xử lý vấn đề liên quan trước đó ≠ Không có  
+2. Sử dụng Kiến thức như thông tin liên quan và cách xử lý vấn đề liên quan trước đó ≠ Không có  
 3. Tổng hợp thông tin, tra cứu… ≠ Phá Đồ  
 
 #### Tóm tắt
@@ -71,7 +71,7 @@ tags: ["Nguồn Gốc"]
 ### Sự Chú Ý và Tò Mò của Trẻ Con
 
 - **Độ mạnh Cảm Xúc** do dễ Kích hoạt Dopamine Spike bởi Kỳ vọng Phần Thưởng thấp  
-  - Ít thông tin về Kết quả
+  - Do Ít thông tin về Kết quả
 
 - **Hệ Thống Chú Ý** do Sự Tương Phản giữa Thông tin Chưa biết và Đã biết
 
@@ -87,4 +87,4 @@ tags: ["Nguồn Gốc"]
 - **Duy trì Động Lực** do khó tiếp cận và bỏ nhiều công sức để đào sâu
 
 ## 4. Kết Luận
-Trẻ con vui vì ít biết, người lớn chán vì biết quá nhiều
+Trẻ con vui vì biết ít, người lớn chán vì biết quá nhiều

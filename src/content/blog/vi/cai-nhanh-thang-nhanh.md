@@ -52,7 +52,7 @@ Nếu toàn bộ thông tin đối phương nói là mới hoặc khó hình dun
 * **Độ Mạnh Hocmone:**  
   **Áp Lực Cao, Mạnh thông qua Sự Tương Phản**
 
-  → Khiến Não nhớ sâu vào thông tin Kết Luận, mà không cần liên kết nội dung nói trước đó, chỉ liên kết Bối Cảnh và Câu Kết Luận
+  → Khiến Não nhớ sâu vào thông tin Kết Luận, mà không cần liên kết nội dung nói trước đó, chỉ liên kết Bối Cảnh về Câu Kết Luận
 
   → Quên thông tin Cãi nhanh trước đó do cơ chế truy xuất thông tin dựa trên cảm xúc.
 
