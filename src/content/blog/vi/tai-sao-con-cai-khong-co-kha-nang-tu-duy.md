@@ -103,7 +103,7 @@ Chỉ cần Trẻ Con gặp thông tin không biết và dễ dàng tiếp cận
 
 * **Gia đình có Vấn Đề:** Nếu Gia đình có Vấn Đề, Con Cái không dám hỏi vì sợ nhận Phần Thưởng tiêu cực từ việc Tò Mò
 
-* **Thương cho Doi, cho Vọt:** 1 câu sai = 1 doi, 2 câu sai = 2 doi và …, Không dám hỏi vì sợ Sai, nhận Phần Thưởng Tiêu Cực
+* **Thương cho Roi, cho Vọt:** 1 câu sai = 1 roi, 2 câu sai = 2 roi và …, Không dám hỏi vì sợ Sai, nhận Phần Thưởng Tiêu Cực
 
 #### Nếu Thủ phạm là Nhà trường
 

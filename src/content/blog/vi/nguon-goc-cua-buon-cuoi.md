@@ -13,7 +13,11 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái Niệm
 
-**Buồn Cười** dựa trên Cơ Chế: _Dopamine Spike_
+**Buồn Cười** dựa trên 3 Cơ Chế: 
+
+  * Nhận thức: Phát hiện mâu thuẫn và lí giải
+  * Ngữ cảnh: Xem có chuẩn mực và an toàn hay không
+  * Hóa học: _Dopamine Spike_
 
 ## 2. Quy Luật
 
@@ -23,9 +27,9 @@ tags: ["Nguồn Gốc"]
 
 * **Phần Thưởng:**
 
-  * Liên kết Thông tin Tốt
-
   * Không nghĩ tới
+
+  * An toàn
 
   * Hiểu
 
@@ -35,7 +39,9 @@ Giờ ngược lại, nếu Trò Đùa, không buồn cười, do đâu?
 
 * Không Bất Ngờ
 
-* Liên kết Thông tin Xấu
+* Không An toàn
+
+* Đã đoán trước đó
 
 
 > 1 trong 3 sẽ khiến Trò Đùa mất vui, gây căng thẳng

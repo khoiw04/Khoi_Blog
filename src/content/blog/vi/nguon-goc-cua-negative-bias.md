@@ -15,13 +15,25 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 > *Lưu ý: Bài viết này Liên Hệ bài viết [“Nguồn gốc của Ký Ức“](./nguon-goc-cua-ky-uc) và [“Nguồn gốc của Hạnh Phúc”](./nguon-goc-cua-hanh-phuc)*
 
 
+## 1. Khái Niệm
+
 ### Negative Bias dựa trên 3 Yếu tố:
 
-* **Cortisol:** Hocmone Tập Trung
+* Yếu tố tiến hóa và di truyền **Gene**
 
-* **Thalamus & Não trước trán:** Xử lý Thông tin bị giới hạn — thường là tiêu cực
+* Yếu tố thần kinh – cảm xúc
+  * **Thalamus** Lọc thông tin đầu vào và ưu tiên Nguy hiểm
 
-* **Hệ Limbic:** Xử lý nhanh, cảm tính, phản xạ với trải nghiệm quen thuộc
+  * **Cortisol** Hormone Tập Trung, nếu quá cao là Căng Thẳng
+
+  * **Hệ Limbic** Xử lý nhanh, cảm tính, phản xạ với trải nghiệm quen thuộc
+
+  * **Não Trước Trán** Chức năng điều tiết nhưng dễ bị áp đảo
+
+* Yếu tố học tập và củng cố ký ức
+  * **Lặp đi lặp lại** Củng cố kết nối Hệ Thần Kình 
+  * **Nhận Phần thưởng từ Dopamine** Rèn luyện Synapase tức là Tốc độ và Độ mạnh Cảm xúc
+
 
 ### Negative Bias là:
 
@@ -29,11 +41,11 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 
 * Suy nghĩ Tiêu Cực
 
-* Ưu tiên Kí Ức Tiêu Cực
+* **Ưu tiên Kí Ức Tiêu Cực** Nói chê gấp nói khen
 
-* Phản Ứng Tiêu Cực gấp 10 lần
+* **Phản Ứng Tiêu Cực gấp 10 lần** Một lời chê hơn chín lời khen
 
-* Nhớ Tiêu Cực gấp 5 lần
+* **Nhớ Tiêu Cực gấp 10 lần** Vết thương lòng khó lành như vết thương thịt
 
 ### Negative Bias nhờ:
 
@@ -62,21 +74,23 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 
 * Căng thẳng (Cortisol tăng cao)
 
+* Suy nghĩ Tiêu Cực liên tục
+
 * Trải Nghiệm Tiêu Cực
 
 ### **Để quên Suy nghĩ Tiêu Cực:**
 
 #### **Mục tiêu:** Cố không nghĩ tới để Làm hạt Neuron yếu đi
-  * dùng aMccc 
+  * Thiền
   * Tập Trung 1 Thứ
-  * Giảm Cortisol -- Cảm xúc Tiêu Cực để dừng Ưu Tiên Suy nghĩ Tiêu Cực
+  * → Giảm Cortisol -- Cảm xúc Tiêu Cực để dừng Ưu Tiên Suy nghĩ Tiêu Cực
 
 #### **Cách của Tôi là Tập trung 1 Thứ:**
   * Lúc tập trung: Tập trung đạt Phần Thưởng dí dỏm xung quanh trong quá trình đạt Phần Thưởng chính
   * Lúc không tập trung: Chỉ Tập trung Thở Breathing Box
 
-#### **Ví dụ**
-  * Thiền = Tập trung Thở
+#### **Ví dụ về Thiền**
+  * Thiền = Thiền cảm xúc hoặc Thiền quét Cơ thể
   * Những cơn nghiện = Suy nghĩ Tiêu Cực
   * Những cơn nghiện luôn ập tới suy nghĩ = Những suy nghĩ Tiêu cực luôn ập tới suy nghĩ
   * Bị cơn nghiện cuốn theo cảm xúc = Bị suy nghĩ Tiêu cực cuốn theo cảm xúc
@@ -109,7 +123,7 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 
 * Do **Cảm Xúc Tích Cực gắn vào**
 
-* Negative Bias — Lối sống Cảnh Giác của các Cụ chỉ khiến Bộ Não ưu tiên Suy Nghĩ Tiêu Cực, chứ không phải TÍch Cực
+* Negative Bias — Lối sống Cảnh Giác của các Cụ chỉ khiến Bộ Não ưu tiên Suy Nghĩ Tiêu Cực, chứ không phải Tích Cực
 
 :::info[Khái Niệm]
 

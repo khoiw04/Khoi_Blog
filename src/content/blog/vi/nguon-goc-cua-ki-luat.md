@@ -32,7 +32,7 @@ Kỉ Luật dựa trên 2 loại:
 - Phần Thưởng  
 - Lặp đi Lặp lại  
 
-**Hãy tưởng tượng:**
+**Ví dụ:**
 
 - Tại sao Ta luôn đánh răng mỗi ngày?  
 - Tại sao Ta luôn dậy đi học/làm lúc 7 giờ sáng, nhưng ngày nghỉ dậy 9 giờ sáng?  
@@ -61,7 +61,7 @@ Về Ép Buộc
 - **Anterior Mid Cingulate Cortex (aMccc)** — vùng não ép buộc bản thân  
 - Đây là vùng xử lý xung đột và cưỡng chế hành vi khi ít / không có phần thưởng — như một trung tâm điều khiển ý chí  
 
-**Hãy tưởng tượng:**
+**Ví dụ:**
 
 - Tại sao Ta dậy sớm để Học bài dù rất buồn ngủ?  
 - Tại sao Ta vẫn đi làm dù không có hứng thú?  
@@ -77,7 +77,9 @@ Về Ép Buộc
 - Ít / Không có Phần Thưởng
 :::
 
-## 3. So Sánh
+## 3. Liên Hệ
+
+### So sánh giữa Thói Quen và Ép Buộc
 
 | Yếu Tố                     | Thói Quen                                           | Ép Buộc                                             |
 | -------------------------- | --------------------------------------------------- | --------------------------------------------------- |
@@ -101,7 +103,7 @@ Về Ép Buộc
 - Sửa Thói Quen qua Nhận biết Kiến thức  
 - Chỉ Ép Buộc qua Phần Thưởng mình muốn  
 
-Bài tiếp theo sẽ là **Nguồn gốc của Hạnh Phúc** và **Nguồn gốc của Áp Lực**
+Bài tiếp theo sẽ là **[Nguồn gốc của Hạnh Phúc](./nguon-goc-cua-hanh-phuc)** và **[Nguồn gốc của Áp Lực](./nguon-goc-cua-ap-luc)**
 
 ---
 

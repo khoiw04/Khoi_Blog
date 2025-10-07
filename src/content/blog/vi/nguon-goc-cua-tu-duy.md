@@ -23,15 +23,17 @@ Tư Duy dựa trên 2 Yếu Tố:
 
 ### Về Kiến Thức, gồm 2 Yếu Tố:
 
-* _Chất Lượng_
+* _Chất Lượng_: Số nghề được học có Độ chính xác, Độ sâu
   * Sâu Rộng hay Bề Nổi
-* _Số Lượng_
+* _Số Lượng_: Tổng cộng tất cả các nghề đã học
   * Nhiều hay Ít
 
 :::result[Kết Quả]
 Để đảm bảo Kiến Thức tốt, hãy đảm bảo Tỉ lệ
 
 $$\frac{\text{Chất Lượng}}{\text{Số Lượng}} > 0.5$$
+
+Lưu ý: Chỉ là Ví dụ Minh họa
 :::
 
 ### Về Khả năng Sử dụng, gồm 2 Yếu Tố:
@@ -41,9 +43,9 @@ $$\frac{\text{Chất Lượng}}{\text{Số Lượng}} > 0.5$$
 * _Độ Bền_
   * Nhớ Lâu hay Quên Nhanh
 
-Để đảm bảo Khả năng Sử dụng tốt, hãy Học Sâu
+Để đảm bảo Khả năng Sử dụng tốt, hãy Học Sâu, Học Chắc
 
-:::result[Học Sâu — Deep Learning]
+:::result[Học Chắc]
 
 * Soma, Axon, Synapse, Myelin
 
@@ -77,7 +79,7 @@ Vậy nên Trích từ Một Lời trong “Toxic Productivity”:
 ### Về Học Tập
 
 * đừng **Học Rộng**,
-* hãy **Học Sâu**
+* hãy **Học Sâu, Học Chắc**
 
 > Để tăng Cường Ký Ức qua Sự Lặp đi Lặp lại và Phần Thưởng nhờ Dopamine 
 
@@ -89,6 +91,8 @@ Vậy nên Trích từ Một Lời trong “Toxic Productivity”:
 5. **Giao Tiếp Hiệu quả** bằng cách Lựa Chọn đúng cho Cả 2 kể cả gây khó chịu cho Họ
 
 > Để mở rộng, thay đổi, kiểm chứng Lối Tư Duy
+
+::youtube{url="https://youtu.be/6HP5mg91ETU?si=dbI0gAOkYiGrxL8e&t=468"}
 
 :::info[Yếu Tố Ẩn]
 Còn Yếu Tố ẩn nữa là **Cảm Xúc**, là Người lái Tư duy của Ta, quyết định vùng Não hoạt động
