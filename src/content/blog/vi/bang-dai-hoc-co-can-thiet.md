@@ -239,7 +239,7 @@ Ngay cả khi bạn muốn làm Kĩ Sư, bạn muốn làm Bác Sĩ, bạn muố
 
 Mỗi lần đặt Câu Hỏi, bạn Tò Mò, bạn đang Kỳ Vọng về Câu Trả Lời xứng đáng với Suy Nghĩ của mình
 
-Phải bỏ ra Công Sức vừa đủ nhưng cũng đúng với gì mình đang nghĩ, Phần Thưởng mình nghĩ. Rất tiếc, mỗi một câu trả lời, cho bạn nhiều thứ hay hơn, lạ hơn, mới hơn, kiến thức mới lạ trước mắt đó dễ tiếp cận hơn những gì mình nghĩ
+Phải bỏ ra Công Sức vừa đủ nhưng cũng đúng với gì mà Phần Thưởng mình đang nghĩ. Rất tiếc, mỗi một câu trả lời, cho bạn nhiều thứ hay hơn, lạ hơn, mới hơn và kiến thức mới lạ trước mắt đó dễ tiếp cận hơn những gì mình nghĩ
 
 Từ đó tạo cho Bạn sự “Phấn Khích“, kích thích Bạn tò mò nhiều hơn, mỗi một câu hỏi mới, mở ra trả lời mới, mỗi câu trả lời mới, lại là những câu hỏi mới
 
@@ -263,13 +263,15 @@ Theo lý thuyết Dopamine — Nguồn Gốc của Động Lực, Con Người l
 
 Đối chiếu với Đại Học và [Nguồn Gốc của Học](#tại-sao-con-người-đi-học):
 
-* Phần Thưởng: Không trả lời đúng thứ mình muốn và câu hỏi mình đặt, phải theo quy trình nhà trường đề ra  
-* Công Sức: Tiền Bạc, Ô Nhiễm, Thời gian Chết nhiều do Đi lại, Làm thêm, Tiền Bạc, Ngồi trên Lớp mà Hiệu quả mình muốn không thu về → “Động Lực” tiết ra Ít → Từ bỏ hành vi không hiệu quả, suy nghĩ lại
+* Phần Thưởng: Không trả lời đúng thứ mình muốn và câu hỏi mình đặt, phải theo quy trình nhà trường đề ra
+* Công Sức: Tiền Bạc, Ô Nhiễm, Thời gian Chết nhiều do Đi lại, Làm thêm, Tiền Bạc và Ngồi trên Lớp mà Hiệu quả mình muốn không thu về → “Động Lực” tiết ra Ít → Từ bỏ hành vi không hiệu quả, suy nghĩ lại
 
 > Sai Phần Thưởng, Công Sức, Chi Phí bỏ ra quá nhiều, tất cả Sinh Viên không ai muốn chọn, ít nhất trong phạm vi “Học” — 80% Dịch vụ mà Đại Học đem lại
 
 :::result[Kết Luận]
-Từ đó, tất cả Sinh Viên đi Đại Học vì Áp Lực, nhu cầu tuyển việc, xin việc làm, tiền bạc, áp đặt gia đình. Nếu không, họ đã chọn cái khác như Tự Học, Tự Trải Nghiệm, Tự Lập doanh nhiệp cho tiết kiệm tiền, công sức mà bỏ ra đúng Phần Thưởng mình muốn
+Từ đó, tất cả Sinh Viên đi Đại Học vì Áp Lực, nhu cầu tuyển việc, xin việc làm, tiền bạc, áp đặt gia đình. Nếu không, họ đã chọn cái khác như Tự Học, Tự Trải Nghiệm, Tự Lập doanh nhiệp cho tiết kiệm tiền, công sức mà bỏ ra đúng Phần Thưởng mình muốn. 
+
+Mà chưa kể, sau 4 năm nhờ sự cập nhật Kiến Thức liên tục, những kiến thức của Sinh Viên cũng lỗi thời. Cộng thêm, cũng không chứng minh được Động Lực của Sinh Viên. Vậy nên Bằng Đại Học cũng vô dụng trong việc chứng minh Kiến Thức và Kỉ Luật
 :::
 
 ### **Tại sao Doanh Nghiệp và Nhà Nước thích lấy Bằng Đại Học, Ngành Giáo Dục?**

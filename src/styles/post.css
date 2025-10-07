@@ -616,5 +616,6 @@ img {
 @media (max-width: 550px) {
   .prose {
     padding-inline: 1rem;
+    overflow-x: hidden;
   }
 }
