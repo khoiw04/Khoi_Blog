@@ -84,7 +84,7 @@ Nếu hành vi được **Não trước Trán nhận thức là có Lợi**, và
 
 Dù chúng ta có ý định tư duy logic, **Phần Con (Limbic)** vẫn luôn hoạt động song song và **chen ngang luôn quá trình suy luận**.
 
-- Khi Não trước Trán hiểu thông tin đó, Phần Con tiết Hocmone để phản ứng thông tin đó  
+- Khi Não trước Trán hiểu thông tin đó, Phần Con tiết Hormone để phản ứng thông tin đó  
 - *Khiến Ta không thèm nhìn thông tin tiếp theo và ngăn cản quá trình đào sâu* do Dopamine được tiết ra vì nghĩ đã **Đạt Phần Thưởng Kì Vọng** rồi, làm mất động lực để nghĩ thêm vì đã hài lòng, chỉ muốn duy trì
 :::
 

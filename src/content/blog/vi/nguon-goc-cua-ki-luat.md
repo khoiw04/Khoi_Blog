@@ -45,7 +45,7 @@ Kỉ Luật dựa trên 2 loại:
 
 → Vì mỗi Thói Quen luôn có Phần Thưởng dễ nhìn, dễ thấy, dễ đạt.
 
-**Cảm ơn Dopamine — Hocmone Động Lực vì:**
+**Cảm ơn Dopamine — Hormone Động Lực vì:**
 
 - Rèn luyện Axon, Myelin và Synapse mỗi khi đạt được Phần Thưởng  
 - Rèn luyện Độ Dẻo Dai, Tốc Độ và Kết Nối của Trí Nhớ mỗi khi đạt được Phần Thưởng  
@@ -58,7 +58,7 @@ Về Ép Buộc
 
 Để hình thành, Ép Buộc cần dựa trên cơ chế:
 
-- **Anterior Mid Cingulate Cortex (aMccc)** — vùng não ép buộc bản thân  
+- **Anterior Mid Cingulate Cortex (aMCC)** — vùng não ép buộc bản thân  
 - Đây là vùng xử lý xung đột và cưỡng chế hành vi khi ít / không có phần thưởng — như một trung tâm điều khiển ý chí  
 
 **Ví dụ:**
@@ -93,7 +93,7 @@ Về Ép Buộc
 
 :::result[Kết Luận]
 - Thói Quen giúp duy trì dài hạn nhờ phần thưởng.  
-- Ép Buộc giúp vượt qua ngắn hạn nhờ ý chí và kiểm soát từ aMccc.
+- Ép Buộc giúp vượt qua ngắn hạn nhờ ý chí và kiểm soát từ aMCC.
 :::
 
 ## 4. Kết Luận
@@ -113,4 +113,4 @@ Bài tiếp theo sẽ là **[Nguồn gốc của Hạnh Phúc](./nguon-goc-cua-h
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | **Foundations of Neuroscience – Michigan State University** | Dopamine được giải phóng từ vùng VTA (ventral tegmental area) và truyền đến nucleus accumbens và vỏ não trước trán qua hai con đường chính: mesolimbic và mesocortical. Đây là trung tâm của hệ thống phần thưởng trong não bộ.   | [Xem tại đây](https://openbooks.lib.msu.edu/neuroscience/chapter/motivation-and-reward/) |
 | **PubMed Central – Dopamine and Motivation**                | Nghiên cứu cho thấy dopamine đóng vai trò quan trọng trong việc điều chỉnh động lực hành vi thông qua hệ thống phần thưởng. Sự kỳ vọng phần thưởng kích hoạt mạnh mẽ hệ thống dopaminergic, ảnh hưởng đến hành vi hướng mục tiêu. | [Xem tại đây](https://pmc.ncbi.nlm.nih.gov/articles/PMC10601672)                         |
-| **PubMed Central – Anterior Cingulate Cortex and Effort**   | aMccc là vùng não xử lý xung đột và kiểm soát hành vi khi ít / không có phần thưởng. Nó đóng vai trò quan trọng trong việc ra quyết định, cưỡng chế hành vi và duy trì nỗ lực trong điều kiện không thuận lợi.                         | [Xem tại đây](https://pmc.ncbi.nlm.nih.gov/articles/PMC6884085)                          |
+| **PubMed Central – Anterior Cingulate Cortex and Effort**   | aMCC là vùng não xử lý xung đột và kiểm soát hành vi khi ít / không có phần thưởng. Nó đóng vai trò quan trọng trong việc ra quyết định, cưỡng chế hành vi và duy trì nỗ lực trong điều kiện không thuận lợi.                         | [Xem tại đây](https://pmc.ncbi.nlm.nih.gov/articles/PMC6884085)                          |

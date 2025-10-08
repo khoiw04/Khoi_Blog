@@ -16,7 +16,7 @@ tags: ["Tại Sao"]
 
 ## 1. Khái niệm
 
-* **Động Lực** là Dopamine — Hocmone tăng Hoạt Động Bộ Não khi thấy Phần Thưởng và Dự Doán Phần Thưởng
+* **Động Lực** là Dopamine — Hormone tăng Hoạt Động Bộ Não khi thấy Phần Thưởng và Dự Doán Phần Thưởng
 * **Công Cụ** là Công Việc & Dụng Cụ
 * **Đại Cương** là Lớn — Tổng Quát & Xương Sống — Kiến Thức Cốt Lõi
 

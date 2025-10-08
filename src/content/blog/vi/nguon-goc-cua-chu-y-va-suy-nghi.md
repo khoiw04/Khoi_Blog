@@ -13,50 +13,32 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái Niệm
 
-### Chú Ý Chủ Động dựa trên 3 Yếu tố:
+- Hệ 1: tư duy Cảm Xúc, hệ Limbic đảm nhiệm
+- Hệ 2: tư duy Lý Trí, Não trước trán đảm nhiệm 
 
-* **Cortisol**: Hocmone Tập Trung  
-* **Bộ Lọc Chú Ý**: Lọc Đầu Vào  
-* **Bộ Lọc Nơ-ron**: Lọc Thông Tin  
+- Hai loại Chú Ý:
+  - Chú Ý Bị Động -- Hệ 1: **Hệ thống Reticular Activating System (RAS) -- Chú ý Sự Nổi Bật**
 
-### Chú Ý Bị Động dựa trên 3 Yếu tố:
-
-* **Hệ thống Reticular Activating System (RAS)**: Chú ý Sự Tương Phản  
-* **Độ Mạnh Hocmone**: Độ Mạnh, Yếu của Cảm Xúc
-* **Dopamine**: Tốc Độ Hứng Thú qua Tốc Độ Hiểu Thông Tin  
+  - Chú Ý Chủ Động -- Hệ 2: **Mục Tiêu (Não trước trán) -- Hướng mục tiêu, Ra lệnh ưu tiên**
 
 ## 2. Quy Luật
 
-### Để hình thành, Chú Ý Chủ Động chỉ cần Yếu Tố:
+### Để hình thành, **Chú Ý Bị Động -- Hệ 1** cần Yếu Tố:
 
-* **Cortisol**  
-  Cơ Chế: Căng Thẳng, Tập Trung  
-  Điều Kiện: Cortisol Tăng Cao  
+* **Hệ thống Reticular Activating System (RAS)**: Chú ý Sự Nổi Bật
+  Cơ Chế: Phát hiện Sự Nổi Bật và Tự động Tập Trung vào đó  
+  Điều Kiện: Cần phải có Sự Nổi Bật  
 
-* **Bộ Lọc Chú Ý**  
-  Cơ Chế: Tắc Nghẽn Cổ Chai Tự Nhiên  
-  Điều Kiện: Thalamus Luôn Hoạt động  
+### Để hình thành, **Chú Ý Chủ Động -- Hệ 2** cần Yếu Tố:
 
-* **Bộ Lọc Nơ-ron**  
-  Cơ Chế: Tắc Nghẽn Cổ Chai Não Trước Trán  
-  Điều Kiện: Suy Nghĩ  
+* **Mục Tiêu**  
+  Cơ Chế: Tập trung điều bạn muốn  
+  Điều Kiện: Mục tiêu + Khích lệ
 
-### Bảng Giới Hạn Xử Lý
-
-| **Loại thông tin** | **Thalamus** (Giới hạn đầu vào) | **Não trước trán** (Giới hạn xử lý) |
-|----------------|----------------------------------|--------------------------------------|
-| **Âm thanh**       | ~3–5 tín hiệu nổi bật mỗi giây | ~1–2 luồng âm thanh có thể tập trung |
-| **Hình ảnh**       | ~4–6 hình ảnh rõ ràng mỗi giây | ~2 hình ảnh duy trì trong trí nhớ    |
-| **Vận động**       | ~2–3 chuyển động rõ ràng mỗi giây | ~1–2 hành động có thể lên kế hoạch |
-
-_“Các con số chỉ mang tính minh họa, thực tế não chỉ tập trung hiệu quả vào rất 1-2 đối tượng cùng lúc. ”_
-
-:::info[Khái Niệm]
-* Tắc Nghẽn Cổ Chai là Giới hạn Bộ Phận có thể Xử lý  
-* Thalamus là Trạm Chuyển tiếp Thông Tin  
+:::result[Kết Luận]
+* Nếu muốn tập trung, hãy xác định vấn đề
+* Nếu muốn bị động, cần sự nổi bật xuất hiện
 :::
-
-## 3. Liên Hệ
 
 ### Con người có 2 khả năng Suy Nghĩ:
 
@@ -78,7 +60,7 @@ _“Các con số chỉ mang tính minh họa, thực tế não chỉ tập trun
 * Xử lý bởi **Não Trước Trán** — **Hệ 2**  
 * Dựa trên mạng lưới thần kinh mới hoặc kết hợp  
 * Kích hoạt bởi thông tin chưa quen thuộc  
-* Xử lý từ 4 giây trở lên
+* Xử lý từ vài giây hoặc lâu hơn tùy độ phức tạp
 
   → Phân tích sâu, tiêu hao năng lượng
 
@@ -96,11 +78,21 @@ _“Các con số chỉ mang tính minh họa, thực tế não chỉ tập trun
 | **Ưu điểm**                | Nhanh, tiết kiệm năng lượng| Chính xác, có chiều sâu  |
 | **Nhược điểm**             | Thiên kiến nhận thức       | Chậm, dễ mệt             |
 
+### Bảng Giới Hạn Xử Lý của Suy Nghĩ 
+
+| **Loại thông tin** | **Thalamus** (Trạm trung chuyển và Lọc tín hiệu cảm giác) | **Não trước trán** (Giới hạn xử lý) |
+|----------------|----------------------------------|--------------------------------------|
+| **Âm thanh**       | ~3–5 tín hiệu nổi bật mỗi giây | ~1–2 luồng âm thanh có thể tập trung |
+| **Hình ảnh**       | ~4–6 hình ảnh rõ ràng mỗi giây | ~2 hình ảnh duy trì trong trí nhớ    |
+| **Vận động**       | ~2–3 chuyển động rõ ràng mỗi giây | ~1–2 hành động có thể lên kế hoạch |
+
+_“Các con số chỉ mang tính minh họa, thực tế não chỉ tập trung hiệu quả vào chỉ 1-2 đối tượng cùng lúc. ”_
+
 ### Chu Trình Suy Nghĩ
 
-1. **Tiếp Nhận Thông Tin**  
+1. **Tiếp Nhận Thông Tin -- Do Chú ý**  
    Thalamus nhận tín hiệu cảm giác  
-   RAS kích hoạt sự tỉnh táo nếu có tương phản  
+   RAS kích hoạt sự tỉnh táo nếu có nổi bật  
    Chuyển thông tin qua Hệ Limbic
 
 2. **Phân Loại Suy Nghĩ**  
@@ -128,6 +120,35 @@ _“Các con số chỉ mang tính minh họa, thực tế não chỉ tập trun
 * Dopamine: kích hoạt Go hoặc No-Go  
 :::
 
+### Độ Nổi Bật ảnh hưởng khả năng Mức độ Chú Ý
+
+* **Độ nổi bật giác quan** cường độ, tương phản, chuyển động, âm lượng — trực tiếp thu hút chú ý Hệ 1.
+
+* **Độ nổi bật mới lạ/bất ngờ** thông tin mới, dị thường hoặc vi phạm dự đoán gây bật RAS.
+
+* **Độ nổi bật cảm xúc** trạng thái cơ thể hoặc cảm xúc (đói, đau, sợ) làm tăng tính ưu tiên xử lý.
+
+* **Độ nổi bật phần thưởng/động lực** liên quan tới giá trị dự đoán và kỳ vọng phần thưởng, chủ yếu do hệ dopamine đánh dấu.
+
+* **Độ nổi bật xã hội** khuôn mặt, ánh mắt, giọng nói, tín hiệu xã hội có đặc thù thu hút chú ý riêng.
+
+* **Độ nổi bật mục tiêu/ngữ cảnh** liên quan tới mục tiêu hiện tại và kỳ vọng;  Não Trước Trán chủ đạo, có thể triệt tiêu hoặc tăng tính nổi bật của các kích thích phù hợp.
+
+* **Độ nổi bật mối nguy/đe dọa** tín hiệu báo nguy cấp kích hoạt nhanh phản ứng cảnh giác và chú ý ưu tiên.
+
+:::result[Kết luận]
+* **Độ mạnh cảm xúc**: cường độ cảm xúc do các chất như norepinephrine, adrenaline, cortisol và các hệ neuromodulatory tăng tính kích thích và nâng sự chú ý
+  * Norepinephrine / Locus coeruleus: tăng cảnh giác, khuếch đại phản ứng với điều chưa trải qua hoặc đe dọa; thúc đẩy Hệ 1.
+
+  * Acetylcholine: tăng phân giải tín hiệu và chú ý chọn lọc, hỗ trợ "Nổi bật" mục tiêu.
+
+  * Dopamine: gắn nhãn "Nổi bật" liên quan phần thưởng và động lực, thúc đẩy hành vi tiếp cận và ghi nhớ.
+
+  * Adrenaline / Cortisol: trong trạng thái stress/đe dọa tăng ưu tiên xử lý cho kích thích liên quan.
+:::
+
+## 3. Liên Hệ
+
 ### Suy nghĩ khi bị Kẹt
 
 1. **Bắt đầu Kẹt** Mỗi lần Tập trung mà bị "Kẹt" không nghĩ ra được
@@ -141,7 +162,7 @@ _“Các con số chỉ mang tính minh họa, thực tế não chỉ tập trun
 
 ## 4. Kết Luận
 
-Thằng này Bơ mình thật, chỉ có 2 luồng âm thanh, lời mình nói chỉ là “Tạm biệt nhé“, hoàn toàn Hệ thống Limbic hiểu và sinh ra Hocmone nhưng chọn ACC -- Ép Buộc ức chế phản ứng
+Thằng này Bơ mình thật, chỉ có 2 luồng âm thanh, lời mình nói chỉ là “Tạm biệt nhé“, hoàn toàn Hệ thống Limbic hiểu và sinh ra Hormone nhưng chọn ACC tham gia phát hiện lỗi, xung lực hành vi và điều phối/ức chế khi cần
 
 ---
 

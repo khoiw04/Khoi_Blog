@@ -24,7 +24,7 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái niệm
 
-Dopamine là một hocmone “Động Lực“ cho ta sự Phấn Đấu qua các Cơ Chế: Mong Muốn và Sảng Khoái
+Dopamine là một hormone “Động Lực“ cho ta sự Phấn Đấu qua các Cơ Chế: Mong Muốn và Sảng Khoái
 
 * “Mong Muốn“: *Aka. Kỳ vọng.* Khi ta mong muốn đạt được Phần Thưởng, Động Lực được giải phóng để ta Phấn Đấu -- tăng cường Bộ Não
 

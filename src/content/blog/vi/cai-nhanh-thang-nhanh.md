@@ -49,7 +49,7 @@ Nếu toàn bộ thông tin đối phương nói là mới hoặc khó hình dun
 
   → Sự tương phản này khiến não bộ chuyển hướng chú ý
 
-* **Độ Mạnh Hocmone:**  
+* **Độ Mạnh Hormone:**  
   **Áp Lực Cao, Mạnh thông qua Sự Tương Phản**
 
   → Khiến Não nhớ sâu vào thông tin Kết Luận, mà không cần liên kết nội dung nói trước đó, chỉ liên kết Bối Cảnh về Câu Kết Luận

@@ -102,8 +102,8 @@ tags: ["Nguồn Gốc", "Tại Sao"]
 
 :::info[Khái Niệm]
 
-* Anterior Mid Cingulate Cortex (aMccc) — Ép buộc Bản Thân
-* aMccc là vùng não giúp ta cưỡng chế hành vi khi không có phần thưởng — như một trung tâm điều khiển ý chí.
+* Anterior Mid Cingulate Cortex (aMCC) — Ép buộc Bản Thân
+* aMCC là vùng não giúp ta cưỡng chế hành vi khi không có phần thưởng — như một trung tâm điều khiển ý chí.
 
 :::
 

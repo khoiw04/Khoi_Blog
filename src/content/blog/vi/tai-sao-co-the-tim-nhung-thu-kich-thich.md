@@ -16,7 +16,7 @@ tags: ["Tại Sao"]
 ### Từ Vựng Hằng Ngày
 
 - Áp Lực là Cortisol — Tập Trung tăng cao  
-- Endorphin là Hocmone giảm Áp Lực khi đạt Phần Thưởng
+- Endorphin là Hormone giảm Áp Lực khi đạt Phần Thưởng
 - Dopamine Spike là Phần Thưởng Bất Ngờ hoặc Nhanh Chóng  
 - Thói Quen: lối sống, cách sống hay hoạt động do lặp đi lặp lại lâu ngày thành quen, khó thay đổi  
 - Hệ 1: Tư duy Cảm Xúc

@@ -34,14 +34,14 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 | **Dây (Axon)**                     | Truyền tín hiệu điện từ Soma đến các nơ-ron khác                                        |
 | **Bao (Myelin)**                   | Tăng tốc độ truyền tín hiệu                                                             |
 | **Nút (Ranvier)**                  | “Nhảy cóc” để tăng tốc độ truyền                                                        |
-| **Điểm Kết Thúc (Synapse)**        | Chuyển tín hiệu điện thành tín hiệu hóa học cho Dendrite                                |
+| **Khoảng cách Liên Kết (Synapse)**        | Chuyển tín hiệu điện thành tín hiệu hóa học cho Soma, Dendrite, Axon                            |
 | **Nút Tận Cùng (Terminal Button)** | Giải phóng chất dẫn truyền thần kinh (Dopamine, Oxytocin, Noradrenaline, …) vào Synapse |
 
 > Quá trình Truyền Tín Hiệu
 > 
-> Terminal Button → Synapse → Dendrite → Soma → Axon → _Myelin + Ranvier_ → Terminal Button
+> Dendrite → Soma → Axon (myelin + nodes of Ranvier) → Terminal button → Synapse → Dendrite (tiếp theo).
 > 
-> Nút Tận Cùng → Điểm Kết Thúc → Nhánh → Thân → Dây → _Bao + Nút_ → Nút Tận Cùng
+> Nhánh → Thân → Dây (Bao + Điểm Nhảy) → Nút Tận Cùng → Khoảng cách Liên Kết → Nhánh (tiếp theo).
 
 ![Mạng lưới Thần Kinh](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lifewire.com%2Fthmb%2FeH5E3lf2twuxmdbZxMZOxf4tC0w%3D%2F5000x3750%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fwhat-is-neural-network-bd8fc6a5fb6f40bba291b64e609ee0b7.jpeg&f=1&nofb=1&ipt=0042e3905169057cbd70f0342bf1fe0f80a632bac650137c796e2d7ec26ecbe9)
 
@@ -75,7 +75,7 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 > 2D chỉ là Ví Dụ dễ nhìn, hãy tưởng tượng 3D để hình dung cách Mạng Lưới Thần Kinh di chuyển từng vùng trong Bộ Não
 :::
 
-### Để thay đổi, Mạng Lưới Thần Kinh cần:
+### **Để thay đổi,** Mạng Lưới Thần Kinh cần:
 
 - **Neuroplasticity** – khả năng tái cấu trúc
 - **Long-Term Potentiation** – tăng cường Synapse
@@ -91,7 +91,7 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 
 ## 3. Liên Hệ
 
-### Mỗi loại Ký Ức được ở Engram (Mạng lưới Thần Kinh nhỏ) trong Vùng Não Liên Quan:
+### Mỗi loại Ký Ức riêng biệt được ở Engram (Mạng lưới Thần Kinh nhỏ) trong Vùng Não riêng biệt:
 
 | **Loại Ký Ức** | Vùng Não Liên Quan                      |
 | -------------- | --------------------------------------- |
@@ -107,33 +107,45 @@ Ký Ức chỉ dựa vào Cơ Chế: **Mạng lưới Thần Kinh**
 | **State-Dependent (60%)**   | Dựa trên cảm xúc  |
 | **Context-Dependent (40%)** | Dựa trên bối cảnh |
 
+_Lưu ý: Tỉ lệ mang tính chất minh họa_
+
 ### **Để lưu Ký Ức (Long-term Memory), cần 3 yếu tố**
 * Short-term Memory
 * Hippocampus
-* Hocmone
+* Hormone
+
+Và các giai đoạn như:
 
 | **Giai đoạn**     | Mô tả                                            |
 | ----------------- | ------------------------------------------------ |
 | **Tiếp nhận**     | Lưu Short-term Memory vào Prefrontal Cortex      |
 | **Mã hóa**        | Đổi sang Long-term Memory nhờ Hippocampus        |
-| **Tăng cường**    | Gắn sâu bằng cảm xúc và Hocmone                  |
+| **Tăng cường**    | Gắn sâu bằng cảm xúc và Hormone                  |
 | **Phân phối**     | Di chuyển đến Vỏ Não tương ứng                   |
 | **Kích hoạt lại** | Dựa trên cảm xúc và bối cảnh, Engram được gọi ra |
 
-### **Để quên Ký Ức (Long-term Memory), có 4 dạng**
-* Không thể Truy Xuất
-* Không thể Ghi Nhớ
-* Bị Xóa
-  * Ngắn Hạn: Mạng Neuron Tắt Đèn
-  * Dài Hạn: Gãy Synapse, Yếu Hạt Neron
+### **Để quên Ký Ức (Long-term Memory), có 6 dạng**
+* Không thể truy xuất
+* Quên có chủ đích
+* Ký Ức bị ghi đè
+* Mất do cấu trúc
+* Không củng cố
+* Không mã hóa
 
-| **Dạng**                | Mô tả                                             | Cơ chế thần kinh                                                             |
-| ----------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **Không thể Truy Xuất** | Ký ức vẫn tồn tại nhưng không thể gọi ra đúng lúc | Engram không được kích hoạt                                                  |
-| **Không thể Ghi Nhớ**   | Thông tin không được mã hóa đủ mạnh               | Hippocampus không hoạt động hiệu quả                                         |
-| **Bị Xóa**              | Ký ức từng tồn tại nhưng đã bị loại bỏ            | Synapse bị gãy, Hạt Neuron yếu, mạng nơ-ron tái cấu trúc, bị ghi đè hoặc xóa |
-| **Ngắn Hạn**            | Mất tạm thời do gián đoạn hoạt động nơ-ron        | Tín hiệu điện không được duy trì                                             |
-| **Quên có chủ đích**    | Cố tình không nhớ đến một ký ức cụ thể            | Prefrontal Cortex phối hợp với ACC để ức chế Engram                          |
+| **Loại quên** | **Mô tả ngắn** | **Cơ chế thần kinh điển hình** |
+|---|---:|---|
+| **Không thể truy xuất** | Ký ức tồn tại nhưng không được gọi ra | Engram không được kích hoạt; thiếu tín hiệu kích hoạt; context/state mismatch |
+| **Không mã hóa** | Thông tin không bao giờ được lưu thành ký ức bền | Thiếu chú ý/đầu vào yếu; hippocampal encoding kém |
+| **Không củng cố** | Ký ức không chuyển thành LTM | LTP/đóng gói kém; thiếu giấc ngủ; neuromodulator bất lợi |
+| **Bị ghi đè** | Ký ức bị che lấp bởi thông tin khác | Proactive/retroactive interference trong mạng nơ‑ron |
+| **Mất do cấu trúc** | Ký ức không còn do tổn thương vật lý | Synapse suy yếu/gãy; tế bào chết; tổn thương não vùng engram |
+| **Quên có chủ đích** | Ta ức chế việc truy xuất ký ức | PFC/ACC ức chế kích hoạt engram bằng cơ chế ức chế chủ động |
+
+:::info[Khái Niệm]
+- Proactive là ký ức cũ làm cản trở truy xuất ký ức mới, do cái cũ dễ truy xuất hơn
+- Retroactive là ký ức mới làm cản trở truy xuất ký ức cũ, do cái mới dễ truy xuất hơn 
+- LTP (Long‑Term Potentiation): quá trình sinh học tại khớp nối (synapse) làm tăng hiệu quả truyền tín hiệu giữa hai nơ‑ron sau kích thích lặp lại
+:::
 
 ### **Để tăng Ký Ức (Short-term Memory), áp dụng Chunking Memory**
 
@@ -176,22 +188,6 @@ Ví dụ về Chunking
 
 * **Não trước Trán** là Vùng Não Suy Nghĩ
 
-:::
-
-:::result[Tóm Tắt]
-**Nhớ là do:**
-
-* Nhớ sâu dựa trên độ Mạnh của Hocmone Cảm Xúc
-
-* Nhớ lâu là do suy nghĩ Lặp Đi Lặp Lại
-
-
-
-**Quên là do:**
-
-* Não quên là do độ Yếu của Hocmone Cảm Xúc
-
-* Não quên là do tần suất Sử Dụng 
 :::
 
 ## 4. Kết Luận

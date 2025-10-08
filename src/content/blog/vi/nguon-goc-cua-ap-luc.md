@@ -23,7 +23,7 @@ tags: ["Nguồn Gốc"]
 
 ### Để hình thành, Áp Lực chỉ cần cơ chế:
 
-* Stressors (Yêu Cầu): áp lực từ môi trường
+* Stressors (Yêu Cầu): yêu cầu từ bên ngoài
 * Appraisal (Đánh Giá): "đòi hỏi" vượt quá "khả năng"
 * Coping & Biological Response (Cảm Xúc): aMcc, Cortisol và Não Trước Trán
 
@@ -38,7 +38,7 @@ tags: ["Nguồn Gốc"]
 * Cảm xúc: phải "ép" bản thân kich hoạt aMcc, ngồi vào làm
 
 :::info[Khái Niệm]
-- **Anterior Mid Cingulate Cortex (aMccc)** — vùng não ép buộc bản thân  
+- **Anterior Mid Cingulate Cortex (aMCC)** — vùng não ép buộc bản thân  
 - Đây là vùng xử lý xung đột và cưỡng chế hành vi khi ít / không có phần thưởng — như một trung tâm điều khiển ý chí
 :::
 

@@ -26,7 +26,7 @@ Hạnh Phúc dựa trên trường hợp:
 
 ## 2. Quy Luật
 
-Để hình thành, Hạnh Phúc cần dựa trên 2 hocmone:
+Để hình thành, Hạnh Phúc cần dựa trên 2 hormone:
 
 * Oxytocin
 * Serotonin
@@ -87,7 +87,7 @@ là ghi nhớ, nhớ lại theo cảm xúc.
 Khi Vui thì nhớ Tích Cực  
 Khi Buồn thì nhớ Tiêu Cực
 
-| Hocmone | Trạng thái | Ảnh hưởng đến trí nhớ | 
+| Hormone | Trạng thái | Ảnh hưởng đến trí nhớ | 
 | --- | --- | --- | 
 | **Oxytocin** | Yêu thương, thư giãn | Ghi nhớ tích cực, xã hội, dễ hồi tưởng khi cảm xúc tương tự | 
 | **Cortisol** | Căng thẳng, lo âu, tập trung | Ghi nhớ _cao_ hơn tích cực nhiều lần tiêu cực, dễ nhớ lại khi stress do Negative Bias | 
