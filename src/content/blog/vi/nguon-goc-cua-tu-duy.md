@@ -33,7 +33,7 @@ Tư Duy dựa trên 2 Yếu Tố:
 
 $$\frac{\text{Chất Lượng}}{\text{Số Lượng}} > 0.5$$
 
-Lưu ý: Chỉ là Ví dụ Minh họa
+_Lưu ý: Tỉ lệ mang tính chất Minh họa_
 :::
 
 ### Về Khả năng Sử dụng, gồm 2 Yếu Tố:

@@ -20,46 +20,24 @@ tags: ["Nguồn Gốc"]
 
 ## 2. Quy Luật
 
-### Để phát triển Đầy đủ về Mọi mặt, đảm bảo trải qua 2 điều:
+### Để phát triển Đầy đủ về Mọi mặt, đảm bảo trải qua 4 điều:
 
-- **Tiêu Cực**: giúp Ta nhìn đời đầy **Đồng Cảm** — *Cùng Một Cảm Xúc khi Cùng Một Trải Nghiệm*
+- **Trải nghiệm và học hỏi** (tiếp xúc với cả tích cực lẫn tiêu cực)
 
-- **Tích Cực**: giúp Ta nhìn đời đầy **Hạnh Phúc**
+- **Năng lực cảm xúc** (nhận diện, điều chỉnh, đồng cảm)
 
-### Hậu Quả của Chỉ Tích Cực và Chỉ Tiêu Cực
+- **Năng lực nhận thức** (phân tích, ra quyết định, phản biện)
 
-**Về Tích Cực:**
+- **Năng lực xã hội và trách nhiệm** (giao tiếp, ranh giới, đạo đức)
 
-- Nếu chỉ nhìn Cuộc Đời chỉ toàn Tích Cực  
-- Dễ Đánh giá Sai Người khác, Nghĩ họ Yếu Đuối *aka. Thiếu Đồng Cảm*  
-  - Vì Chúng ta Chỉ đánh giá dựa trên Thông Tin Chúng ta Có  
-    - — dựa trên *“Nguồn Gốc của Tư Duy”*  
-    - — dựa trên “Mạng Lưới Thần Kinh“
+### Hậu Quả của thiếu 1 Cột
 
-**Về Tiêu Cực:**
+- **Trải nghiệm và học hỏi:** ít khả năng đồng cảm với những hoàn cảnh khác.
+- **Năng lực cảm xúc**: dễ bị cuốn vào cảm xúc tiêu cực
+- **Năng lực nhận thức**: khó phân biệt thông tin thật/không
+- **Năng lực xã hội và trách nhiệm**: mất tin cậy, giới hạn ranh giới xã hội và bản thân kém
 
-- Nếu chỉ nhìn Cuộc Đời chỉ toàn Tiêu Cực  
-- Cuộc Sống đầy Sa Ngã, dễ Buôm Theo Gió, thích nghi với Môi Trường  
-  - Môi Trường Tốt là Tốt  
-  - Môi Trường Xấu là Xấu  
-  - Vì Thích Nghi cho Dễ Thở
-
-:::info[Ý Kiến Chủ quan]
-
-- **Nếu hỏi Tôi thích nghiêng về Tích Cực và Tiêu Cực,** Tôi nên chọn cái nào?  
-  - **Tôi chọn Tích Cực**  
-  - Thay vì Đánh Giá Người khác, Kiểm soát Cảm Xúc, Tư Duy theo Trải Nghiệm  
-  - Tôi làm theo Nhận Thức, Nhận biết Kiến Thức, dựa trên Nghệ Thuật và Khoa Học và Sẵn sàng Hiểu họ
-  - Như vậy là đủ…
-
-:::
-
-## 3. Liên Hệ
-
-### _“Xã hội cho Con Trưởng Thành“_
-- Không, 95% chỉ cho Tiêu Cực, hại lẫn nhau
-
-## 4. Kết Luận
+## 3. Kết Luận
 
 **Trưởng Thành liệu có quan trọng?**
 

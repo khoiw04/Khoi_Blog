@@ -14,10 +14,18 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái niệm
 
-**Nhầm** là Nhớ Sai Lệch Thông Tin đang cần
+**Nhầm** = Truy xuất sai engram hoặc gọi nhầm engram   
+**Engram** là Mạng Lưới Thần Kinh thu nhỏ trong Mạng lưới Thần Kinh lớn   
+**Mạng lưới Thần Kinh** là Trí Nhớ
 
 ## 2. Quy Luật
-Để Nhầm, chỉ cần: **Mạng Lưới Thần Kinh hoạt động chưa kịp thời**
+Để Nhầm, chỉ cần: **Mạng nơ‑ron/Engram phù hợp không được kích hoạt kịp thời, còn engram cũ dễ kích hoạt hơn**
+
+
+
+:::warning[Lưu Ý]
+Khi Engram mới được củng cố mạnh hơn hoặc khi có cues phù hợp, tỉ lệ nhầm giảm
+:::
 
 ::youtube{url="https://www.youtube.com/watch?v=qr2gR0UOlfg"}
 
@@ -26,16 +34,27 @@ tags: ["Nguồn Gốc"]
 - Mạng Lưới Thần Kinh như nào, Ký Ức trả như vậy  
 - Mạng Lưới luôn thay đổi tùy theo Cảm Xúc và Bối Cảnh
 :::
-## 3. Ví Dụ
-### **Ví dụ 1: Gọi nhầm Mẹ là Bố**
+## 3. Liên Hệ
+
+### Ví dụ
+
+#### **Ví dụ 1: Gọi nhầm Mẹ là Bố**
 - Mạng Lưới Thần Kinh hình thành từ “Gia Đình” nhưng hình thành “từ Bố” trước “từ Mẹ”  
-- Vì hình thành từ Bố dễ dàng hơn do Dây Thần Kinh liên quan từ Bố được luyện tập cứng cáp hơn, truyền nhanh hơn nhờ thói quen và phần thưởng -- dopamine
-- Khi Mạng Lưới Thần Kinh hình thành xong, bạn không còn nhầm nữa
-### **Ví dụ 2: Gọi nhầm tên giáo viên**
+- Engram liên quan tới “Bố” mạnh hơn do lịch sử kích hoạt nên khi truy xuất, engram “Bố” cạnh tranh và được kích hoạt trước.
+#### **Ví dụ 2: Gọi nhầm tên giáo viên**
 - Khi đang nói chuyện với giáo viên mới, bạn gọi nhầm tên giáo viên cũ  
 - Do dây thần kinh liên kết với giáo viên cũ mạnh hơn nhờ thói quen và phần thưởng -- dopamine, được kích hoạt trước
-### **Ví dụ 3: Nhầm đường đi**
+#### **Ví dụ 3: Nhầm đường đi**
 - Bạn đi nhầm đường vì tuyến đường cũ từng được sử dụng thường xuyên hơn  
 - Mạng lưới thần kinh ưu tiên đường quen → dẫn đến nhầm lẫn
+
+### Các loại Nhầm
+
+**Cạnh tranh Truy Xuất:** cố gắng nhớ tên một bài hát, cả hai bài cùng giai điệu tương tự cùng hiện lên trong đầu và “đua” nhau.
+
+**Độ thiên vị của Tín hiệu gợi:** nghe một câu chữ liên quan đến mối tình cũ sẽ làm bạn nhớ ngay kỷ niệm tình cảm dù bạn chỉ muốn nhớ thông tin trung tính.
+
+**Nội dung và cảm xúc không phù hợp:** học từ vựng trong thư viện yên tĩnh nhưng thi trong phòng ồn ào → tín hiệu gợi môi trường khác, nên engram khác (ví dụ từ đã học trong quán cà phê) bị kích hoạt thay.
+
 ## 4. Kết Luận
-Kết quả của Từ “Nhầm” đơn giản là Mạng Lưới Thần Kinh của Bạn chưa kịp Thay Đổi mà thôi
+Kết quả của Từ “Nhầm” đơn giản là Mạng Lưới Thần Kinh của Bạn chưa kịp Thay Đổi phù hợp mà thôi

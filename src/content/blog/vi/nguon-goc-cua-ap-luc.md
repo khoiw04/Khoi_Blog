@@ -33,8 +33,8 @@ tags: ["Nguồn Gốc"]
 
 > _“Tại sao mình cảm thấy stress ngay khi deadline quá gấp?”_
 
-* Yêu cầu: áp lực từ sếp
-* Đánh giá: yêu cầu quá gấp
+* Yêu cầu: yêu cầu quá gấp
+* Đánh giá: nhanh và vội hơn so với khả năng
 * Cảm xúc: phải "ép" bản thân kich hoạt aMcc, ngồi vào làm
 
 :::info[Khái Niệm]
