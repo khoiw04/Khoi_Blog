@@ -13,8 +13,8 @@ import rehypeCleanup from './src/plugins/rehype-cleanup.mjs'
 import remarkEmbeddedMedia from './src/plugins/remark-embedded-media.mjs'
 import rehypeAddButtonClass from './src/plugins/rehype-add-button-class.js';
 import rehypeImageProcessor from './src/plugins/rehype-image-processor.mjs'
+import rehypeAstroRelativeLinks from './src/plugins/rehype-astro-relative-links.js';
 import remarkAdmonitions from './src/plugins/remark-admonitions.mjs'
-import rehypeAstroRelativeMarkdownLinks from "astro-rehype-relative-markdown-links";
 import tailwindcss from '@tailwindcss/vite';
 
 import expressiveCode from 'astro-expressive-code';
@@ -23,13 +23,18 @@ import { themeConfig } from './src/config.js';
 
 const plugins = {
     remarkPlugins: [remarkDirective, remarkAdmonitions, remarkEmbeddedMedia, remarkMath],
-    rehypePlugins: [rehypeKatex, rehypeCleanup, rehypeImageProcessor, rehypeAddButtonClass, rehypeAstroRelativeMarkdownLinks]
+    rehypePlugins: [
+      rehypeKatex,
+      rehypeCleanup,
+      rehypeImageProcessor,
+      rehypeAddButtonClass,
+      rehypeAstroRelativeLinks
+    ]
 }
 
 // https://astro.build/config
 export default defineConfig({
   site: themeConfig.site.website,
-  trailingSlash: 'never',
   markdown: {
     shikiConfig: {
       theme: 'css-variables',
