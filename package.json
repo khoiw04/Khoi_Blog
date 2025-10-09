@@ -48,6 +48,7 @@
     "astro-compress": "^2.3.8",
     "astro-embed": "^0.9.0",
     "astro-og-canvas": "^0.7.0",
+    "astro-rehype-relative-markdown-links": "^0.18.1",
     "astro-tabs": "^0.1.8",
     "daisyui": "^5.1.9",
     "feed": "^5.1.0",

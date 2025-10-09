@@ -6,7 +6,7 @@ export const themeConfig: ThemeConfig = {
     website: 'https://blog.khoiwn04.com', // Site domain
     title: 'Khoi Nguyen - KhoiWN04', // Site title
     author: 'khoiwn', // Author name
-    description: 'Blog', // Site description
+    description: "The blog of Khoiwn04. He is the curious person about science, developing, graphics, art", // Site description
     language: 'en-US' // Default language
   },
 
