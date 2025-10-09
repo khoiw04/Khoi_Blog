@@ -4,6 +4,7 @@ pubDate: 'Oct 01 2025'
 description: 'Bài viết này nói lên Phần Người và Phần Con'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Phần Người và Phần Con“*

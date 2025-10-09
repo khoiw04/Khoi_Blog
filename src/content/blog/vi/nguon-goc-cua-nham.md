@@ -4,6 +4,7 @@ pubDate: 'Oct 01 2025'
 description: 'Bài viết này nói lên tại sao ta nhầm'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 *“Ấy Nhầm, không biết ảnh hưởng gì tới Họ không?“*

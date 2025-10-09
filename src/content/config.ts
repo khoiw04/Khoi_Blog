@@ -20,6 +20,7 @@ const blog = defineCollection({
 			// 	})
 			// ).optional(),
 			tags: z.array(z.enum(alltagsEnum)).optional(),
+			collection: z.enum(['vi', 'en']),
 			dev: z.boolean().optional()
 		})
 });

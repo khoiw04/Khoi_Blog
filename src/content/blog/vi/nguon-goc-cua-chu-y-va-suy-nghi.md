@@ -4,6 +4,7 @@ pubDate: 'Sep 29 2025'
 description: 'Bài viết này nói lên tại sao ta hoài nghi về Chú Ý và Suy Nghĩ'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 * *“Thằng này Bơ mình à“*  

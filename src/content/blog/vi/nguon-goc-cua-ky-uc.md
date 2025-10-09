@@ -4,6 +4,7 @@ pubDate: 'Sep 29 2025'
 description: 'Bài viết này nói lên tại sao ta luôn hoài nghi Ký Ức'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 * *“Hiểu, Nhớ, Tin là Một“*

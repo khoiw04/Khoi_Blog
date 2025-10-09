@@ -4,6 +4,7 @@ pubDate: 'Oct 02 2025'
 description: 'Bài viết này nói lên Tại sao Càng Nghĩ Càng Tin'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Càng suy nghĩ xấu thì ra Điều Tiêu Cực“*  

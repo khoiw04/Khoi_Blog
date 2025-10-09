@@ -4,6 +4,7 @@ pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên tại sao ta Buồn Cười'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 * _“Ôi, Tôi cười vào Dark Meme, tôi xuống Địa Ngục Cô Nhi Viện thôi“_

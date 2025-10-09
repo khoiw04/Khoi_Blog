@@ -4,6 +4,7 @@ pubDate: 'Oct 03 2025'
 description: 'Bài viết này nói lên Tại sao Học xong Quên'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Tại sao Thi xong Quên hết nhỉ?“*

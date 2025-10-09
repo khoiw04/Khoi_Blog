@@ -5,6 +5,7 @@ description: 'Lorem ipsum dolor sit amet'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Tanstack", "Rust", "Tauri"]
 dev: true
+collection: en
 ---
 
 This theme includes built-in KaTeX support for rendering mathematical expressions in your content.

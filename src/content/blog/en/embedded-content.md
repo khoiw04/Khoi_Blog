@@ -5,6 +5,7 @@ description: 'Lorem ipsum dolor sit amet'
 heroImage: '../../../assets/blog-placeholder-5.jpg'
 tags: ["Tanstack", "Rust", "Tauri"]
 dev: true
+collection: en
 ---
 
 :::warning[Thử nghiệm]

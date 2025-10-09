@@ -4,6 +4,7 @@ pubDate: 'Oct 06 2025'
 description: 'Bài viết này nói lên Bằng Đại Học, Trường Học có cần thiết cho Sinh Viên, Học Sinh? Tại sao Doanh Nghiệp và Nhà Nước lại thích Bằng Đại Học? Bằng Đại học có giá trị ở đâu'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Tại sao Họ lại đòi Bằng Đại học?“*

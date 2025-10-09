@@ -3,20 +3,17 @@ import type { Root } from 'hast';
 import type { Plugin } from 'unified';
 import type { VFile } from 'vfile';
 
-interface Options {
-  collectionBases: Record<string, string>;
-}
+const collectionBases: Record<string, string> = {
+  vi: '/vi/blog',
+  en: '/en/blog'
+};
 
-const rehypeAstroRelativeLinks: Plugin<[Options], Root> = (options) => {
-  const { collectionBases } = options;
-
+const rehypeAstroRelativeLinks: Plugin<[], Root> = () => {
   return (tree: Root, file: VFile) => {
-    const filePath = file.path || '';
-    const match = filePath.match(/\/content\/([^\/]+)\//);
-    const collection = match?.[1] ?? 'vi';
-    const base = collectionBases[collection] ?? '';
+    const frontmatter = file.data?.astro?.frontmatter;
+    const collection = frontmatter?.collection;
 
-    if (!base) return;
+    const base = collectionBases[collection];
 
     visit(tree, 'element', (node: any) => {
       if (

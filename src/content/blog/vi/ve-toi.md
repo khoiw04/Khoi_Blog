@@ -3,6 +3,7 @@ title: 'Về Tôi'
 description: 'Một người thích Tò Mò, đặt câu hỏi và tìm câu trả lời. Thích đồ họa, khoa học, lập trình nhờ toán'
 pubDate: 'Oct 09 2020'
 heroImage: '../../../assets/blog-placeholder-about.jpg'
+collection: vi
 ---
 
 Tôi là một người thích Tò Mò, đặt câu hỏi và tìm câu trả lời. Tính cách hình thành tự nói chuyện hay diễn giải với bản thân trong suốt quá trình từ nhỏ tới giờ. Chỉ khi lên cấp 2, tôi có nhiều cơ hội tiếp cận với tri thức tôi cần qua máy tính. Từ đó kích thích tôi tìm câu trả lời nhiều hơn. Mỗi lần trả lời được, hiểu được, tôi áp dụng vào đời sống. Xong rồi thì nghỉ. Nghỉ thì lại đặt câu hỏi từ Kiến Thức vừa học. Cứ thế mà bước đi.

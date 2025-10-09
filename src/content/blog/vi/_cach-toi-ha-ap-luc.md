@@ -4,6 +4,7 @@ pubDate: 'Oct 07 2025'
 description: 'Bài viết này nói lên những phương pháp hạ Áp lực hiệu quả như'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Tò Mò"]
+collection: vi
 ---
 
 * *“Nhiều khi lại quên cách hạ Stress“*

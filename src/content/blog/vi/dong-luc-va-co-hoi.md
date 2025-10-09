@@ -4,6 +4,7 @@ pubDate: 'Oct 02 2025'
 description: 'Bài viết này nói lên Cách để đạt điều Mình Muốn'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Tò Mò"]
+collection: vi
 ---
 
 * *“Cách để đạt được điều mình muốn?“*

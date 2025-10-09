@@ -3,6 +3,7 @@ title: 'About Me'
 description: 'A curious person who asks questions and finds answers. Likes graphics, science, and programming through math'
 pubDate: 'Oct 09 2025'
 heroImage: '../../../assets/blog-placeholder-about.jpg'
+collection: en
 ---
 
 I am a curious person who asks questions and seeks answers. My personality formed from talking to myself and explaining things to myself throughout my childhood. It was only in middle school that I had more opportunities to access the knowledge I needed via a computer. That sparked even more searching for answers. Each time I find an answer or understand something, I apply it to life. Then I rest. After resting I ask questions again from the knowledge I just learned. And so I keep moving forward.

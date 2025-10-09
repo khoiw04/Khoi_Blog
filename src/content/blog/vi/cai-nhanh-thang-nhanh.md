@@ -4,6 +4,7 @@ pubDate: 'Oct 02 2025'
 description: 'Bài viết này nói lên Tại sao Cãi Nhanh, Thắng Nhanh có thể "Thắng Nhanh"'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Giờ bảo sao Thế Hệ trẻ không có khả năng Tư Duy, cảm ơn tới Phụ Huynh và Giáo Viên Việt Nam“*

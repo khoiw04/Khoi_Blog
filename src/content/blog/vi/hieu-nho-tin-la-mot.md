@@ -4,6 +4,7 @@ pubDate: 'Sep 30 2025'
 description: 'Bài viết này nói lên nguyên nhân của Hiểu, Nhớ, Tin'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * _“Tại sao Ta tin 1+1=2?“_

@@ -4,6 +4,7 @@ pubDate: 'Oct 03 2025'
 description: 'Bài viết này nói lên Tại sao Chúng Ta hại lẫn Nhau'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Con sống lỗi với Xã Hội“*

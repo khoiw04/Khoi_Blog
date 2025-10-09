@@ -4,6 +4,7 @@ pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên tại sao ta Yếu Đuối'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 * “Tại sao ta đi Làm?“

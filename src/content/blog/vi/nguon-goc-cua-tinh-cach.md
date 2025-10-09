@@ -4,6 +4,7 @@ pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên tại sao ta Tệ Hại, Vui Vẻ, Nhiệt Huyết'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 * _“Hãy nhìn vào Cách Nó hành xử, để thấy Tính Cách nó như nào“_

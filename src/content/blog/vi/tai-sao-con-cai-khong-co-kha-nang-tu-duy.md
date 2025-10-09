@@ -4,6 +4,7 @@ pubDate: 'Oct 06 2025'
 description: 'Bài viết này nói lên Trẻ Con hiện giờ không có khả năng Tư Duy'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Bảo sao Trẻ Con ngày nay không có khả năng Tư Duy“*

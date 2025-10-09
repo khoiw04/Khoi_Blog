@@ -4,6 +4,7 @@ pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên nguyên nhân Ta Hạnh Phúc'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 

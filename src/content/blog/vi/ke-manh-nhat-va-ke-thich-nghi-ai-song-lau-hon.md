@@ -4,6 +4,7 @@ pubDate: 'Oct 04 2025'
 description: 'Bài viết này nói lên Ưu Việt của Kẻ Thích Nghi'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Tôi từng nghe câu nói này ở đâu trên YouTube liên quan đến Xã Hội, nhưng quên video đó đâu rồi“*

@@ -4,6 +4,7 @@ pubDate: 'Sep 30 2025'
 description: 'Bài viết này nói lên nguyên nhân của Hiểu, Nhớ, Tin'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Học Đại Học làm tăng Tư Duy đấy Cháu ạ“*

@@ -4,6 +4,7 @@ pubDate: 'Sep 29 2025'
 description: 'Bài viết này nói lên tại sao ta ghét Buồn Chán'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 * *“Lâu rồi mới Nghỉ Ngơi…“*  

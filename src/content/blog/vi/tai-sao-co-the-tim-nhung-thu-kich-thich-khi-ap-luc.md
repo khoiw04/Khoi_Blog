@@ -4,6 +4,7 @@ pubDate: 'Oct 03 2025'
 description: 'Bài viết này nói lên Tại sao Càng Làm Càng Quen'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
+collection: vi
 ---
 
 * *“Khi Mình không còn Áp Lực, Không còn Lướt Điện Thoại, Nghe Nhạc“*

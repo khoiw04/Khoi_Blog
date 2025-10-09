@@ -4,6 +4,7 @@ pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên tại sao ta Tư Duy tốt xấu dựa trên Thông Tin ta có'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
 tags: ["Nguồn Gốc"]
+collection: vi
 ---
 
 * _“Học trên trường làm tăng khả năng Tư Duy“_

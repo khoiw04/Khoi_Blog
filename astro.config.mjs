@@ -23,13 +23,7 @@ import { themeConfig } from './src/config.js';
 
 const plugins = {
     remarkPlugins: [remarkDirective, remarkAdmonitions, remarkEmbeddedMedia, remarkMath],
-    rehypePlugins: [
-      rehypeKatex,
-      rehypeCleanup,
-      rehypeImageProcessor,
-      rehypeAddButtonClass,
-      rehypeAstroRelativeLinks
-    ]
+    rehypePlugins: [rehypeKatex, rehypeCleanup, rehypeImageProcessor, rehypeAddButtonClass, rehypeAstroRelativeLinks]
 }
 
 // https://astro.build/config

@@ -27,7 +27,7 @@ export async function getSortedVietnamBlog() {
       return {
         ...post,
         lang: 'vi',
-        slug,
+        slug  
       };
     });
 }
@@ -44,7 +44,7 @@ export async function getSortedEnglishBlog() {
       return {
         ...post,
         lang: 'en',
-        slug,
+        slug
       };
     });
 }
