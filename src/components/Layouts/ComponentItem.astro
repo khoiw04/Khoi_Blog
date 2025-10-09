@@ -8,12 +8,12 @@ export type Props = postsArrayType
 const { posts } = Astro.props
 ---
 
-{posts.map((post) => {
+{posts.map((post, index) => {
 	return (
 		<li>
 			<a href={`/${post.lang}/blog/${post.slug}`}>
 					{post.data.heroImage && (
-						<Image width={720} height={360} src={post.data.heroImage} alt="" />
+						<Image width={720} height={360} src={post.data.heroImage} loading={index < 4 ? "eager" : "lazy"} alt="" />
 					)}
 					<h4 class="font-[Editorial] pt-4">{post.data.title}</h4>
 					<p>

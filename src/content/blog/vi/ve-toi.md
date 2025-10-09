@@ -1,48 +1,30 @@
 ---
 title: 'Về Tôi'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'August 08 2021'
+description: 'Một người thích Tò Mò, đặt câu hỏi và tìm câu trả lời. Thích đồ họa, khoa học, lập trình nhờ toán'
+pubDate: 'Oct 09 2020'
 heroImage: '../../../assets/blog-placeholder-about.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Tôi là một người thích Tò Mò, đặt câu hỏi và tìm câu trả lời. Tính cách hình thành tự nói chuyện hay diễn giải với bản thân trong suốt quá trình từ nhỏ tới giờ. Chỉ khi lên cấp 2, tôi có nhiều cơ hội tiếp cận với tri thức tôi cần qua máy tính. Từ đó kích thích tôi tìm câu trả lời nhiều hơn. Mỗi lần trả lời được, hiểu được, tôi áp dụng vào đời sống. Xong rồi thì nghỉ. Nghỉ thì lại đặt câu hỏi từ Kiến Thức vừa học. Cứ thế mà bước đi.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-massa massa ultricies mi.
+> Vậy còn bạn? Động Lực nào tiến bạn tới đây?
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+Tôi lại là thằng thích chơi game. Chán quá lại lăn ra học, nhìn vào mấy cái lạ lạ, nổi bật thì thấy thích thú, thử làm thì dễ tiếp cận hơn mình nghĩ nhưng nhiều cái mới hơn mình nghĩ. Từ đó khiến tôi theo đuổi cho đến khi tôi không còn đặt được câu hỏi nữa.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-cursus metus aliquam eleifend mi.
+"Tại sao Tôi học Lập Trình?"
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Mình làm vì ~~tiền~~, chán thật. Làm được dự án mình mong muốn là không còn hứng thú nữa. Nhưng sau này học Lập Trình vì được xây dựng những thứ mình thèm khát, chứ không phải vì muốn học. Lần này học Toán với Đồ Họa từ Lập Trình nữa thôi là bỏ. À, thêm cả làm việc với đội ngũ, nhóm nhỏ nữa là hết tò mò. Ít nhất thời điểm hiện giờ.
+
+"Tại sao Tôi học Đồ Họa?"
+
+Dễ tiếp cận, dễ khám phá, dễ tận dụng thị giác. Mà còn được học khoa học nữa, sướng thế còn gì, tiện đường cho việc đặt câu hỏi về mấy thứ xung quanh.
+
+"Tại sao Blog này được tạo?"
+
+1. ~~Tiền~~
+2. Chia sẻ thứ mình tò mò
+3. Quan hệ
+
+"Nhạc tôi thích khi viết Blog là gì?"
+
+::youtube{url="https://www.youtube.com/watch?v=suYwnrOhn8c"}
