@@ -15,7 +15,7 @@ tags: ["Tại Sao"]
 >
 > *Lưu ý:* Bài viết này Chỉ Nhắm tới Ngành nghề không phải là Bác Sĩ, Luật Sư, Xây Dựng, … hay những ngành nghề không thể Tự học hoặc ảnh hưởng tới Tính Mạng
 > 
-> *Lưu ý:* *Bài viết này Liên Hệ bài viết “[Nguồn gốc của Động Lực](./nguon-goc-cua-dong-luc)“, “[Nguồn Gốc của Tư Duy](./nguon-goc-cua-tu-duy)”, “[Nguồn Gốc của Kỉ Luật](./nguon-goc-cua-ki-luat)“, “[Nguồn Gốc của Áp Lực](./nguon-goc-cua-ap-luc)“, “[Động Lực, Công Cụ, Đại Cương](./dong-luc-cong-cu-dai-cuong)“, “[Hiểu, Tin, Nhớ là Một](./hieu-nho-tin-la-mot)“ và “[Động Lực x Cơ Hội](./dong-luc-va-co-hoi)“*
+> *Lưu ý:* *Bài viết này Liên Hệ bài viết “[Nguồn gốc của Động Lực](./nguon-goc-cua-dong-luc)“, “[Nguồn Gốc của Tư Duy](./nguon-goc-cua-dong-luc)”, “[Nguồn Gốc của Kỉ Luật](./nguon-goc-cua-ki-luat)“, “[Nguồn Gốc của Áp Lực](./nguon-goc-cua-ap-luc)“, “[Động Lực, Công Cụ, Đại Cương](./dong-luc-cong-cu-dai-cuong)“, “[Hiểu, Tin, Nhớ là Một](./hieu-nho-tin-la-mot)“ và “[Động Lực x Cơ Hội](./dong-luc-va-co-hoi)“*
 
 ## 1. Khái niệm
 

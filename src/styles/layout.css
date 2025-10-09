@@ -24,7 +24,7 @@ body {
 		font-size: 18px;
 	}
 	main {
-		padding-top: 2em !important;
+		padding-block: 2em !important;
 		padding: 0em;
 	}
 }
@@ -36,7 +36,6 @@ body {
 		width: 100%;
 		max-width: 100%;
 		margin: auto;
-		padding-top: 2em !important;
 		padding: 0;
 		min-height: calc(99.84dvh - 64px);
 	}

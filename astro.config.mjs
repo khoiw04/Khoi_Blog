@@ -28,6 +28,7 @@ const plugins = {
 // https://astro.build/config
 export default defineConfig({
   site: themeConfig.site.website,
+  trailingSlash: 'never',
   markdown: {
     shikiConfig: {
       theme: 'css-variables',
