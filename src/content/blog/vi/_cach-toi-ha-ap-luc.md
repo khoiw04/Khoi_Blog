@@ -3,10 +3,11 @@ title: 'Cách Tôi Hạ Áp Lực?'
 pubDate: 'Oct 07 2025'
 description: 'Bài viết này nói lên những phương pháp hạ Áp lực hiệu quả như'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Tại Sao"]
+tags: ["Tò Mò"]
 ---
 
 * *“Nhiều khi lại quên cách hạ Stress“*
+* *“Bài này Tôi coi như viết Nhật ký“*
 
 > Đây là Lí do Bài Viết này được Tồn Tại
 
@@ -14,7 +15,7 @@ tags: ["Tại Sao"]
 
 ### Chế độ Flow
 
-#### **Tập trung vào Phần Thưởng Nhỏ**
+#### **Tập trung vào Quá Trình**
 
 Tập trung Phần Thưởng Nhỏ trong Phần Trường Lớn. Phần Thưởng Nhỏ dễ tập trung, dễ suy nghĩ, dễ đối phó, dễ nhận Phần Thưởng.
 
@@ -66,6 +67,8 @@ Ban đầu sẽ rất Khó, vì khó nhìn ra, dù dễ tiếp cận. Vậy còn
   * **Công Sức khá khó khăn:** Bỏ Công Sức rõ ràng
 
 * → Điều này sẽ giúp sinh ra Dopamine Spike khi nhận Phần Thưởng
+
+hoặc suy nghĩ như: "Mình làm gì trong Quá Trình này bây giờ?"
 
 :::info[Khái Niệm]
 

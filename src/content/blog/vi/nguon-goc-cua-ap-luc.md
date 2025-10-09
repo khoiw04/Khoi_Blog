@@ -48,7 +48,7 @@ tags: ["Nguồn Gốc"]
 | --- | --- | 
 | **Cảm xúc** | Lo âu, Cáu gắt, Chán nản, Rối loạn Hormone, Suy giảm Nhận Thức và Trí Nhớ, Burnout | 
 | **Hành vi – Sinh học** | Kiểm soát Quá Mức, Ăn uống Vô độ, Mất ngủ | 
-| **Thể chất – Nội tạng** | Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Suy giảm Hippocampus, Não Trước Trán và Khả năng Sinh sản Hạt Neuron, Thoãi Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim. | 
+| **Thể chất – Nội tạng** | Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Thoãi Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim. | 
 
 ## 4. Kết Luận
 

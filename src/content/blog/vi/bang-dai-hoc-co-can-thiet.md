@@ -21,13 +21,11 @@ tags: ["Tại Sao"]
 
 * Giá trị của Bằng Đại Học nằm ở đâu trong phạm vi Xét Tuyển?
 
-  * Bên trong: Đánh giá Trình độ Sinh Viên  
-    * Qua điểm số
+  * Đánh giá Trình độ Sinh Viên: Qua điểm số
 
-  * Bên ngoài: Doanh Nghiệp, Nhà Nước dùng để xét tuyển Sinh Viên  
-    * Qua điểm số
+  * Doanh Nghiệp, Nhà Nước dùng để xét tuyển Sinh Viên: Qua điểm số
 
-* Giá trị của Bằng Đại Học nằm ở đâu ngoài phạm vị _"Học"_
+* Giá trị của Bằng Đại Học nằm ở đâu ngoài phạm vị _"Học"_?
 
   * Tư duy
   * Tự học
@@ -93,15 +91,11 @@ Kỉ Luật gồm:
 > “Theo Bạn, Công Cụ hay Đại Cương quan trọng hơn?“  
 > “Theo Tôi, Điều quan trọng không phải Công Cụ hay Đại Cương”
 
-→ Điều Quan trọng nhất là Nó cho ta Động Lực  
-→ Không Động Lực, không đi tiếp  
-→ Bạn Giỏi, rồi bạn quên  
-→ Bạn lại Kém  
-→ Vì bạn không đi tiếp
-
-### **Về Tư Duy**
-
-(Đã trình bày ở trên)
+- → Điều Quan trọng nhất là Nó cho ta Động Lực  
+- → Không Động Lực, không đi tiếp  
+- → Bạn Giỏi, rồi bạn quên  
+- → Bạn lại Kém  
+- → Vì bạn không đi tiếp
 
 ## 3. Liên Hệ
 
@@ -109,11 +103,11 @@ Kỉ Luật gồm:
 
 * Điểm Số: Số điểm đánh giá, thể hiện chất lượng, thành tích học tập của học sinh — trích từ [Soha](http://tratu.soha.vn/dict/vn_vn/%C4%90i%E1%BB%83m_s%E1%BB%91)
 
-Theo bạn, Điểm Số có đánh giá đúng năng lực thật sự của sinh viên?
+**Theo bạn, Điểm Số có đánh giá đúng năng lực thật sự của sinh viên?**
 
-* Mặt tốt: Toàn bộ Sinh viên nghiêm túc học
+Mặt tốt: Toàn bộ Sinh viên nghiêm túc học
 
-* Mặt xấu:
+Mặt xấu:
 
   * Giảng Viên:
 
@@ -167,7 +161,7 @@ Theo bạn, Điểm Số có đánh giá đúng năng lực thật sự của si
 
       * Nếu đánh giá 1 sao, lý do “không hợp lệ”
 
-Về mặt xấu:
+Nếu nghiêng về mặt xấu:
 
 * Cách Kiểm tra
 
@@ -179,9 +173,18 @@ Về mặt xấu:
 
 * Hệ thống thì bệnh thành tích, thu hút nhiều sinh viên hơn → Tăng doanh thu cho Đại Học
 
-Về mặt tốt: Ví dụ Toàn bộ Sinh viên nghiêm túc học, nhà trường minh bạch, xã hội văn mình, vậy Bằng Đại Học có giá trị không? Không, vì sau khi thi và làm đồ án, trình độ sinh viên như nào, cũng không ai rõ, dựa hoàn toàn vào động lực của Sinh Viên — Học vì áp lực hay làm vì tò mò
+Nếu nghiêng về mặt tốt: 
 
-### **Tại sao Sinh Viên giờ đi Đại Học: Thích hay Áp Lực ?**
+Giả sử mọi điều kiện tối ưu tồn tại, Toàn bộ Sinh viên nghiêm túc học, nhà trường minh bạch, xã hội văn minh, vậy Bằng Đại Học có giá trị không? 
+
+**Không**
+
+Sau khi thi và làm đồ án, trình độ thực tế của sinh viên không thể kiểm chứng vì phụ thuộc nhiều vào động lực cá nhân — học vì áp lực hay vì tò mò.
+
+Kiến thức có thể lỗi thời sau 4 năm học do thế giới thay đổi nhanh.
+
+
+### **Tại sao Sinh Viên giờ đi Đại Học: Thích Học hay Áp Lực ?**
 
 Theo lý thuyết Dopamine — Nguồn Gốc của Động Lực, Sinh Viên giờ đây đi Đại Học không phải để học mà là đáp ứng nhu cầu lọc của Doanh Nghiệp và Nhà Nước, thứ gọi là An Tâm
 
@@ -201,59 +204,61 @@ Tất cả đều quy thành “Câu Hỏi“, tất cả là Câu Hỏi, tất 
 
 Ngay cả khi bạn muốn làm Kĩ Sư, bạn muốn làm Bác Sĩ, bạn muốn lập Doanh Nghiệp thì bạn vẫn phải đặt câu hỏi từ những gì mình thấy: Lá, Cành, Thân và Gốc rề
 
-* Để trở thành Bác Sĩ, giúp người kia sơ cứu,
+* **Để trở thành Bác Sĩ, giúp người kia sơ cứu**
 
-  * Mình phải học những gì?
+  * _"Mình phải học những gì?"_
 
-  * Tại sao phải học những thứ kia?
+  * _"Tại sao phải học những thứ kia?"_
 
-  * Những thứ kia giúp ích những gì?
+  * _"Những thứ kia giúp ích những gì?"_
 
-  * Tại sao mình không tiếp cận được những thứ giúp ích kia?
+  * _"Tại sao mình không tiếp cận được những thứ giúp ích kia?"_
 
-  * Giờ còn cái nào tương tự không?
-
-  * …
-
-* Để lập Doanh Nghiệp,
-
-  * Tại sao ông kia kiếm 10 tỉ 1 tháng?
-
-  * 10 tỉ 1 tháng đó từ đầu ra?
-
-  * 1 ngày ông ta làm những gì?
-
-  * Điều hành công ty kiểu gì mà có ngày ngồi chơi, có ngày nhàn hạ, có ngày rất bận rộn?
-
-  * Kiến thức ông ta học là gì?
-
-  * Ông ta kiếm kiến thức đâu ra?
-
-  * Cơ hội đâu ra trải nghiệm?
-
-  * Quan hệ ông ta ở đâu?
-
-  * Vốn ở đâu, và rồi lại quản lý cả đống đấy kiểu gì?
+  * _"Giờ còn cái nào tương tự không?"_
 
   * …
 
-Mỗi lần đặt Câu Hỏi, bạn Tò Mò, bạn đang Kỳ Vọng về Câu Trả Lời xứng đáng với Suy Nghĩ của mình
+* **Để lập Doanh Nghiệp**
 
-Phải bỏ ra Công Sức vừa đủ nhưng cũng đúng với gì mà Phần Thưởng mình đang nghĩ. Rất tiếc, mỗi một câu trả lời, cho bạn nhiều thứ hay hơn, lạ hơn, mới hơn và kiến thức mới lạ trước mắt đó dễ tiếp cận hơn những gì mình nghĩ
+  * _"Tại sao ông kia kiếm 10 tỉ 1 tháng?"_
+
+  * _"10 tỉ 1 tháng đó từ đầu ra?"_
+
+  * _"1 ngày ông ta làm những gì?"_
+
+  * _"Điều hành công ty kiểu gì mà có ngày ngồi chơi, có ngày nhàn hạ, có ngày rất bận rộn?"_
+
+  * _"Kiến thức ông ta học là gì?"_
+
+  * _"Ông ta kiếm kiến thức đâu ra?"_
+
+  * _"Cơ hội đâu ra trải nghiệm?"_
+
+  * _"Quan hệ ông ta ở đâu?"_
+
+  * _"Vốn ở đâu, và rồi lại quản lý cả đống đấy kiểu gì?"_
+
+  * …
+
+Mỗi lần đặt Câu Hỏi, bạn đang Kỳ Vọng về Câu Trả Lời xứng đáng với Suy Nghĩ của mình
+
+Nhưng Mỗi một câu Trả Lời, cho bạn nhiều thứ hay hơn, lạ hơn, mới hơn và kiến thức mới lạ trước mắt đó dễ tiếp cận hơn những gì mình nghĩ
+
+$ \text{Động Lực} = \text{Phần Thưởng} \times \text{Công Sức} $
 
 Từ đó tạo cho Bạn sự “Phấn Khích“, kích thích Bạn tò mò nhiều hơn, mỗi một câu hỏi mới, mở ra trả lời mới, mỗi câu trả lời mới, lại là những câu hỏi mới
 
 > Câu hỏi là Vô Kể, Câu trả lời là Vô Bờ Bến
 
 :::result[Kết luận]
-Dù bạn là ai, muốn làm gì, nghề gì, ngành gì, thứ giữ bạn theo đuổi, giúp bạn học, là sự Tò Mò, thứ giữ bạn đến đích là Quá Trình bạn nhận câu lời và câu hỏi mình muốn, không phải là Đích Đến trong theo đuổi ngành nghề, lập nghiệp
+Dù bạn là ai, muốn làm gì, nghề gì, thứ giữ bạn theo đuổi, là sự Tò Mò.
+
+Thứ giữ bạn đến Đích là Quá Trình bạn nhận câu lời và câu hỏi mình muốn, không phải là Đích Đến trong Theo Đuổi Ngành Nghề, Lập Nghiệp
 :::
 
 #### **Quay lại Vấn Đề, tại sao Sinh Viên đi học Đại Học, không phải chọn cái khác?**
 
-Sinh Viên đi học giờ vì đáp ứng nhu cầu lọc của Doanh Nghiệp và Nhà Nước, thứ gọi là An Tâm
-
-Theo lý thuyết Dopamine — Nguồn Gốc của Động Lực, Con Người luôn chọn cách nhanh hơn, dễ dàng hơn, phần thưởng lớn hơn
+##### Theo lý thuyết Dopamine — Nguồn Gốc của Động Lực, là sự Kỳ Vọng
 
 * Nếu phần thưởng **ĐÚNG** như kỳ vọng → Dopamine tiết ra vừa Đủ → cảm giác “Trọn Vẹn” → Hành vi kết thúc, Không làm nữa → Để lần sau lặp lại  
 * Nếu phần thưởng **VƯỢT** kỳ vọng → Dopamine tiết ra Mạnh → cảm giác “Phấn Khích”, muốn làm tiếp, suy nghĩ thêm  
@@ -261,17 +266,27 @@ Theo lý thuyết Dopamine — Nguồn Gốc của Động Lực, Con Người l
 
 **Kỳ vọng = Phần Thưởng × Công Sức** → Tức là kỳ vọng không chỉ phụ thuộc vào phần thưởng, mà còn vào lượng công sức bỏ ra để đạt được nó.
 
-Đối chiếu với Đại Học và [Nguồn Gốc của Học](#tại-sao-con-người-đi-học):
+##### Đối chiếu với Hiệu quả của Đại Học đem lại Kiến Thức và [Nguồn Gốc của Học](#tại-sao-con-người-đi-học) + Động Lực:
 
 * Phần Thưởng: Không trả lời đúng thứ mình muốn và câu hỏi mình đặt, phải theo quy trình nhà trường đề ra
-* Công Sức: Tiền Bạc, Ô Nhiễm, Thời gian Chết nhiều do Đi lại, Làm thêm, Tiền Bạc và Ngồi trên Lớp mà Hiệu quả mình muốn không thu về → “Động Lực” tiết ra Ít → Từ bỏ hành vi không hiệu quả, suy nghĩ lại
+* Công Sức: Mất tự do, Tiền Bạc, Ô Nhiễm, Thời gian Chết nhiều do Đi lại, Làm thêm, và Ngồi trên Lớp mà Hiệu quả mình muốn không thu về 
 
-> Sai Phần Thưởng, Công Sức, Chi Phí bỏ ra quá nhiều, tất cả Sinh Viên không ai muốn chọn, ít nhất trong phạm vi “Học” — 80% Dịch vụ mà Đại Học đem lại
+* Hậu Quả → Từ bỏ hành vi không hiệu quả, suy nghĩ lại do "Động Lực" tiết ra ít
+
+> Sai Phần Thưởng và Công Sức, Chi Phí bỏ ra quá nhiều, đa số Sinh Viên không ai muốn chọn, ít nhất trong phạm vi “Học” — 80% Dịch vụ mà Đại Học đem lại
+
+Lưu ý: 80% là tượng trưng cho tư duy 20/80
 
 :::result[Kết Luận]
-Từ đó, tất cả Sinh Viên đi Đại Học vì Áp Lực, nhu cầu tuyển việc, xin việc làm, tiền bạc, áp đặt gia đình. Nếu không, họ đã chọn cái khác như Tự Học, Tự Trải Nghiệm, Tự Lập doanh nhiệp cho tiết kiệm tiền, công sức mà bỏ ra đúng Phần Thưởng mình muốn. 
+Từ đó trong phạm vi Học và Động Lực Nội Tại
 
-Mà chưa kể, sau 4 năm nhờ sự cập nhật Kiến Thức liên tục, những kiến thức của Sinh Viên cũng lỗi thời. Cộng thêm, cũng không chứng minh được Động Lực của Sinh Viên. Vậy nên Bằng Đại Học cũng vô dụng trong việc chứng minh Kiến Thức và Kỉ Luật
+Đa số Sinh Viên đi Đại Học vì Áp Lực, nhu cầu tuyển việc, xin việc làm, tiền bạc, áp đặt gia đình. Nếu không, họ đã chọn cái khác như Tự Học, Tự Trải Nghiệm, Tự Lập Nghiệp cho tiết kiệm tiền và công sức mà bỏ ra đúng Phần Thưởng mình muốn. 
+
+Lưu ý: Dùng "Đa số" Sinh viên do các nguyên nhân sau
+- Khoa Học có tính sai số
+- Nhiều Sinh Viên tò mò về Chương Trình Học
+- Cảm nhận Phần Thưởng Nội Tại > Công Sức
+- Được trả lời câu hỏi họ quan tâm
 :::
 
 ### **Tại sao Doanh Nghiệp và Nhà Nước thích lấy Bằng Đại Học, Ngành Giáo Dục?**
@@ -281,11 +296,11 @@ Mà chưa kể, sau 4 năm nhờ sự cập nhật Kiến Thức liên tục, nh
 * Giảm Tuổi Thọ  
 * Giảm Sức Khỏe  
 * Giảm Thời gian Tồn Tại  
-* Giảm Hippocampus và Thoái Hõa Náo  
+* Thoái Hõa Náo  
 * Giảm Tiền Bạc  
 * Tăng Nợ  
 
-> Cơ Hội giảm, Chi Phí tăng, Rủi Ro cao
+> Do Áp lực, Cơ Hội giảm, Chi Phí tăng, Rủi Ro cao
 
 #### **Về Tương Lai của Sinh Viên**
 
@@ -301,7 +316,7 @@ Mà chưa kể, sau 4 năm nhờ sự cập nhật Kiến Thức liên tục, nh
 * Khổ ít nhất 3 đời người
 
 :::result[Kết Luận]
-Cảm thấy Tốt và Cảm thấy Đúng? Không, chả ai hạnh phúc thật sự khi có cái bảng và được việc làm, không ai thấy đúng, không ai thấy tốt, chả ai hạnh phúc cả, sướng cùng lắp là 10 phút khi nhận phần thưởng, sau đó nản đời
+Cảm thấy Tốt và Cảm thấy Đúng? Không, chả ai hạnh phúc thật sự khi có cái bằng và được việc làm, không ai thấy đúng, không ai thấy tốt, chả ai hạnh phúc cả, sướng cùng lắp là 10 phút khi nhận phần thưởng, sau đó nản đời
 :::
 
 #### Về Doanh Nghiệp và Nhà Nước
@@ -326,35 +341,37 @@ Giờ đây đã có nhiều cách để học, không thiếu gì cách, kiến
 
 ### **Vậy Bằng đại học còn Giá trị ở đâu?**
 
-* Tư duy  
-* Tự học  
-* Quan hệ  
-* Kỉ luật
+1. Tư duy  
+2. Tự học  
+3. Quan hệ  
+4. Kỉ luật
 
-#### **Về Tự học**
+#### 1. **Về Tự học**
 
 *“Nếu Bạn muốn biết bơi, chỉ có nhảy vào hồ bơi“*, bạn không được dạy trên trường về Tự học vì Khả năng Thụ Động Kiến thức, phải đợi thầy cô giảng viên chỉ tận nơi, làm bước này, bước kia để biết môn này là gì, là học như nào
 
 ::youtube{url="https://www.youtube.com/watch?v=RuLzuuKi4-E"}
 
-#### **Về Quan hệ**
+#### 2. **Về Quan hệ**
 
-Trong một cuộc sống đầy áp lực, không ai có tâm trạng vui vẻ và thời gian mà đi kết bạn, hỏi thăm 20 bạn đến 40 bạn trong 1 lớp, rồi đi duy trì điều đó và cả duy trì mối quan hệ mình có cả
+Trong một cuộc sống đầy áp lực, không ai có tâm trạng vui vẻ và thời gian mà đi kết bạn, hỏi thăm 20 đến 40 người trong 1 lớp, rồi đi duy trì điều đó và cả duy trì mối quan hệ mình có cả
 
-Giờ có 2 cách:
+Giả dụ bạn vẫn còn sức kết bạn và duy trì đến hết Đại học, Câu lạc bộ, Lớp học, Ngoại Khóa. Sau khi ra khỏi đó, tất cả vẫn quay về như 2 cách dưới đây:
 
 1. Tự thiết kế Trải Nghiệm
 2. Tự thiết kế Mạng Lưới Xã Hội
 
 Trải Nghiệm bỏ Tiền Bạc nhưng không cao như Đại Học. Gặp gỡ Quan Hệ qua quá trình Trải Nghiệm mình muốn và tò mò, Lập Nghiệp
 
-Mạng Xã Hội như Facebook, Instagram, Linkedin, Discord thay Đại Học làm điều đó: Dễ đạt, dễ làm, dễ duy trì. 10 phút vào Nhóm, 2 phút Đăng bài, 30 giây trả lời Tin Nhắn. Không thời gian Chết, không nổi 1 phút thời gian Chờ.
+Mạng Xã Hội như Facebook, Instagram, Discord, ... thay Đại Học làm điều đó: Dễ đạt, dễ làm, dễ duy trì.
 
-Như tôi nói: Kỳ Vọng = Phần Thưởng x Công Sức
+Muốn xây dựng lâu dài dù Online hay Offline: bài viết, portfolio, profile, tương tác lâu dài, dự án chung, startup chung, làm việc dài hạn, gặp offline
 
-Phần Thưởng Cao, Công Sức dễ đạt. Không ai muốn Quan hệ khó đạt và khó duy trì
+Như tôi nói: ``Kỳ Vọng = Phần Thưởng x Công Sức``
 
-#### **Về Kỉ luật**
+>Phần Thưởng Cao, Công Sức dễ đạt. Không ai muốn Quan hệ khó đạt và khó duy trì
+
+#### 3. **Về Kỉ luật**
 
 _Lưu ý: Kỉ luật là Ép Buộc trong trường hợp này, không phải Thói quen_
 
@@ -366,9 +383,33 @@ Vậy nếu Ép Buộc trong Dài hạn như Bằng Đại Học thì như nào?
 
 * Cảm Xúc: Lo âu, Cáu gắt, Chán nản, Rối loạn Cảm Xúc, Suy giảm Nhận Thức và Trí Nhớ, Burnout  
 * Hóa học: Kiểm soát Quá Mức, Ăn uống Vô độ, Mất ngủ  
-* Cơ Học: Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Suy giảm Hippocampus, Não Trước Trán và Khả năng Sinh sản Hạt Neuron, Thoãi Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim.
+* Cơ Học: Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Thoãi Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim.
 
-#### **Về Tư duy**
+Vậy Người Tự Học và Người chỉ học Đại Học, ai có Kỉ Luật cao hơn?
+
+**Người chỉ học Đại Học**
+- Điểm số
+- Giảng viên
+- Gia đình
+- Quê hương
+- So sánh
+- Việc làm
+- Bằng cấp
+
+**Người Tự Học**
+- Nghề Họ Muốn
+- Câu hỏi Họ muốn Trả lời
+
+> Người Tự Học có Kỉ luật cao hơn rất nhiều so với Người chỉ học Đại Học, họ tự ép bản thân mình, không cần yếu tố ngoại cảnh
+
+:::result[Kết Luận]
+Ép Buộc dài hạn như Đại Học hay Nghề Nghiệp sẽ giảm chất lượng cuộc sống và tuổi thọ
+
+Người Tự Học chỉ ép bản thân trong ngắn hạn để đạt mục tiêu trước mắt họ với suy nghĩ: 
+_"Mình muốn làm Người như kia"_
+:::
+
+#### 4. **Về Tư duy**
 
 Để kiểm tra Khả năng Tư duy, hãy dựa trên Thang nhận thức Bloom:
 
@@ -387,18 +428,19 @@ Vậy nếu Ép Buộc trong Dài hạn như Bằng Đại Học thì như nào?
 * *“Tại sao dùng từ “Xin Lỗi” khi làm Sai?”*  
 * *“Tại sao phải Học Chăm Chỉ?“*
 
-Vậy tại sao các bạn cảm thấy các bạn đang học trên trường dù thực sự không hề học được gì?
+**Dù không hề học được gì, Tại sao cảm thấy mình đang học trên trường?**
 
-Không chỉ ngành Thiết Kế Đồ Họa mà Vấn đề Hầu hết Chương trình Giáo dục Hiện nay. Vấn đề lớn nhất ở đây không phải là Tiền Bạc, mà là **“Hệ Thống Lớp Học”**.
+Vấn đề lớn nhất ở đây không phải là Tiền Bạc, mà là **“Ảo Mộng” -- Đến từ Sự tiến bộ**. Không chỉ ngành Thiết Kế Đồ Họa mà Hầu hết Chương trình Giáo dục Hiện nay.
 
-Tin hay không, Nhà Trường thiết kế chương trình giáo dục như Tiết học, Môn học, Bài tập, Công việc nhóm, Thi cử, Hoạt động ngoại khóa, Tín chỉ đã biến không chỉ Học Sinh mà cả Sinh Viên ở Trường Cấp 1 - 2 - 3 và cả Đại Học thành những con Zombie đi ngủ tới trường, họ nghĩ mình đang học điều gì đó mỗi ngày mà chả học được điều gì cả.
+Tiết học, Môn học, Bài tập, Công việc nhóm, Thi cử, Hoạt động ngoại khóa, Tín chỉ mà Trường Học đã thiết kế biến Học Sinh và Sinh Viên ở Trường Cấp 1 - 2 - 3 - Đại Học thành những con Zombie đi ngủ tới trường, họ nghĩ mình đang học điều gì đó mỗi ngày mà chả học được điều gì cả.
 
-Sự thật ư? Hãy thử Áp dụng vào đời sống, không phải mỗi bài tập hay bài thi.
+:::result[Kết Luận]
+Sự thật ư? Hãy thử Áp dụng vào đời sống, không phải mỗi bài tập hay bài thi
 
-Ảo Mộng là Sự Sảng Khoái giả tạo của Dopamine đến từ Quá trình Học, đến từ cảm giác tiến bộ không thực tế
+Ảo Mộng là Sự Sảng khoái giả tạo của Dopamine đến từ Quá trình Học, đến từ cảm giác tiến bộ không thực tế
 
 > “Be bloomers, not exceptions. Don’t zombie sleepwalk through life.“
-
+:::
 ::youtube{url="https://youtu.be/Y5madTW9rkw?si=717UFqf2K_aNgFvw&t=120"}
 
 ## 4. Kết Luận

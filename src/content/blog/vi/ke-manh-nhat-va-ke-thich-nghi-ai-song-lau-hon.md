@@ -9,7 +9,6 @@ tags: ["Tại Sao"]
 * *“Tôi từng nghe câu nói này ở đâu trên YouTube liên quan đến Xã Hội, nhưng quên video đó đâu rồi“*
 
 > Đây là Lí do Bài Viết này được Tồn Tại  
-> *Lưu ý: Bài viết này Liên Hệ bài viết “[Nguồn gốc của Tính Cách](./nguon-goc-cua-tinh-cach)“*
 
 ## 1. Khái niệm
 
@@ -47,8 +46,8 @@ tags: ["Tại Sao"]
 
 #### Về sau:
 * Kẻ Mạnh Nhất: Bị bào mòn thể chất, tinh thần
-* Kẻ Thích Nghi: Đã qua học hỏi, Môi trường như nào, ra như vậy, buôm thuyền theo gió
+* Kẻ Thích Nghi: Đã qua học hỏi, quan sát hoàn cảnh rồi điều chỉnh hành vi cho phù hợp
 
 ## 4. Kết Luận
 
-À trong Xã Hội, để Tồn Tại cứ theo Trào Lưu + Điều chỉnh theo Môi Trường là được
+À trong Xã Hội, để Tồn Tại cứ theo Trào Lưu + Điều chỉnh Chiến Lược theo Môi Trường là được

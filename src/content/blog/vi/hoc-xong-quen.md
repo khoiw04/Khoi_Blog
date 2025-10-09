@@ -9,7 +9,7 @@ tags: ["Tại Sao"]
 * *“Tại sao Thi xong Quên hết nhỉ?“*
 
 > Đây là Lí do Bài Viết này được Tồn Tại  
-> *Lưu ý: Bài viết này Liên Hệ bài viết “Nguồn gốc của Ký Ức“*
+> *Lưu ý: Bài viết này Liên Hệ bài viết “[Nguồn gốc của Ký Ức](./nguon-goc-cua-ky-uc)“*
 
 ## 1. Khái niệm
 
@@ -52,6 +52,17 @@ tags: ["Tại Sao"]
 * Điều quan trọng là phải Áp dụng vào Đời Sống, Áp dụng mọi Cảm Xúc, nếu không là quên thật sau 1 tháng không chạm gì
 
 :::
+
+### Minh họa Sơ Đồ
+
+```
+Học (bối cảnh lớp học, áp lực)  
+       ↓  
+   Lưu trữ (state & context)  
+       ↓  
+Ôn lại trong cùng bối cảnh → Ghi nhớ 
+Ôn lại khác bối cảnh → Khó truy xuất  
+```
 
 ## 4. Kết Luận
 

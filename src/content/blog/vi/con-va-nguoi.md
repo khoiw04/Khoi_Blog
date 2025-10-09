@@ -16,7 +16,7 @@ tags: ["Tại Sao"]
 ## 1. Khái niệm
 
 * Phần Con là **Cảm Xúc** hoặc **Hệ thống Limbic** — **Hệ 1**
-* Phần Người là **Não Trước Trán** — **Hệ 2**
+* Phần Người là **Lý trí** hoặc **Não Trước Trán** — **Hệ 2**
 
 ## 2. Quy Luật
 

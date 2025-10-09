@@ -1,7 +1,7 @@
 ---
-title: 'Cãi Nhanh, Kết luận Nhanh'
+title: 'Cãi Nhanh, Thắng Nhanh'
 pubDate: 'Oct 02 2025'
-description: 'Bài viết này nói lên Tại sao Cãi Nhanh, Kết luận Nhanh có thể "Thắng Nhanh"'
+description: 'Bài viết này nói lên Tại sao Cãi Nhanh, Thắng Nhanh có thể "Thắng Nhanh"'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
 ---
@@ -14,14 +14,14 @@ tags: ["Tại Sao"]
 ## 1. Khái niệm
 
 * **Cãi nhanh:** Đưa ra nhiều thông tin  
-* **Kết luận nhanh:** Đưa ra thông tin kết luận nhanh
+* **Thắng nhanh:** Đưa ra thông tin kết luận nhanh
 
 ## 2. Quy Luật
 
 ### **Để hình thành, Cãi nhanh và Kết luận nhanh cần 2 Yếu Tố:**
 
+* Quá Tải Thông Tin  
 * Chú Ý Bị Động  
-* Quá Tải Thông Tin
 
 #### **Quá Tải Thông Tin**
 

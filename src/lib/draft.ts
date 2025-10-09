@@ -19,6 +19,7 @@ export async function getSortedVietnamBlog() {
   const blog = await getSortedFilteredBlog();
   return blog
     .filter(post => post.id.startsWith('vi/'))
+    .filter(post => !post.id.startsWith('vi/_'))
     .filter(post => themeConfig.post.filterDev ? !post.data.dev : true)
     .map(post => {
       const [, ...slugParts] = post.id.split('/');
@@ -35,6 +36,7 @@ export async function getSortedEnglishBlog() {
   const blog = await getSortedFilteredBlog();
   return blog
     .filter(post => post.id.startsWith('en/'))
+    .filter(post => !post.id.startsWith('en/_'))
     .filter(post => themeConfig.post.filterDev ? !post.data.dev : true)
     .map(post => {
       const [, ...slugParts] = post.id.split('/');

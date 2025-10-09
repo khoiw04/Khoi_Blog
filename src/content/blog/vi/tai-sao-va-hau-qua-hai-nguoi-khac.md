@@ -8,7 +8,7 @@ tags: ["Tại Sao"]
 
 * *“Con sống lỗi với Xã Hội“*
 
-* *“90% Xã Hội hại Lẫn nhau“*
+* *“Phần lớn Xã Hội hại Lẫn nhau“*
 
 * *“Tại sao Họ sảng khoãi mỗi lần Họ hại, Họ kì vọng Phần Thưởng gì?“*
 
@@ -122,7 +122,7 @@ Ta có thể vận dụng Kiến Thức này trong các trường hợp tương 
     * Xả Áp Lực
     * → Phê
   * **Giảm Tuổi Thọ**
-    * Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Suy giảm Hippocampus, Não Trước Trán và Khả năng Sinh sản Hạt Neuron, Thoái Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim.
+    * Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Thoái Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim.
 
 #### Về Họ:
   * **Hệ 1 của Họ** học theo Ta
@@ -134,7 +134,7 @@ Ta có thể vận dụng Kiến Thức này trong các trường hợp tương 
   * **Họ không thể nghĩ điều tốt đẹp**
   * **Họ không thể nghĩ** Người Xung Quanh Họ, Gia Đình họ, Quê Hương Họ, mỗi lần nghĩ là có Ta
   * **Giảm Tuổi Thọ**
-    * Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Suy giảm Hippocampus, Não Trước Trán và Khả năng Sinh sản Hạt Neuron, Thoái Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim.
+    * Suy giảm Miễn dịch, Tăng Huyết Áp, Bệnh Béo Phì, Trào Ngược Dạ Dày và Đường Ruột, Xương Bị Rút Cạn Canxi, Suy Thận, Suy Tụy, Suy Gan, Thoái Hóa Não, Đột Quỵ, Tai Biến Mạch Máu Não và Nhồi Máu Cơ Tim.
 
 ## 4. Kết Luận
 

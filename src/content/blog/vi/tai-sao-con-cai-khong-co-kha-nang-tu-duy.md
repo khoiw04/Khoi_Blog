@@ -137,4 +137,4 @@ Chỉ cần Trẻ Con gặp thông tin không biết và dễ dàng tiếp cận
 
 Con Cái đã có Động Lực tìm tòi Kiến Thức để phát triển Tư Duy, Cơ Hội như Gia Đình và Nhà Trường đã dập 
 
-Theo Xã Hội, còn cách nào nữa? Hãy chỉ Ta cách Dập Tắt để Mọi Người đều biết Hậu Quả
+Theo Xã Hội, còn cách nào nữa? Hãy chỉ cách Dập Tắt để Mọi Người đều biết Hậu Quả

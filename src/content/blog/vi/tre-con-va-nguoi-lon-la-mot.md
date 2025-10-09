@@ -16,7 +16,7 @@ tags: ["Nguồn Gốc"]
 
 ## 1. Khái Niệm
 
-- **Dopamine** Cảm Xúc “Động Lực“
+- **Dopamine** Cảm Xúc “Động Lực“ khi có Phần Thưởng
 - **Dopamine Spike** Cảm Xúc “Phấn Khích“ khi Phần thưởng vượt Kỳ vọng, kích thích Tò Mò
 - **Kỳ vọng = Công Sức x Phần Thưởng**
   - Phần Thưởng cao  
@@ -27,7 +27,8 @@ tags: ["Nguồn Gốc"]
 
 - **Sự khác biệt giữa Trẻ Con và Người Lớn là:**
   - Lượng Thông Tin đã biết  
-  - Mức độ Dopamine phản ứng với điều mới
+  - Độ nhận diện Phần thưởng mới lạ  
+  - Công sức bỏ ra  
 
 - **Sự Chú ý và Tò Mò của Con Người dựa trên 3 Yếu Tố:**
   - **Hệ Thống Chú Ý:** Qua sự Tương Phản  
@@ -67,24 +68,6 @@ tags: ["Nguồn Gốc"]
 | **Kỳ vọng về phần thưởng** | Thấp do Ít thông tin về kết quả | Cao do biết nhiều Kết quả |
 | **Cách xử lý thông tin** | Trực quan, cảm xúc bởi ít thông tin để tư duy | Phân tích, lý trí |
 | **Sự Chú Ý** | Dễ bị thu hút bởi tương phản và mới lạ | Cần lý do rõ ràng để chú ý chủ động |
-
-### Sự Chú Ý và Tò Mò của Trẻ Con
-
-- **Độ mạnh Cảm Xúc** do dễ Kích hoạt Dopamine Spike bởi Kỳ vọng Phần Thưởng thấp  
-  - Do Ít thông tin về Kết quả
-
-- **Hệ Thống Chú Ý** do Sự Tương Phản giữa Thông tin Chưa biết và Đã biết
-
-- **Duy trì Động Lực** do dễ dàng tiếp cận và sử dụng
-
-### Sự Chú Ý và Tò Mò của Người Lớn
-
-- **Độ mạnh Cảm Xúc** do Dopamine Spike khó bị Kích hoạt
-  - Kỳ vọng Cao hơn Trẻ Con vì biết nhiều Kết Quả
-
-- **Hệ Thống Chú Ý** do Sự Tương Phản không hiệu quả bởi đã có đầy đủ thông tin, ít mới lạ
-
-- **Duy trì Động Lực** do khó tiếp cận và bỏ nhiều công sức để đào sâu
 
 ## 4. Kết Luận
 Trẻ con vui vì biết ít, người lớn chán vì biết quá nhiều

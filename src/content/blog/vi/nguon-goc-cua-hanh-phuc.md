@@ -125,29 +125,12 @@ _Lưu ý: Tỉ lệ mang tính chất minh họa_
 
 * Hạnh Phúc Dài Hạn **Không phải là kết quả Bạn Kì Vọng**
 * Hạnh Phúc Dài Hạn là **Quá Trình Bạn nhận được** Hạnh Phúc thông qua lúc bạn "Động Lực"
-* Hạnh Phúc Dài Hạn là **Quá Trình Bạn Tập trung đạt** _Phần Thưởng Nhỏ_ lúc bạn đạt Phần Thưởng Lớn
 * Không phải Kết Quả hay Kì Vọng
-
-#### Ví dụ: Phần thưởng nhỏ trong Phần thưởng Lớn
-- Tạo trò đùa khi Nhịn Cười
-- Bắt đôi thông khi Chơi Cờ Vua
-- Bốc 4 con +4 khi Chơi UNO
-- Hiểu lời khách hàng khi Tiếp thị
 
 > Cuộc Sống không phải là Điểm Kết Thúc mà là Cả Quá Trính
 
-:::info[Khái Niệm]
-Phần thưởng Nhỏ là Những phần thưởng dí dỏm trong quá trình đạt Phần thưởng Lớn, điều đó sẽ 
-- dễ Tập trung
-- dễ Suy nghĩ
-- dễ sinh ra Cảm Xúc
-
-khi đạt Phần Thưởng
-:::
-:::info[Cộng Thêm]
-Nếu chỉ tập trung đạt Phần Thưởng lớn, sẽ dễ Áp Lực khi suy nghĩ bị "Kẹt" và nghĩ sang điều khác vì Mạng Lưới Thần Kinh bị "Kẹt" nên không biết đi đâu và đi sang hướng khác
-
-Nếu đang Áp Lực, thì Hướng đi tiếp theo sẽ là Suy nghĩ Tiêu Cực do Cơ chế Truy xuất Ký Ức theo Cảm Xúc
+:::info[Kết Luận]
+Vậy nên hãy tập trung vào suy nghĩ về Quá Trình, đừng suy nghĩ tới Kết Quả khi dài hạn và khó đạt
 :::
 
 ## 4. Kết Luận

@@ -1,12 +1,12 @@
 ---
-title: 'Tại sao Cơ Thể tìm Kích Thích khi Áp Lực'
+title: 'Tại sao Cơ Thể tìm Kích Thích khi Áp Lực?'
 pubDate: 'Oct 03 2025'
 description: 'Bài viết này nói lên Tại sao Càng Làm Càng Quen'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
 tags: ["Tại Sao"]
 ---
 
-* *“Mình Không còn Áp Lực, Không còn Lướt Điện Thoại, Nghe Nhạc“*
+* *“Khi Mình không còn Áp Lực, Không còn Lướt Điện Thoại, Nghe Nhạc“*
 
 > Đây là Lí do Bài Viết này được Tồn Tại  
 > *Lưu ý: Bài viết này Liên Hệ bài viết “[Nguồn gốc của Động Lực](./nguon-goc-cua-dong-luc)“ và “[Nguồn gốc của Tư Duy](./nguon-goc-cua-tu-duy)“*
@@ -16,12 +16,13 @@ tags: ["Tại Sao"]
 ### Từ Vựng Hằng Ngày
 
 - Áp Lực là Cortisol — Tập Trung tăng cao  
-- Endorphin là Hormone giảm Áp Lực khi đạt Phần Thưởng
-- Dopamine Spike là Phần Thưởng Bất Ngờ hoặc Nhanh Chóng  
-- Thói Quen: lối sống, cách sống hay hoạt động do lặp đi lặp lại lâu ngày thành quen, khó thay đổi  
-- Hệ 1: Tư duy Cảm Xúc
+- Endorphin là Hormone giảm Áp Lực khi Cảm xúc Tích Cực sản sinh ra như khi nhận Phần Thưởng
+- Dopamine là Hormone Động Lực để đạt Phần Thưởng
+- Dopamine Spike là Khoảnh khắc Dopamine sinh ra mạnh khi Phần Thưởng Bất Ngờ hoặc Nhanh Chóng  
+- Thói Quen là lối sống, cách sống hay hoạt động do lặp đi lặp lại lâu ngày thành quen, khó thay đổi  
+- Hệ 1 là Tư duy Cảm Xúc
 
-### Thần Kinh Học
+### Khái niệm sinh lý
 
 - Dây Thần Kinh: Dây truyền tín hiệu đến các dây khác để đến Kết Quả  
 - Synapse: Chuyển tín hiệu hóa học như Cảm Xúc gián tiếp tới Dây Thần Kinh  
@@ -46,8 +47,8 @@ tags: ["Tại Sao"]
 
 ### **Để hình thành Cơ Thể tìm Kích Thích, cần 2 Yếu Tố**
 
-- Dễ Tiếp Cận  
-- Áp Lực
+- Kích thích dễ Tiếp Cận  
+- Tần suất áp lực  
 
 ### **Quá trình Rèn luyện Kích Thích**
 
@@ -56,9 +57,9 @@ tags: ["Tại Sao"]
   - Bạn tò mò, sử dụng liên tục
 #### Giai đoạn 2: Lì Dopamine
   - Lúc này không còn thích nữa
-  - Vì lúc này đã biết quen với Phần Thưởng này như nào, không còn "hơn cả Kỳ Vọng" như lúc đầu
+  - Vì lúc này đã hiểu hết Phần Thưởng này như nào, không còn "hơn cả Kỳ Vọng" như lúc đầu
 #### Giai đoạn 3: Khi stress -- Căng thẳng
-  - Lúc này Căng thẳng là Hệ 1 kỳ vọng xả Stress
+  - Lúc Căng thẳng, Hệ 1 kỳ vọng xả Stress
   - Kích thích vẫn tạo Dopamine Spike vì Nó nhanh tạo Phần Thưởng và dễ tiếp cận, điều đó vẫn làm Bạn xả Stress
   - Đồng thời, đáp ứng đúng nhu cầu "Xả Stress"
   - Cả 2 Dopamine cộng hưởng: Tạo xả Stress cao hơn
@@ -75,7 +76,9 @@ tags: ["Tại Sao"]
 
 :::result[Kết Quả]
 
-→ Hệ 1 học hỏi, dễ thích nghi, lần sau nhìn Áp Lực và Điện Thoại, Não Bộ sẽ tự Nảy Số
+→ Hệ 1 học hỏi, dễ thích nghi. 
+
+Lần sau Áp Lực và nhìn thấy Kích Thích, Não Bộ tăng nguy cơ tự Nảy Số dựa trên dễ tiếp cận + áp lực thường xuyên + kết quả thưởng rõ rệt.
 
 :::
 

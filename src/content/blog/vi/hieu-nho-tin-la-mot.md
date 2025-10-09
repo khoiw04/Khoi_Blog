@@ -68,6 +68,19 @@ tags: ["Tại Sao"]
 
 :::
 
+### Thứ tự Ghi Nhớ
+
+```
+Giao tiếp thông tin
+      ↓
+   Lưu trữ (Nhớ)
+      ↓
+Xác nhận độ tin cậy (Tin)
+      ↓
+Liên kết & trừu tượng (Hiểu)
+      ↺
+```
+
 ## 3. Kết Luận
 
 Vậy nên mỗi lần Hiểu đều liên tưởng những thứ khác

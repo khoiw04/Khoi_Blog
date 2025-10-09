@@ -52,9 +52,9 @@ Khi Engram mới được củng cố mạnh hơn hoặc khi có cues phù hợp
 
 **Cạnh tranh Truy Xuất:** cố gắng nhớ tên một bài hát, cả hai bài cùng giai điệu tương tự cùng hiện lên trong đầu và “đua” nhau.
 
-**Độ thiên vị của Tín hiệu gợi:** nghe một câu chữ liên quan đến mối tình cũ sẽ làm bạn nhớ ngay kỷ niệm tình cảm dù bạn chỉ muốn nhớ thông tin trung tính.
+**Độ nổi bật của Tín hiệu gợi:** nghe một câu chữ liên quan đến mối tình cũ sẽ làm bạn nhớ ngay kỷ niệm tình cảm dù bạn chỉ muốn nhớ thông tin trung tính.
 
-**Nội dung và cảm xúc không phù hợp:** học từ vựng trong thư viện yên tĩnh nhưng thi trong phòng ồn ào → tín hiệu gợi môi trường khác, nên engram khác (ví dụ từ đã học trong quán cà phê) bị kích hoạt thay.
+**Nội dung và cảm xúc không phù hợp:** học ở quán cà phê nơi có mùi bánh mì, thi ở phòng không mùi → khi thiếu mùi đó, hệ trí nhớ mất đi một trong những chỉ dấu để truy xuất đúng, dẫn tới trả lời chậm hoặc nhầm.
 
 ## 4. Kết Luận
 Kết quả của Từ “Nhầm” đơn giản là Mạng Lưới Thần Kinh của Bạn chưa kịp Thay Đổi phù hợp mà thôi

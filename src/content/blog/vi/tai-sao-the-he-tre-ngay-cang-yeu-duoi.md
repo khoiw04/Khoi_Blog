@@ -71,7 +71,7 @@ Nhưng thời đó, Việt Nam đều chỉ chung 1 cách học, 1 cách làm: T
 
 Tất cả Ông Bà chỉ tiếp nhận thông tin đó, không biết nhiều hơn, vậy nên kỳ vọng vô cùng đơn giản, Tất cả Ông Bà cùng chung 1 thử thách. Vậy nên Cảm thấy Tốt và Cảm thấy Đúng, Ông Bà không phàn nàn, không chỉ trích
 
-#### **Thế giả dụ Thế Hệ Ông Bà được nhiều lựa chọn như hiện nay, vậy Ông Bà còn Động Lực không?**
+#### **Thế giả dụ Thế Hệ Ông Bà được nhiều lựa chọn để đạt 1 mục đích như hiện nay, vậy Ông Bà còn Động Lực không?**
 
 Kết quả là Không, vì Ông Bà đã biết nhiều thông tin, biết nhiều lựa chọn. Kì Vọng của Ông Bà đã cao hơn rất nhiều hơn là Tới Trường và Đi làm bằng Xe đạp
 
