@@ -186,7 +186,7 @@ Kiến thức có thể lỗi thời sau 4 năm học do thế giới thay đổ
 
 ### **Tại sao Sinh Viên giờ đi Đại Học: Thích Học hay Áp Lực ?**
 
-Theo lý thuyết Dopamine — Nguồn Gốc của Động Lực, Sinh Viên giờ đây đi Đại Học không phải để học mà là đáp ứng nhu cầu lọc của Doanh Nghiệp và Nhà Nước, thứ gọi là An Tâm
+Sinh Viên giờ đây đi Đại Học không phải để học mà là đáp ứng nhu cầu lọc của Doanh Nghiệp và Nhà Nước, thứ gọi là An Tâm
 
 #### **Tại sao Con Người đi Học?**
 
@@ -242,9 +242,7 @@ Ngay cả khi bạn muốn làm Kĩ Sư, bạn muốn làm Bác Sĩ, bạn muố
 
 Mỗi lần đặt Câu Hỏi, bạn đang Kỳ Vọng về Câu Trả Lời xứng đáng với Suy Nghĩ của mình
 
-Nhưng Mỗi một câu Trả Lời, cho bạn nhiều thứ hay hơn, lạ hơn, mới hơn và kiến thức mới lạ trước mắt đó dễ tiếp cận hơn những gì mình nghĩ
-
-$ \text{Động Lực} = \text{Phần Thưởng} \times \text{Công Sức} $
+Nhưng Mỗi một câu Trả Lời, cho bạn nhiều thứ hay hơn, lạ hơn, mới hơn, dễ tiếp cận hơn những gì mình nghĩ
 
 Từ đó tạo cho Bạn sự “Phấn Khích“, kích thích Bạn tò mò nhiều hơn, mỗi một câu hỏi mới, mở ra trả lời mới, mỗi câu trả lời mới, lại là những câu hỏi mới
 
@@ -253,7 +251,7 @@ Từ đó tạo cho Bạn sự “Phấn Khích“, kích thích Bạn tò mò n
 :::result[Kết luận]
 Dù bạn là ai, muốn làm gì, nghề gì, thứ giữ bạn theo đuổi, là sự Tò Mò.
 
-Thứ giữ bạn đến Đích là Quá Trình bạn nhận câu lời và câu hỏi mình muốn, không phải là Đích Đến trong Theo Đuổi Ngành Nghề, Lập Nghiệp
+Thứ giữ bạn đến Đích là Quá Trình nhận câu lời và câu hỏi mình muốn, không phải là Đích Đến trong Theo Đuổi Ngành Nghề, Lập Nghiệp
 :::
 
 #### **Quay lại Vấn Đề, tại sao Sinh Viên đi học Đại Học, không phải chọn cái khác?**
@@ -266,7 +264,9 @@ Thứ giữ bạn đến Đích là Quá Trình bạn nhận câu lời và câu
 
 **Kỳ vọng = Phần Thưởng × Công Sức** → Tức là kỳ vọng không chỉ phụ thuộc vào phần thưởng, mà còn vào lượng công sức bỏ ra để đạt được nó.
 
-##### Đối chiếu với Hiệu quả của Đại Học đem lại Kiến Thức và [Nguồn Gốc của Học](#tại-sao-con-người-đi-học) + Động Lực:
+---
+
+##### Đối chiếu với Hiệu quả của Đại Học đem lại Kiến Thức và Nguồn Gốc của Học + Động Lực:
 
 * Phần Thưởng: Không trả lời đúng thứ mình muốn và câu hỏi mình đặt, phải theo quy trình nhà trường đề ra
 * Công Sức: Mất tự do, Tiền Bạc, Ô Nhiễm, Thời gian Chết nhiều do Đi lại, Làm thêm, và Ngồi trên Lớp mà Hiệu quả mình muốn không thu về 
@@ -278,7 +278,7 @@ Thứ giữ bạn đến Đích là Quá Trình bạn nhận câu lời và câu
 Lưu ý: 80% là tượng trưng cho tư duy 20/80
 
 :::result[Kết Luận]
-Từ đó trong phạm vi Học và Động Lực Nội Tại
+Từ đó xét theo Nguồn Gốc của Học và Động Lực
 
 Đa số Sinh Viên đi Đại Học vì Áp Lực, nhu cầu tuyển việc, xin việc làm, tiền bạc, áp đặt gia đình. Nếu không, họ đã chọn cái khác như Tự Học, Tự Trải Nghiệm, Tự Lập Nghiệp cho tiết kiệm tiền và công sức mà bỏ ra đúng Phần Thưởng mình muốn. 
 
@@ -316,7 +316,7 @@ Lưu ý: Dùng "Đa số" Sinh viên do các nguyên nhân sau
 * Khổ ít nhất 3 đời người
 
 :::result[Kết Luận]
-Cảm thấy Tốt và Cảm thấy Đúng? Không, chả ai hạnh phúc thật sự khi có cái bằng và được việc làm, không ai thấy đúng, không ai thấy tốt, chả ai hạnh phúc cả, sướng cùng lắp là 10 phút khi nhận phần thưởng, sau đó nản đời
+Cảm thấy Tốt và Cảm thấy Đúng? Không, chả ai hạnh phúc thật sự khi có cái bằng và được việc làm, không ai thấy đúng, không ai thấy tốt, chả ai hạnh phúc cả, sướng cùng lắm là 10 phút khi nhận phần thưởng, sau đó nản đời
 :::
 
 #### Về Doanh Nghiệp và Nhà Nước
@@ -356,16 +356,25 @@ Giờ đây đã có nhiều cách để học, không thiếu gì cách, kiến
 
 Trong một cuộc sống đầy áp lực, không ai có tâm trạng vui vẻ và thời gian mà đi kết bạn, hỏi thăm 20 đến 40 người trong 1 lớp, rồi đi duy trì điều đó và cả duy trì mối quan hệ mình có cả
 
-Giả dụ bạn vẫn còn sức kết bạn và duy trì đến hết Đại học, Câu lạc bộ, Lớp học, Ngoại Khóa. Sau khi ra khỏi đó, tất cả vẫn quay về như 2 cách dưới đây:
+Giả dụ bạn vẫn còn sức kết bạn và duy trì đến hết Đại học, Câu lạc bộ, Lớp học, Ngoại Khóa. Sau khi ra khỏi đó, khả năng duy trì vẫn quay về như 3 cách dưới đây:
 
 1. Tự thiết kế Trải Nghiệm
-2. Tự thiết kế Mạng Lưới Xã Hội
+2. Tự thiết kế Mạng Xã Hội
+3. Duy Trì Lâu Dài
 
-Trải Nghiệm bỏ Tiền Bạc nhưng không cao như Đại Học. Gặp gỡ Quan Hệ qua quá trình Trải Nghiệm mình muốn và tò mò, Lập Nghiệp
+Trải Nghiệm theo ý bạn muốn, không ngẫu nghiên như Đại Học. Gặp gỡ Quan Hệ qua quá trình Trải Nghiệm mình muốn và tò mò, Lập Nghiệp
 
 Mạng Xã Hội như Facebook, Instagram, Discord, ... thay Đại Học làm điều đó: Dễ đạt, dễ làm, dễ duy trì.
 
-Muốn xây dựng lâu dài dù Online hay Offline: bài viết, portfolio, profile, tương tác lâu dài, dự án chung, startup chung, làm việc dài hạn, gặp offline
+Duy Trì Lâu Dài dù Online hay Đại Học: 
+- Bài viết
+- Portfolio
+- Profile
+- Tương tác lâu dài
+- Dự án chung
+- Startup chung
+- Làm việc dài hạn
+- Gặp offline
 
 Như tôi nói: ``Kỳ Vọng = Phần Thưởng x Công Sức``
 
@@ -378,6 +387,8 @@ _Lưu ý: Kỉ luật là Ép Buộc trong trường hợp này, không phải T
 **Ép Buộc** là toàn thể những điều qui định cứng cần phải theo để giữ gìn trật tự. Để hình thành, hãy kích hoạt aMCC
 
 * Ép Buộc giúp vượt qua ngắn hạn nhờ ý chí và kiểm soát từ aMCC.
+
+---
 
 Vậy nếu Ép Buộc trong Dài hạn như Bằng Đại Học thì như nào?
 
@@ -432,17 +443,21 @@ _"Mình muốn làm Người như kia"_
 
 Vấn đề lớn nhất ở đây không phải là Tiền Bạc, mà là **“Ảo Mộng” -- Đến từ Sự tiến bộ**. Không chỉ ngành Thiết Kế Đồ Họa mà Hầu hết Chương trình Giáo dục Hiện nay.
 
-Tiết học, Môn học, Bài tập, Công việc nhóm, Thi cử, Hoạt động ngoại khóa, Tín chỉ mà Trường Học đã thiết kế biến Học Sinh và Sinh Viên ở Trường Cấp 1 - 2 - 3 - Đại Học thành những con Zombie đi ngủ tới trường, họ nghĩ mình đang học điều gì đó mỗi ngày mà chả học được điều gì cả.
+Tiết học, Môn học, Bài tập, Công việc nhóm, Thi cử, Hoạt động ngoại khóa, Tín chỉ mà Trường Học thiết kế đã biến Học Sinh và Sinh Viên ở Trường Cấp 1 - 2 - 3 - Đại Học thành những con Zombie đi ngủ tới trường, họ nghĩ mình đang học điều gì đó mỗi ngày mà chả học được điều gì cả.
 
 :::result[Kết Luận]
 Sự thật ư? Hãy thử Áp dụng vào đời sống, không phải mỗi bài tập hay bài thi
 
-Ảo Mộng là Sự Sảng khoái giả tạo của Dopamine đến từ Quá trình Học, đến từ cảm giác tiến bộ không thực tế
+Ảo Mộng là Sự Sảng khoái giả tạo của Dopamine đến từ Quá trình Học trên trường, đến từ cảm giác tiến bộ không thực tế
 
 > “Be bloomers, not exceptions. Don’t zombie sleepwalk through life.“
 :::
 ::youtube{url="https://youtu.be/Y5madTW9rkw?si=717UFqf2K_aNgFvw&t=120"}
 
 ## 4. Kết Luận
+
+Tôi đã quyết định bỏ đại học vì đơn giản, Đại Học không cho Kiến Thức tôi cần và Nhiều cách để Học. Hơn nữa, tôi muốn tự giác đứng dậy chống lại Doanh Nghiệp vì Cháu tôi, Con tôi trong Tương lai và cả tôi không phải chịu khổ vô nghĩa
+
+Còn bạn thì sao?
 
 Tôi hy vọng ngày nào đó tất cả đều bỏ rào cản vô nghĩa một cách âm thầm, không cần gào thét, chỉ âm thầm.

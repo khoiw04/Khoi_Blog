@@ -49,6 +49,7 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
         name='message'
         placeholder={configTranslations.contactMessage}
         className='rounded-t-none border-t-0'
+        spellCheck={false}
         rows={8}
       />
       <Button type='submit' variant="outline" className="w-full my-2 transition-shadow">
