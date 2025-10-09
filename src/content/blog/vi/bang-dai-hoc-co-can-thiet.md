@@ -70,12 +70,12 @@ tags: ["Tại Sao"]
 
 #### Thang nhận thức Bloom:
 
-1. Biết – Ghi nhớ khái niệm  
-2. Hiểu – Diễn giải được với Bản Thân mình  
-3. Vận Dụng – Sử dụng kiến thức vào tình huống cụ thể  
-4. Phân Tích – Tách vấn đề thành các phần, xác định mối quan hệ  
-5. Đánh Giá – Lập luận, nhận xét, đưa ra quan điểm dựa trên tiêu chí  
-6. Sáng Tạo – Tạo ra ý tưởng mới, giải pháp mới, kết nối kiến thức nhờ Chế Độ Phân Tán
+1. **Biết** Ghi nhớ khái niệm  
+2. **Hiểu** Diễn giải được với Bản Thân mình  
+3. **Vận Dụng** Sử dụng kiến thức vào tình huống cụ thể  
+4. **Phân Tích** Tách vấn đề thành các phần, xác định mối quan hệ  
+5. **Đánh Giá** Lập luận, nhận xét, đưa ra quan điểm dựa trên tiêu chí  
+6. **Sáng Tạo** Tạo ra ý tưởng mới, giải pháp mới, kết nối kiến thức nhờ Chế Độ Phân Tán
 
 ### **Về Kỉ Luật**
 
