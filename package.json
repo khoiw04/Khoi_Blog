@@ -47,6 +47,7 @@
     "@types/sanitize-html": "^2.16.0",
     "astro-compress": "^2.3.8",
     "astro-embed": "^0.9.0",
+    "astro-lqip": "^1.4.1",
     "astro-og-canvas": "^0.7.0",
     "astro-tabs": "^0.1.8",
     "daisyui": "^5.1.9",
