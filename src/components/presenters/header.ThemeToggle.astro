@@ -30,58 +30,60 @@ import { Button } from "@/components/ui/button";
 </Button>
 
 <script is:inline data-astro-rerun>
-  const applyTheme = (isDark) => {
-    const root = document.documentElement;
-    if (isDark) {
-      root.classList.add("dark");
-    } else {
-      root.classList.remove("dark");
-    }
-    updateColorSchemeMeta(isDark);
-  };
+  (() => {
+    const applyTheme = (isDark) => {
+      const root = document.documentElement;
+      if (isDark) {
+        root.classList.add("dark");
+      } else {
+        root.classList.remove("dark");
+      }
+      updateColorSchemeMeta(isDark);
+    };
 
-  const updateColorSchemeMeta = (isDark) => {
-    let metaTag = document.querySelector('meta[name="color-scheme"]');
-    if (!metaTag && isDark) {
-      metaTag = document.createElement("meta");
-      metaTag.name = "color-scheme";
-      metaTag.content = "light dark";
-      document.head.appendChild(metaTag);
-    } else if (metaTag && !isDark) {
-      metaTag.remove();
-    }
-  };
+    const updateColorSchemeMeta = (isDark) => {
+      let metaTag = document.querySelector('meta[name="color-scheme"]');
+      if (!metaTag && isDark) {
+        metaTag = document.createElement("meta");
+        metaTag.name = "color-scheme";
+        metaTag.content = "light dark";
+        document.head.appendChild(metaTag);
+      } else if (metaTag && !isDark) {
+        metaTag.remove();
+      }
+    };
 
-  const getStoredOrPreferredTheme = () => {
-    const stored = localStorage.getItem("theme");
-    if (stored === "dark" || stored === "light") return stored;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-  };
+    const getStoredOrPreferredTheme = () => {
+      const stored = localStorage.getItem("theme");
+      if (stored === "dark" || stored === "light") return stored;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    };
 
-  const setInitialTheme = () => {
-    const theme = getStoredOrPreferredTheme();
-    applyTheme(theme === "dark");
-    localStorage.setItem("theme", theme);
-  };
+    const setInitialTheme = () => {
+      const theme = getStoredOrPreferredTheme();
+      applyTheme(theme === "dark");
+      localStorage.setItem("theme", theme);
+    };
 
-  const setupToggleButton = () => {
-    const button = document.getElementById("themeToggle");
-    if (!button) return;
+    const setupToggleButton = () => {
+      const button = document.getElementById("themeToggle");
+      if (!button) return;
 
-    button.addEventListener("click", () => {
-      const isDark = document.documentElement.classList.contains("dark");
-      const nextTheme = isDark ? "light" : "dark";
-      applyTheme(nextTheme === "dark");
-      localStorage.setItem("theme", nextTheme);
-    });
-  };
+      button.addEventListener("click", () => {
+        const isDark = document.documentElement.classList.contains("dark");
+        const nextTheme = isDark ? "light" : "dark";
+        applyTheme(nextTheme === "dark");
+        localStorage.setItem("theme", nextTheme);
+      });
+    };
 
-  setInitialTheme();
-  setupToggleButton();
-
-  document.addEventListener("astro:after-swap", () => {
-    const storedTheme = localStorage.getItem("theme") || "light";
-    applyTheme(storedTheme === "dark");
+    setInitialTheme();
     setupToggleButton();
-  });
+
+    document.addEventListener("astro:after-swap", () => {
+      const storedTheme = localStorage.getItem("theme") || "light";
+      applyTheme(storedTheme === "dark");
+      setupToggleButton();
+    });
+  })();
 </script>

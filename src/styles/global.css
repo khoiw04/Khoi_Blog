@@ -6,6 +6,7 @@
 @import './admonition.css';
 @import './post.css';
 @plugin "daisyui";
+@config "../../tailwind.config.js";
 
 @custom-variant dark (&:is(.dark *));
 
