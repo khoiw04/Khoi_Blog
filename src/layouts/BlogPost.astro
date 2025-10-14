@@ -15,17 +15,20 @@ type Props = CollectionEntry<'blog'>['data'];
 const configTranslations = useGetTranslations(Astro)
 const { title, description, pubDate, heroImage } = Astro.props;
 ---
-<!-- Thanks to Astro for Framework -->
-<!-- Thanks to Chiri for Code Template -->
-<!-- Thanks to Shadui for Component Template -->
-<!-- Thanks to wwanname for Effect Template -->
 <html lang={configTranslations.lang}>
 	<head>
+		<!-- Thanks to Astro for Framework -->
+		<!-- Thanks to Chiri for Code Template -->
+		<!-- Thanks to Enscribe.dev for TOB Template -->
+		<!-- Thanks to Shadui for Component Template -->
+		<!-- Thanks to wwanname for Effect Template -->
 		<BaseHead title={title} description={description} />
 		<LayoutBlog />
 	</head>
 	<body>
-		<Header />
+		<Header>
+			<slot name="table-of-contents" />
+		</Header>
 		<main>
 			<article>
 				<NavigateLink name={configTranslations.navnavigateBack} class={'pl-2.5 sm:pl-0'} />

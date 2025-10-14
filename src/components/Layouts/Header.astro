@@ -16,6 +16,7 @@ const currentPath = Astro.url.pathname
       currentPath={currentPath}
       configTranslations={configTranslations}
     />
-    <ThemeToggle />
+    <ThemeToggle transition:persist />
   </div>
+  <slot />
 </header>

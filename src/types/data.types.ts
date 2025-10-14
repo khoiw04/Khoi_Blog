@@ -5,3 +5,17 @@ export interface TagItem {
   nameVi: string
   nameEn: string
 }
+
+export type TOCHeading = {
+  slug: string
+  text: string
+  depth: number
+  isSubpostTitle?: boolean
+}
+
+export type TOCSection = {
+  type: 'parent' | 'subpost'
+  title: string
+  headings: TOCHeading[]
+  subpostId?: string
+}
