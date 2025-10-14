@@ -8,6 +8,7 @@ import Header from '@/components/Layouts/Header.astro';
 import NavigateLink from '@/components/Layouts/NavigateLink.astro';
 import { useGetTranslations } from '@/i18n';
 import LayoutBlog from '@/components/Layouts/LayoutBlog.astro';
+import { themeConfig } from '@/config';
 
 
 type Props = CollectionEntry<'blog'>['data'];
@@ -22,7 +23,7 @@ const { title, description, pubDate, heroImage } = Astro.props;
 		<!-- Thanks to Enscribe.dev for TOB Template -->
 		<!-- Thanks to Shadui for Component Template -->
 		<!-- Thanks to wwanname for Effect Template -->
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} image={heroImage} description={description} />
 		<LayoutBlog />
 	</head>
 	<body>
@@ -49,6 +50,6 @@ const { title, description, pubDate, heroImage } = Astro.props;
 				</div>
 			</article>
 		</main>
-		<Footer />
+		{themeConfig.general.footer && <Footer />}
 	</body>
 </html>

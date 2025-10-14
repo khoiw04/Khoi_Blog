@@ -25,6 +25,6 @@ const configTranslations = useGetTranslations(Astro)
                 <p class="mb-6">{configTranslations.description404}</p>
 			</section>
 		</main>
-		<Footer />
+		{themeConfig.general.footer && <Footer />}
 	</body>
 </html>

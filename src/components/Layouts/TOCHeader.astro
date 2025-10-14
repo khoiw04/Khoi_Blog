@@ -386,12 +386,10 @@ const { headings } = Astro.props
     }
   }
 
-  document.addEventListener('astro:page-load', () => MobileTOCController.init())
-  document.addEventListener('astro:after-swap', () => {
-    MobileTOCController.cleanup()
+  document.addEventListener('DOMContentLoaded', () => {
     MobileTOCController.init()
   })
-  document.addEventListener('astro:before-swap', () =>
-    MobileTOCController.cleanup(),
-  )
+  window.addEventListener('beforeunload', () => {
+    MobileTOCController.cleanup()
+  })
 </script>

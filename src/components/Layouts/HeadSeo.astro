@@ -59,7 +59,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
+<title>{`${title} | KhoiWN04`}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 
@@ -78,4 +78,4 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
 
 <!-- Page Transition -->
-<ClientRouter />
+{themeConfig.general.fadeAnimation && <ClientRouter />}

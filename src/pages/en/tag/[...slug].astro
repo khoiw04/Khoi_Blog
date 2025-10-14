@@ -59,6 +59,6 @@ const filteredPosts = await getSortedEnglishTag(capitalizedTag)
                 )}
             </section>
 		</main>
-		<Footer />
+		{themeConfig.general.footer && <Footer />}
 	</body>
 </html>

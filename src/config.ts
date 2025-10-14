@@ -4,8 +4,8 @@ export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
     website: 'https://blog.khoiwn04.com', // Site domain
-    title: 'Khoi Nguyen - KhoiWN04', // Site title
-    author: 'khoiwn', // Author name
+    title: 'Khoi Nguyen', // Site title
+    author: 'khoiwn04', // Author name
     description: "The blog of Khoiwn04. He is the curious person about science, developing, graphics, art", // Site description
     language: 'en-US' // Default language
   },
