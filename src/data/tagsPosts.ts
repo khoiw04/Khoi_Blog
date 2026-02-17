@@ -1,27 +1,19 @@
-import type { TagItem } from "@/types"
+import type { TagItem } from "@/types";
 import {
+  LucideCircleDotDashed,
+  LucideHeart,
   LucideLayers3,
   LucidePyramid,
   LucideShrimp,
-} from "lucide-react"
+} from "lucide-react";
 
 const devtagsObj = [
   {
-    icon: LucideLayers3,
-    nameVi: "Tanstack",
-    nameEn: "Tanstack",
+    icon: LucideCircleDotDashed,
+    nameVi: ".dotfiles",
+    nameEn: ".dotfiles",
   },
-  {
-    icon: LucideShrimp,
-    nameVi: "Rust",
-    nameEn: "Rust",
-  },
-  {
-    icon: LucidePyramid,
-    nameVi: "Tauri",
-    nameEn: "Tauri",
-  },
-] as const satisfies readonly TagItem[]
+] as const satisfies readonly TagItem[];
 
 const sciencetagsObj = [
   {
@@ -39,13 +31,18 @@ const sciencetagsObj = [
     nameVi: "Nguồn Gốc",
     nameEn: "Source",
   },
-] as const satisfies readonly TagItem[]
+  {
+    icon: LucideHeart,
+    nameVi: "Tâm Sự",
+    nameEn: "Share",
+  },
+] as const satisfies readonly TagItem[];
 
 const alltagsEnum = [
-  ...devtagsObj.map(data => data.nameEn),
-  ...devtagsObj.map(data => data.nameVi),
-  ...sciencetagsObj.map(data => data.nameEn),
-  ...sciencetagsObj.map(data => data.nameVi),
+  ...devtagsObj.map((data) => data.nameEn),
+  ...devtagsObj.map((data) => data.nameVi),
+  ...sciencetagsObj.map((data) => data.nameEn),
+  ...sciencetagsObj.map((data) => data.nameVi),
   // "Tanstack",
   // "Tauri",
   // "Rust",
@@ -55,6 +52,6 @@ const alltagsEnum = [
   // "Nguồn Gốc",
   // "Tò Mò",
   // "Tại Sao"
-] as const
+] as const;
 
-export { devtagsObj, sciencetagsObj, alltagsEnum }
+export { devtagsObj, sciencetagsObj, alltagsEnum };
