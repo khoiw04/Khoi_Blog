@@ -122,7 +122,7 @@ I use the tacky-border to make my accent border visible.
 
 ### **My script to change wallpaper quickly**
 
-![Change Wallpaper](/imgs/pngs/how-i-rice-my-window-for-productivity/change-wallpaper.gif)
+![Change Wallpaper](/imgs/pngs/how-i-rice-my-window-for-productivity/change-wallpaper.webp)
 
 It takes two days to do the script by asking the Gemini. Painful!
 
