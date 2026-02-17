@@ -124,14 +124,14 @@ I use the tacky-border to make my accent border visible.
 
 ![Change Wallpaper](/imgs/pngs/how-i-rice-my-window-for-productivity/change-wallpaper.webp)
 
-It takes two days to do the script by asking the Gemini. Painful!
+It takes two days to make the script by asking the Gemini. Painful!
 
-Here is the script can do:
-- Change wallpaper 
-- Change previous wallpaper 
-- Change wallpaper with randomness
-- Change wallpaper with dual monitor
-- Sync the border color to the accent color
+Here is [the script](https://github.com/khoiw04/cinnamon-theme/blob/main/wallhotkey.ahk) can do:
+- `Cmd + '`: Change wallpaper 
+- `Cmd + Shift + '`: Change previous wallpaper 
+- `Cmd + Shift + S` Change wallpaper with randomness
+- `Cmd + Shift + D` Change wallpaper with dual monitor
+- Sync the focus's border color to the accent color
 - Sync the text selection & text indicator to the accent color
 
 :::warning[Bug]
