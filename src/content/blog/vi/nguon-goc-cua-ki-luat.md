@@ -55,17 +55,17 @@ Kỉ Luật dựa trên 2 loại:
 Thói Quen hình thành không chỉ nhờ mỗi sự Lặp đi Lặp lại, mà nhờ cả hỗ trợ từ Phần Thưởng dễ nhìn, dễ thấy, dễ đạt.
 :::
 
-Về Ép Buộc
+### Về Ép Buộc
 
 Để hình thành, Ép Buộc cần dựa trên cơ chế:
 
 - **Anterior Mid Cingulate Cortex (aMCC)** — vùng não ép buộc bản thân  
-- Đây là vùng xử lý xung đột và cưỡng chế hành vi khi ít / không có phần thưởng — như một trung tâm điều khiển ý chí  
+- Đây là vùng xử lý xung đột và cưỡng chế hành vi — như một trung tâm điều khiển ý chí  
 
 **Ví dụ:**
 
 - Tại sao Ta dậy sớm để Học bài dù rất buồn ngủ?  
-- Tại sao Ta vẫn đi làm dù không có hứng thú?  
+- Tại sao Ta vẫn đi làm dù không có hứng thú? 
 - Tại sao Ta vẫn Tập thể dục dù không thấy kết quả?  
 - Tại sao Ta vẫn đi làm dù bị Sếp quỵt lương trước đó?
  
