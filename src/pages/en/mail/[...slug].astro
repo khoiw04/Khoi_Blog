@@ -1,0 +1,46 @@
+---
+import { type CollectionEntry, render } from "astro:content";
+import transformEmailHtml from "@/lib/transform-email-html";
+import EmailLayout from "@/layouts/EmailLayout.astro";
+import { getSortedEnglishBlog } from "@/lib";
+
+export const prerender = true;
+export async function getStaticPaths() {
+  if (import.meta.env.DEV) {
+    const posts = await getSortedEnglishBlog();
+    return posts.map((post) => {
+        return {
+            params: { lang: post.lang, slug: post.slug },
+            props: post,
+        };
+    });
+}
+type Props = CollectionEntry<"blog">;
+
+const SITE =
+    (await import.meta.env.PUBLIC_SITE_URL) || "https://blog.khoiwn04.com";
+const post = Astro.props;
+const postUrl = `${SITE}/blog/${post.id}`;
+const newPost = {
+    ...post,
+    data: {
+        ...post.data,
+        postUrl,
+        heroImage: post.data.heroImage
+            ? post.data.heroImage?.src.startsWith("http")
+                ? post.data.heroImage?.src
+                : `${SITE}${post.data.heroImage?.src.startsWith("/") ? "" : "/"}${post.data.heroImage?.src}`
+            : null,
+    },
+    rendered: {
+        ...post.rendered,
+        html: transformEmailHtml(post.rendered.html, SITE),
+    },
+};
+
+const { Content } = await render(newPost);
+---
+
+<EmailLayout {...newPost.data}>
+    <Content />
+</EmailLayout>

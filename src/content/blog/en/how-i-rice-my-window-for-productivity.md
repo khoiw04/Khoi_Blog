@@ -2,7 +2,7 @@
 title: 'How I Rice My Window for Productivity'
 description: 'I use a combination of tools and configurations to optimize my productivity in a Windows environment.'
 pubDate: 'Feb 17 2026'
-heroImage: '../../../assets/card_preview.png'
+heroImage: 'public/imgs/pngs/how-i-rice-my-window-for-productivity/card_preview.png'
 collection: en
 tags: [".dotfiles"]
 ---
