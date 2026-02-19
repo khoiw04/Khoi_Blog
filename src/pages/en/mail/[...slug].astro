@@ -6,14 +6,17 @@ import { getSortedEnglishBlog } from "@/lib";
 
 export const prerender = true;
 export async function getStaticPaths() {
-  if (import.meta.env.DEV) {
-    const posts = await getSortedEnglishBlog();
-    return posts.map((post) => {
-        return {
-            params: { lang: post.lang, slug: post.slug },
-            props: post,
-        };
-    });
+    if (import.meta.env.DEV) {
+        const posts = await getSortedEnglishBlog();
+        return posts.map((post) => {
+            return {
+                params: { lang: post.lang, slug: post.slug },
+                props: post,
+            };
+        });
+    } else {
+        return [];
+    }
 }
 type Props = CollectionEntry<"blog">;
 
