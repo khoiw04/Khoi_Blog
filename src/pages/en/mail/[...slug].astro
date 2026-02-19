@@ -37,7 +37,7 @@ const newPost = {
     },
     rendered: {
         ...post.rendered,
-        html: transformEmailHtml(post.rendered.html, SITE),
+        html: transformEmailHtml(post.rendered!.html, SITE),
     },
 };
 

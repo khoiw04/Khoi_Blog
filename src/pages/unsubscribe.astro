@@ -1,0 +1,39 @@
+---
+import Header from "@/components/Layouts/Header.astro";
+import BaseHead from "@/components/Layouts/HeadSeo.astro";
+import Footer from "@/components/Layouts/Footer.astro";
+import { useGetTranslations } from "@/i18n";
+import { themeConfig } from "@/config";
+
+const { url } = Astro;
+const token = url.searchParams.get("email");
+const configTranslations = useGetTranslations(Astro);
+
+// if (token) {
+// } else {
+// }
+---
+
+<!doctype html>
+<html lang={configTranslations.lang}>
+    <head>
+        <BaseHead
+            title={themeConfig.site.title}
+            description={themeConfig.site.description}
+        />
+    </head>
+    <body>
+        <Header />
+        <main class="flex flex-col items-center justify-center px-4">
+            <h2 class="font-[Editorial] text-xl">
+                {configTranslations.unsubscribeSuccess}
+            </h2>
+            <span>{configTranslations.unsubscribeSuccessDescription}</span>
+            <img
+                src="https://media1.tenor.com/m/K-Hrm1rvOp4AAAAd/mambo-uma-musume.gif"
+                class="mt-4 px-8"
+            />
+        </main>
+        {themeConfig.general.footer && <Footer showRegister={false} />}
+    </body>
+</html>

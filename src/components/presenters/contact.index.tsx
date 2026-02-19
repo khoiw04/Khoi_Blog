@@ -1,15 +1,17 @@
-import ComboBox from './form.combobox'
-import { CircleAlertIcon, LucideMail } from "lucide-react"
-import { Input } from "@/components/ui/input"
-import { Textarea } from '@/components/ui/textarea'
-import { Button } from '@/components/ui/button'
-import useContactForm from '@/components/container/useContactForm'
-import type { ContactPropsFormType } from '@/types'
+import ComboBox from "./contact.combobox";
+import { CircleAlertIcon, LucideMail } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+import useContactForm from "@/components/container/useContactForm";
+import type { ContactPropsFormType } from "@/types";
 
-export default function Component({ configTranslations }: ContactPropsFormType) {
-  const { errorsContact, onContactSubmit } = useContactForm()
+export default function Component({
+  configTranslations,
+}: ContactPropsFormType) {
+  const { errorsContact, onContactSubmit } = useContactForm();
   return (
-    <form 
+    <form
       className="no-prose shadow-xs max-w-100 px-4 mx-auto **:focus-within:z-10"
       onSubmit={async (e) => onContactSubmit(e, configTranslations.lang)}
     >
@@ -17,7 +19,7 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
         <Input
           id="email"
           type="email"
-          name='email'
+          name="email"
           placeholder="Email"
           className="peer rounded-b-none pe-9 shadow-none [direction:inherit]"
         />
@@ -29,7 +31,7 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
         <div className="min-w-0 flex-1">
           <Input
             id="lastName"
-            name='lastName'
+            name="lastName"
             placeholder={configTranslations.contactLastName}
             className="rounded-none shadow-none [direction:inherit]"
           />
@@ -37,7 +39,7 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
         <div className="-ms-px min-w-0 flex-1">
           <Input
             id="firstName"
-            name='firstName'
+            name="firstName"
             placeholder={configTranslations.contactFirstName}
             className="rounded-none shadow-none [direction:inherit]"
           />
@@ -45,14 +47,18 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
       </div>
       <ComboBox configTranslations={configTranslations} />
       <Textarea
-        id='message'
-        name='message'
+        id="message"
+        name="message"
         placeholder={configTranslations.contactMessage}
-        className='rounded-t-none border-t-0'
+        className="rounded-t-none border-t-0"
         spellCheck={false}
         rows={8}
       />
-      <Button type='submit' variant="outline" className="w-full my-2 transition-shadow">
+      <Button
+        type="submit"
+        variant="outline"
+        className="w-full my-2 transition-shadow"
+      >
         {configTranslations.contactSubmit}
       </Button>
       {errorsContact.length > 0 && (
@@ -77,5 +83,5 @@ export default function Component({ configTranslations }: ContactPropsFormType) 
         </div>
       )}
     </form>
-  )
+  );
 }

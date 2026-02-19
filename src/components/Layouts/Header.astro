@@ -1,22 +1,29 @@
 ---
-import ThemeToggle from '@/components/presenters/header.ThemeToggle.astro';
-import DropdownMenu from '@/components/presenters/header.DropdownMenu';
-import { useGetTranslations } from '@/i18n';
+import ThemeToggle from "@/components/presenters/header.ThemeToggle.astro";
+import DropdownMenu from "@/components/presenters/header.DropdownMenu";
+import { useGetTranslations } from "@/i18n";
 
-const configTranslations = useGetTranslations(Astro)
-const currentPath = Astro.url.pathname
+const configTranslations = useGetTranslations(Astro);
+const currentPath = Astro.url.pathname;
+
+const { hiddenBorder = true } = Astro.props;
 ---
 
 <header
-  class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60"
+    class:list={[
+        "sticky top-0 z-50 w-full backdrop-blur supports-backdrop-filter:bg-background/60",
+        // !hiddenBorder ? "border-b" : "",
+    ]}
 >
-  <div class="w-full max-w-[720px] mx-auto flex h-8 items-center justify-between">
-    <DropdownMenu
-      client:visible
-      currentPath={currentPath}
-      configTranslations={configTranslations}
-    />
-    <ThemeToggle transition:persist />
-  </div>
-  <slot />
+    <div class:list={["w-full max-w-[720px] mx-auto "]}>
+        <div class="flex h-8 items-center justify-between">
+            <DropdownMenu
+                client:visible
+                currentPath={currentPath}
+                configTranslations={configTranslations}
+            />
+            <ThemeToggle transition:persist />
+        </div>
+        <slot />
+    </div>
 </header>

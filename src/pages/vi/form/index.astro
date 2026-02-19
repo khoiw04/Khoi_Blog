@@ -1,16 +1,16 @@
 ---
-import Form from '@/components/presenters/form.index'
-import { useGetTranslations } from '@/i18n'
-import Layout from '@/layouts/BlogPost.astro'
+import Form from "@/components/presenters/contact.index";
+import { useGetTranslations } from "@/i18n";
+import Layout from "@/layouts/BlogPost.astro";
 
-const today = new Date()
-const configTranslations = useGetTranslations(Astro)
+const today = new Date();
+const configTranslations = useGetTranslations(Astro);
 ---
 
 <Layout
-	title="Gửi Form"
-	description="Hãy để lại lời nhắn cho tôi, cảm ơn đã Liên Hệ!"
-	pubDate={today}
+    title="Gửi Form"
+    description="Hãy để lại lời nhắn cho tôi, cảm ơn đã Liên Hệ!"
+    pubDate={today}
 >
-	<Form client:visible configTranslations={configTranslations} />
+    <Form client:visible configTranslations={configTranslations} />
 </Layout>
