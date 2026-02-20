@@ -1,39 +1,63 @@
 ---
-import BaseHead from '@/components/Layouts/HeadSeo.astro';
-import Footer from '@/components/Layouts/Footer.astro';
-import Header from '@/components/Layouts/Header.astro';
-import { themeConfig } from '@/config';
-import NavigateLink from '@/components/Layouts/NavigateLink.astro';
-import Search from '@/components/presenters/search.index';
-import { useGetTranslations } from '@/i18n';
-import { getSortedEnglishBlog } from '@/lib/draft';
-import LayoutHeader from '@/components/Layouts/LayoutHeader.astro';
-import ComponentItem from '@/components/Layouts/ComponentItem.astro';
-import LayoutTag from '@/components/Layouts/LayoutTag.astro';
+import BaseHead from "@/components/Layouts/HeadSeo.astro";
+import Footer from "@/components/Layouts/Footer.astro";
+import Header from "@/components/Layouts/Header.astro";
+import { themeConfig } from "@/config";
+import NavigateLink from "@/components/Layouts/NavigateLink.astro";
+import Search from "@/components/presenters/search.index";
+import { useGetTranslations } from "@/i18n";
+import { getSortedEnglishBlog } from "@/lib/draft";
+import LayoutHeader from "@/components/Layouts/LayoutHeader.astro";
+import ComponentItem from "@/components/Layouts/ComponentItem.astro";
+import LayoutTag from "@/components/Layouts/LayoutTag.astro";
+import InfiniteScroll from "@/components/Layouts/InfiniteScroll.astro";
 
-const configTranslations = useGetTranslations(Astro)
-const posts = await getSortedEnglishBlog()
+const configTranslations = useGetTranslations(Astro);
+const posts = await getSortedEnglishBlog();
+
+const INITIAL_VISIBLE = 8;
 ---
 
 <!doctype html>
-<html lang={configTranslations.lang}>
-	<head>
-		<BaseHead title={themeConfig.site.title} description={themeConfig.site.description} />
-		<LayoutTag />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<LayoutHeader>
-				<NavigateLink class='md:mb-8' name={configTranslations.navnavigateBack} />
-				<Search client:visible posts={posts} configTranslations={configTranslations} />
-			</LayoutHeader>
-			<section>
-				<ul>
-					<ComponentItem posts={posts} />
-				</ul>
-			</section>
-		</main>
-		{themeConfig.general.footer && <Footer />}
-	</body>
+<html lang={configTranslations.lang as string}>
+    <head>
+        <BaseHead
+            title={themeConfig.site.title}
+            description={themeConfig.site.description}
+        />
+        <LayoutTag />
+    </head>
+    <body>
+        <Header />
+        <main>
+            <LayoutHeader>
+                <NavigateLink
+                    class="md:mb-8"
+                    name={configTranslations.navnavigateBack}
+                />
+                <Search
+                    client:visible
+                    posts={posts}
+                    configTranslations={configTranslations}
+                />
+            </LayoutHeader>
+            <section id="blog-container">
+                <ul id="post-list">
+                    <ComponentItem posts={posts} />
+                </ul>
+
+                {
+                    posts.length > INITIAL_VISIBLE && (
+                        <div
+                            id="infinite-scroll-trigger"
+                            class="h-20 flex items-center justify-center"
+                        />
+                    )
+                }
+            </section>
+        </main>
+        {themeConfig.general.footer && <Footer />}
+
+        <InfiniteScroll />
+    </body>
 </html>

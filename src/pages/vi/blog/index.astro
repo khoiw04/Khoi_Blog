@@ -10,9 +10,12 @@ import { themeConfig } from "@/config";
 import LayoutHeader from "@/components/Layouts/LayoutHeader.astro";
 import ComponentItem from "@/components/Layouts/ComponentItem.astro";
 import LayoutTag from "@/components/Layouts/LayoutTag.astro";
+import InfiniteScroll from "@/components/Layouts/InfiniteScroll.astro";
 
 const configTranslations = useGetTranslations(Astro);
 const posts = await getSortedVietnamBlog();
+
+const INITIAL_VISIBLE = 8;
 ---
 
 <!doctype html>
@@ -33,17 +36,27 @@ const posts = await getSortedVietnamBlog();
                     name={configTranslations.navnavigateBack}
                 />
                 <Search
-                    client:visible
+                    client:load
                     configTranslations={configTranslations}
                     posts={posts}
                 />
             </LayoutHeader>
-            <section>
-                <ul>
+            <section id="blog-container">
+                <ul id="post-list">
                     <ComponentItem posts={posts} />
                 </ul>
+
+                {
+                    posts.length > INITIAL_VISIBLE && (
+                        <div
+                            id="infinite-scroll-trigger"
+                            class="h-20 flex items-center justify-center"
+                        />
+                    )
+                }
             </section>
         </main>
         {themeConfig.general.footer && <Footer />}
+        <InfiniteScroll />
     </body>
 </html>

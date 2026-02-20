@@ -1,0 +1,71 @@
+<style is:global>
+    /* Ẩn các bài viết vượt quá số lượng ban đầu */
+    /* Giả sử ComponentItem render các thẻ con trực tiếp, ta sẽ ẩn từ item thứ 9 */
+    #post-list > *:nth-child(n + 9) {
+        display: none;
+    }
+
+    /* Class để hiện bài viết khi cuộn tới */
+    #post-list > *.is-visible {
+        display: block !important; /* Hoặc flex/grid tùy vào style gốc của ComponentItem */
+        animation: fadeIn 0.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<script>
+    const setupInfiniteScroll = () => {
+        const trigger = document.getElementById("infinite-scroll-trigger");
+        const postList = document.getElementById("post-list");
+        if (!trigger || !postList) return;
+
+        // Lấy danh sách các bài đang bị ẩn
+        const allPosts = Array.from(postList.children);
+        const STEP = 8;
+        let currentIndex = 8; // Bắt đầu từ bài thứ 9
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0].isIntersecting) {
+                    // Lấy mẻ tiếp theo
+                    const nextBatch = allPosts.slice(
+                        currentIndex,
+                        currentIndex + STEP,
+                    );
+
+                    nextBatch.forEach((post) => {
+                        post.classList.add("is-visible");
+                    });
+
+                    currentIndex += STEP;
+
+                    // Nếu đã hiện hết bài thì xóa trigger
+                    if (currentIndex >= allPosts.length) {
+                        observer.unobserve(trigger);
+                        trigger.style.display = "none";
+                    }
+                }
+            },
+            {
+                rootMargin: "400px", // Load sớm trước khi người dùng chạm tới đáy
+            },
+        );
+
+        observer.observe(trigger);
+    };
+
+    // Khởi chạy
+    setupInfiniteScroll();
+    // Nếu bạn dùng View Transitions (nếu có):
+    document.addEventListener("astro:after-swap", setupInfiniteScroll);
+</script>
