@@ -13,7 +13,7 @@ const posts = (await getSortedEnglishBlog()).slice(0, 4);
 ---
 
 <!doctype html>
-<html lang={configTranslations.lang}>
+<html lang={configTranslations.lang as string}>
     <head>
         <BaseHead
             title={themeConfig.site.title}
@@ -26,9 +26,9 @@ const posts = (await getSortedEnglishBlog()).slice(0, 4);
             <HeaderIndex configTranslations={configTranslations} />
             <ul class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
                 <ComponentItem posts={posts} />
-                <ul></ul>
-                {themeConfig.general.footer && <Footer />}
             </ul>
         </main>
+
+        {themeConfig.general.footer && <Footer />}
     </body>
 </html>
