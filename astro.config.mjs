@@ -14,6 +14,7 @@ import remarkEmbeddedMedia from "./src/plugins/remark-embedded-media.mjs";
 import rehypeAddButtonClass from "./src/plugins/rehype-add-button-class.js";
 import rehypeImageProcessor from "./src/plugins/rehype-image-processor.mjs";
 import rehypeAstroRelativeLinks from "./src/plugins/rehype-astro-relative-links.js";
+import remarkGridColumnClass from "./src/plugins/remark-grid-column-class.ts";
 import remarkAdmonitions from "./src/plugins/remark-admonitions.mjs";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -24,9 +25,10 @@ import { themeConfig } from "./src/config.js";
 const plugins = {
   remarkPlugins: [
     remarkDirective,
-    remarkAdmonitions,
+    remarkGridColumnClass,
     remarkEmbeddedMedia,
     remarkMath,
+    remarkAdmonitions,
   ],
   rehypePlugins: [
     rehypeKatex,
