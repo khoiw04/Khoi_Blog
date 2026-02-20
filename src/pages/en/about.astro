@@ -1,14 +1,14 @@
 ---
-import BlogPost from '@/layouts/BlogPost.astro';
-import { getSortedEnglishBlog } from '@/lib';
-import { render } from 'astro:content';
+import BlogLayout from "@/layouts/BlogLayout.astro";
+import { getSortedEnglishBlog } from "@/lib";
+import { render } from "astro:content";
 
-const posts = await getSortedEnglishBlog()
-const post = posts.find(post => post.data.title === 'About Me')
+const posts = await getSortedEnglishBlog();
+const post = posts.find((post) => post.data.title === "About Me");
 
 const { Content } = await render(post!);
 ---
 
-<BlogPost {...post!.data}>
-	<Content />
-</BlogPost>
+<BlogLayout {...post!.data}>
+    <Content />
+</BlogLayout>

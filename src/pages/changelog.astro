@@ -1,0 +1,120 @@
+---
+import { Image } from "astro:assets";
+import Layout from "@/layouts/ChangelogLayout.astro";
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+import { getCollection } from "astro:content";
+import { LucideLoaderCircle } from "lucide-react";
+
+type Props = CollectionEntry<"changelog">;
+
+const entries = await getCollection("changelog");
+const sortedEntries = entries.sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const renderedEntries = await Promise.all(
+    sortedEntries.map(async (entry) => {
+        const { Content } = await render(entry);
+        return { entry, Content };
+    }),
+);
+---
+
+<Layout>
+    <div id="changelog-list" class="max-w-3xl mx-auto px-4">
+        {
+            renderedEntries.map(({ entry, Content }, index) => (
+                <div class={`changelog-item ${index >= 8 ? "is-hidden" : ""}`}>
+                    <section class="py-10">
+                        <h2 class="text-2xl font-bold">
+                            V{entry.data.version} - {entry.data.title}
+                        </h2>
+                        <p class="text-gray-500 mb-4">
+                            {entry.data.pubDate.toLocaleDateString("vi-VN")}
+                        </p>
+                        <Image
+                            src={entry.data.heroImage}
+                            width={800}
+                            height={400}
+                            alt={entry.data.title}
+                            class="mt-10 my-15"
+                        />
+                        <article class="max-w-none">
+                            <Content />
+                        </article>
+                    </section>
+                    {renderedEntries.length - 1 !== index && <hr />}
+                </div>
+            ))
+        }
+    </div>
+
+    <div
+        id="infinite-scroll-trigger"
+        class="h-20 flex items-center justify-center"
+    >
+        <span class="size-10 rotate">
+            <LucideLoaderCircle />
+        </span>
+    </div>
+</Layout>
+
+<style>
+    .is-hidden {
+        display: none;
+    }
+</style>
+
+<script>
+    const setupInfiniteScroll = () => {
+        const trigger = document.getElementById("infinite-scroll-trigger");
+        const hiddenItems = Array.from(
+            document.querySelectorAll(".changelog-item.is-hidden"),
+        );
+
+        if (!trigger || hiddenItems.length === 0) {
+            if (trigger) trigger.style.display = "none";
+            return;
+        }
+
+        let currentIndex = 0;
+        const STEP = 5; // Mỗi lần cuộn xuống sẽ hiện thêm 5 bài
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                // Nếu phần tử trigger xuất hiện trong màn hình (người dùng cuộn tới cuối)
+                if (entries[0].isIntersecting) {
+                    // Lấy nhóm 5 bài tiếp theo
+                    const nextBatch = hiddenItems.slice(
+                        currentIndex,
+                        currentIndex + STEP,
+                    );
+
+                    nextBatch.forEach((item) => {
+                        item.classList.remove("is-hidden");
+                        // Thêm một chút hiệu ứng xuất hiện nếu muốn
+                        item.classList.add("animate-fade-in");
+                    });
+
+                    currentIndex += STEP;
+
+                    // Nếu đã hiện hết sạch bài thì ẩn luôn cái trigger
+                    if (currentIndex >= hiddenItems.length) {
+                        observer.unobserve(trigger);
+                        trigger.style.display = "none";
+                    }
+                }
+            },
+            {
+                rootMargin: "200px", // Kích hoạt sớm trước khi người dùng chạm đáy 200px để tạo cảm giác mượt
+            },
+        );
+
+        observer.observe(trigger);
+    };
+
+    // Hỗ trợ cả khi chuyển trang trong Astro (View Transitions)
+    setupInfiniteScroll();
+    document.addEventListener("astro:after-swap", setupInfiniteScroll);
+</script>

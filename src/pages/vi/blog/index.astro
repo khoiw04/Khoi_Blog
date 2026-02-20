@@ -1,39 +1,49 @@
 ---
-import BaseHead from '@/components/Layouts/HeadSeo.astro';
-import Footer from '@/components/Layouts/Footer.astro';
-import Header from '@/components/Layouts/Header.astro';
-import NavigateLink from '@/components/Layouts/NavigateLink.astro';
-import Search from '@/components/presenters/search.index';
-import { useGetTranslations } from '@/i18n';
-import { getSortedVietnamBlog } from '@/lib/draft';
-import { themeConfig } from '@/config'
-import LayoutHeader from '@/components/Layouts/LayoutHeader.astro';
-import ComponentItem from '@/components/Layouts/ComponentItem.astro';
-import LayoutTag from '@/components/Layouts/LayoutTag.astro';
+import BaseHead from "@/components/Layouts/HeadSeo.astro";
+import Footer from "@/components/Layouts/Footer.astro";
+import Header from "@/components/Layouts/Header.astro";
+import NavigateLink from "@/components/Layouts/NavigateLink.astro";
+import Search from "@/components/presenters/search.index";
+import { useGetTranslations } from "@/i18n";
+import { getSortedVietnamBlog } from "@/lib/draft";
+import { themeConfig } from "@/config";
+import LayoutHeader from "@/components/Layouts/LayoutHeader.astro";
+import ComponentItem from "@/components/Layouts/ComponentItem.astro";
+import LayoutTag from "@/components/Layouts/LayoutTag.astro";
 
-const configTranslations = useGetTranslations(Astro)
-const posts = await getSortedVietnamBlog()
+const configTranslations = useGetTranslations(Astro);
+const posts = await getSortedVietnamBlog();
 ---
 
 <!doctype html>
-<html lang={configTranslations.lang}>
-	<head>
-		<BaseHead title={themeConfig.site.title} description={themeConfig.site.description} />
-		<LayoutTag />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<LayoutHeader>
-				<NavigateLink class='md:mb-8' name={configTranslations.navnavigateBack} />
-				<Search client:visible configTranslations={configTranslations} posts={posts} />
-			</LayoutHeader>
-			<section>
-				<ul>
-					<ComponentItem posts={posts} />
-				</ul>
-			</section>
-		</main>
-		{themeConfig.general.footer && <Footer />}
-	</body>
+<html lang={configTranslations.lang as string}>
+    <head>
+        <BaseHead
+            title={themeConfig.site.title}
+            description={themeConfig.site.description}
+        />
+        <LayoutTag />
+    </head>
+    <body>
+        <Header />
+        <main>
+            <LayoutHeader>
+                <NavigateLink
+                    class="md:mb-8"
+                    name={configTranslations.navnavigateBack}
+                />
+                <Search
+                    client:visible
+                    configTranslations={configTranslations}
+                    posts={posts}
+                />
+            </LayoutHeader>
+            <section>
+                <ul>
+                    <ComponentItem posts={posts} />
+                </ul>
+            </section>
+        </main>
+        {themeConfig.general.footer && <Footer />}
+    </body>
 </html>

@@ -1,0 +1,32 @@
+---
+import BaseHead from "@/components/Layouts/HeadSeo.astro";
+import Footer from "@/components/Layouts/Footer.astro";
+import Header from "@/components/Layouts/Header.astro";
+import { themeConfig } from "@/config";
+---
+
+<html lang={"en"}>
+    <head>
+        <BaseHead
+            title={"Changelog"}
+            description={"Every update of the blog"}
+        />
+    </head>
+    <body>
+        <Header hiddenBorder={false} />
+        <main>
+            <article>
+                <div>
+                    <h1 class="font-[Editorial] mb-10">Changelog</h1>
+                    <hr class="mb-10" />
+                    <slot />
+                </div>
+            </article>
+        </main>
+        {
+            themeConfig.general.footer && (
+                <Footer hiddenBorder={false} showRegister={false} />
+            )
+        }
+    </body>
+</html>

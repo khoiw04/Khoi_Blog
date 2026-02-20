@@ -16,7 +16,7 @@ const configTranslations = useGetTranslations(Astro);
 const { title, description, pubDate, heroImage } = Astro.props;
 ---
 
-<html lang={configTranslations.lang}>
+<html lang={configTranslations.lang as string}>
     <head>
         <!-- Thanks to Astro for Framework -->
         <!-- Thanks to Chiri for Code Template -->

@@ -1,14 +1,14 @@
 ---
-import BlogPost from '@/layouts/BlogPost.astro';
-import { getSortedVietnamBlog } from '@/lib';
-import { render } from 'astro:content';
+import BlogLayout from "@/layouts/BlogLayout.astro";
+import { getSortedVietnamBlog } from "@/lib";
+import { render } from "astro:content";
 
-const posts = await getSortedVietnamBlog()
-const post = posts.find(post => post.data.title === 'Về Tôi')
+const posts = await getSortedVietnamBlog();
+const post = posts.find((post) => post.data.title === "Về Tôi");
 
 const { Content } = await render(post!);
 ---
 
-<BlogPost {...post!.data}>
-	<Content />
-</BlogPost>
+<BlogLayout {...post!.data}>
+    <Content />
+</BlogLayout>

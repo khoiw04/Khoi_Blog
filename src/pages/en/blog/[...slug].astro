@@ -1,32 +1,31 @@
 ---
-import { type CollectionEntry, render } from 'astro:content';
-import BlogPost from '@/layouts/BlogPost.astro';
-import { getSortedEnglishBlog } from '@/lib';
-import TOCHeader from '@/components/Layouts/TOCHeader.astro';
+import { type CollectionEntry, render } from "astro:content";
+import BlogLayout from "@/layouts/BlogLayout.astro";
+import { getSortedEnglishBlog } from "@/lib";
+import TOCHeader from "@/components/Layouts/TOCHeader.astro";
 
-export const prerender = true
+export const prerender = true;
 export async function getStaticPaths() {
-	const posts = await getSortedEnglishBlog()
-	return posts.map((post) => {
-		return ({
-			params: { lang: post.lang, slug: post.slug },
-			props: post,
-		})
-	});
+    const posts = await getSortedEnglishBlog();
+    return posts.map((post) => {
+        return {
+            params: { lang: post.lang, slug: post.slug },
+            props: post,
+        };
+    });
 }
-type Props = CollectionEntry<'blog'>;
+type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
 const { Content, headings } = await render(post);
 ---
 
-<BlogPost {...post.data}>
-	{
-		headings?.length > 0 &&
-		!(
-			headings.length === 1 &&
-			headings[0].text === post.data.title
-		) && <TOCHeader slot="table-of-contents" headings={headings} />
-	}
-	<Content />
-</BlogPost>
+<BlogLayout {...post.data}>
+    {
+        headings?.length > 0 &&
+            !(
+                headings.length === 1 && headings[0].text === post.data.title
+            ) && <TOCHeader slot="table-of-contents" headings={headings} />
+    }
+    <Content />
+</BlogLayout>
