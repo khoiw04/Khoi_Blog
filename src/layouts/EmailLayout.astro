@@ -6,12 +6,8 @@ import { useGetTranslations } from "@/i18n";
 type Props = CollectionEntry<"blog">["data"];
 
 const configTranslations = useGetTranslations(Astro);
-const { title, pubDate, heroImage, postUrl, emailUser = "" } = Astro.props;
-const PUBLIC_URL = await import.meta.env.PUBLIC_SITE_URL;
-const DEV_URL = await import.meta.env.DEV_SITE_URL;
-const unsubscribeLink = import.meta.env.PROD
-    ? `${PUBLIC_URL}/unsubscribe?email=${emailUser}`
-    : `${DEV_URL}/unsubscribe?email=${emailUser}`;
+const { title, pubDate, heroImage, postUrl } = Astro.props;
+const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{USER_EMAIL}}`;
 ---
 
 <html lang={configTranslations.lang}>

@@ -1,7 +1,6 @@
 import type { langKeyType } from "@/types";
 import { ui, defaultLang } from "./ui";
 import type { AstroGlobal } from "astro";
-import { Newspaper } from "lucide-react";
 
 export function useTranslations(key: keyof typeof ui) {
   return function t(val: keyof (typeof ui)["vi" | "en"]) {

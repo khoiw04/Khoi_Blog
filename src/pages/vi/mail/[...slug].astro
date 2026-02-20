@@ -2,13 +2,13 @@
 import { type CollectionEntry, render } from "astro:content";
 import transformEmailHtml from "@/lib/transform-email-html";
 import EmailLayout from "@/layouts/EmailLayout.astro";
-import { getSortedEnglishBlog } from "@/lib";
+import { getSortedVietnamBlog } from "@/lib";
 import { useGetTranslations } from "@/i18n";
 
 export const prerender = true;
 export async function getStaticPaths() {
     if (import.meta.env.DEV) {
-        const posts = await getSortedEnglishBlog();
+        const posts = await getSortedVietnamBlog();
         return posts.map((post) => {
             return {
                 params: { lang: post.lang, slug: post.slug },
