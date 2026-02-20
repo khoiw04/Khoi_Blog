@@ -23,17 +23,17 @@ tags: [".dotfiles"]
 
 ## My utils
 **Core:**
-  - [Zen Browser](https://zen-browser.app/): The Browser which having a lot of shortcuts.
-  - [Zed Editor](https://zed.dev/): The Editor which supports Mica and Vim.
-  - [GlazeWM](https://github.com/glzr-io/glazewm): The Titling Window Manager which doing instantly.
-  - [Flow Launcher](https://flowlauncher.com): The fast and powerful replacement of Start Menu.
+  - [Zen Browser](https://blog.khoiwn04.com/go/zen): The Browser which having a lot of shortcuts.
+  - [Zed Editor](https://blog.khoiwn04.com/go/zed): The Editor which supports Mica and Vim.
+  - [GlazeWM](https://blog.khoiwn04.com/go/glazewm): The Titling Window Manager which doing instantly.
+  - [Flow Launcher](https://blog.khoiwn04.com/go/flow): The fast and powerful replacement of Start Menu.
   
 **Decoration:**
-  - [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone): Make everything Mica
-  - [F.lux](https://justgetflux.com/): Make my screen comfortable
-  - [TranslucentTB](https://apps.microsoft.com/detail/9pf4kz2vn4w9): Make my taskbar transparent
-  - [tacky-border](https://github.com/lukeyou05/tacky-borders): Make my accent border 
-  - [AutoHotkey](https://www.autohotkey.com/): Make the wallpaper replacement
+  - [MicaForEveryone](https://blog.khoiwn04.com/go/mica): Make everything Mica
+  - [F.lux](https://blog.khoiwn04.com/go/flux): Make my screen comfortable
+  - [TranslucentTB](https://blog.khoiwn04.com/go/translucent): Make my taskbar transparent
+  - [tacky-border](https://blog.khoiwn04.com/go/tacky): Make my accent border 
+  - [AutoHotkey](https://blog.khoiwn04.com/go/autohotkey): Make the wallpaper replacement
 
 ---
 
@@ -42,7 +42,7 @@ tags: [".dotfiles"]
 ![My Zen Browser](/imgs/pngs/how-i-rice-my-window-for-productivity/ignite.png)
 
 I hide sidebars and toolbars, I only use shortcuts to navigate the web and open the extensions.
-- `Alt + Q`: [Search tab bar](https://addons.mozilla.org/en-US/firefox/addon/zen-tab-search/)
+- `Alt + Q`: [Search tab bar](https://blog.khoiwn04.com/go/zen-tab-search)
 - `Cmd + T`: Create new tab or extension
 - `Cmd + Shift + T`: Reopen closed tab
 - `Cmd + W`: Close current window
@@ -126,7 +126,7 @@ I use the tacky-border to make my accent border visible.
 
 It takes two days to make the script by asking the Gemini. Painful!
 
-Here is [the script](https://github.com/khoiw04/cinnamon-theme/blob/main/wallhotkey.ahk) can do:
+Here is [the script](https://blog.khoiwn04.com/go/scripts/wallhotkey.ahk) can do:
 - `Cmd + '`: Change wallpaper 
 - `Cmd + Shift + '`: Change previous wallpaper 
 - `Cmd + Shift + S` Change wallpaper with randomness

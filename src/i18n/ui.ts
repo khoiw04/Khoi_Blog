@@ -38,7 +38,8 @@ export const ui = {
       "Đăng ký để nhận thông tin mới nhất về câu trả lời mới nhất mà mình đã đặt ra",
     "newsletter.subscribe": "Đăng ký",
     "newsletter.success": "Cảm ơn bạn đã đăng ký!",
-    "newsletter.unsubscribe.description": "Bạn có muốn hủy đăng ký?",
+    "newsletter.unsubscribe.description":
+      "Bạn có muốn hủy đăng ký khỏi bài báo của khoiw04?",
     "newsletter.unsubscribe.button": "Hủy đăng ký",
     "newsletter.unsubscribe.success": "Bạn đã hủy đăng ký thành công!",
     "newsletter.unsubscribe.success.description":
@@ -77,7 +78,8 @@ export const ui = {
       "Subscribe to my newsletter to receive updates on my latest projects and coding adventures.",
     "newsletter.subscribe": "Subscribe",
     "newsletter.success": "Thank you for subscribing!",
-    "newsletter.unsubscribe.description": "Do you want to unsubscribe?",
+    "newsletter.unsubscribe.description":
+      "Do you want to unsubscribe from khoiw04's newsletter?",
     "newsletter.unsubscribe.button": "Unsubscribe",
     "newsletter.unsubscribe.success":
       "You have been successfully unsubscribed!",

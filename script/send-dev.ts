@@ -109,23 +109,52 @@ async function sendNewsletterBeforeBuild(lang: string, slug: string) {
     // BƯỚC MỚI 3: BƠM CSS "EMAIL-SAFE" VÀ ÉP MÀU EXPRESSIVE CODE
     // ==========================================
     const safeCodeCss = `
-    <style>
-      .expressive-code { margin: 20px 0 !important; }
-      .expressive-code .frame, .expressive-code pre {
-        background-color: #1e1e1e !important;
-        border-radius: 6px !important;
-        border: none !important;
-      }
-      /* Màu chữ fallback nếu token lỗi */
-      .expressive-code code {
-        font-family: Consolas, Monaco, "Courier New", monospace !important;
-        font-size: 13px !important;
-        color: #d4d4d4 !important;
-      }
-      /* Ẩn thanh tab và nút copy vì vỡ layout trên email */
-      .expressive-code .header, .expressive-code .copy { display: none !important; }
-    </style>
-    `;
+        <style>
+          .expressive-code { margin: 20px 0 !important; }
+          .expressive-code .frame, .expressive-code pre {
+            background-color: #1e1e1e !important;
+            border-radius: 6px !important;
+            border: none !important;
+            padding: 8px 0 !important; /* Lùi lề trên dưới cho đẹp */
+          }
+          /* Cài đặt font chữ chung */
+          .expressive-code code {
+            font-family: Consolas, Monaco, "Courier New", monospace !important;
+            font-size: 13px !important;
+            color: #d4d4d4 !important;
+          }
+          /* Ẩn thanh tab và nút copy vì vỡ layout trên email */
+          .expressive-code .header, .expressive-code .copy { display: none !important; }
+
+          /* ================================================== */
+          /* FIX LỖI 2 HÀNG: ÉP SỐ DÒNG VÀ CODE NẰM TRÊN 1 HÀNG */
+          /* ================================================== */
+          .expressive-code .ec-line {
+            display: table !important; /* Dùng table để chống rớt dòng 100% trên mọi email client */
+            width: 100% !important;
+          }
+          .expressive-code .gutter,
+          .expressive-code .code {
+            display: table-cell !important;
+            vertical-align: top !important; /* Căn lên mép trên cùng */
+          }
+          /* Định dạng cột số dòng (Gutter) */
+          .expressive-code .gutter {
+            width: 40px !important;
+            min-width: 40px !important;
+            text-align: right !important;
+            padding-right: 12px !important;
+            color: #858585 !important; /* Màu xám cho số dòng */
+            border-right: 1px solid #404040 !important; /* Thanh dọc ngăn cách */
+          }
+          /* Định dạng cột chữ (Code) */
+          .expressive-code .code {
+            padding-left: 12px !important;
+            white-space: pre-wrap !important; /* Giữ nguyên khoảng trắng thụt lề */
+            word-break: break-all !important; /* Tránh tràn ngang nếu dòng code quá dài */
+          }
+        </style>
+        `;
 
     // Gắn thêm đoạn CSS cứng này vào cuối phần <head>
     rawHtml = rawHtml.replace("</head>", `${safeCodeCss}</head>`);

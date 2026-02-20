@@ -61,6 +61,7 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
                     rel="noopener noreferrer"
                     >{configTranslations.unsubscribeButton}</a
                 >
+                <span class="please-dont">(Please don't)</span>
             </footer>
         </main>
     </body>
@@ -77,22 +78,22 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
         -ms-text-size-adjust: 100%;
         margin: 0;
         padding: 0;
-        background-color: #f6f6f6;
+        background-color: #171615; /* Nền ngoài màu đen ấm (warm dark) chuẩn Claude */
         font-family:
             -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
             Arial, sans-serif;
     }
 
-    /* Container chính cố định 600px */
+    /* Container chính - Claude Theme */
     .mail {
         width: 600px;
         max-width: 600px;
         margin: 40px auto;
         padding: 40px;
-        background-color: #ffffff;
+        background-color: #201e1d; /* Khối nội dung xám đen nhạt ngả ánh nâu */
         border-radius: 16px;
-        border: 1px solid #eeeeee;
-        color: #111111;
+        border: 1px solid #363432; /* Viền mờ dịu mắt */
+        color: #d6d3cd; /* Chữ màu xám ngà (cream), không dùng trắng tinh */
         line-height: 24px;
     }
 
@@ -106,18 +107,18 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
         font-weight: bold;
         line-height: 38px;
         margin: 0 0 10px 0;
-        color: #000000;
+        color: #ecebe9; /* Tiêu đề sáng hơn thân bài một chút */
     }
 
     .date {
         font-size: 14px;
-        color: #666666;
+        color: #8c8985; /* Màu chữ phụ mờ (muted) */
         margin-bottom: 15px;
     }
 
     hr {
         border: 0;
-        border-top: 1px solid #eeeeee;
+        border-top: 1px solid #363432;
         margin: 20px 0;
     }
 
@@ -125,6 +126,7 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
     img {
         max-width: 100% !important;
         height: auto !important;
+        opacity: 0.9;
     }
 
     .hero-image img {
@@ -166,7 +168,7 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
     figcaption,
     .img-caption {
         font-size: 13px;
-        color: #888888;
+        color: #8c8985;
         text-align: center;
         margin-top: 10px;
         line-height: 1.4;
@@ -178,7 +180,7 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
         line-height: 26px;
         margin-top: 0;
         margin-bottom: 20px;
-        color: #333333;
+        color: #d6d3cd;
     }
 
     h2 {
@@ -187,7 +189,7 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
         font-weight: bold;
         margin-top: 40px;
         margin-bottom: 15px;
-        color: #000000;
+        color: #ecebe9;
     }
 
     h3 {
@@ -196,11 +198,11 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
         font-weight: bold;
         margin-top: 30px;
         margin-bottom: 12px;
-        color: #000000;
+        color: #ecebe9;
     }
 
     a {
-        color: #000000;
+        color: #e6c587; /* <--- MỚI: Màu vàng nhạt pha trắng (Soft Light Amber) */
         text-decoration: underline;
     }
 
@@ -216,44 +218,46 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 8px;
-        color: #333333;
+        color: #d6d3cd;
     }
 
     /* Blockquotes */
     blockquote {
         margin: 25px 0;
         padding: 10px 20px;
-        border-left: 4px solid #dddddd;
-        background-color: #fcfcfc;
+        border-left: 4px solid #363432;
+        background-color: #171615;
     }
 
     blockquote p {
         margin-bottom: 0 !important;
         font-style: italic;
-        color: #555555;
+        color: #8c8985;
     }
 
     /* Code Blocks */
     code {
         font-family: "Courier New", Courier, monospace;
-        background-color: #f4f4f4;
+        background-color: #2b2927;
+        color: #e6c587; /* <--- MỚI: Đổi màu code inline theo tông link cho đồng bộ */
         padding: 2px 5px;
         border-radius: 3px;
         font-size: 14px;
     }
 
     pre {
-        background-color: #222222;
-        color: #ffffff;
+        background-color: #171615;
+        color: #d6d3cd;
         padding: 15px;
         border-radius: 6px;
         overflow-x: auto;
         margin: 20px 0;
+        border: 1px solid #363432;
     }
 
     pre code {
         background-color: transparent;
-        color: #ffffff;
+        color: #d6d3cd;
         padding: 0;
         font-size: 13px;
         line-height: 20px;
@@ -289,9 +293,120 @@ const unsubscribeLink = `${import.meta.env.PUBLIC_SITE_URL}/unsubscribe?email={{
         margin: 40px auto;
         padding: 40px;
         text-align: center;
+        color: #8c8985;
     }
 
     .footer-content span {
         display: block;
+    }
+
+    .footer-content a {
+        color: #8c8985; /* Link ở footer vẫn giữ màu xám chìm */
+    }
+
+    .footer-content:last-child {
+        font-size: 12px;
+    }
+
+    button[title="Copy to clipboard"] {
+        display: none !important;
+        visibility: hidden;
+    }
+
+    /* Khối Admonition - Phong cách Claude */
+    .admonition {
+        padding: 20px;
+        margin: 1.5rem 0;
+        border: 1px solid #363432;
+        background-color: #171615 !important; /* Nền khối lún xuống so với thẻ mail */
+        border-radius: 0.75rem !important;
+    }
+
+    .admonition p {
+        color: inherit !important;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 0px !important;
+    }
+
+    .admonition p:last-of-type {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .admonition-title {
+        font-weight: 500 !important;
+        margin-bottom: 0.5em;
+    }
+
+    /* Màu sắc Admonition: Làm dịu lại theo phong cách vintage/warm của Claude */
+    .admonition-warning {
+        color: #d99a38 !important; /* Màu vàng tối / hổ phách (Giữ nguyên cho cảnh báo để dễ chú ý) */
+        border-color: #d99a38;
+    }
+
+    .admonition-info {
+        color: #689fb3 !important; /* Màu xanh lơ dịu (Muted Teal/Blue) */
+        border-color: #689fb3;
+    }
+
+    .admonition-result {
+        color: #7a9969 !important; /* Màu xanh rêu (Muted Green) */
+        border-color: #7a9969;
+    }
+
+    .admonition-danger {
+        color: #c26565 !important; /* Màu đỏ gạch mờ (Muted Coral/Red) */
+        border-color: #c26565;
+    }
+
+    .expressive-code {
+        margin: 20px 0 !important;
+    }
+    .expressive-code .frame,
+    .expressive-code pre {
+        background-color: #1e1e1e !important;
+        border-radius: 6px !important;
+        border: none !important;
+        padding: 8px 0 !important; /* Lùi lề trên dưới cho đẹp */
+    }
+    /* Cài đặt font chữ chung */
+    .expressive-code code {
+        font-family: Consolas, Monaco, "Courier New", monospace !important;
+        font-size: 13px !important;
+        color: #d4d4d4 !important;
+    }
+    /* Ẩn thanh tab và nút copy vì vỡ layout trên email */
+    .expressive-code .header,
+    .expressive-code .copy {
+        display: none !important;
+    }
+
+    /* ================================================== */
+    /* FIX LỖI 2 HÀNG: ÉP SỐ DÒNG VÀ CODE NẰM TRÊN 1 HÀNG */
+    /* ================================================== */
+    .expressive-code .ec-line {
+        display: table !important; /* Dùng table để chống rớt dòng 100% trên mọi email client */
+        width: 100% !important;
+    }
+    .expressive-code .gutter,
+    .expressive-code .code {
+        display: table-cell !important;
+        vertical-align: top !important; /* Căn lên mép trên cùng */
+    }
+    /* Định dạng cột số dòng (Gutter) */
+    .expressive-code .gutter {
+        width: 40px !important;
+        min-width: 40px !important;
+        text-align: right !important;
+        padding-right: 12px !important;
+        color: #858585 !important; /* Màu xám cho số dòng */
+        border-right: 1px solid #404040 !important; /* Thanh dọc ngăn cách */
+    }
+    /* Định dạng cột chữ (Code) */
+    .expressive-code .code {
+        padding-left: 12px !important;
+        white-space: pre-wrap !important; /* Giữ nguyên khoảng trắng thụt lề */
+        word-break: break-all !important; /* Tránh tràn ngang nếu dòng code quá dài */
     }
 </style>

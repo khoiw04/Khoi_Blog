@@ -78,4 +78,19 @@ export default defineConfig({
   adapter: cloudflare({
     imageService: "compile",
   }),
+  redirects: {
+    "/go/zen": "https://zen-browser.app/",
+    "/go/zed": "https://zed.dev/",
+    "/go/glazewm": "https://github.com/glzr-io/glazewm",
+    "/go/flow": "https://flowlauncher.com/",
+    "/go/mica": "https://github.com/MicaForEveryone/MicaForEveryone",
+    "/go/flux": "https://justgetflux.com/",
+    "/go/translucent": "https://apps.microsoft.com/detail/9pf4kz2vn4w9",
+    "/go/tacky": "https://github.com/lukeyou05/tacky-borders",
+    "/go/autohotkey": "https://www.autohotkey.com/",
+    "/go/zen-tab-search":
+      "https://addons.mozilla.org/en-US/firefox/addon/zen-tab-search/",
+    "/go/scripts/wallhotkey.ahk":
+      "https://github.com/khoiw04/cinnamon-theme/blob/main/wallhotkey.ahk",
+  },
 });

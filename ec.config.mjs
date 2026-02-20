@@ -7,7 +7,7 @@ export default defineEcConfig({
   frames: {
     showCopyToClipboardButton: true,
   },
-  themes: ["vitesse-dark", "vitesse-light"],
+  themes: ["material-theme-lighter", "material-theme-darker"],
   bundledLangs: ["astro", "sass", "typescript", "css", "scss", "javascript"],
   defaultProps: {
     wrap: true,
