@@ -1,6 +1,6 @@
 main {
-    width: 720px;
-    max-width: calc(100% - 2em);
+    /*width: 720px;*/
+    /*max-width: calc(100% - 2em);*/
     margin: auto;
     padding: 3em 0.5em;
     min-height: calc(99.84dvh - 64px);
