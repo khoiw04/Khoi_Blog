@@ -7,6 +7,7 @@ export default function useNewsletterForm() {
   const [errors, setErrors] = useState<string | ErrorResponse | undefined>();
   const [isSuccess, setIsSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [token, setToken] = useState<string | null>(null);
 
   const onSubmit = async (
     e: React.FormEvent<HTMLFormElement>,
@@ -14,6 +15,12 @@ export default function useNewsletterForm() {
   ) => {
     e.preventDefault();
     setErrors(undefined);
+
+    if (!token) {
+      setErrors("Turnstile token is required");
+      return;
+    }
+
     setLoading(true);
 
     const formData = new FormData(e.currentTarget);
@@ -39,6 +46,7 @@ export default function useNewsletterForm() {
   return {
     onSubNewsletterSubmit: onSubmit,
     errorsSubNewsletter: errors,
+    setTurnstileToken: setToken,
     isSuccess,
     loading,
   };

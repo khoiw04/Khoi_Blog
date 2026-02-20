@@ -60,6 +60,10 @@ const { title, description, pubDate, heroImage } = Astro.props;
                 </div>
             </article>
         </main>
-        {themeConfig.general.footer && <Footer hiddenBorder={false} />}
+        {
+            themeConfig.general.footer && (
+                <Footer hiddenBorder={false} client:idle />
+            )
+        }
     </body>
 </html>

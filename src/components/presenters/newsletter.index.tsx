@@ -1,11 +1,18 @@
 import type { ContactPropsFormType } from "@/types";
+import { Turnstile } from "@marsidev/react-turnstile";
 import useNewsletterForm from "../container/useSubNewsletterForm";
 
 export default function Newsletter({
   configTranslations,
 }: ContactPropsFormType) {
-  const { errorsSubNewsletter, onSubNewsletterSubmit, loading, isSuccess } =
-    useNewsletterForm();
+  const {
+    errorsSubNewsletter,
+    setTurnstileToken,
+    onSubNewsletterSubmit,
+    loading,
+    isSuccess,
+  } = useNewsletterForm();
+
   return (
     <>
       {isSuccess ? (
@@ -21,9 +28,10 @@ export default function Newsletter({
         </div>
       ) : (
         <form
-          onSubmit={async (e) =>
-            await onSubNewsletterSubmit(e, configTranslations.lang)
-          }
+          onSubmit={async (e) => {
+            e.preventDefault();
+            await onSubNewsletterSubmit(e, configTranslations.lang);
+          }}
           className="h-[60dvh] flex flex-col justify-center items-center pt-1 px-4"
         >
           <h3 className="text-2xl/relaxed font-bold ">
@@ -54,6 +62,15 @@ export default function Newsletter({
               {errorsSubNewsletter as string}
             </p>
           )}
+          <Turnstile
+            onSuccess={(token) => setTurnstileToken(token)}
+            onExpire={() => setTurnstileToken(null)}
+            siteKey={"0x4AAAAAACfzkxzcb-bAWZo2"}
+            className="mt-4"
+            options={{
+              appearance: "execute",
+            }}
+          />
         </form>
       )}
     </>
