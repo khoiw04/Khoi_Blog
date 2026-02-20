@@ -4,7 +4,7 @@ description: 'I use a combination of tools and configurations to optimize my pro
 pubDate: 'Feb 17 2026'
 heroImage: 'public/imgs/pngs/how-i-rice-my-window-for-productivity/card_preview.png'
 collection: en
-tags: [".dotfiles"]
+tags: [".dotfiles", "Share"]
 ---
 
 * "Convinient, Instant, Fast!"

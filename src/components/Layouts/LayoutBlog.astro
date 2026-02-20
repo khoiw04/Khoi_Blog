@@ -26,8 +26,42 @@
     }
 </style>
 <style is:inline>
-    main {
-        width: auto !important;
-        max-width: calc(100% - 2em) !important;
+    @media (min-width: 720px) {
+        main {
+            width: auto !important;
+            max-width: none !important;
+        }
+        .prose {
+            --container-width: 1120px;
+            --container-gap: clamp(24px, 1.7032rem + 1.9355vw, 48px);
+            --main: min(
+                var(--content-width, 720px),
+                100% - var(--container-gap) * 2
+            );
+            --wide: minmax(
+                0,
+                calc(
+                    (
+                            var(--container-width, 1200px) -
+                                var(--content-width, 720px)
+                        ) /
+                        2
+                )
+            );
+            --full: minmax(var(--container-gap), 1fr);
+            display: grid;
+            grid-template-columns:
+                [full-start] var(--full) [wide-start] var(--wide)
+                [main-start] var(--main) [main-end] var(--wide) [wide-end] var(
+                    --full
+                )
+                [full-end];
+        }
+        .prose > * {
+            grid-column: main;
+        }
+        .prose .hero-image {
+            grid-column: wide;
+        }
     }
 </style>
