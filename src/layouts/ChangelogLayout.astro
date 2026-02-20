@@ -30,3 +30,31 @@ import { themeConfig } from "@/config";
         }
     </body>
 </html>
+
+<style is:inline>
+    article > * {
+        margin-bottom: 2rem;
+    }
+    p {
+        line-height: 1.86;
+    }
+</style>
+
+<style is:inline>
+    ul {
+        list-style-type: circle;
+        padding-left: -1.6rem; /* thụt vào */
+        margin: 2rem 0; /* khoảng cách trên dưới */
+        list-style-position: inside;
+    }
+
+    li {
+        margin-bottom: 0.5rem; /* cách dòng */
+        line-height: 1.6; /* thoáng mắt */
+    }
+
+    /* dòng cuối không cần margin */
+    li:last-child {
+        margin-bottom: 0;
+    }
+</style>

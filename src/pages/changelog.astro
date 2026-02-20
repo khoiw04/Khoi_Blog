@@ -1,10 +1,10 @@
 ---
-import { Image } from "astro:assets";
 import Layout from "@/layouts/ChangelogLayout.astro";
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
 import { getCollection } from "astro:content";
 import { LucideLoaderCircle } from "lucide-react";
+import { Picture } from "astro:assets";
 
 type Props = CollectionEntry<"changelog">;
 
@@ -33,12 +33,11 @@ const renderedEntries = await Promise.all(
                         <p class="text-gray-500 mb-4">
                             {entry.data.pubDate.toLocaleDateString("vi-VN")}
                         </p>
-                        <Image
+                        <Picture
                             src={entry.data.heroImage}
-                            width={800}
-                            height={400}
                             alt={entry.data.title}
                             class="mt-10 my-15"
+                            sizes="(min-width: 1024px) 1024px, 100vw"
                         />
                         <article class="max-w-none">
                             <Content />
