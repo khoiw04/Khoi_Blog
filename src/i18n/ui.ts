@@ -33,9 +33,9 @@ export const ui = {
     "index.nav.about": "Về Tôi",
     "index.nav.send": "Gửi",
 
-    "newsletter.title": "Hãy cùng tôi đặt câu hỏi và tìm ra câu trả lời",
+    "newsletter.title": "Cùng tôi đặt câu hỏi và tìm ra câu trả lời",
     "newsletter.description":
-      "Đăng ký để nhận thông tin mới nhất về câu trả lời mới nhất mà mình đã đặt ra",
+      "Đăng ký thông báo để nhận cập nhật chuyến đi đầy sự tò mò",
     "newsletter.subscribe": "Đăng ký",
     "newsletter.success": "Cảm ơn bạn đã đăng ký!",
     "newsletter.unsubscribe.description":
@@ -73,9 +73,9 @@ export const ui = {
     "index.nav.blog": "Blog",
     "index.nav.about": "About",
     "index.nav.send": "Send",
-    "newsletter.title": "Join me on a behind-the-scenes coding journey.",
+    "newsletter.title": "Join me on a curious journey.",
     "newsletter.description":
-      "Subscribe to my newsletter to receive updates on my latest projects and coding adventures.",
+      "Subscribe to my newsletter to receive every update on my curious journey.",
     "newsletter.subscribe": "Subscribe",
     "newsletter.success": "Thank you for subscribing!",
     "newsletter.unsubscribe.description":
