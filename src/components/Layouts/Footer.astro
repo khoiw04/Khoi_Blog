@@ -69,7 +69,10 @@ const today = new Date();
     </section>
     {
         showRegister && (
-            <Newsletter configTranslations={configTranslations} client:load />
+            <Newsletter
+                configTranslations={configTranslations}
+                client:visible
+            />
         )
     }
 </footer>

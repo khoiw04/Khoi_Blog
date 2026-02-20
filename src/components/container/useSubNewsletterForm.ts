@@ -1,6 +1,7 @@
 import type { langKeyType } from "@/types";
+import type { TurnstileInstance } from "@marsidev/react-turnstile";
 import { actions } from "astro:actions";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { ErrorResponse } from "resend";
 
 export default function useNewsletterForm() {
@@ -8,6 +9,8 @@ export default function useNewsletterForm() {
   const [isSuccess, setIsSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
   const [token, setToken] = useState<string | null>(null);
+
+  const turnstileRef = useRef<TurnstileInstance>(null);
 
   const onSubmit = async (
     e: React.FormEvent<HTMLFormElement>,
@@ -33,20 +36,22 @@ export default function useNewsletterForm() {
 
     if (error) {
       setErrors(error.message);
+      turnstileRef.current?.reset(); // Reset để lấy token mới khi có lỗi
+      setToken(null);
       return;
     }
 
-    if (data) {
-      setErrors(data);
-    } else {
-      setIsSuccess(true);
-    }
+    setIsSuccess(true);
+    turnstileRef.current?.reset();
+    setErrors("I think you've already subscribed before");
   };
 
   return {
     onSubNewsletterSubmit: onSubmit,
     errorsSubNewsletter: errors,
     setTurnstileToken: setToken,
+    TurnstileToken: token,
+    turnstileRef,
     isSuccess,
     loading,
   };
