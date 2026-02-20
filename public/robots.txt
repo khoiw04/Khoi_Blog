@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
+Disallow: /mail/
 
 Sitemap: https://blog.khoiwn04.com/sitemap-index.xml

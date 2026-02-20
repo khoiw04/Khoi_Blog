@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "send-newsletter": "node scripts/send-newsletter.js"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.8",
@@ -52,7 +53,9 @@
     "astro-og-canvas": "^0.7.0",
     "astro-tabs": "^0.1.8",
     "daisyui": "^5.1.9",
+    "dotenv": "^17.3.1",
     "feed": "^5.1.0",
+    "juice": "^11.1.1",
     "markdown-it": "^14.1.0",
     "mdast-util-directive": "^3.1.0",
     "node-html-parser": "^7.0.1",
