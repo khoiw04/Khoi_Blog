@@ -1,4 +1,4 @@
-import { visit } from 'unist-util-visit'
+import { visit } from "unist-util-visit";
 
 /**
  * A remark plugin that converts custom directives to embedded media HTML elements
@@ -7,9 +7,9 @@ import { visit } from 'unist-util-visit'
 const embedHandlers = {
   // Link Card
   link: (node) => {
-    const url = node.attributes?.url
+    const url = node.attributes?.url;
     if (!url) {
-      return false
+      return false;
     }
 
     // Create the LinkCard HTML structure - all metadata will be fetched by JavaScript
@@ -28,31 +28,31 @@ const embedHandlers = {
           </div>
         </a>
       </div>
-    `
+    `;
   },
 
   // Spotify
   spotify: (node) => {
-    const url = node.attributes?.url ?? ''
+    const url = node.attributes?.url ?? "";
     if (!url) {
-      return false
+      return false;
     }
     if (!/^https:\/\/open\.spotify\.com\//.test(url)) {
-      return false
+      return false;
     }
-    let embedUrl = url.replace('open.spotify.com/', 'open.spotify.com/embed/')
-    if (!embedUrl.includes('utm_source=')) {
-      embedUrl += (embedUrl.includes('?') ? '&' : '?') + 'utm_source=generator'
+    let embedUrl = url.replace("open.spotify.com/", "open.spotify.com/embed/");
+    if (!embedUrl.includes("utm_source=")) {
+      embedUrl += (embedUrl.includes("?") ? "&" : "?") + "utm_source=generator";
     }
 
-    let height = '152'
+    let height = "152";
     if (
-      url.includes('/album/') ||
-      url.includes('/playlist/') ||
-      url.includes('/artist/') ||
-      url.includes('/show/')
+      url.includes("/album/") ||
+      url.includes("/playlist/") ||
+      url.includes("/artist/") ||
+      url.includes("/show/")
     ) {
-      height = '352'
+      height = "352";
     }
 
     return `
@@ -68,13 +68,13 @@ const embedHandlers = {
         loading="lazy"
       ></iframe>
     </figure>
-    `
+    `;
   },
 
   // Youtube
   youtube: (node) => {
-    let videoId = node.attributes?.id ?? '';
-    const url = node.attributes?.url ?? '';
+    let videoId = node.attributes?.id ?? "";
+    const url = node.attributes?.url ?? "";
     let time = 0;
 
     if (!videoId && url) {
@@ -112,17 +112,16 @@ const embedHandlers = {
     `;
   },
 
-
   // Bilibili
   bilibili: (node) => {
-    let bvid = node.attributes?.id ?? ''
-    const url = node.attributes?.url ?? ''
+    let bvid = node.attributes?.id ?? "";
+    const url = node.attributes?.url ?? "";
     if (!bvid && url) {
-      const match = url.match(/\/BV([\w]+)/)
-      if (match) bvid = 'BV' + match[1]
+      const match = url.match(/\/BV([\w]+)/);
+      if (match) bvid = "BV" + match[1];
     }
     if (!bvid) {
-      return false
+      return false;
     }
 
     return `
@@ -139,18 +138,18 @@ const embedHandlers = {
         allowfullscreen="true"
       ></iframe>
     </figure>
-    `
+    `;
   },
 
   // X Post Card
   x: (node) => {
-    const xUrl = node.attributes?.url ?? ''
+    const xUrl = node.attributes?.url ?? "";
     if (!xUrl) {
-      return false
+      return false;
     }
 
-    const twitterUrl = xUrl.replace(/(\w+:\/\/)?x\.com\//g, '$1twitter.com/')
-    const uniqueId = `x-card-${Math.random().toString(36).slice(2, 11)}`
+    const twitterUrl = xUrl.replace(/(\w+:\/\/)?x\.com\//g, "$1twitter.com/");
+    const uniqueId = `x-card-${Math.random().toString(36).slice(2, 11)}`;
 
     return `
     <figure class="w-full my-4 mx-auto button">
@@ -158,21 +157,21 @@ const embedHandlers = {
         <a href="${twitterUrl}"></a>
       </blockquote>
     </figure>
-    `
+    `;
   },
 
   // Github Repository Card
   github: (node) => {
-    const repo = node.attributes?.repo ?? ''
+    const repo = node.attributes?.repo ?? "";
     if (!repo) {
-      console.warn(`Missing GitHub repository`)
-      return false
+      console.warn(`Missing GitHub repository`);
+      return false;
     }
 
-    const [owner, name] = repo.split('/')
+    const [owner, name] = repo.split("/");
     if (!owner || !name) {
-      console.warn(`Invalid GitHub repository format: "${repo}"`)
-      return false
+      console.warn(`Invalid GitHub repository format: "${repo}"`);
+      return false;
     }
 
     return `
@@ -202,49 +201,58 @@ const embedHandlers = {
           <span class="mr-3" aria-label="License">--</span>
         </div>
       </a>
-    `
+    `;
   },
 
   // NeoDB Card
   neodb: (node) => {
-    const url = node.attributes?.url ?? ''
+    const url = node.attributes?.url ?? "";
     if (!url) {
-      return false
+      return false;
     }
 
     const neodbUrlPattern =
-      /neodb\.social\/(movie|book|music|album|game|tv\/season|tv|podcast)\/([\w-]+)/
-    const match = url.match(neodbUrlPattern)
-    const category = match ? match[1] : 'other'
+      /neodb\.social\/(movie|book|music|album|game|tv\/season|tv|podcast)\/([\w-]+)/;
+    const match = url.match(neodbUrlPattern);
+    const category = match ? match[1] : "other";
 
-    const isSquare = category === 'music' || category === 'album' || category === 'podcast'
-    const skeletonClass = isSquare ? 'music' : 'other'
+    const isSquare =
+      category === "music" || category === "album" || category === "podcast";
+    const skeletonClass = isSquare ? "music" : "other";
 
     return `<div class="neodb-card-container button" data-url="${url}">
   <div class="neodb-card neodb-loading ${skeletonClass}">
   </div>
-</div>`
-  }
-}
-
+</div>`;
+  },
+};
 export default function remarkEmbeddedMedia() {
   return (tree) => {
-    visit(tree, ['leafDirective', 'containerDirective', 'textDirective'], (node) => {
-      const handler = embedHandlers[node.name]
-      if (!handler) {
-        return
-      }
+    visit(
+      tree,
+      ["leafDirective", "containerDirective", "textDirective"],
+      (node) => {
+        if (["wide", "full", "main"].includes(node.name)) {
+          return;
+        }
 
-      const htmlContent = handler(node)
-      if (!htmlContent) {
-        return
-      }
+        const handler = embedHandlers[node.name];
+        if (!handler) {
+          return;
+        }
 
-      node.type = 'html'
-      node.value = htmlContent
-      delete node.name
-      delete node.attributes
-      delete node.children
-    })
-  }
+        const htmlContent = handler(node);
+        if (!htmlContent) {
+          return;
+        }
+
+        // Biến directive thành thẻ HTML thô (raw)
+        node.type = "html";
+        node.value = htmlContent;
+        delete node.name;
+        delete node.attributes;
+        delete node.children;
+      },
+    );
+  };
 }

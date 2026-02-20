@@ -4,7 +4,8 @@ import type { Plugin } from "unified";
 
 const remarkGridColumnClass: Plugin<[], Root> = () => {
   return (tree) => {
-    visit(tree, (node) => {
+    // Ép kiểu 'any' cho node vì mdast chưa định nghĩa sẵn kiểu cho remark-directive
+    visit(tree, (node: any) => {
       if (
         node.type === "textDirective" ||
         node.type === "leafDirective" ||
@@ -14,13 +15,21 @@ const remarkGridColumnClass: Plugin<[], Root> = () => {
 
         if (layoutTypes.includes(node.name)) {
           const data = node.data || (node.data = {});
-          const attributes = (node.attributes as Record<string, string>) || {};
+          const attributes = { ...(node.attributes || {}) };
 
-          // Thiết lập tag HTML là <div> và gán class tương ứng
+          // Lấy class phụ nếu bạn có viết kiểu :::wide{.extra-class}
+          const extraClasses = attributes.class
+            ? attributes.class.split(" ")
+            : [];
+
+          // Xóa thuộc tính 'class' dạng chuỗi để tránh xung đột
+          delete attributes.class;
+
           data.hName = "div";
           data.hProperties = {
             ...attributes,
-            class: `${node.name} ${attributes.class || ""}`.trim(),
+            // HAST CHUẨN: Bắt buộc dùng 'className' và truyền vào một MẢNG
+            className: [node.name, ...extraClasses].filter(Boolean),
           };
         }
       }

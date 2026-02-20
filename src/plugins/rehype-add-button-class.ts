@@ -3,16 +3,34 @@ import type { Root, Element } from "hast";
 
 export default function rehypeAddButtonClass(): (tree: Root) => void {
   return (tree) => {
-    // SỬA Ở ĐÂY: Đổi Element[] thành (Root | Element)[]
+    // Hàm hỗ trợ: Lấy class siêu an toàn và vét cạn mọi ngóc ngách của một node
+    const getClasses = (node: Element): string[] => {
+      let cls: string[] = [];
+      if (!node || !node.properties) return cls;
+
+      if (Array.isArray(node.properties.className))
+        cls.push(...(node.properties.className as string[]));
+      else if (typeof node.properties.className === "string")
+        cls.push(...node.properties.className.split(" "));
+
+      if (Array.isArray(node.properties.class))
+        cls.push(...(node.properties.class as string[]));
+      else if (typeof node.properties.class === "string")
+        cls.push(...node.properties.class.split(" "));
+
+      return [...new Set(cls)].filter(Boolean);
+    };
+
     visitParents(
       tree,
       "element",
       (node: Element, ancestors: (Root | Element)[]) => {
-        if (!node || !node.tagName) return;
+        if (!node || node.type !== "element") return;
 
         const targetTags = [
           "p",
           "li",
+          "div",
           "ul",
           "ol",
           "h1",
@@ -26,51 +44,61 @@ export default function rehypeAddButtonClass(): (tree: Root) => void {
           "code",
           "figure",
           "table",
+          "img",
+          "figcaption",
         ];
+
         if (!targetTags.includes(node.tagName)) return;
 
-        const props = node.properties || {};
-        let currentClasses: string[] = [];
+        node.properties = node.properties || {};
 
-        if (Array.isArray(props.className)) {
-          currentClasses = [...(props.className as string[])];
-        } else if (typeof props.className === "string") {
-          currentClasses = props.className.split(" ");
-        }
+        // 1. Lấy class của node hiện tại
+        let classes = getClasses(node);
+        delete node.properties.class; // Dọn rác chỉ định cho node hiện tại
 
-        if (currentClasses.some((c) => ["wide", "full", "main"].includes(c)))
-          return;
-
+        // =========================================================
+        // 2. KIỂM TRA TỔ TIÊN: SỬ DỤNG HÀM GETCLASSES SIÊU AN TOÀN
+        // =========================================================
         const isSkip = ancestors.some((a) => {
-          // SỬA Ở ĐÂY: Báo cho TypeScript biết bỏ qua thằng Root
-          if (a.type !== "element") return false;
+          if (!a || a.type !== "element") return false;
 
-          if (a.tagName === "blockquote") return true;
+          // Chặn nếu nằm trong <figure> hoặc <blockquote>
+          if (a.tagName === "blockquote" || a.tagName === "figure") return true;
 
-          const aClasses = Array.isArray(a.properties?.className)
-            ? (a.properties.className as string[])
-            : typeof a.properties?.className === "string"
-              ? a.properties.className.split(" ")
-              : [];
+          // MOI MÓC CLASS CỦA TỔ TIÊN RA KIỂM TRA
+          const aClasses = getClasses(a as Element);
+
+          // Nếu tổ tiên có chứa wide, full, main -> BÁO HIỆU BỎ QUA NGAY!
           return aClasses.some(
-            (c) => c === "admonition" || c.startsWith("admonition-"),
+            (c) =>
+              c === "admonition" ||
+              c.startsWith("admonition-") ||
+              ["wide", "full", "main"].includes(c),
           );
         });
 
-        // SỬA Ở ĐÂY: Kiểm tra cha trực tiếp cũng phải chắc chắn nó là element
         const parent = ancestors[ancestors.length - 1];
         const isDirectChildOfLi =
           parent && parent.type === "element" && parent.tagName === "li";
 
-        if (
-          !isSkip &&
-          !isDirectChildOfLi &&
-          !currentClasses.includes("button")
-        ) {
-          node.properties = {
-            ...props,
-            className: [...currentClasses, "button"],
-          };
+        // =========================================================
+        // 3. CƠ CHẾ GẮN / XÓA CLASS CƯỠNG CHẾ
+        // =========================================================
+        if (isSkip || isDirectChildOfLi) {
+          // Nếu nằm trong 'wide', vặt lông chữ 'button' ngay lập tức
+          classes = classes.filter((c) => c !== "button");
+        } else {
+          // Nếu đứng độc lập, khoác áo 'button' vào
+          if (!classes.includes("button")) {
+            classes.push("button");
+          }
+        }
+
+        // Lưu kết quả lại
+        if (classes.length > 0) {
+          node.properties.className = classes;
+        } else {
+          delete node.properties.className; // Xóa luôn cho HTML sạch bóng
         }
       },
     );

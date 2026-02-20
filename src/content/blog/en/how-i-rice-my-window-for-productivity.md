@@ -53,16 +53,18 @@ I hide sidebars and toolbars, I only use shortcuts to navigate the web and open 
 - `Cmd + Alt + H or V`: Split horizontally or vertically
 - ...
 
-::wide[![](/imgs/pngs/how-i-rice-my-window-for-productivity/zen-mod.png)]
+::wide[![My settings](/imgs/pngs/how-i-rice-my-window-for-productivity/zen-mod.png)]
+
 ![I use mods to boost my view](/imgs/pngs/how-i-rice-my-window-for-productivity/zen-transparent.png)
 
-:::full
+<!--:::full
 Đây là nội dung sẽ chiếm toàn bộ chiều rộng trình duyệt.
 Nó cực kỳ hợp với phong cách "Zen" tràn viền của bạn.
-:::
+:::-->
 
 ### **My tacky-border**
 ![Before tacky-border](/imgs/pngs/how-i-rice-my-window-for-productivity/before-tacky-border.png)
+
 ![After tacky-border](/imgs/pngs/how-i-rice-my-window-for-productivity/after-tacky-border.png)
 
 ![I use Task Scheduler to startup tacky-border as administrator](/imgs/pngs/how-i-rice-my-window-for-productivity/task-scheduler.png)
@@ -126,7 +128,7 @@ I use the tacky-border to make my accent border visible.
 
 ### **My script to change wallpaper quickly**
 
-![Change Wallpaper](/imgs/pngs/how-i-rice-my-window-for-productivity/change-wallpaper.webp)
+:wide[![Change Wallpaper](/imgs/pngs/how-i-rice-my-window-for-productivity/change-wallpaper.webp)]
 
 It takes two days to make the script by asking the Gemini. Painful!
 
