@@ -2,7 +2,7 @@
 
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
-import { defineConfig } from "astro/config";
+import { defineConfig, envField } from "astro/config";
 import cloudflare from "@astrojs/cloudflare";
 import react from "@astrojs/react";
 import playformInline from "@playform/inline";
@@ -94,5 +94,37 @@ export default defineConfig({
       "https://addons.mozilla.org/en-US/firefox/addon/zen-tab-search/",
     "/go/scripts/wallhotkey.ahk":
       "https://github.com/khoiw04/cinnamon-theme/blob/main/wallhotkey.ahk",
+  },
+  env: {
+    schema: {
+      RESEND_API_KEY: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+      NEWSLETTER_KHOI_BLOG_EN: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+      NEWSLETTER_KHOI_BLOG_VI: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+      PUBLIC_SITE_URL: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+      DEV_SITE_URL: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+      TURNSTILE_SITEKEY: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+      TURNSTILE_SECRETKEY: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+    },
   },
 });

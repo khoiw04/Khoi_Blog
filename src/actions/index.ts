@@ -1,13 +1,13 @@
 import { typeMissionContactVi, typeMissionContactEn } from "@/data";
+import {
+  RESEND_API_KEY,
+  NEWSLETTER_KHOI_BLOG_VI,
+  NEWSLETTER_KHOI_BLOG_EN,
+} from "astro:env/server";
 import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
 import { Resend } from "resend";
 
-const { NEWSLETTER_KHOI_BLOG_EN, NEWSLETTER_KHOI_BLOG_VI, RESEND_API_KEY } = {
-  NEWSLETTER_KHOI_BLOG_EN: import.meta.env.NEWSLETTER_KHOI_BLOG_EN,
-  NEWSLETTER_KHOI_BLOG_VI: import.meta.env.NEWSLETTER_KHOI_BLOG_VI,
-  RESEND_API_KEY: import.meta.env.RESEND_API_KEY,
-};
 const resend = new Resend(RESEND_API_KEY);
 
 const GOOGLE_FORM_URL =

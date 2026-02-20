@@ -1,5 +1,6 @@
 import type { ContactPropsFormType } from "@/types";
 import { Turnstile } from "@marsidev/react-turnstile";
+import { TURNSTILE_SITEKEY } from "astro:env/server";
 import useNewsletterForm from "../container/useSubNewsletterForm";
 
 export default function Newsletter({
@@ -67,7 +68,7 @@ export default function Newsletter({
             )}
             <Turnstile
               onSuccess={(token) => setTurnstileToken(token)}
-              siteKey={"0x4AAAAAACfzkxzcb-bAWZo2"}
+              siteKey={TURNSTILE_SITEKEY}
               className="mt-4 absolute sr-only top-full left-1/2 -translate-x-1/2 translate-y-1/3"
               onExpire={() => {
                 setTurnstileToken(null);
