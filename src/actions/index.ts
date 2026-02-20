@@ -3,7 +3,12 @@ import { defineAction } from "astro:actions";
 import { z } from "astro:schema";
 import { Resend } from "resend";
 
-const resend = new Resend(import.meta.env.RESEND_API_KEY);
+const { NEWSLETTER_KHOI_BLOG_EN, NEWSLETTER_KHOI_BLOG_VI, RESEND_API_KEY } = {
+  NEWSLETTER_KHOI_BLOG_EN: import.meta.env.NEWSLETTER_KHOI_BLOG_EN,
+  NEWSLETTER_KHOI_BLOG_VI: import.meta.env.NEWSLETTER_KHOI_BLOG_VI,
+  RESEND_API_KEY: import.meta.env.RESEND_API_KEY,
+};
+const resend = new Resend(RESEND_API_KEY);
 
 const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeLxkB8RlhS5BqOOk3xWNoSlQrOBzH1i2Sb53SWtAcjEjwZ3A/formResponse";
@@ -28,7 +33,10 @@ export const server = {
     handler: async ({ email }) => {
       const { error } = await resend.contacts.create({
         email,
-        segments: [{ id: "newsletter_khoi_blog_vi" }],
+        segments: [
+          { id: NEWSLETTER_KHOI_BLOG_EN },
+          { id: NEWSLETTER_KHOI_BLOG_VI },
+        ],
         unsubscribed: false,
       });
 
@@ -44,8 +52,23 @@ export const server = {
     handler: async ({ email }) => {
       const { error } = await resend.contacts.create({
         email,
-        segments: [{ id: "newsletter_khoi_blog_en" }],
+        segments: [{ id: NEWSLETTER_KHOI_BLOG_EN }],
         unsubscribed: false,
+      });
+
+      return error?.message;
+    },
+  }),
+
+  unsubNewsletter: defineAction({
+    accept: "form",
+    input: z.object({
+      email: z.string({ message: "Email is not empty" }).email("Email invaild"),
+    }),
+    handler: async ({ email }) => {
+      const { error } = await resend.contacts.update({
+        email,
+        unsubscribed: true,
       });
 
       return error?.message;

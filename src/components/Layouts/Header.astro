@@ -11,11 +11,16 @@ const { hiddenBorder = true } = Astro.props;
 
 <header
     class:list={[
-        "sticky top-0 z-50 w-full backdrop-blur supports-backdrop-filter:bg-background/60",
+        "sticky top-0 z-50 ",
         // !hiddenBorder ? "border-b" : "",
     ]}
 >
-    <div class:list={["w-full max-w-[720px] mx-auto "]}>
+    <div
+        class:list={[
+            "w-full max-w-[720px] mx-auto",
+            "backdrop-filter bg-background/95 backdrop-filter:bg-background/60 rounded-b",
+        ]}
+    >
         <div class="flex h-8 items-center justify-between">
             <DropdownMenu
                 client:visible
