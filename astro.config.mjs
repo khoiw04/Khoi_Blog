@@ -26,9 +26,9 @@ const plugins = {
   remarkPlugins: [
     remarkDirective,
     remarkGridColumnClass,
+    remarkAdmonitions,
     remarkEmbeddedMedia,
     remarkMath,
-    remarkAdmonitions,
   ],
   rehypePlugins: [
     rehypeKatex,

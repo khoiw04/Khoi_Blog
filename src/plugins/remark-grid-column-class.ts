@@ -10,7 +10,6 @@ const remarkGridColumnClass: Plugin<[], Root> = () => {
         node.type === "leafDirective" ||
         node.type === "containerDirective"
       ) {
-        // Danh sách các tên directive bạn muốn hỗ trợ
         const layoutTypes = ["main", "wide", "full"];
 
         if (layoutTypes.includes(node.name)) {

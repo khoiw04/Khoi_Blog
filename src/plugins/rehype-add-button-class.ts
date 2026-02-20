@@ -2,85 +2,77 @@ import { visitParents } from "unist-util-visit-parents";
 import type { Root, Element } from "hast";
 
 export default function rehypeAddButtonClass(): (tree: Root) => void {
-  return function (tree) {
-    visitParents(tree, "element", (node: Element, ancestors) => {
-      if (!node || typeof node !== "object") return;
+  return (tree) => {
+    // SỬA Ở ĐÂY: Đổi Element[] thành (Root | Element)[]
+    visitParents(
+      tree,
+      "element",
+      (node: Element, ancestors: (Root | Element)[]) => {
+        if (!node || !node.tagName) return;
 
-      const targetTags = [
-        "p",
-        "li",
-        "div",
-        "ul",
-        "ol",
-        "h1",
-        "h2",
-        "h3",
-        "h4",
-        "h5",
-        "h6",
-        "blockquote",
-        "pre",
-        "code",
-        "figure",
-        "table",
-      ];
+        const targetTags = [
+          "p",
+          "li",
+          "ul",
+          "ol",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "blockquote",
+          "pre",
+          "code",
+          "figure",
+          "table",
+        ];
+        if (!targetTags.includes(node.tagName)) return;
 
-      const parent = ancestors[ancestors.length - 1];
-      const shouldTag = targetTags.includes(node.tagName);
+        const props = node.properties || {};
+        let currentClasses: string[] = [];
 
-      const isInsideBlockquote = ancestors.some(
-        (ancestor) =>
-          typeof ancestor === "object" &&
-          "tagName" in ancestor &&
-          ancestor.tagName === "blockquote",
-      );
+        if (Array.isArray(props.className)) {
+          currentClasses = [...(props.className as string[])];
+        } else if (typeof props.className === "string") {
+          currentClasses = props.className.split(" ");
+        }
 
-      const isInsideAdmonition = ancestors.some((ancestor) => {
+        if (currentClasses.some((c) => ["wide", "full", "main"].includes(c)))
+          return;
+
+        const isSkip = ancestors.some((a) => {
+          // SỬA Ở ĐÂY: Báo cho TypeScript biết bỏ qua thằng Root
+          if (a.type !== "element") return false;
+
+          if (a.tagName === "blockquote") return true;
+
+          const aClasses = Array.isArray(a.properties?.className)
+            ? (a.properties.className as string[])
+            : typeof a.properties?.className === "string"
+              ? a.properties.className.split(" ")
+              : [];
+          return aClasses.some(
+            (c) => c === "admonition" || c.startsWith("admonition-"),
+          );
+        });
+
+        // SỬA Ở ĐÂY: Kiểm tra cha trực tiếp cũng phải chắc chắn nó là element
+        const parent = ancestors[ancestors.length - 1];
+        const isDirectChildOfLi =
+          parent && parent.type === "element" && parent.tagName === "li";
+
         if (
-          typeof ancestor === "object" &&
-          "properties" in ancestor &&
-          ancestor.properties &&
-          Array.isArray(ancestor.properties.className)
+          !isSkip &&
+          !isDirectChildOfLi &&
+          !currentClasses.includes("button")
         ) {
-          return ancestor.properties.className.some((cls) => {
-            if (typeof cls !== "string") return false;
-            return cls === "admonition" || cls.startsWith("admonition-");
-          });
+          node.properties = {
+            ...props,
+            className: [...currentClasses, "button"],
+          };
         }
-        return false;
-      });
-
-      const isDirectChildOfLi =
-        typeof parent === "object" &&
-        "tagName" in parent &&
-        parent.tagName === "li";
-
-      // THÊM BLOCK NÀY: Kiểm tra xem node hiện tại có phải là thẻ chia layout không
-      const isLayoutElement =
-        node.properties &&
-        Array.isArray(node.properties.className) &&
-        node.properties.className.some((cls) =>
-          ["wide", "full", "main"].includes(String(cls)),
-        );
-
-      // CẬP NHẬT IF: Thêm điều kiện !isLayoutElement
-      if (
-        shouldTag &&
-        !isInsideBlockquote &&
-        !isInsideAdmonition &&
-        !isDirectChildOfLi &&
-        !isLayoutElement
-      ) {
-        node.properties = node.properties || {};
-        if (!Array.isArray(node.properties.className)) {
-          node.properties.className = node.properties.className
-            ? [String(node.properties.className)]
-            : [];
-        }
-        if (!node.properties.className.includes("button")) {
-          node.properties.className.push("button");
-        }
-      }
-    });
+      },
+    );
   };
 }
