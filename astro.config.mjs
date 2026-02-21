@@ -43,6 +43,10 @@ const plugins = {
 // https://astro.build/config
 export default defineConfig({
   site: themeConfig.site.website,
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: "hover",
+  },
   markdown: {
     shikiConfig: {
       theme: "css-variables",

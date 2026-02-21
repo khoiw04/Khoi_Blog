@@ -12,5 +12,7 @@ const configTranslations = useGetTranslations(Astro);
     description="Lorem ipsum dolor sit amet"
     pubDate={today}
 >
-    <Form client:visible configTranslations={configTranslations} />
+    <div>
+        <Form client:load configTranslations={configTranslations} />
+    </div>
 </Layout>

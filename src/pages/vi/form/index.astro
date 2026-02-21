@@ -12,5 +12,7 @@ const configTranslations = useGetTranslations(Astro);
     description="Hãy để lại lời nhắn cho tôi, cảm ơn đã Liên Hệ!"
     pubDate={today}
 >
-    <Form client:visible configTranslations={configTranslations} />
+    <div>
+        <Form client:load configTranslations={configTranslations} />
+    </div>
 </Layout>

@@ -15,7 +15,7 @@ export default function DropdownMenuHeader({
   configTranslations,
   currentPath,
 }: DropdownHeaderType) {
-  const [open, setOpen] = useState<boolean>(false);
+  const [open, setOpen] = useState<boolean>(true);
   const MENU_NAV = [
     {
       id: "home",
@@ -43,7 +43,8 @@ export default function DropdownMenuHeader({
         className="group **:transition-none **:group-hover:transition-all"
         variant="ghost"
         size="icon"
-        onMouseDown={() => setOpen((prevState) => !prevState)}
+        onClick={() => setOpen((prevState) => !prevState)}
+        type="button"
         aria-expanded={open}
         aria-label={open ? "Close menu" : "Open menu"}
       >
