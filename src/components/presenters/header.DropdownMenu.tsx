@@ -17,7 +17,7 @@ export default function DropdownMenuHeader({
         return JSON.parse(savedState);
       }
     }
-    return true;
+    return false;
   });
 
   const MENU_NAV = [
