@@ -60,7 +60,7 @@ export default defineConfig({
         fallbackService: "cloudflare",
         placeholder: "blurhash",
       }),
-      entrypoint: "astro/assets/services/sharp",
+      // entrypoint: "astro/assets/services/sharp",
       config: imageConfig,
     },
   },
@@ -87,7 +87,7 @@ export default defineConfig({
   },
   output: "server",
   adapter: cloudflare({
-    imageService: "compile",
+    imageService: "passthrough", // Đổi từ "compile" sang "passthrough"
   }),
   redirects: {
     "/go/zen": "https://zen-browser.app/",
