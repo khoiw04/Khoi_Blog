@@ -12,8 +12,10 @@ Added
   - Added blur toggle
 
 Improved
+  - Improved code highlighting
   - Improved blog's layout
-  - Improved accessibility (focus's ring, menu)
+  - Improved focus's ring
+  - Improved menu
 
 <!--Fixed
   - Fixed -->
