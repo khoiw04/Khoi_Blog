@@ -75,8 +75,6 @@ html.dark {
 }
 a:focus-visible,
 button:focus-visible,
-input:focus-visible,
-textarea:focus-visible,
 summary:focus-visible,
 select:focus-visible {
     outline: none;
@@ -88,8 +86,6 @@ select:focus-visible {
 
 a,
 button,
-input,
-textarea,
 select,
 summary {
     transition:
