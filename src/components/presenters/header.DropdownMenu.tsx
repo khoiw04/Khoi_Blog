@@ -1,11 +1,6 @@
 import { Button } from "@/components/ui/button";
 import type { DropdownHeaderType } from "@/types";
-import {
-  LucideFolderArchive,
-  LucideHouse,
-  LucidePaperclip,
-  LucideRss,
-} from "lucide-react";
+import { LucideFolderArchive, LucideHouse, LucideRss } from "lucide-react";
 import { languages } from "@/i18n";
 import { useEffect, useState } from "react";
 import { Separator } from "@/components/ui/separator";

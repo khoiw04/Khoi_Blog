@@ -24,16 +24,18 @@ const { hiddenBorder = true } = Astro.props;
         ]}
     >
         <div class="flex h-8 items-center justify-between">
-            <DropdownMenuMobile
-                client:visible
-                currentPath={currentPath}
-                configTranslations={configTranslations}
-            />
-            <DropdownMenu
-                client:visible
-                currentPath={currentPath}
-                configTranslations={configTranslations}
-            />
+            <div>
+                <DropdownMenuMobile
+                    client:only="react"
+                    currentPath={currentPath}
+                    configTranslations={configTranslations}
+                />
+                <DropdownMenu
+                    client:only="react"
+                    currentPath={currentPath}
+                    configTranslations={configTranslations}
+                />
+            </div>
             <div>
                 <BlurToggle transition:persist />
                 <ThemeToggle transition:persist />
