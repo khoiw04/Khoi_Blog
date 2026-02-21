@@ -20,7 +20,7 @@ const configTranslations = useGetTranslations(Astro);
     <body>
         <Header />
         <main class="flex justify-center items-center">
-            <Component configTranslations={configTranslations} client:visible />
+            <Component configTranslations={configTranslations} client:load />
         </main>
         {themeConfig.general.footer && <Footer showRegister={false} />}
     </body>

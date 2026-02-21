@@ -25,13 +25,6 @@ const { title, description, pubDate, heroImage } = Astro.props;
         <!-- Thanks to devaslife for Grid Template -->
         <BaseHead title={title} image={heroImage} description={description} />
         <LayoutBlog />
-        <script is:inline>
-            const savedState = localStorage.getItem("isMenuOpen");
-
-            if (savedState === "false") {
-                document.documentElement.classList.add("menu-closed-initially");
-            }
-        </script>
     </head>
     <body>
         <Header hiddenBorder={false}>
