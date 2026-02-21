@@ -14,6 +14,7 @@ import LayoutHeader from "@/components/Layouts/LayoutHeader.astro";
 import ComponentItem from "@/components/Layouts/ComponentItem.astro";
 import InfiniteScroll from "@/components/Layouts/InfiniteScroll.astro";
 
+export const prerender = true;
 export async function getStaticPaths() {
     return alltagsEnum.map((tag) => ({
         params: { slug: tag.toLowerCase() },
