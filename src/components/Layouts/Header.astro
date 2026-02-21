@@ -1,6 +1,7 @@
 ---
 import ThemeToggle from "@/components/presenters/header.ThemeToggle.astro";
 import BlurToggle from "@/components/presenters/header.BlurToggle.astro";
+import DropdownMenuMobile from "@/components/presenters/header.DropdownMenuMobile";
 import DropdownMenu from "@/components/presenters/header.DropdownMenu";
 import { useGetTranslations } from "@/i18n";
 
@@ -23,6 +24,11 @@ const { hiddenBorder = true } = Astro.props;
         ]}
     >
         <div class="flex h-8 items-center justify-between">
+            <DropdownMenuMobile
+                client:visible
+                currentPath={currentPath}
+                configTranslations={configTranslations}
+            />
             <DropdownMenu
                 client:visible
                 currentPath={currentPath}

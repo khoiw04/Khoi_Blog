@@ -65,6 +65,12 @@ export default function Newsletter({
                 {errorsSubNewsletter as string}
               </p>
             )}
+            {configTranslations.lang === "en" && (
+              <p className="text-foreground/75 mt-4 text-sm">
+                (You only can get EN newsletter, if you want to get both EN/VI
+                newsletter, please click here to subscribe)
+              </p>
+            )}
             <Turnstile
               onSuccess={(token) => setTurnstileToken(token)}
               siteKey={"0x4AAAAAACfzkxzcb-bAWZo2"}
