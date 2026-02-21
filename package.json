@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "send-newsletter": "node scripts/send-newsletter.js"
+    "send-newsletter": "node script/send-dev.ts"
   },
   "dependencies": {
     "@astrojs/cloudflare": "12.6.12",
