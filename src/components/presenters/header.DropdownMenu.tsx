@@ -46,7 +46,7 @@ export default function DropdownMenuHeader({
   }, [open]);
 
   return (
-    <div className="flex flex-row items-center">
+    <div className="hidden md:flex flex-row items-center">
       <Button
         className="group **:transition-none **:group-hover:transition-all"
         variant="ghost"

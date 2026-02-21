@@ -8,8 +8,8 @@ export const defaultLang = "vi";
 export const ui = {
   vi: {
     "nav.home": "Trang chủ",
-    "nav.blog": "Bài Viết",
-    "nav.about": "Về Tôi",
+    "nav.blog": "Bài viết",
+    "nav.about": "Về tôi",
     "nav.nagivateBack": "Quay lại",
     "nav.form": "Gửi Form",
     "searchCMD.placeholder": "Tìm thông tin...",

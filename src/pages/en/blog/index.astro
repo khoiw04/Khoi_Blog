@@ -31,15 +31,18 @@ const INITIAL_VISIBLE = 8;
         <Header />
         <main>
             <LayoutHeader>
-                <NavigateLink
+                <!-- <NavigateLink
                     class="md:mb-8"
                     name={configTranslations.navnavigateBack}
-                />
-                <Search
-                    client:visible
-                    posts={posts}
-                    configTranslations={configTranslations}
-                />
+                /> -->
+                <div></div>
+                <div class="md:mb-8">
+                    <Search
+                        client:load
+                        configTranslations={configTranslations}
+                        posts={posts}
+                    />
+                </div>
             </LayoutHeader>
             <section id="blog-container">
                 <ul id="post-list">

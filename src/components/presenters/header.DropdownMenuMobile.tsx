@@ -28,7 +28,7 @@ export default function DropdownMenuHeader({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          className="group **:transition-none **:group-hover:transition-all md:hidden"
+          className="group **:transition-none **:group-hover:transition-all block md:hidden"
           variant="ghost"
           size="icon"
           onMouseDown={() => setOpen((prevState) => !prevState)}
