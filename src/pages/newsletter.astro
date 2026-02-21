@@ -1,0 +1,27 @@
+---
+import BaseHead from "@/components/Layouts/HeadSeo.astro";
+import Footer from "@/components/Layouts/Footer.astro";
+import { useGetTranslations } from "@/i18n";
+import { themeConfig } from "@/config";
+import Header from "@/components/Layouts/Header.astro";
+import Component from "@/components/presenters/newsletter.index.tsx";
+
+const configTranslations = useGetTranslations(Astro);
+---
+
+<!doctype html>
+<html lang={configTranslations.lang as string}>
+    <head>
+        <BaseHead
+            title={themeConfig.site.title}
+            description={themeConfig.site.description}
+        />
+    </head>
+    <body>
+        <Header />
+        <main class="flex justify-center items-center">
+            <Component configTranslations={configTranslations} client:visible />
+        </main>
+        {themeConfig.general.footer && <Footer showRegister={false} />}
+    </body>
+</html>
