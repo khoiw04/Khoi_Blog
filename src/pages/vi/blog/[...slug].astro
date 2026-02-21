@@ -3,7 +3,6 @@ import { type CollectionEntry, render } from "astro:content";
 import BlogLayout from "@/layouts/BlogLayout.astro";
 import { getSortedVietnamBlog } from "@/lib";
 import TOCHeader from "@/components/Layouts/TOCHeader.astro";
-import UnpicMarkdown from "@/components/Layouts/UnpicMarkdown.astro";
 
 export const prerender = true;
 export async function getStaticPaths() {
@@ -28,5 +27,5 @@ const { Content, headings } = await render(post);
                 headings.length === 1 && headings[0].text === post.data.title
             ) && <TOCHeader slot="table-of-contents" headings={headings} />
     }
-    <Content components={{ img: UnpicMarkdown }} />
+    <Content />
 </BlogLayout>
