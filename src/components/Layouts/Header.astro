@@ -28,8 +28,10 @@ const { hiddenBorder = true } = Astro.props;
                 currentPath={currentPath}
                 configTranslations={configTranslations}
             />
-            <BlurToggle transition:persist />
-            <ThemeToggle transition:persist />
+            <div>
+                <BlurToggle transition:persist />
+                <ThemeToggle transition:persist />
+            </div>
         </div>
         <slot />
     </div>

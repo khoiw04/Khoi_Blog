@@ -1,93 +1,46 @@
-/* ─────────────── Base Styles ─────────────── */
+/* ─────────────── Base Styles (Giữ nguyên) ─────────────── */
 .button,
 .tabs,
 .expressive-code,
 table,
 .admonition {
-  border-radius: 0.15rem;
-  padding: 0.15rem 0.15rem;
-  cursor: pointer;
-  transition: transform 150ms ease, filter 150ms ease, opacity 150ms ease;
-  will-change: transform, filter, opacity;
+    border-radius: 0.15rem;
+    padding: 0.15rem 0.15rem;
+    transition:
+        transform 150ms ease,
+        filter 150ms ease,
+        opacity 150ms ease;
+    will-change: transform, filter, opacity;
 }
 
 /* ─────────────── Hover & Active Effects ─────────────── */
-.button:hover,
-.tabs:hover,
-.expressive-code:hover,
-table:hover,
-.admonition:hover,
-.button:active,
-.tabs:active,
-.expressive-code:active,
-table:active,
-.admonition:active {
-  transform: scale(1.05);
-  z-index: 1;
+/* Chỉ thêm hiệu ứng con trỏ và biến đổi khi tương tác trong .blogBlur */
+.blogBlur .button:hover,
+.blogBlur .tabs:hover,
+.blogBlur .expressive-code:hover,
+.blogBlur table:hover,
+.blogBlur .admonition:hover,
+.blogBlur .button:active,
+.blogBlur .tabs:active,
+.blogBlur .expressive-code:active,
+.blogBlur table:active,
+.blogBlur .admonition:active {
+    transform: scale(1.05);
+    z-index: 1;
+    cursor: pointer; /* Cursor được đưa vào đây */
 }
 
-/* ─────────────── Blur Targets Before ─────────────── */
-.button:has(~ .button:hover),
-.button:has(~ .tabs:hover),
-.button:has(~ .expressive-code:hover),
-.button:has(~ table:hover),
-.button:has(~ .admonition:hover),
+/* ─────────────── Blur Targets (Trước và Sau) ─────────────── */
+/* Cập nhật lớp cha .blogBlur cho toàn bộ logic làm mờ */
 
-.tabs:has(~ .button:hover),
-.tabs:has(~ .tabs:hover),
-.tabs:has(~ .expressive-code:hover),
-.tabs:has(~ table:hover),
-.tabs:has(~ .admonition:hover),
-
-.expressive-code:has(~ .button:hover),
-.expressive-code:has(~ .tabs:hover),
-.expressive-code:has(~ .expressive-code:hover),
-.expressive-code:has(~ table:hover),
-.expressive-code:has(~ .admonition:hover),
-
-table:has(~ .button:hover),
-table:has(~ .tabs:hover),
-table:has(~ .expressive-code:hover),
-table:has(~ table:hover),
-table:has(~ .admonition:hover),
-
-.admonition:has(~ .button:hover),
-.admonition:has(~ .tabs:hover),
-.admonition:has(~ .expressive-code:hover),
-.admonition:has(~ table:hover),
-.admonition:has(~ .admonition:hover),
-
-/* ─────────────── Blur Targets After ─────────────── */
-.button:hover ~ .button,
-.button:hover ~ .tabs,
-.button:hover ~ .expressive-code,
-.button:hover ~ table,
-.button:hover ~ .admonition,
-
-.tabs:hover ~ .button,
-.tabs:hover ~ .tabs,
-.tabs:hover ~ .expressive-code,
-.tabs:hover ~ table,
-.tabs:hover ~ .admonition,
-
-.expressive-code:hover ~ .button,
-.expressive-code:hover ~ .tabs,
-.expressive-code:hover ~ .expressive-code,
-.expressive-code:hover ~ table,
-.expressive-code:hover ~ .admonition,
-
-table:hover ~ .button,
-table:hover ~ .tabs,
-table:hover ~ .expressive-code,
-table:hover ~ table,
-table:hover ~ .admonition,
-
-.admonition:hover ~ .button,
-.admonition:hover ~ .tabs,
-.admonition:hover ~ .expressive-code,
-.admonition:hover ~ table,
-.admonition:hover ~ .admonition {
-  filter: blur(2px);
-  opacity: 0.4;
-  color: var(--code-border-background);
+.blogBlur
+    :is(.button, .tabs, .expressive-code, table, .admonition):has(
+        ~ :is(.button, .tabs, .expressive-code, table, .admonition):hover
+    ),
+.blogBlur
+    :is(.button, .tabs, .expressive-code, table, .admonition):hover
+    ~ :is(.button, .tabs, .expressive-code, table, .admonition) {
+    filter: blur(2px);
+    opacity: 0.4;
+    color: var(--code-border-background);
 }
