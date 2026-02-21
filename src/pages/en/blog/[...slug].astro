@@ -28,5 +28,5 @@ const { Content, headings } = await render(post);
                 headings.length === 1 && headings[0].text === post.data.title
             ) && <TOCHeader slot="table-of-contents" headings={headings} />
     }
-    <Content components={{ "unpic-img": UnpicMarkdown }} />
+    <Content components={{ img: UnpicMarkdown }} />
 </BlogLayout>
