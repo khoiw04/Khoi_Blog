@@ -66,9 +66,13 @@ export default function Newsletter({
               </p>
             )}
             {configTranslations.lang === "en" && (
-              <p className="text-foreground/75 mt-4 text-sm">
+              <p className="text-foreground/75 mt-4 text-sm w-2/4">
                 (You only can get EN newsletter, if you want to get both EN/VI
-                newsletter, please click here to subscribe)
+                newsletter, please click{" "}
+                <a href="/vi" className="underline">
+                  here
+                </a>{" "}
+                to subscribe)
               </p>
             )}
             <Turnstile
