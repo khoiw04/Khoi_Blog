@@ -7,7 +7,7 @@ import {
   LucideRss,
 } from "lucide-react";
 import { languages } from "@/i18n";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import { getLocaleUrl } from "@/lib/utils";
 
@@ -15,7 +15,16 @@ export default function DropdownMenuHeader({
   configTranslations,
   currentPath,
 }: DropdownHeaderType) {
-  const [open, setOpen] = useState<boolean>(true);
+  const [open, setOpen] = useState<boolean>(() => {
+    if (typeof window !== "undefined") {
+      const savedState = localStorage.getItem("isMenuOpen");
+      if (savedState !== null) {
+        return JSON.parse(savedState);
+      }
+    }
+    return true;
+  });
+
   const MENU_NAV = [
     {
       id: "home",
@@ -36,6 +45,10 @@ export default function DropdownMenuHeader({
       Icon: LucideFolderArchive,
     },
   ];
+
+  useEffect(() => {
+    localStorage.setItem("isMenuOpen", JSON.stringify(open));
+  }, [open]);
 
   return (
     <div className="flex flex-row items-center">
