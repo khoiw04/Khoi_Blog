@@ -1,9 +1,19 @@
 ---
 import { Button } from "@/components/ui/button";
+import { useGetTranslations } from "@/i18n";
 import { LucideFocus, LucideScan } from "lucide-react";
+
+const configTranslations = useGetTranslations(Astro);
 ---
 
-<Button variant="ghost" size="icon" id="blurButton">
+<Button
+    variant="ghost"
+    size="icon"
+    id="blurButton"
+    title={configTranslations.tooltipNavbarBlurOff}
+    data-label-on={configTranslations.tooltipNavbarBlurOn}
+    data-label-off={configTranslations.tooltipNavbarBlurOff}
+>
     <label
         for="blurToggle"
         class="swap **:block size-full **:size-full relative text-foreground cursor-default"
@@ -16,8 +26,8 @@ import { LucideFocus, LucideScan } from "lucide-react";
             tabindex="2"
         />
         <span class="sr-only">Blur Toogle</span>
-        <LucideScan className="swap-on h-10 w-10 fill-current" />
-        <LucideFocus className="swap-off h-10 w-10 fill-current" />
+        <LucideScan className="swap-off h-10 w-10 fill-current" />
+        <LucideFocus className="swap-on h-10 w-10 fill-current" />
     </label>
 </Button>
 
@@ -25,59 +35,60 @@ import { LucideFocus, LucideScan } from "lucide-react";
     (() => {
         const applyBlur = (enableBlur) => {
             const root = document.documentElement;
+            const button = document.getElementById("blurButton");
+            if (!button) return;
+
+            // 1. Xác định text mới dựa trên trạng thái
+            const newTitle = !enableBlur
+                ? button.dataset.labelOn
+                : button.dataset.labelOff;
+
+            // 2. Cập nhật class cho root
             if (enableBlur) {
                 root.classList.add("blogBlur");
             } else {
                 root.classList.remove("blogBlur");
             }
+
+            // 3. Cập nhật thuộc tính title chuẩn (để dự phòng)
+            button.title = newTitle;
+
+            // 4. QUAN TRỌNG: Cập nhật nội dung cho astro-tooltips (Tippy.js)
+            if (button._tippy) {
+                button._tippy.setContent(newTitle);
+            }
         };
 
         const setupToggleButton = () => {
             const checkbox = document.getElementById("blurToggle");
-            const button = document.getElementById("blurButton");
-
             if (!checkbox) return;
 
-            // Xử lý sự kiện click chuột
-            checkbox.addEventListener("click", () => {
-                const isBlurred =
-                    document.documentElement.classList.contains("blogBlur");
-                const nextState = isBlurred ? "off" : "on";
-                applyBlur(nextState === "on");
-                localStorage.setItem("blurState", nextState);
-            });
-
-            // Xử lý sự kiện bàn phím trên Button
-            if (button) {
-                button.addEventListener("keydown", (e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                        e.preventDefault(); // Ngăn hành vi cuộn trang khi nhấn Space
-                        checkbox.click(); // Tự động kích hoạt click vào checkbox
-                    }
-                });
-            }
-
-            // Phòng trường hợp người dùng dùng phím Tab di chuyển thẳng vào checkbox (do có tabindex="2")
-            checkbox.addEventListener("keydown", (e) => {
-                // Checkbox mặc định đã đổi trạng thái khi nhấn Space, nên ta chỉ cần xử lý riêng cho Enter
-                if (e.key === "Enter") {
-                    e.preventDefault();
-                    checkbox.click();
-                }
-            });
+            // Dùng onchange hoặc click để đồng bộ checkbox với UI
+            checkbox.onclick = () => {
+                applyBlur(checkbox.checked);
+                localStorage.setItem(
+                    "blurState",
+                    checkbox.checked ? "on" : "off",
+                );
+            };
         };
 
         const setInitialBlurState = () => {
             const storedBlurState = localStorage.getItem("blurState") || "off";
-            applyBlur(storedBlurState === "on");
+            const isBlurOn = storedBlurState === "on";
+
+            const checkbox = document.getElementById("blurToggle");
+            if (checkbox) checkbox.checked = isBlurOn;
+
+            // Đợi một chút để thư viện Tooltip kịp khởi tạo rồi mới set nội dung ban đầu
+            setTimeout(() => applyBlur(isBlurOn), 100);
         };
 
         setInitialBlurState();
         setupToggleButton();
 
         document.addEventListener("astro:after-swap", () => {
-            const storedBlurState = localStorage.getItem("blurState") || "off";
-            applyBlur(storedBlurState === "on");
+            setInitialBlurState();
             setupToggleButton();
         });
     })();

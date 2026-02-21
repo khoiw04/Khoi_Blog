@@ -69,7 +69,12 @@ export default function Newsletter({
               <p className="text-foreground/75 mt-4 text-sm w-2/4">
                 (You only can get EN newsletter, if you want to get both EN/VI
                 newsletter, please click{" "}
-                <a href="/newsletter" className="underline">
+                <a
+                  href="/newsletter"
+                  className="underline"
+                  title="Subcribe to both VN/EN newsletter"
+                  data-tooltip-placement="right"
+                >
                   here
                 </a>{" "}
                 to subscribe)

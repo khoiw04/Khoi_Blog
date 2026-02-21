@@ -55,5 +55,17 @@ export function useGetTranslations(Astro: AstroGlobal) {
       "newsletter.unsubscribe.success.description",
     ),
     unsubscribeError: t("newsletter.unsubscribe.error"),
+    tooltipNavbarHome: t("tooltip.navbar.home"),
+    tooltipNavbarBlog: t("tooltip.navbar.blog"),
+    tooltipNavbarAbout: t("tooltip.navbar.about"),
+    tooltipNavbarVI: t("tooltip.navbar.vi"),
+    tooltipNavbarEN: t("tooltip.navbar.en"),
+    tooltipNavbarForm: t("tooltip.navbar.form"),
+    tooltipNavbarBlurOn: t("tooltip.navbar.blurOn"),
+    tooltipNavbarBlurOff: t("tooltip.navbar.blurOff"),
+    tooltipNavbarLightThemeOn: t("tooltip.navbar.lightThemeOn"),
+    tooltipNavbarLightThemeOff: t("tooltip.navbar.lightThemeOff"),
+    tooltipNavbarSummaryOn: t("tooltip.navbar.summaryOn"),
+    tooltipNavbarSummaryOff: t("tooltip.navbar.summaryOff"),
   };
 }

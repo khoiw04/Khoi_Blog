@@ -45,6 +45,18 @@ export const ui = {
     "newsletter.unsubscribe.success.description":
       "Mong bạn đăng ký lại lần sau p_p",
     "newsletter.unsubscribe.error": "Đã xảy ra lỗi khi hủy đăng ký.",
+    "tooltip.navbar.home": "Dẫn đến trang chủ",
+    "tooltip.navbar.blog": "Dẫn đến bài viết",
+    "tooltip.navbar.about": "Dẫn đến Tôi",
+    "tooltip.navbar.vi": "Chuyển sang tiếng Việt",
+    "tooltip.navbar.en": "Chuyển sang tiếng Anh",
+    "tooltip.navbar.form": "Gửi biểu mẫu",
+    "tooltip.navbar.blurOn": "Tăng độ tập trung",
+    "tooltip.navbar.blurOff": "Tắt độ tập trung",
+    "tooltip.navbar.lightThemeOn": "Chuyển sang chế độ sáng",
+    "tooltip.navbar.lightThemeOff": "Chuyển sang chế độ tối",
+    "tooltip.navbar.summaryOn": "Đóng Table of Contents",
+    "tooltip.navbar.summaryOff": "Mở Table of Contents",
   },
   en: {
     "nav.home": "Home",
@@ -86,5 +98,17 @@ export const ui = {
     "newsletter.unsubscribe.success.description":
       "Hope you subscribe again (q_q)!",
     "newsletter.unsubscribe.error": "An error occurred while unsubscribing.",
+    "tooltip.navbar.home": "Go to home",
+    "tooltip.navbar.blog": "Go to blog",
+    "tooltip.navbar.about": "Go to about",
+    "tooltip.navbar.vi": "Change to Vietnamese",
+    "tooltip.navbar.en": "Change to English",
+    "tooltip.navbar.form": "Send form",
+    "tooltip.navbar.blurOn": "Improve focus",
+    "tooltip.navbar.blurOff": "Turn off focus",
+    "tooltip.navbar.lightThemeOn": "Switch to light theme",
+    "tooltip.navbar.lightThemeOff": "Switch to dark theme",
+    "tooltip.navbar.summaryOn": "Close Table of Contents",
+    "tooltip.navbar.summaryOff": "Open Table of Contents",
   },
-} as cokst;
+} as const;

@@ -5,6 +5,7 @@ import { languages } from "@/i18n";
 import { useEffect, useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import { getLocaleUrl } from "@/lib/utils";
+import tippy from "tippy.js";
 
 export default function DropdownMenuHeader({
   configTranslations,
@@ -25,24 +26,33 @@ export default function DropdownMenuHeader({
       id: "home",
       path: `/${configTranslations.lang}`,
       label: configTranslations.navhome,
+      description: configTranslations.tooltipNavbarHome,
       Icon: LucideHouse,
     },
     {
       id: "blog",
       path: `/${configTranslations.lang}/blog`,
       label: configTranslations.navblog,
+      description: configTranslations.tooltipNavbarBlog,
       Icon: LucideRss,
     },
     {
       id: "about",
       path: `/${configTranslations.lang}/about`,
       label: configTranslations.navabout,
+      description: configTranslations.tooltipNavbarAbout,
       Icon: LucideFolderArchive,
     },
   ];
 
   useEffect(() => {
     localStorage.setItem("isMenuOpen", JSON.stringify(open));
+  }, [open]);
+
+  useEffect(() => {
+    tippy(".react-tooltip", {
+      content: (reference: Element) => reference.getAttribute("title") || "",
+    });
   }, [open]);
 
   return (
@@ -83,30 +93,42 @@ export default function DropdownMenuHeader({
         </svg>
       </Button>
       {open && (
-        <ul className="list-inside list-[circle] pl-[-1.6rem] relative flex flex-row gap-2 text-sm h-5 translate-y-0.25 translate-x-2">
+        <ul className="list-inside list-[circle] pl-[-1.6rem] relative flex flex-row gap-2 text-sm h-5 items-center translate-x-2">
           {MENU_NAV.map((item) => (
             <li key={item.id}>
-              <a href={item.path} className="hover:underline ">
+              <a
+                href={item.path}
+                title={item.description}
+                className="hover:underline react-tooltip"
+              >
                 {item.label}
               </a>
             </li>
           ))}
           <Separator orientation="vertical" className="h-3/5" />
-          {Object.entries(languages).map(([lang, label]) => (
-            <li key={label}>
-              <a
-                href={`${getLocaleUrl(lang, currentPath)}`}
-                className="hover:underline"
-              >
-                {lang}
-              </a>
-            </li>
-          ))}
+          {Object.entries(languages).map(([lang, label]) => {
+            const translationKey = `tooltipNavbar${lang.toUpperCase()}`;
+            const tooltipText = configTranslations[translationKey];
+
+            return (
+              <li key={lang}>
+                <a
+                  href={getLocaleUrl(lang, currentPath)}
+                  title={tooltipText}
+                  className="hover:underline react-tooltip"
+                  data-lang={lang}
+                >
+                  {lang.toUpperCase()}
+                </a>
+              </li>
+            );
+          })}
           <Separator orientation="vertical" className="h-3/5" />
           <li>
             <a
               href={`/${configTranslations.lang}/form`}
-              className="hover:underline"
+              title={configTranslations.tooltipNavbarForm}
+              className="hover:underline react-tooltip"
             >
               Form
             </a>

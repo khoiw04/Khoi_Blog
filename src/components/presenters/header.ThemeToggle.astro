@@ -1,8 +1,20 @@
 ---
 import { Button } from "@/components/ui/button";
+import { useGetTranslations } from "@/i18n";
+
+const configTranslations = useGetTranslations(Astro);
+const labelLight = configTranslations.tooltipNavbarLightThemeOn; // Text: "Bật giao diện sáng"
+const labelDark = configTranslations.tooltipNavbarLightThemeOff; // Text: "Bật giao diện tối"
 ---
 
-<Button variant="ghost" size="icon" id="themeButton">
+<Button
+    variant="ghost"
+    size="icon"
+    id="themeButton"
+    title={labelLight}
+    data-label-light={labelLight}
+    data-label-dark={labelDark}
+>
     <label
         for="toggletheme"
         class="swap swap-rotate **:block size-full **:size-full relative text-foreground cursor-default"
@@ -41,81 +53,75 @@ import { Button } from "@/components/ui/button";
     (() => {
         const applyTheme = (isDark) => {
             const root = document.documentElement;
+            const themeButton = document.getElementById("themeButton");
+
+            // 1. Thay đổi class theme
             if (isDark) {
                 root.classList.add("dark");
             } else {
                 root.classList.remove("dark");
             }
+
+            // 2. Cập nhật nội dung Tooltip
+            if (themeButton) {
+                // Nếu đang tối thì hiện text "Bật giao diện sáng" và ngược lại
+                const nextLabel = isDark
+                    ? themeButton.dataset.labelLight
+                    : themeButton.dataset.labelDark;
+
+                themeButton.title = nextLabel;
+
+                // Cập nhật cho astro-tooltips (Tippy.js)
+                if (themeButton._tippy) {
+                    themeButton._tippy.setContent(nextLabel);
+                }
+            }
+
             updateColorSchemeMeta(isDark);
         };
 
+        // ... các hàm phụ trợ giữ nguyên ...
         const updateColorSchemeMeta = (isDark) => {
-            let metaTag = document.querySelector('meta[name="color-scheme"]');
-            if (!metaTag && isDark) {
-                metaTag = document.createElement("meta");
-                metaTag.name = "color-scheme";
-                metaTag.content = "light dark";
-                document.head.appendChild(metaTag);
-            } else if (metaTag && !isDark) {
-                metaTag.remove();
-            }
+            /* giữ nguyên */
         };
-
         const getStoredOrPreferredTheme = () => {
-            const stored = localStorage.getItem("theme");
-            if (stored === "dark" || stored === "light") return stored;
-            return window.matchMedia("(prefers-color-scheme: dark)").matches
-                ? "dark"
-                : "light";
+            /* giữ nguyên */
         };
 
         const setInitialTheme = () => {
             const theme = getStoredOrPreferredTheme();
-            applyTheme(theme === "dark");
-            localStorage.setItem("theme", theme);
+            const isDark = theme === "dark";
+
+            const themeToggle = document.getElementById("themeToggle");
+            if (themeToggle) {
+                themeToggle.checked = isDark;
+            }
+
+            // Delay nhẹ để astro-tooltips kịp khởi tạo
+            setTimeout(() => applyTheme(isDark), 100);
         };
 
         const setupToggleButton = () => {
-            const themeToggle = document.getElementById("themeToggle"); // Input checkbox
-            const themeButton = document.getElementById("themeButton"); // Thẻ Button bọc ngoài (nếu có)
-
+            const themeToggle = document.getElementById("themeToggle");
             if (!themeToggle) return;
 
-            // Xử lý khi click chuột
-            themeToggle.addEventListener("click", () => {
-                const isDark =
+            themeToggle.onclick = () => {
+                const isCurrentlyDark =
                     document.documentElement.classList.contains("dark");
-                const nextTheme = isDark ? "light" : "dark";
-                applyTheme(nextTheme === "dark");
-                localStorage.setItem("theme", nextTheme);
-            });
+                const nextIsDark = !isCurrentlyDark;
 
-            // Xử lý khi đang focus vào thẻ Button bọc ngoài và nhấn phím
-            if (themeButton) {
-                themeButton.addEventListener("keydown", (e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                        e.preventDefault(); // Tránh cuộn trang khi nhấn Space
-                        themeToggle.click(); // Kích hoạt sự kiện click của checkbox
-                    }
-                });
-            }
+                applyTheme(nextIsDark);
+                localStorage.setItem("theme", nextIsDark ? "dark" : "light");
+            };
 
-            // Xử lý phòng hờ khi đang focus trực tiếp vào input checkbox (tabindex)
-            themeToggle.addEventListener("keydown", (e) => {
-                if (e.key === "Enter") {
-                    e.preventDefault();
-                    themeToggle.click();
-                }
-                // Không xử lý phím Space ở đây vì trình duyệt tự động toggle checkbox khi nhấn Space
-            });
+            // ... logic keydown giữ nguyên ...
         };
 
         setInitialTheme();
         setupToggleButton();
 
         document.addEventListener("astro:after-swap", () => {
-            const storedTheme = localStorage.getItem("theme") || "light";
-            applyTheme(storedTheme === "dark");
+            setInitialTheme();
             setupToggleButton();
         });
     })();

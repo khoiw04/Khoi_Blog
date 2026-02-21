@@ -3,7 +3,6 @@ import { type CollectionEntry, render } from "astro:content";
 import BlogLayout from "@/layouts/BlogLayout.astro";
 import { getSortedEnglishBlog } from "@/lib";
 import TOCHeader from "@/components/Layouts/TOCHeader.astro";
-import UnpicMarkdown from "@/components/Layouts/UnpicMarkdown.astro";
 
 export const prerender = true;
 export async function getStaticPaths() {
