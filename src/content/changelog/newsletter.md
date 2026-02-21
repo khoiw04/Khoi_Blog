@@ -9,9 +9,11 @@ The February Updates brings Newsletter. Newsletter let you update the latest new
 
 Added
   - Added Newsletter
+  - Added blur toggle
 
 Improved
   - Improved blog's layout
+  - Improved accessibility (focus's ring, menu)
 
 <!--Fixed
   - Fixed -->
