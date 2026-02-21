@@ -19,6 +19,7 @@ import remarkAdmonitions from "./src/plugins/remark-admonitions.mjs";
 import tailwindcss from "@tailwindcss/vite";
 
 import expressiveCode from "astro-expressive-code";
+import { imageService } from "@unpic/astro/service";
 import { imageConfig } from "./src/lib/image-config.js";
 import { themeConfig } from "./src/config.js";
 
@@ -51,6 +52,10 @@ export default defineConfig({
   },
   image: {
     service: {
+      ...imageService({
+        fallbackService: "cloudflare",
+        placeholder: "blurhash",
+      }),
       entrypoint: "astro/assets/services/sharp",
       config: imageConfig,
     },

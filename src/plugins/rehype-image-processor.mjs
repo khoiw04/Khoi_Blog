@@ -37,7 +37,7 @@ export default function rehypeImageProcessor() {
       // B. Tạo một thẻ img mới hoàn chỉnh bên trong bộ nhớ
       const newImgNode = {
         type: "element",
-        tagName: "img",
+        tagName: "unpic-img",
         properties: {
           ...imgProps,
           "data-preview": themeConfig?.post?.imageViewer ? "true" : "false",

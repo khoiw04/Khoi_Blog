@@ -1,5 +1,6 @@
 ---
 import ThemeToggle from "@/components/presenters/header.ThemeToggle.astro";
+import BlurToggle from "@/components/presenters/header.BlurToggle.astro";
 import DropdownMenu from "@/components/presenters/header.DropdownMenu";
 import { useGetTranslations } from "@/i18n";
 
@@ -27,6 +28,7 @@ const { hiddenBorder = true } = Astro.props;
                 currentPath={currentPath}
                 configTranslations={configTranslations}
             />
+            <BlurToggle transition:persist />
             <ThemeToggle transition:persist />
         </div>
         <slot />

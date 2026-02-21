@@ -47,6 +47,7 @@
     "@types/markdown-it": "^14.1.2",
     "@types/react-payment-inputs": "^1.1.4",
     "@types/sanitize-html": "^2.16.0",
+    "@unpic/astro": "^1.0.2",
     "astro-compress": "^2.3.8",
     "astro-embed": "^0.9.0",
     "astro-icon": "^1.1.5",

@@ -7,7 +7,7 @@ import Header from "@/components/Layouts/Header.astro";
 import { useGetTranslations } from "@/i18n";
 import LayoutBlog from "@/components/Layouts/LayoutBlog.astro";
 import { themeConfig } from "@/config";
-import { Picture } from "astro:assets";
+import { Image } from "@unpic/astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
@@ -43,10 +43,9 @@ const { title, description, pubDate, heroImage } = Astro.props;
                     {
                         heroImage && (
                             <div class="hero-image">
-                                <Picture
+                                <Image
                                     sizes="(min-width: 1024px) 1024px, 100vw"
                                     src={heroImage}
-                                    alt="hero_image"
                                 />
                             </div>
                         )

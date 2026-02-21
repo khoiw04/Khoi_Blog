@@ -1,0 +1,30 @@
+---
+import { Image } from "@unpic/astro";
+
+// Lấy các thuộc tính từ Rehype AST truyền sang
+const {
+    src,
+    alt,
+    fetchpriority,
+    className,
+    "data-preview": dataPreview,
+    ...props
+} = Astro.props;
+
+// Xử lý className (Vì AST có thể trả về array, nhưng Astro Component cần string)
+const classes = Array.isArray(className) ? className.join(" ") : className;
+
+// Kiểm tra xem ảnh này có phải là ảnh đầu tiên cần ưu tiên tải không
+---
+
+<Image
+    src={src}
+    alt={alt}
+    loading="lazy"
+    class={classes}
+    background="blurred"
+    fetchpriority={fetchpriority}
+    sizes="(max-width: 640px) 50vw, (max-width: 1280px) 100vw, 33vw"
+    data-preview={dataPreview}
+    {...props}
+/>
