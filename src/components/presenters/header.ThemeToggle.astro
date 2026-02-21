@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 ---
 
-<Button variant="ghost" size="icon">
+<Button variant="ghost" size="icon" id="themeButton">
     <label
         for="toggletheme"
         class="swap swap-rotate **:block size-full **:size-full relative text-foreground cursor-default"
@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button";
             class="theme-controller absolute -translate-1"
             value="synthwave"
             id="themeToggle"
+            tabindex="2"
         />
         <span class="sr-only">Theme Toogle</span>
         <svg
@@ -75,15 +76,37 @@ import { Button } from "@/components/ui/button";
         };
 
         const setupToggleButton = () => {
-            const button = document.getElementById("themeToggle");
-            if (!button) return;
+            const themeToggle = document.getElementById("themeToggle"); // Input checkbox
+            const themeButton = document.getElementById("themeButton"); // Thẻ Button bọc ngoài (nếu có)
 
-            button.addEventListener("click", () => {
+            if (!themeToggle) return;
+
+            // Xử lý khi click chuột
+            themeToggle.addEventListener("click", () => {
                 const isDark =
                     document.documentElement.classList.contains("dark");
                 const nextTheme = isDark ? "light" : "dark";
                 applyTheme(nextTheme === "dark");
                 localStorage.setItem("theme", nextTheme);
+            });
+
+            // Xử lý khi đang focus vào thẻ Button bọc ngoài và nhấn phím
+            if (themeButton) {
+                themeButton.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault(); // Tránh cuộn trang khi nhấn Space
+                        themeToggle.click(); // Kích hoạt sự kiện click của checkbox
+                    }
+                });
+            }
+
+            // Xử lý phòng hờ khi đang focus trực tiếp vào input checkbox (tabindex)
+            themeToggle.addEventListener("keydown", (e) => {
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                    themeToggle.click();
+                }
+                // Không xử lý phím Space ở đây vì trình duyệt tự động toggle checkbox khi nhấn Space
             });
         };
 

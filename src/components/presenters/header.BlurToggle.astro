@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { LucideFocus, LucideScan } from "lucide-react";
 ---
 
-<Button variant="ghost" size="icon">
+<Button variant="ghost" size="icon" id="blurButton">
     <label
         for="blurToggle"
         class="swap **:block size-full **:size-full relative text-foreground cursor-default"
@@ -13,10 +13,11 @@ import { LucideFocus, LucideScan } from "lucide-react";
             class="theme-controller absolute -translate-1"
             value="synthwave"
             id="blurToggle"
+            tabindex="2"
         />
         <span class="sr-only">Blur Toogle</span>
-        <LucideScan className="swap-on h-10 w-10 fill-current" />
-        <LucideFocus className="swap-off h-10 w-10 fill-current" />
+        <LucideScan className="swap-off h-10 w-10 fill-current" />
+        <LucideFocus className="swap-on h-10 w-10 fill-current" />
     </label>
 </Button>
 
@@ -32,15 +33,37 @@ import { LucideFocus, LucideScan } from "lucide-react";
         };
 
         const setupToggleButton = () => {
-            const button = document.getElementById("blurToggle");
-            if (!button) return;
+            const checkbox = document.getElementById("blurToggle");
+            const button = document.getElementById("blurButton");
 
-            button.addEventListener("click", () => {
+            if (!checkbox) return;
+
+            // Xử lý sự kiện click chuột
+            checkbox.addEventListener("click", () => {
                 const isBlurred =
                     document.documentElement.classList.contains("blogBlur");
                 const nextState = isBlurred ? "off" : "on";
                 applyBlur(nextState === "on");
                 localStorage.setItem("blurState", nextState);
+            });
+
+            // Xử lý sự kiện bàn phím trên Button
+            if (button) {
+                button.addEventListener("keydown", (e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                        e.preventDefault(); // Ngăn hành vi cuộn trang khi nhấn Space
+                        checkbox.click(); // Tự động kích hoạt click vào checkbox
+                    }
+                });
+            }
+
+            // Phòng trường hợp người dùng dùng phím Tab di chuyển thẳng vào checkbox (do có tabindex="2")
+            checkbox.addEventListener("keydown", (e) => {
+                // Checkbox mặc định đã đổi trạng thái khi nhấn Space, nên ta chỉ cần xử lý riêng cho Enter
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                    checkbox.click();
+                }
             });
         };
 

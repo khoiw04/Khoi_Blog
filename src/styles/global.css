@@ -10,7 +10,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
+:root body {
+    transition:
+        visibility 0s,
+        opacity 0s,
+        background 0s !important;
+}
+
 :root {
+    transition: background 0s !important;
     interpolate-size: allow-keywords;
     --transparent: hsla(0, 0, 0, 0);
     font-feature-settings:
