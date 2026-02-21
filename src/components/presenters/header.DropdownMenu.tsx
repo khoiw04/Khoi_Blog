@@ -83,10 +83,10 @@ export default function DropdownMenuHeader({
         </svg>
       </Button>
       {open && (
-        <ul className="relative flex flex-row gap-2 text-sm h-5 translate-y-0.25 translate-x-2">
+        <ul className="list-inside list-[circle] pl-[-1.6rem] relative flex flex-row gap-2 text-sm h-5 translate-y-0.25 translate-x-2">
           {MENU_NAV.map((item) => (
             <li key={item.id}>
-              <a href={item.path} className="hover:underline">
+              <a href={item.path} className="hover:underline ">
                 {item.label}
               </a>
             </li>
