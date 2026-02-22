@@ -2,12 +2,17 @@
 title: 'Làm điều tốt nhất có thể, vui thật'
 pubDate: 'Feb 23 2026'
 description: 'Bài viết này nói lên Tại sao làm điều tốt nhất lại giúp ích cho sức khỏe tâm lí, không còn ám ảnh gì nữa.'
-heroImage: '../../../assets/blog-placeholder-2.jpg'
+heroImage: 'public/imgs/pngs/lam-dieu-to-nhat-co-the/teo_crawford_relaxing_sitting_on_the_grass.png'
 tags: ["Tại Sao"]
 collection: vi
 ---
+<div align="center" class="mb-24">
+    <a href="https://youtu.be/M_s1-n7Euz0?si=nUp7wS9bbh0Qsqvj&t=540" 
+        style="text-decoration: none">
+       Picture by Teo Crawford
+    </a>
+</div>
 
-Aaron Cherof - Watcher
 * *"Giờ đây, mình làm được điều tốt nhất có thể, dù họ hại tôi, nhưng tôi không còn buồn, hạnh phúc khi không để lại dư vị gì cả.*
 
 > *Lưu ý: Bài viết này Liên Hệ bài viết “[Tại sao ta luôn bị suy nghĩ tiêu cực ám ảnh phần 2](https://blog.khoiwn04.com/vi/blog/tai-sao-con-nguoi-suy-nghi-tieu-cuc/)“*
@@ -42,14 +47,14 @@ Aaron Cherof - Watcher
 - 30%: Xóa xưng đột khiến mình tự bám theo suy nghĩ tiêu cực
 - 20%: Thiền cảm xúc, thiền quét cơ thể
 
-### Còn tôi?
--50%: Đang thay đổi suy nghĩ dần dần
--30%: Tôi không còn quan tâm đến "Công Bằng"
--20%: Đừng quên dùng mỗi ngày
+### Còn tôi nên làm gì?
+- 50%: Đang thay đổi suy nghĩ dần dần
+- 30%: Tôi không còn quan tâm đến "Công Bằng"
+- 20%: Đừng quên dùng mỗi ngày
 
 ## Hãy làm điều đúng nhất có thể
 - **Cách tránh họ:** Làm điều tốt nhất có thể, không  ưu tiên gặp họ và giúp họ hiểu tại sao sai, vậy là được, không bơ, không chửi, không ghosting, không xúc phạm, không hạ mình nhường họ
-- **Giờ não tôi vui:** Suy nghĩ làm điều đúng nhất chứ không phải trả thù, nếu thư duy trả thù hoặc hại ai đó thì tôi đã buồn, não (ACC) phát hiện xưng đột là mình muốn hại họ trong khi đso mình không hại được, điều đó tạo suy nghĩ ám ảnh mình hoặc bảo mình là người tốt trong khi mình hại người khác
+- **Giờ não tôi vui:** Suy nghĩ làm điều đúng nhất chứ không phải trả thù, nếu thư duy trả thù hoặc hại ai đó thì tôi đã buồn, não (ACC) phát hiện xưng đột là mình muốn hại họ trong khi đó mình không hại được, điều đó tạo suy nghĩ ám ảnh mình hoặc bảo mình là người tốt trong khi mình hại người khác
 
 > *"Từ cấp 2 tới đây, lần đầu tôi nhìn trên trời và nở nụ cười nhẹ trên môi một cách tự nhiên, không còn nhìn dưới đất, tôi tự hào vì mình đã làm điều đúng đắn"*
 
@@ -60,4 +65,4 @@ Aaron Cherof - Watcher
 - Bản thân mình thì từng giống họ, nên kết quả luôn truy đuổi sự xưng dột, để rồi mất ăn, mất ngủ, cáu gắt, thời gian dành người thân không có, không tận hưởng được thời gian đang sống.
 
 ## Kết bài
-Vậy nên làm gì? Hãy tư duy "Làm điều tốt nhất có thể, vậy là được"
+Vậy nên làm gì? Hãy tư duy "Làm điều tốt nhất có thể, vậy là được", tôi không còn đòi hỏi sự "Công Bằng" nữa rồi

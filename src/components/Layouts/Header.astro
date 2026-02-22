@@ -23,6 +23,7 @@ const { hiddenBorder = true } = Astro.props;
         class:list={[
             "w-full max-w-[720px] mx-auto",
             "backdrop-filter *:bg-background/95 *:backdrop-filter:bg-background/60 ",
+            "after:content-[''] after:absolute after:top-full after:left-0 after:w-full after:h-4 after:bg-transparent",
         ]}
     >
         <div class="flex h-8 items-center justify-between">
@@ -51,25 +52,49 @@ const { hiddenBorder = true } = Astro.props;
 
 <script>
     const header = document.getElementById("smart-header");
-    const MAX_HIDE = 32; // h-8 tương đương 32px
+    const MAX_HIDE = 32;
     let lastScrollY = window.scrollY;
     let currentTranslateY = 0;
+    let isHovered = false;
 
     function handleScroll() {
         if (!header) return;
 
         const scrollY = window.scrollY;
         const diff = scrollY - lastScrollY;
+        lastScrollY = scrollY;
 
         currentTranslateY -= diff;
 
         if (currentTranslateY > 0) currentTranslateY = 0;
         if (currentTranslateY < -MAX_HIDE) currentTranslateY = -MAX_HIDE;
 
+        if (!isHovered) {
+            header.style.transform = `translateY(${currentTranslateY}px)`;
+        }
+    }
+
+    header?.addEventListener("mouseenter", () => {
+        isHovered = true;
+        header.style.transition = "transform 0.2s ease-out";
+        header.style.transform = `translateY(0px)`;
+    });
+
+    header?.addEventListener("mouseleave", () => {
+        isHovered = false;
+
+        if (window.scrollY > MAX_HIDE) {
+            currentTranslateY = -MAX_HIDE;
+        }
+
         header.style.transform = `translateY(${currentTranslateY}px)`;
 
-        lastScrollY = scrollY;
-    }
+        setTimeout(() => {
+            if (!isHovered) {
+                header.style.transition = "none";
+            }
+        }, 200);
+    });
 
     window.addEventListener(
         "scroll",
