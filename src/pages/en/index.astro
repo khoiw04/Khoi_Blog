@@ -27,6 +27,14 @@ const posts = (await getSortedEnglishBlog()).slice(0, 4);
             <ul class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-4">
                 <ComponentItem posts={posts} />
             </ul>
+            <div class="w-full flex justify-center items-center pt-16 pb-12">
+                <a
+                    href={`${configTranslations.lang}/blog`}
+                    class="bg-accent text-sm h-full px-4 py-1 mb-4 cursor-pointer rounded-full"
+                >
+                    {configTranslations.more}
+                </a>
+            </div>
         </main>
 
         {themeConfig.general.footer && <Footer />}

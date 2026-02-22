@@ -67,5 +67,6 @@ export function useGetTranslations(Astro: AstroGlobal) {
     tooltipNavbarLightThemeOff: t("tooltip.navbar.lightThemeOff"),
     tooltipNavbarSummaryOn: t("tooltip.navbar.summaryOn"),
     tooltipNavbarSummaryOff: t("tooltip.navbar.summaryOff"),
+    more: t("more"),
   };
 }
