@@ -7,13 +7,14 @@ import Footer from "@/components/Layouts/Footer.astro";
 import { Resend } from "resend";
 import { useGetTranslations } from "@/i18n";
 import { themeConfig } from "@/config";
+import { RESEND_API_KEY } from "astro:env/server";
 
 let success = false;
 let errorDescription = "";
 const { url } = Astro;
 const token = url.searchParams.get("email");
 const configTranslations = useGetTranslations(Astro);
-const resend = new Resend(import.meta.env.RESEND_API_KEY);
+const resend = new Resend(RESEND_API_KEY);
 
 if (token) {
     try {
