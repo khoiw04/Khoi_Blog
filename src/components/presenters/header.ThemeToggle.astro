@@ -49,80 +49,60 @@ const labelDark = configTranslations.tooltipNavbarLightThemeOff; // Text: "Bật
     </label>
 </Button>
 
-<script is:inline data-astro-rerun>
-    (() => {
-        const applyTheme = (isDark) => {
-            const root = document.documentElement;
-            const themeButton = document.getElementById("themeButton");
+<script is:inline>
+    const getStoredOrPreferredTheme = () => {
+        if (
+            typeof localStorage !== "undefined" &&
+            localStorage.getItem("theme")
+        ) {
+            return localStorage.getItem("theme");
+        }
+        return window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+    };
 
-            // 1. Thay đổi class theme
-            if (isDark) {
-                root.classList.add("dark");
-            } else {
-                root.classList.remove("dark");
+    const applyTheme = (isDark) => {
+        const root = document.documentElement;
+        const themeButton = document.getElementById("themeButton");
+
+        if (isDark) {
+            root.classList.add("dark");
+        } else {
+            root.classList.remove("dark");
+        }
+
+        if (themeButton) {
+            const nextLabel = isDark
+                ? themeButton.dataset.labelLight
+                : themeButton.dataset.labelDark;
+
+            themeButton.title = nextLabel;
+
+            if (themeButton._tippy) {
+                themeButton._tippy.setContent(nextLabel);
             }
+        }
+    };
 
-            // 2. Cập nhật nội dung Tooltip
-            if (themeButton) {
-                // Nếu đang tối thì hiện text "Bật giao diện sáng" và ngược lại
-                const nextLabel = isDark
-                    ? themeButton.dataset.labelLight
-                    : themeButton.dataset.labelDark;
+    const setupTheme = () => {
+        const isDark = getStoredOrPreferredTheme() === "dark";
 
-                themeButton.title = nextLabel;
+        applyTheme(isDark);
 
-                // Cập nhật cho astro-tooltips (Tippy.js)
-                if (themeButton._tippy) {
-                    themeButton._tippy.setContent(nextLabel);
-                }
-            }
+        const themeToggle = document.getElementById("themeToggle");
+        if (themeToggle) {
+            themeToggle.checked = isDark;
 
-            updateColorSchemeMeta(isDark);
-        };
-
-        // ... các hàm phụ trợ giữ nguyên ...
-        const updateColorSchemeMeta = (isDark) => {
-            /* giữ nguyên */
-        };
-        const getStoredOrPreferredTheme = () => {
-            /* giữ nguyên */
-        };
-
-        const setInitialTheme = () => {
-            const theme = getStoredOrPreferredTheme();
-            const isDark = theme === "dark";
-
-            const themeToggle = document.getElementById("themeToggle");
-            if (themeToggle) {
-                themeToggle.checked = isDark;
-            }
-
-            // Delay nhẹ để astro-tooltips kịp khởi tạo
-            setTimeout(() => applyTheme(isDark), 100);
-        };
-
-        const setupToggleButton = () => {
-            const themeToggle = document.getElementById("themeToggle");
-            if (!themeToggle) return;
-
-            themeToggle.onclick = () => {
-                const isCurrentlyDark =
-                    document.documentElement.classList.contains("dark");
-                const nextIsDark = !isCurrentlyDark;
-
+            themeToggle.onchange = (e) => {
+                const nextIsDark = e.target.checked;
                 applyTheme(nextIsDark);
                 localStorage.setItem("theme", nextIsDark ? "dark" : "light");
             };
+        }
+    };
 
-            // ... logic keydown giữ nguyên ...
-        };
+    setupTheme();
 
-        setInitialTheme();
-        setupToggleButton();
-
-        document.addEventListener("astro:after-swap", () => {
-            setInitialTheme();
-            setupToggleButton();
-        });
-    })();
+    document.addEventListener("astro:after-swap", setupTheme);
 </script>
