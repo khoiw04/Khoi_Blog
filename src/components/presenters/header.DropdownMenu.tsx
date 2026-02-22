@@ -93,13 +93,13 @@ export default function DropdownMenuHeader({
         </svg>
       </Button>
       {open && (
-        <ul className="list-inside list-[circle] pl-[-1.6rem] relative flex flex-row gap-2 text-sm h-5 items-center translate-x-2">
+        <ul className="pl-[-1.6rem] relative flex flex-row gap-2 text-sm h-5 items-center translate-x-2">
           {MENU_NAV.map((item) => (
             <li key={item.id}>
               <a
                 href={item.path}
                 title={item.description}
-                className="hover:underline react-tooltip"
+                className="hover:underline react-tooltip px-4"
               >
                 {item.label}
               </a>
@@ -115,7 +115,7 @@ export default function DropdownMenuHeader({
                 <a
                   href={getLocaleUrl(lang, currentPath)}
                   title={tooltipText}
-                  className="hover:underline react-tooltip"
+                  className="hover:underline react-tooltip px-4"
                   data-lang={lang}
                 >
                   {lang.toUpperCase()}
@@ -128,9 +128,9 @@ export default function DropdownMenuHeader({
             <a
               href={`/${configTranslations.lang}/form`}
               title={configTranslations.tooltipNavbarForm}
-              className="hover:underline react-tooltip"
+              className="hover:underline react-tooltip px-4"
             >
-              Form
+              Send
             </a>
           </li>
         </ul>

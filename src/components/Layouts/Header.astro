@@ -12,15 +12,17 @@ const { hiddenBorder = true } = Astro.props;
 ---
 
 <header
+    id="smart-header"
     class:list={[
         "sticky top-0 z-50 ",
+        "will-change-transform",
         // !hiddenBorder ? "border-b" : "",
     ]}
 >
     <div
         class:list={[
             "w-full max-w-[720px] mx-auto",
-            "backdrop-filter bg-background/95 backdrop-filter:bg-background/60 rounded-b",
+            "backdrop-filter *:bg-background/95 *:backdrop-filter:bg-background/60 ",
         ]}
     >
         <div class="flex h-8 items-center justify-between">
@@ -41,6 +43,39 @@ const { hiddenBorder = true } = Astro.props;
                 <ThemeToggle transition:persist />
             </div>
         </div>
-        <slot />
+        <div class="rounded-b">
+            <slot />
+        </div>
     </div>
 </header>
+
+<script>
+    const header = document.getElementById("smart-header");
+    const MAX_HIDE = 32; // h-8 tương đương 32px
+    let lastScrollY = window.scrollY;
+    let currentTranslateY = 0;
+
+    function handleScroll() {
+        if (!header) return;
+
+        const scrollY = window.scrollY;
+        const diff = scrollY - lastScrollY;
+
+        currentTranslateY -= diff;
+
+        if (currentTranslateY > 0) currentTranslateY = 0;
+        if (currentTranslateY < -MAX_HIDE) currentTranslateY = -MAX_HIDE;
+
+        header.style.transform = `translateY(${currentTranslateY}px)`;
+
+        lastScrollY = scrollY;
+    }
+
+    window.addEventListener(
+        "scroll",
+        () => {
+            window.requestAnimationFrame(handleScroll);
+        },
+        { passive: true },
+    );
+</script>

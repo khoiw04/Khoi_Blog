@@ -28,7 +28,7 @@ export default function DropdownMenuHeader({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          className="group **:transition-none **:group-hover:transition-all block md:hidden"
+          className="group **:transition-none **:group-hover:transition-all flex justify-center items-center md:hidden"
           variant="ghost"
           size="icon"
           onMouseDown={() => setOpen((prevState) => !prevState)}
@@ -62,7 +62,7 @@ export default function DropdownMenuHeader({
           </svg>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-40" align="start">
+      <DropdownMenuContent className="w-40 translate-x-4" align="start">
         <DropdownMenuGroup>
           <a href={`/${configTranslations.lang}`}>
             <DropdownMenuItem>
