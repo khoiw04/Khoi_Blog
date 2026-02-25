@@ -17,6 +17,7 @@ import rehypeAstroRelativeLinks from "./src/plugins/rehype-astro-relative-links.
 import remarkGridColumnClass from "./src/plugins/remark-grid-column-class.ts";
 import remarkAdmonitions from "./src/plugins/remark-admonitions.mjs";
 import tailwindcss from "@tailwindcss/vite";
+import compress from "astrojs-compress";
 
 import expressiveCode from "astro-expressive-code";
 import { imageConfig } from "./src/lib/image-config.js";
@@ -71,7 +72,11 @@ export default defineConfig({
       filter: (page) => !page.includes("/mail/"),
     }),
     react(),
-    (await import("astro-compress")).default(),
+    compress({
+      HTML: {
+        removeComments: false,
+      },
+    }),
   ],
   vite: {
     plugins: [tailwindcss()],
