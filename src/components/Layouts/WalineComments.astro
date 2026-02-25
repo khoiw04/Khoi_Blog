@@ -1,0 +1,92 @@
+---
+import { WALINE_SITE_URL } from "astro:env/server";
+
+const pathname = Astro.url.pathname.replace(/\/$/, "");
+const { path = pathname } = Astro.props;
+
+const segments = pathname.split("/");
+const currentLang =
+    segments[1] === "vi" || segments[1] === "en" ? segments[1] : "vi";
+
+const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
+---
+
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+/>
+
+<div id="waline-comments"></div>
+
+<script is:inline type="module" define:vars={{ path, serverURL, currentLang }}>
+    import { init } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
+
+    init({
+        el: "#waline-comments",
+        serverURL: serverURL,
+        path: path,
+        lang: currentLang,
+        locale: {
+            placeholder:
+                currentLang === "vi"
+                    ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
+                    : "Write a comment... (Markdown supported)",
+        },
+        emoji: ["https://unpkg.com/@waline/emojis@1/weibo"],
+        dark: "html.dark",
+        pageSize: 10,
+    }).catch((err) => {
+        console.error("❌ Waline init error:", err);
+    });
+</script>
+
+<style is:global>
+    :root {
+        --waline-theme-color: #3b82f6;
+        --waline-active-color: #2563eb;
+
+        --waline-font-size: 15px;
+        --waline-border-color: #e5e7eb;
+        --waline-border: 1px solid var(--waline-border-color);
+        --waline-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+        --waline-avatar-size: 42px;
+        --waline-avatar-radius: 50%;
+    }
+
+    html.dark {
+        --waline-theme-color: #60a5fa;
+        --waline-active-color: #3b82f6;
+        --waline-border-color: #374151;
+        --waline-bg-color: #1f2937;
+        --waline-bg-color-light: #374151;
+        --waline-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        --waline-color: #e5e7eb;
+    }
+
+    #waline-comments {
+        margin-top: 2rem;
+    }
+
+    .wl-panel {
+        border-radius: 12px;
+        overflow: hidden;
+        background: var(--waline-bg-color);
+        box-shadow: var(--waline-box-shadow);
+        margin-bottom: 2rem;
+    }
+
+    .wl-btn {
+        border-radius: 6px;
+        font-weight: 600;
+        transition: transform 0.2s ease;
+    }
+
+    .wl-btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .wl-card-item {
+        padding-top: 1rem;
+    }
+</style>

@@ -113,7 +113,7 @@ export default function DropdownMenuHeader({
             return (
               <li key={lang}>
                 <a
-                  href={getLocaleUrl(lang, currentPath)}
+                  href={getLocaleUrl(lang)}
                   title={tooltipText}
                   className="hover:underline react-tooltip px-4"
                   data-lang={lang}

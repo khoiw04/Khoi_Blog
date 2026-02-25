@@ -15,6 +15,9 @@
         visibility 0s,
         opacity 0s,
         background 0s !important;
+
+    padding-top: 15.6rem;
+    padding-bottom: 7rem;
 }
 
 :root {

@@ -129,6 +129,10 @@ export default defineConfig({
         context: "server",
         access: "secret",
       }),
+      WALINE_SITE_URL: envField.string({
+        context: "server",
+        access: "secret",
+      }),
     },
   },
 });
