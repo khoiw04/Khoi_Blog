@@ -7,6 +7,7 @@ import Header from "@/components/Layouts/Header.astro";
 import { useGetTranslations } from "@/i18n";
 import LayoutBlog from "@/components/Layouts/LayoutBlog.astro";
 import WalineComments from "@/components/Layouts/WalineComments.astro";
+import ImageViewer from "@/components/Layouts/ImageViewer.astro";
 import { themeConfig } from "@/config";
 import { Picture } from "astro:assets";
 
@@ -57,6 +58,7 @@ const { title, description, pubDate, heroImage } = Astro.props;
                 </div>
             </article>
             <WalineComments client:load />
+            <ImageViewer />
         </main>
         {themeConfig.general.footer && <Footer hiddenBorder={false} />}
     </body>
