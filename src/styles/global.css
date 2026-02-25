@@ -11,17 +11,11 @@
 @custom-variant dark (&:is(.dark *));
 
 :root body {
-    transition:
-        visibility 0s,
-        opacity 0s,
-        background 0s !important;
-
     padding-top: 15.6rem;
     padding-bottom: 7rem;
 }
 
 :root {
-    transition: background 0s !important;
     interpolate-size: allow-keywords;
     --transparent: hsla(0, 0, 0, 0);
     font-feature-settings:
