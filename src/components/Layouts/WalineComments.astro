@@ -24,26 +24,6 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
         pageviewCount,
     } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
 
-    const updateViews = () => {
-        pageviewCount({
-            serverURL: serverURL,
-            path: path,
-            update: true,
-        });
-    };
-
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", updateViews);
-    } else {
-        updateViews();
-    }
-
-    pageviewCount({
-        serverURL: serverURL,
-        path: path,
-        update: true,
-    });
-
     init({
         el: "#waline-comments",
         serverURL: serverURL,
@@ -82,7 +62,84 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
             window.location.reload();
         },
     }).catch((err) => {
-        console.error("❌ Waline init error:", err);
+        console.error("Waline init error:", err);
+    });
+
+    async function fetchTenorGif(tenorUrl) {
+        try {
+            const res = await fetch(
+                `https://api.allorigins.win/get?url=${encodeURIComponent(tenorUrl)}`,
+            );
+            const data = await res.json();
+            const match = data.contents.match(
+                /https:\/\/media\.tenor\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+\.gif/,
+            );
+            return match ? match[0] : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    document.addEventListener(
+        "input",
+        async (event) => {
+            const target = event.target;
+
+            if (target && target.classList.contains("wl-editor")) {
+                const content = target.value;
+                const tenorRegex = /https:\/\/tenor\.com\/view\/[a-zA-Z0-9-]+/g;
+                const match = content.match(tenorRegex);
+
+                if (match) {
+                    const originalLink = match[0];
+
+                    target.value = content.replace(
+                        originalLink,
+                        "[Processing GIF...]",
+                    );
+
+                    const directGif = await fetchTenorGif(originalLink);
+
+                    if (directGif) {
+                        target.value = target.value.replace(
+                            "[Processing GIF...]",
+                            `![](${directGif})`,
+                        );
+                    } else {
+                        target.value = target.value.replace(
+                            "[Processing GIF...]",
+                            originalLink,
+                        );
+                    }
+
+                    target.dispatchEvent(new Event("input", { bubbles: true }));
+                    target.dispatchEvent(
+                        new Event("change", { bubbles: true }),
+                    );
+                }
+            }
+        },
+        true,
+    );
+
+    const updateViews = () => {
+        pageviewCount({
+            serverURL: serverURL,
+            path: path,
+            update: true,
+        });
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", updateViews);
+    } else {
+        updateViews();
+    }
+
+    pageviewCount({
+        serverURL: serverURL,
+        path: path,
+        update: true,
     });
 </script>
 
