@@ -19,7 +19,16 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
 <div id="waline-comments"></div>
 
 <script is:inline type="module" define:vars={{ path, serverURL, currentLang }}>
-    import { init } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
+    import {
+        init,
+        pageviewCount,
+    } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
+
+    pageviewCount({
+        serverURL: serverURL,
+        path: path,
+        update: true,
+    });
 
     init({
         el: "#waline-comments",
@@ -28,6 +37,10 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         lang: currentLang,
         login: "force",
         locale: {
+            reactionTitle:
+                currentLang === "vi"
+                    ? "Bạn thấy bài viết này thế nào?"
+                    : "What do you think?",
             placeholder:
                 currentLang === "vi"
                     ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
@@ -40,9 +53,25 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
             "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-flag",
             "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-food",
         ],
+        reaction: [
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_smitten.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_cheer.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_work.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_angry.webp",
+        ],
         dark: "html.dark",
         pageSize: 10,
         imageUploader: false,
+        pageview: true,
+        onLogin: (user) => {
+            console.log("Đã đăng nhập:", user);
+            window.location.reload();
+        },
+
+        onLogout: () => {
+            window.location.reload();
+        },
     }).catch((err) => {
         console.error("❌ Waline init error:", err);
     });
@@ -56,6 +85,11 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         --waline-bg-color-light: var(--background) !important;
         --waline-border-color: var(--border) !important;
         --waline-theme-color: var(--active-bg) !important;
+        --waline-white: var(--primary) !important;
+    }
+
+    .wl-cards {
+        font-family: "Atkinson", sans-serif !important;
     }
 
     .wl-active,
@@ -110,6 +144,10 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         transform: translateY(-2px);
     }
 
+    .wl-user-avatar {
+        margin: 0 auto !important;
+    }
+
     .wl-action:focus {
         color: var(--active-fg) !important;
     }
@@ -138,7 +176,19 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         display: none !important;
     }
 
+    .wl-cards {
+        margin-top: 5rem !important;
+    }
+
+    .wl-card .wl-comment-actions {
+        float: none !important;
+    }
+
     .wl-meta-foot {
+        display: none !important;
+    }
+
+    .wl-meta {
         display: none !important;
     }
 
@@ -167,5 +217,46 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
 
     .wl-text-number {
         display: none !important;
+    }
+
+    .wl-login-nick img {
+        margin: 0rem auto;
+    }
+
+    li.wl-reaction-item::before {
+        content: "" !important;
+    }
+
+    .wl-reaction-list {
+        margin-top: 1rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    [data-waline] a {
+        color: inherit !important;
+    }
+
+    .wl-comment-actions button:hover {
+        color: var(--active-fg) !important;
+    }
+
+    .wl-content div p {
+        margin: 0 0 !important;
+    }
+
+    .wl-comment-actions .wl-like {
+        padding-right: 0.75rem !important;
+    }
+
+    .wl-time::before {
+        content: "" !important;
+    }
+
+    .wl-user {
+        margin-inline-end: 1.5rem !important;
+    }
+
+    .wl-reaction-votes {
+        color: var(--active-fg) !important;
     }
 </style>
