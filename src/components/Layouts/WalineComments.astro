@@ -24,46 +24,48 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
         pageviewCount,
     } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
 
-    init({
-        el: "#waline-comments",
-        serverURL: serverURL,
-        path: path,
-        lang: currentLang,
-        login: "force",
-        locale: {
-            reactionTitle:
-                currentLang === "vi"
-                    ? "Bạn thấy bài viết này thế nào?"
-                    : "What do you think?",
-            placeholder:
-                currentLang === "vi"
-                    ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
-                    : "Write a comment... (Markdown supported)",
-        },
-        emoji: [
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-people",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-body",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-flag",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-food",
-        ],
-        reaction: [
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_smitten.webp",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_cheer.webp",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_work.webp",
-            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_angry.webp",
-        ],
-        dark: "html.dark",
-        pageSize: 10,
-        imageUploader: false,
-        pageview: true,
-        login: () => {
-            window.location.reload();
-        },
-    }).catch((err) => {
+    try {
+      init({
+          el: "#waline-comments",
+          serverURL: serverURL,
+          path: path,
+          lang: currentLang,
+          login: "force",
+          locale: {
+              reactionTitle:
+                  currentLang === "vi"
+                      ? "Bạn thấy bài viết này thế nào?"
+                      : "What do you think?",
+              placeholder:
+                  currentLang === "vi"
+                      ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
+                      : "Write a comment... (Markdown supported)",
+          },
+          emoji: [
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-people",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-body",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-flag",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-food",
+          ],
+          reaction: [
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_smitten.webp",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_cheer.webp",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_work.webp",
+              "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_angry.webp",
+          ],
+          dark: "html.dark",
+          pageSize: 10,
+          imageUploader: false,
+          pageview: true,
+          login: () => {
+              window.location.reload();
+          },
+      )}
+    } .catch (err) {
         console.error("Waline init error:", err);
-    });
+    };
 
     async function fetchTenorGif(tenorUrl) {
         try {
@@ -143,7 +145,7 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
                 path: path,
                 update: true,
             });
-        }, 1000);
+        }, 1500);
     });
 </script>
 
