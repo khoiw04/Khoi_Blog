@@ -24,120 +24,123 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
         pageviewCount,
     } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
 
-    try {
-        init({
-            el: "#waline-comments",
-            serverURL: serverURL,
-            path: path,
-            lang: currentLang,
-            locale: {
-                reactionTitle:
-                    currentLang === "vi"
-                        ? "Bạn thấy bài viết này thế nào?"
-                        : "What do you think?",
-                placeholder:
-                    currentLang === "vi"
-                        ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
-                        : "Write a comment... (Markdown supported)",
-            },
-            emoji: [
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-people",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-body",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-flag",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-food",
-            ],
-            reaction: [
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_smitten.webp",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_cheer.webp",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_work.webp",
-                "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_angry.webp",
-            ],
-            dark: "html.dark",
-            pageSize: 10,
-            imageUploader: false,
-            pageview: true,
-            login: () => {
-                window.location.reload();
-            },
-        });
-    } catch (err) {
-        console.error("Waline init error:", err);
-    }
-
-    async function fetchTenorGif(tenorUrl) {
+    window.addEventListener("load", async () => {
         try {
-            const res = await fetch(
-                `https://api.allorigins.win/get?url=${encodeURIComponent(tenorUrl)}`,
-            );
-            const data = await res.json();
-            const match = data.contents.match(
-                /https:\/\/media\.tenor\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+\.gif/,
-            );
-            return match ? match[0] : null;
-        } catch (e) {
-            return null;
+            init({
+                el: "#waline-comments",
+                serverURL: serverURL,
+                path: path,
+                lang: currentLang,
+                locale: {
+                    reactionTitle:
+                        currentLang === "vi"
+                            ? "Bạn thấy bài viết này thế nào?"
+                            : "What do you think?",
+                    placeholder:
+                        currentLang === "vi"
+                            ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
+                            : "Write a comment... (Markdown supported)",
+                },
+                emoji: [
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-people",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-body",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-flag",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-food",
+                ],
+                reaction: [
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_smitten.webp",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_cheer.webp",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_work.webp",
+                    "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_angry.webp",
+                ],
+                dark: "html.dark",
+                pageSize: 10,
+                imageUploader: false,
+                pageview: true,
+                login: () => {
+                    window.location.reload();
+                },
+            });
+        } catch (err) {
+            console.error("Waline init error:", err);
         }
-    }
 
-    document.addEventListener(
-        "input",
-        async (event) => {
-            const target = event.target;
+        async function fetchTenorGif(tenorUrl) {
+            try {
+                const res = await fetch(
+                    `https://api.allorigins.win/get?url=${encodeURIComponent(tenorUrl)}`,
+                );
+                const data = await res.json();
+                const match = data.contents.match(
+                    /https:\/\/media\.tenor\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+\.gif/,
+                );
+                return match ? match[0] : null;
+            } catch (e) {
+                return null;
+            }
+        }
 
-            if (target && target.classList.contains("wl-editor")) {
-                const content = target.value;
-                const tenorRegex = /https:\/\/tenor\.com\/view\/[a-zA-Z0-9-]+/g;
-                const match = content.match(tenorRegex);
+        document.addEventListener(
+            "input",
+            async (event) => {
+                const target = event.target;
 
-                if (match) {
-                    const originalLink = match[0];
+                if (target && target.classList.contains("wl-editor")) {
+                    const content = target.value;
+                    const tenorRegex =
+                        /https:\/\/tenor\.com\/view\/[a-zA-Z0-9-]+/g;
+                    const match = content.match(tenorRegex);
 
-                    target.value = content.replace(
-                        originalLink,
-                        "[Processing GIF...]",
-                    );
+                    if (match) {
+                        const originalLink = match[0];
 
-                    const directGif = await fetchTenorGif(originalLink);
-
-                    if (directGif) {
-                        target.value = target.value.replace(
-                            "[Processing GIF...]",
-                            `![](${directGif})`,
-                        );
-                    } else {
-                        target.value = target.value.replace(
-                            "[Processing GIF...]",
+                        target.value = content.replace(
                             originalLink,
+                            "[Processing GIF...]",
+                        );
+
+                        const directGif = await fetchTenorGif(originalLink);
+
+                        if (directGif) {
+                            target.value = target.value.replace(
+                                "[Processing GIF...]",
+                                `![](${directGif})`,
+                            );
+                        } else {
+                            target.value = target.value.replace(
+                                "[Processing GIF...]",
+                                originalLink,
+                            );
+                        }
+
+                        target.dispatchEvent(
+                            new Event("input", { bubbles: true }),
+                        );
+                        target.dispatchEvent(
+                            new Event("change", { bubbles: true }),
                         );
                     }
-
-                    target.dispatchEvent(new Event("input", { bubbles: true }));
-                    target.dispatchEvent(
-                        new Event("change", { bubbles: true }),
-                    );
                 }
-            }
-        },
-        true,
-    );
+            },
+            true,
+        );
 
-    const updateViews = () => {
-        pageviewCount({
-            serverURL: serverURL,
-            path: path,
-            update: true,
-        });
-    };
+        const updateViews = () => {
+            pageviewCount({
+                serverURL: serverURL,
+                path: path,
+                update: true,
+            });
+        };
 
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", updateViews);
-    } else {
-        updateViews();
-    }
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", updateViews);
+        } else {
+            updateViews();
+        }
 
-    window.addEventListener("load", () => {
         setTimeout(() => {
             pageviewCount({
                 serverURL,
