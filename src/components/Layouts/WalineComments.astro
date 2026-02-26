@@ -8,7 +8,7 @@ const segments = pathname.split("/");
 const currentLang =
     segments[1] === "vi" || segments[1] === "en" ? segments[1] : "vi";
 
-const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
+const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
 ---
 
 <link
@@ -23,6 +23,20 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         init,
         pageviewCount,
     } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
+
+    const updateViews = () => {
+        pageviewCount({
+            serverURL: serverURL,
+            path: path,
+            update: true,
+        });
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", updateViews);
+    } else {
+        updateViews();
+    }
 
     pageviewCount({
         serverURL: serverURL,
@@ -64,12 +78,7 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         pageSize: 10,
         imageUploader: false,
         pageview: true,
-        onLogin: (user) => {
-            console.log("Đã đăng nhập:", user);
-            window.location.reload();
-        },
-
-        onLogout: () => {
+        login: () => {
             window.location.reload();
         },
     }).catch((err) => {
@@ -258,5 +267,18 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
 
     .wl-reaction-votes {
         color: var(--active-fg) !important;
+    }
+
+    .wl-content .wl-emoji {
+        height: 2rem !important;
+        translate: 0 0.5rem;
+    }
+
+    .wl-delete {
+        color: var(--destructive) !important;
+    }
+
+    .wl-login-nick {
+        height: var(--waline-avatar-size);
     }
 </style>
