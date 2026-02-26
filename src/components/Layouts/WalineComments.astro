@@ -136,13 +136,15 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
         updateViews();
     }
 
-    setTimeout(() => {
-        pageviewCount({
-            serverURL: serverURL,
-            path: path,
-            update: true,
-        });
-    }, 1000);
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            pageviewCount({
+                serverURL,
+                path: path,
+                update: true,
+            });
+        }, 1000);
+    });
 </script>
 
 <style is:global>
