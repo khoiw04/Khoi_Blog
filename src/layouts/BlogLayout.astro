@@ -53,9 +53,9 @@ const { title, description, pubDate, heroImage } = Astro.props;
                         )
                     }
                     <slot />
+                    <WalineComments client:visible />
                 </div>
             </article>
-            <WalineComments client:load />
             {themeConfig.post.imageViewer && <ImageViewer />}
         </main>
         {themeConfig.general.footer && <Footer hiddenBorder={false} />}

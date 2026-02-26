@@ -13,7 +13,7 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
 
 <link
     rel="stylesheet"
-    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+    href="https://cdn.jsdelivr.net/npm/@waline/client@v3/dist/waline.css"
 />
 
 <div id="waline-comments"></div>
@@ -26,15 +26,23 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         serverURL: serverURL,
         path: path,
         lang: currentLang,
+        login: "force",
         locale: {
             placeholder:
                 currentLang === "vi"
                     ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
                     : "Write a comment... (Markdown supported)",
         },
-        emoji: ["https://unpkg.com/@waline/emojis@1/weibo"],
+        emoji: [
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-people",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-body",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-flag",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-food",
+        ],
         dark: "html.dark",
         pageSize: 10,
+        imageUploader: false,
     }).catch((err) => {
         console.error("❌ Waline init error:", err);
     });
@@ -42,38 +50,44 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
 
 <style is:global>
     :root {
-        --waline-theme-color: #3b82f6;
-        --waline-active-color: #2563eb;
-
-        --waline-font-size: 15px;
-        --waline-border-color: #e5e7eb;
-        --waline-border: 1px solid var(--waline-border-color);
-        --waline-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-
-        --waline-avatar-size: 42px;
-        --waline-avatar-radius: 50%;
+        --waline-color: var(--primary) !important;
+        --waline-active-color: var(--active-bg) !important;
+        --waline-bg-color: var(--background) !important;
+        --waline-bg-color-light: var(--background) !important;
+        --waline-border-color: var(--border) !important;
+        --waline-theme-color: var(--active-bg) !important;
     }
 
-    html.dark {
-        --waline-theme-color: #60a5fa;
-        --waline-active-color: #3b82f6;
-        --waline-border-color: #374151;
-        --waline-bg-color: #1f2937;
-        --waline-bg-color-light: #374151;
-        --waline-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-        --waline-color: #e5e7eb;
+    .wl-active,
+    .wl-btn:hover,
+    .wl-action.active,
+    .wl-send-btn,
+    .wl-action[data-type="write"]:hover {
+        background-color: var(--active-bg);
+        color: var(--active-fg);
+    }
+
+    .wl-editor {
+        height: 180px !important;
+        min-height: 150px !important;
+        padding-bottom: 1rem !important;
+        border-radius: var(--radius);
+        background: var(--input);
+        border: 1px solid var(--border);
+        color: var(--foreground);
+        padding: 1rem;
+    }
+
+    .wl-editor:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px rgba(var(--primary), 0.15);
     }
 
     #waline-comments {
-        margin-top: 2rem;
-    }
-
-    .wl-panel {
-        border-radius: 12px;
-        overflow: hidden;
-        background: var(--waline-bg-color);
-        box-shadow: var(--waline-box-shadow);
-        margin-bottom: 2rem;
+        margin-top: 3.5rem;
+        padding-top: 2rem;
+        margin-bottom: 20rem;
+        border-top: 1px solid var(--border);
     }
 
     .wl-btn {
@@ -82,11 +96,76 @@ const serverURL = WALINE_SITE_URL || "http://127.0.0.1:9090";
         transition: transform 0.2s ease;
     }
 
+    .wl-btn:focus {
+        border: 1px solid var(--border) !important;
+        color: var(--active-fg) !important;
+    }
+
+    .wl-btn:hover {
+        border: 1px solid var(--border) !important;
+        color: var(--active-fg) !important;
+    }
+
     .wl-btn:hover {
         transform: translateY(-2px);
     }
 
+    .wl-action:focus {
+        color: var(--active-fg) !important;
+    }
+
+    .wl-action:hover {
+        color: var(--active-fg) !important;
+    }
+
     .wl-card-item {
         padding-top: 1rem;
+    }
+
+    .wl-rss,
+    .wl-subscribe,
+    a[href*="rss"],
+    a[href*="/feed"],
+    a[href*="/rss.xml"] {
+        display: none !important;
+    }
+
+    .wl-count {
+        display: none !important;
+    }
+
+    .wl-meta-head {
+        display: none !important;
+    }
+
+    .wl-meta-foot {
+        display: none !important;
+    }
+
+    .wl-rss,
+    .wl-rss a,
+    .wl-power,
+    .wl-power a {
+        display: none !important;
+    }
+
+    .wl-preview,
+    .wl-preview-container,
+    .wl-editor-preview,
+    .wl-markdown-preview {
+        display: none !important;
+    }
+
+    .wl-action[title="Preview"],
+    .wl-action[title="Preview"] * {
+        display: none !important;
+    }
+
+    .wl-action[title="Markdown Guide"] {
+        display: none !important;
+    }
+
+    .wl-text-number {
+        display: none !important;
     }
 </style>
