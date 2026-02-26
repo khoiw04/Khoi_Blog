@@ -102,7 +102,7 @@ export default defineConfig({
     "/go/zen-tab-search":
       "https://addons.mozilla.org/en-US/firefox/addon/zen-tab-search/",
     "/go/scripts/wallhotkey.ahk":
-      "https://github.com/khoiw04/cinnamon-theme/blob/main/wallhotkey.ahk",
+      "https://github.com/khoiw04/cinnamon-theme/blob/main/AutoHotKey/change-wallpaper.ahk",
   },
   env: {
     schema: {
