@@ -31,6 +31,7 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
                 serverURL: serverURL,
                 path: path,
                 lang: currentLang,
+                login: "force",
                 locale: {
                     reactionTitle:
                         currentLang === "vi"
@@ -126,28 +127,6 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
             },
             true,
         );
-
-        const updateViews = () => {
-            pageviewCount({
-                serverURL: serverURL,
-                path: path,
-                update: true,
-            });
-        };
-
-        if (document.readyState === "loading") {
-            document.addEventListener("DOMContentLoaded", updateViews);
-        } else {
-            updateViews();
-        }
-
-        setTimeout(() => {
-            pageviewCount({
-                serverURL,
-                path: path,
-                update: true,
-            });
-        }, 1500);
     });
 </script>
 
