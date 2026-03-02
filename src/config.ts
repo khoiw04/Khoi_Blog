@@ -9,6 +9,7 @@ export const themeConfig: ThemeConfig = {
     description:
       "The blog of Khoiwn04. He is the curious person about science, developing, graphics, art", // Site description
     language: "en-US", // Default language
+    emoji: "🕊️",
   },
 
   // GENERAL SETTINGS ////////////////////////////////////////////////////////////////////////////////////

@@ -1,4 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { themeConfig } from "@/config";
 import type { HeaderIndexType } from "@/types";
 // import { Separator } from "@/components/ui/separator";
 
@@ -25,7 +26,7 @@ export default function HeaderIndex({ configTranslations }: HeaderIndexType) {
             type="button"
             className="bg-accent text-sm h-full px-4 py-1 mb-4 cursor-pointer rounded-full"
           >
-            🦀
+            {themeConfig.site.emoji}
           </button>
         </div>
       </div>
