@@ -201,7 +201,7 @@ Tôi không căm thù ai cả
 Tôi không muốn hại ai cả  
 _**Tôi luôn khao khát tìm kiếm sự bình yên**_
 
-Để rồi, họ hạnh phúc làm tôi hạnh phúc theo
+Để rồi, tôi mong họ hạnh phúc là để tôi thấy sự yên bình, nơi không chiến tranh, không xưng đột
 :::
 
 #### **Giải pháp**
