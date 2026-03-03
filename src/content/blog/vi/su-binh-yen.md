@@ -204,6 +204,9 @@ _**Tôi luôn khao khát tìm kiếm sự bình yên**_
 Để rồi, tôi mong họ hạnh phúc là để tôi thấy sự yên bình, nơi không chiến tranh, không xưng đột
 :::
 
+> *"Tôi quý mọi người nhiều lắm"*  
+> Mỗi lần suy nghĩ như thế, lòng tôi nhẹ nhõm vì thấy sự bình yên trong suy nghĩ
+
 #### **Giải pháp**
 > *"Tha thứ, mong họ hạnh phúc"*  
 > -- Đó là cách tôi suy nghĩ
