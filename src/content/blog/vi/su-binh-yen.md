@@ -16,6 +16,10 @@ collection: vi
 * *“Từ đó, tôi cảm nhận được sự yên bình“*
 * *“Từ đó, tôi liên kết những thứ đã học“*
 
+* *“Tại sao mình muốn hại họ?“*
+* *“Tại sao mình muốn công bằng?“*
+* *"Tại sao mình (sắp, đang, đã) hại họ, đầu mình vẫn đau nhức?"*
+
 * *“Tôi đã hiểu được tại sao..., tôi yêu quý mọi người nhường nào“*
 
 > Đây là Lí do Bài Viết này được Tồn Tại  
@@ -37,6 +41,16 @@ Chúng ta bận rộn theo đuổi **sự xưng đột**.
 Không cảm nhận được thế giới quan.  
 Không còn nghĩ tích cực được.
 :::
+  
+:::info[Nguyên nhân khoa học]
+- State-dependent Memory
+- ACC
+- Ínsula
+- Amygdala
+- Cortíol
+- Serotonin
+:::
+
 
 ### *"Tại sao ta cần sự bình yên?"*
 
@@ -59,6 +73,7 @@ Không còn nghĩ tích cực được.
 - **Lấy lại**: 
   - Nụ cười
   - Thời gian
+  - Có thể tự động suy nghĩ người mình quý 
 :::  
 
 ## Câu hỏi
