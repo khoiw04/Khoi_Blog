@@ -103,6 +103,14 @@ const labelShow = configTranslations.tooltipNavbarSummaryOff;
     )
 }
 
+<style is:inline>
+    .prose h2,
+    .prose h3,
+    .prose h4 {
+        scroll-margin-top: 40vh;
+    }
+</style>
+
 <script>
     const INITIAL_OVERVIEW_TEXT = "Overview";
     const HEADER_OFFSET = 102 + 36;
@@ -251,6 +259,34 @@ const labelShow = configTranslations.tooltipNavbarSummaryOff;
                     } else {
                         tocItem.classList.remove("text-foreground");
                     }
+
+                    item.addEventListener("click", (e) => {
+                        e.preventDefault();
+
+                        const href = (item as HTMLAnchorElement).getAttribute(
+                            "href",
+                        );
+                        if (!href) return;
+
+                        const targetElement = document.querySelector(href);
+                        if (targetElement) {
+                            const elementPosition =
+                                targetElement.getBoundingClientRect().top +
+                                window.scrollY;
+                            const offsetPosition =
+                                elementPosition -
+                                window.innerHeight / 2 +
+                                targetElement.clientHeight / 2;
+
+                            window.scrollTo({
+                                top: offsetPosition,
+                                behavior: "smooth",
+                            });
+                        }
+
+                        if (state.detailsElement)
+                            state.detailsElement.open = false;
+                    });
                 });
 
             if (headingIds.length > 0) {

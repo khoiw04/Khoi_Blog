@@ -57,6 +57,7 @@ export const ui = {
     "tooltip.navbar.lightThemeOff": "Chuyển sang chế độ tối",
     "tooltip.navbar.summaryOn": "Đóng Table of Contents",
     "tooltip.navbar.summaryOff": "Mở Table of Contents",
+    more: "Xem thêm",
   },
   en: {
     "nav.home": "Home",
@@ -110,5 +111,6 @@ export const ui = {
     "tooltip.navbar.lightThemeOff": "Switch to dark theme",
     "tooltip.navbar.summaryOn": "Close Table of Contents",
     "tooltip.navbar.summaryOff": "Open Table of Contents",
+    more: "More",
   },
 } as const;

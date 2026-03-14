@@ -17,9 +17,7 @@ import { themeConfig } from "@/config";
         <main>
             <article>
                 <div>
-                    <h1 class="font-[Editorial] mb-10 pl-4 md:pl-0">
-                        Changelog
-                    </h1>
+                    <h1 class="font-[Editorial] mb-10 pl-4">Changelog</h1>
                     <hr class="mb-10" />
                     <slot />
                 </div>
@@ -43,20 +41,20 @@ import { themeConfig } from "@/config";
 </style>
 
 <style is:inline>
-    ul {
+    article ul {
         list-style-type: circle;
         padding-left: -1.6rem; /* thụt vào */
         margin: 2rem 0; /* khoảng cách trên dưới */
         list-style-position: inside;
     }
 
-    li {
+    article li {
         margin-bottom: 0.5rem; /* cách dòng */
         line-height: 1.6; /* thoáng mắt */
     }
 
     /* dòng cuối không cần margin */
-    li:last-child {
+    article li:last-child {
         margin-bottom: 0;
     }
 </style>

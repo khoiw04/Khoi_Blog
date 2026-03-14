@@ -17,6 +17,7 @@ import rehypeAstroRelativeLinks from "./src/plugins/rehype-astro-relative-links.
 import remarkGridColumnClass from "./src/plugins/remark-grid-column-class.ts";
 import remarkAdmonitions from "./src/plugins/remark-admonitions.mjs";
 import tailwindcss from "@tailwindcss/vite";
+import compress from "astro-compress";
 
 import expressiveCode from "astro-expressive-code";
 import { imageConfig } from "./src/lib/image-config.js";
@@ -71,7 +72,11 @@ export default defineConfig({
       filter: (page) => !page.includes("/mail/"),
     }),
     react(),
-    (await import("astro-compress")).default(),
+    compress({
+      HTML: {
+        removeComments: false,
+      },
+    }),
   ],
   vite: {
     plugins: [tailwindcss()],
@@ -97,7 +102,7 @@ export default defineConfig({
     "/go/zen-tab-search":
       "https://addons.mozilla.org/en-US/firefox/addon/zen-tab-search/",
     "/go/scripts/wallhotkey.ahk":
-      "https://github.com/khoiw04/cinnamon-theme/blob/main/wallhotkey.ahk",
+      "https://github.com/khoiw04/cinnamon-theme/blob/main/AutoHotKey/change-wallpaper.ahk",
   },
   env: {
     schema: {
@@ -126,6 +131,10 @@ export default defineConfig({
         access: "secret",
       }),
       TURNSTILE_SECRETKEY: envField.string({
+        context: "server",
+        access: "secret",
+      }),
+      WALINE_SITE_URL: envField.string({
         context: "server",
         access: "secret",
       }),

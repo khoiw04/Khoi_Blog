@@ -6,21 +6,22 @@ import FormattedDate from "@/components/Layouts/FormattedDate.astro";
 import Header from "@/components/Layouts/Header.astro";
 import { useGetTranslations } from "@/i18n";
 import LayoutBlog from "@/components/Layouts/LayoutBlog.astro";
+import WalineComments from "@/components/Layouts/WalineComments.astro";
+import ImageViewer from "@/components/Layouts/ImageViewer.astro";
 import { themeConfig } from "@/config";
 import { Picture } from "astro:assets";
 
 type Props = CollectionEntry<"blog">["data"];
 
+const path = Astro.url.pathname;
 const configTranslations = useGetTranslations(Astro);
 const { title, description, pubDate, heroImage } = Astro.props;
 ---
 
 <html lang={configTranslations.lang as string}>
     <head>
-        <!-- Thanks to Astro for Framework -->
         <!-- Thanks to Chiri for Code Template -->
         <!-- Thanks to Enscribe.dev for TOB Template -->
-        <!-- Thanks to Shadui for Component Template -->
         <!-- Thanks to wwanname for Effect Template -->
         <!-- Thanks to devaslife for Grid Template -->
         <BaseHead title={title} image={heroImage} description={description} />
@@ -36,7 +37,19 @@ const { title, description, pubDate, heroImage } = Astro.props;
                     <div class="title">
                         <div class="date">
                             <h1 class="font-[Editorial]">{title}</h1>
-                            <FormattedDate date={pubDate} />
+                            <span
+                                class="flex flex-row items-center justify-center"
+                            >
+                                <FormattedDate date={pubDate} />
+                                <span class="mx-2">•</span>
+                                <p class="my-0!">
+                                    <span
+                                        class="waline-pageview-count"
+                                        data-path={path}>0</span
+                                    >
+                                    view
+                                </p>
+                            </span>
                         </div>
                         <hr />
                     </div>
@@ -53,8 +66,10 @@ const { title, description, pubDate, heroImage } = Astro.props;
                         )
                     }
                     <slot />
+                    <WalineComments client:visible />
                 </div>
             </article>
+            {themeConfig.post.imageViewer && <ImageViewer />}
         </main>
         {themeConfig.general.footer && <Footer hiddenBorder={false} />}
     </body>

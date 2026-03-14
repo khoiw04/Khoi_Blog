@@ -1,0 +1,256 @@
+---
+import { WALINE_SITE_URL } from "astro:env/server";
+
+const pathname = Astro.url.pathname.replace(/\/$/, "");
+const { path = pathname } = Astro.props;
+
+const segments = pathname.split("/");
+const currentLang =
+    segments[1] === "vi" || segments[1] === "en" ? segments[1] : "vi";
+
+const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
+---
+
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@waline/client@v3/dist/waline.css"
+/>
+
+<div id="waline-comments"></div>
+
+<script is:inline type="module" define:vars={{ path, serverURL, currentLang }}>
+    import { init } from "https://cdn.jsdelivr.net/npm/@waline/client@v3/+esm";
+
+    init({
+        el: "#waline-comments",
+        serverURL: serverURL,
+        path: path,
+        lang: currentLang,
+        login: "force",
+        locale: {
+            reactionTitle:
+                currentLang === "vi"
+                    ? "Bạn thấy bài viết này thế nào?"
+                    : "What do you think?",
+            placeholder:
+                currentLang === "vi"
+                    ? "Viết bình luận của bạn... (hỗ trợ Markdown)"
+                    : "Write a comment... (Markdown supported)",
+        },
+        emoji: [
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-people",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-body",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-flag",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/tw-food",
+        ],
+        reaction: [
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_smitten.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_cheer.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_work.webp",
+            "https://cdn.jsdelivr.net/npm/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_angry.webp",
+        ],
+        dark: "html.dark",
+        pageSize: 10,
+        imageUploader: false,
+        pageview: true,
+    });
+</script>
+
+<style is:global>
+    :root {
+        --waline-color: var(--primary) !important;
+        --waline-active-color: var(--active-bg) !important;
+        --waline-bg-color: var(--background) !important;
+        --waline-bg-color-light: var(--background) !important;
+        --waline-border-color: var(--border) !important;
+        --waline-theme-color: var(--active-bg) !important;
+        --waline-white: var(--primary) !important;
+    }
+
+    .wl-cards {
+        font-family: "Atkinson", sans-serif !important;
+    }
+
+    .wl-active,
+    .wl-btn:hover,
+    .wl-action.active,
+    .wl-send-btn,
+    .wl-action[data-type="write"]:hover {
+        background-color: var(--active-bg);
+        color: var(--active-fg);
+    }
+
+    .wl-editor {
+        height: 180px !important;
+        min-height: 150px !important;
+        padding-bottom: 1rem !important;
+        border-radius: var(--radius);
+        background: var(--input);
+        border: 1px solid var(--border);
+        color: var(--foreground);
+        padding: 1rem;
+    }
+
+    .wl-editor:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px rgba(var(--primary), 0.15);
+    }
+
+    #waline-comments {
+        margin-top: 3.5rem;
+        padding-top: 2rem;
+        margin-bottom: 20rem;
+        border-top: 1px solid var(--border);
+    }
+
+    .wl-btn {
+        border-radius: 6px;
+        font-weight: 600;
+        transition: transform 0.2s ease;
+    }
+
+    .wl-btn:focus {
+        border: 1px solid var(--border) !important;
+        color: var(--active-fg) !important;
+    }
+
+    .wl-btn:hover {
+        border: 1px solid var(--border) !important;
+        color: var(--active-fg) !important;
+    }
+
+    .wl-btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .wl-user-avatar {
+        margin: 0 auto !important;
+    }
+
+    .wl-action:focus {
+        color: var(--active-fg) !important;
+    }
+
+    .wl-action:hover {
+        color: var(--active-fg) !important;
+    }
+
+    .wl-card-item {
+        padding-top: 1rem;
+    }
+
+    .wl-rss,
+    .wl-subscribe,
+    a[href*="rss"],
+    a[href*="/feed"],
+    a[href*="/rss.xml"] {
+        display: none !important;
+    }
+
+    .wl-count {
+        display: none !important;
+    }
+
+    .wl-meta-head {
+        display: none !important;
+    }
+
+    .wl-cards {
+        margin-top: 5rem !important;
+    }
+
+    .wl-card .wl-comment-actions {
+        float: none !important;
+    }
+
+    .wl-meta-foot {
+        display: none !important;
+    }
+
+    .wl-meta {
+        display: none !important;
+    }
+
+    .wl-rss,
+    .wl-rss a,
+    .wl-power,
+    .wl-power a {
+        display: none !important;
+    }
+
+    .wl-preview,
+    .wl-preview-container,
+    .wl-editor-preview,
+    .wl-markdown-preview {
+        display: none !important;
+    }
+
+    .wl-action[title="Preview"],
+    .wl-action[title="Preview"] * {
+        display: none !important;
+    }
+
+    .wl-action[title="Markdown Guide"] {
+        display: none !important;
+    }
+
+    .wl-text-number {
+        display: none !important;
+    }
+
+    .wl-login-nick img {
+        margin: 0rem auto;
+    }
+
+    li.wl-reaction-item::before {
+        content: "" !important;
+    }
+
+    .wl-reaction-list {
+        margin-top: 1rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    [data-waline] a {
+        color: inherit !important;
+    }
+
+    .wl-comment-actions button:hover {
+        color: var(--active-fg) !important;
+    }
+
+    .wl-content div p {
+        margin: 0 0 !important;
+    }
+
+    .wl-comment-actions .wl-like {
+        padding-right: 0.75rem !important;
+    }
+
+    .wl-time::before {
+        content: "" !important;
+    }
+
+    .wl-user {
+        margin-inline-end: 1.5rem !important;
+    }
+
+    .wl-reaction-votes {
+        color: var(--active-fg) !important;
+    }
+
+    .wl-content .wl-emoji {
+        height: 2rem !important;
+        translate: 0 0.5rem;
+    }
+
+    .wl-delete {
+        color: var(--destructive) !important;
+    }
+
+    .wl-login-nick {
+        height: var(--waline-avatar-size);
+    }
+</style>

@@ -18,8 +18,7 @@ const configTranslations = useGetTranslations(Astro);
         />
     </head>
     <body>
-        <Header lang={configTranslations.lang} />
-        <main class="flex flex-col items-center justify-center">
+        <main class="flex flex-col h-dvh items-center justify-center">
             <h1 class="font-[Editorial] mb-4 text-center">
                 Khoi Nguyen - Beta
             </h1>
@@ -31,6 +30,12 @@ const configTranslations = useGetTranslations(Astro);
                 <a href={`/en`}>English</a>
             </div>
         </main>
-        {themeConfig.general.footer && <Footer showRegister={false} />}
     </body>
 </html>
+
+<style is:inline>
+    body {
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
+</style>
