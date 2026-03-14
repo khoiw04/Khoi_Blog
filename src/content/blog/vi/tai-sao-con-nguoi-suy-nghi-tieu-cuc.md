@@ -15,7 +15,7 @@ collection: vi
 ## Khái niệm
 
 - **Negative Bias** là một hiện tượng tâm lý trong đó con người thường có xu hướng đánh giá và phản ứng với thông tin tiêu cực hơn so với thông tin tích cực.
-- **ACC (Vỏ não đai trước)**: Nhằm quyết định hành vi, phát hiện lỗi / xưng đột. 
+- **ACC (Vỏ não đai trước)**: Nhằm quyết định hành vi, phát hiện lỗi / xung đột. 
 - **PCC (Vỏ não đai sau)**: Nhằm tạo suy nghĩ, liên kết thông tin đang có. 
 - State-Dependent Memory: Trí nhớ dựa trên cảm xúc.
 
@@ -51,7 +51,7 @@ Nhờ **State-Dependent Memory**, não bộ lựa chọn những suy nghĩ tiêu
 :::
 
 Từ đó, ta có một vòng lặp sau:
-PCC -> Suy nghĩ tiêu cực -> Amygdala báo động -> ACC -> Phát hiện xưng đột mà chọn bám theo suy nghĩ đó -> PCC -> Suy nghĩ tiêu cực -> Amygdala báo động -> ACC -> Phát hiện xưng đột mà chọn bám theo suy nghĩ đó...
+PCC -> Suy nghĩ tiêu cực -> Amygdala báo động -> ACC -> Phát hiện xung đột mà chọn bám theo suy nghĩ đó -> PCC -> Suy nghĩ tiêu cực -> Amygdala báo động -> ACC -> Phát hiện xung đột mà chọn bám theo suy nghĩ đó...
 
 ![Vòng lặp suy nghĩ tiêu cực](/imgs/pngs/tai-sao-con-nguoi-lai-suy-nghi-tieu-cuc/vong-lap-suy-nghi.png)
 
