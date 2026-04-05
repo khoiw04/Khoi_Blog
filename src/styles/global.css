@@ -5,13 +5,14 @@
 @import "./effect.css";
 @import "./admonition.css";
 @import "./post.css";
+@import "./details.css";
 @plugin "daisyui";
 @config "../../tailwind.config.js";
 
 @custom-variant dark (&:is(.dark *));
 
 :root body {
-    padding-top: 15.6rem;
+    margin-top: 15.6rem;
     padding-bottom: 7rem;
 }
 

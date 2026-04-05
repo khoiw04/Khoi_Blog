@@ -1,0 +1,55 @@
+.prose details > summary {
+    list-style: none;
+}
+.prose details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.prose details {
+    margin: var(--spacing-m) 0 16px 0;
+}
+
+.prose details > summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    margin-left: -8px;
+    border-radius: var(--radius);
+    color: var(--foreground);
+    font-weight: var(--font-weight-bold);
+    transition: background-color 0.2s ease;
+    user-select: none;
+}
+
+.prose details > summary:hover {
+    background-color: var(--muted);
+}
+
+.prose details > summary > h1,
+.prose details > summary > h2,
+.prose details > summary > h3,
+.prose details > summary > h4 {
+    margin: 0;
+    color: inherit;
+}
+
+.prose details > summary::before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 8px;
+    color: var(--muted-foreground);
+    font-size: 1.2em;
+    transition: transform 0.2s ease;
+}
+
+.prose details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.prose details[open] > *:not(summary) {
+    margin-top: 8px;
+    margin-left: 24px;
+    padding-left: 12px;
+    /*border-left: 2px solid var(--border);*/
+}
