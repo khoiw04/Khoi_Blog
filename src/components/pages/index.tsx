@@ -23,6 +23,7 @@ export default function HeaderIndex({ configTranslations }: HeaderIndexType) {
         </div>
         <div>
           <button
+            title="Found inner peace"
             type="button"
             className="bg-accent text-sm h-full px-4 py-1 mb-4 cursor-pointer rounded-full"
           >

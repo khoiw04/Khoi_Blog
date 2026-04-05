@@ -52,7 +52,11 @@ const { hiddenBorder = true } = Astro.props;
 
 <script>
     const header = document.getElementById("smart-header");
+
+    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+    const START_SCROLL = 15.6 * rem;
     const MAX_HIDE = 32;
+
     let lastScrollY = window.scrollY;
     let currentTranslateY = 0;
     let isHovered = false;
@@ -61,6 +65,15 @@ const { hiddenBorder = true } = Astro.props;
         if (!header) return;
 
         const scrollY = window.scrollY;
+
+        // chưa cuộn đủ 15.6rem -> header luôn hiện
+        if (scrollY < START_SCROLL) {
+            currentTranslateY = 0;
+            header.style.transform = "translateY(0px)";
+            lastScrollY = scrollY;
+            return;
+        }
+
         const diff = scrollY - lastScrollY;
         lastScrollY = scrollY;
 
@@ -74,33 +87,9 @@ const { hiddenBorder = true } = Astro.props;
         }
     }
 
-    header?.addEventListener("mouseenter", () => {
-        isHovered = true;
-        header.style.transition = "transform 0.2s ease-out";
-        header.style.transform = `translateY(0px)`;
-    });
-
-    header?.addEventListener("mouseleave", () => {
-        isHovered = false;
-
-        if (window.scrollY > MAX_HIDE) {
-            currentTranslateY = -MAX_HIDE;
-        }
-
-        header.style.transform = `translateY(${currentTranslateY}px)`;
-
-        setTimeout(() => {
-            if (!isHovered) {
-                header.style.transition = "none";
-            }
-        }, 200);
-    });
-
     window.addEventListener(
         "scroll",
-        () => {
-            window.requestAnimationFrame(handleScroll);
-        },
+        () => requestAnimationFrame(handleScroll),
         { passive: true },
     );
 </script>
