@@ -16,6 +16,8 @@ import rehypeImageProcessor from "./src/plugins/rehype-image-processor.mjs";
 import rehypeAstroRelativeLinks from "./src/plugins/rehype-astro-relative-links.js";
 import remarkGridColumnClass from "./src/plugins/remark-grid-column-class.ts";
 import remarkAdmonitions from "./src/plugins/remark-admonitions.mjs";
+import remarkCollapse from "./src/plugins/remark-collapse.ts";
+import rehypeArrows from "./src/plugins/rehype-arrows-replace.ts";
 import tailwindcss from "@tailwindcss/vite";
 import compress from "astro-compress";
 
@@ -29,10 +31,12 @@ const plugins = {
     remarkGridColumnClass,
     remarkAdmonitions,
     remarkEmbeddedMedia,
+    remarkCollapse,
     remarkMath,
   ],
   rehypePlugins: [
     rehypeKatex,
+    rehypeArrows,
     rehypeCleanup,
     rehypeImageProcessor,
     rehypeAddButtonClass,
@@ -72,11 +76,7 @@ export default defineConfig({
       filter: (page) => !page.includes("/mail/"),
     }),
     react(),
-    compress({
-      HTML: {
-        removeComments: false,
-      },
-    }),
+    compress(),
   ],
   vite: {
     plugins: [tailwindcss()],
@@ -84,6 +84,9 @@ export default defineConfig({
   i18n: {
     locales: ["vi", "en"],
     defaultLocale: "vi",
+    routing: {
+      prefixDefaultLocale: true,
+    },
   },
   output: "server",
   adapter: cloudflare({
