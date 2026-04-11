@@ -63,7 +63,7 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
         --waline-color: var(--primary) !important;
         --waline-active-color: var(--active-bg) !important;
         --waline-bg-color: var(--background) !important;
-        --waline-bg-color-light: var(--background) !important;
+        /*--waline-bg-color-light: var(--primary-foreground) !important;*/
         --waline-border-color: var(--border) !important;
         --waline-theme-color: var(--active-bg) !important;
         --waline-white: var(--primary) !important;
@@ -109,6 +109,7 @@ const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
         border-radius: 6px;
         font-weight: 600;
         transition: transform 0.2s ease;
+        background: var(--primary-foreground);
     }
 
     .wl-btn:focus {
