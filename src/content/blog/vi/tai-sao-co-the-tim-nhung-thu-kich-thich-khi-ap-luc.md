@@ -3,7 +3,7 @@ title: 'Tại sao Cơ Thể tìm Kích Thích khi Áp Lực?'
 pubDate: 'Oct 03 2025'
 description: 'Bài viết này nói lên Tại sao Càng Làm Càng Quen'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

@@ -3,7 +3,7 @@ title: 'Động Lực x Cơ Hội'
 pubDate: 'Oct 02 2025'
 description: 'Bài viết này nói lên Cách để đạt điều Mình Muốn'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Tò Mò"]
+tags: ["Tò Mò", "Tâm Thần"]
 collection: vi
 ---
 

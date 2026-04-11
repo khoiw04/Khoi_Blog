@@ -3,7 +3,7 @@ title: 'Cãi Nhanh, Thắng Nhanh'
 pubDate: 'Oct 02 2025'
 description: 'Bài viết này nói lên Tại sao Cãi Nhanh, Thắng Nhanh có thể "Thắng Nhanh"'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

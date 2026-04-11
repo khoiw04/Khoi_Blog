@@ -3,7 +3,7 @@ title: 'Làm điều tốt nhất có thể, vui thật'
 pubDate: 'Feb 23 2026'
 description: 'Bài viết này nói lên Tại sao làm điều tốt nhất lại giúp ích cho sức khỏe tâm lí, không còn ám ảnh gì nữa.'
 heroImage: 'public/imgs/pngs/lam-dieu-to-nhat-co-the/teo_crawford_relaxing_sitting_on_the_grass.png'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 <div align="center" class="mb-24">

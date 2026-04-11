@@ -32,6 +32,7 @@ export function useGetTranslations(Astro: AstroGlobal) {
     searchCMDscience: t("searchCMD.heading.science"),
     searchCMDpost: t("searchCMD.heading.post"),
     searchCMDempty: t("searchCMD.empty"),
+    searchCMDpersonal: t("searchCMD.heading.personal"),
     title404: t("404.title"),
     description404: t("404.description"),
     contactShowError: t("contact.form.showError"),

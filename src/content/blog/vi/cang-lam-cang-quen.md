@@ -3,7 +3,7 @@ title: 'Càng Làm, Càng Quen'
 pubDate: 'Oct 02 2025'
 description: 'Bài viết này nói lên Tại sao Càng Làm Càng Quen'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

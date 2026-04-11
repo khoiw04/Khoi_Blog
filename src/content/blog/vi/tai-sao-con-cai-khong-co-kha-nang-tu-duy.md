@@ -3,7 +3,7 @@ title: 'Tại sao Con Cái không có khả năng Tư Duy?'
 pubDate: 'Oct 06 2025'
 description: 'Bài viết này nói lên Trẻ Con hiện giờ không có khả năng Tư Duy'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

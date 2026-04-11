@@ -3,7 +3,7 @@ title: 'Sự Bình Yên'
 pubDate: 'Mar 01 2026'
 description: 'Giờ đây, tôi đã hiểu sự bình yên là gì? Đã suốt 6 năm trải qua, tôi đã hiểu được như nào gọi là Inner Peace'
 heroImage: 'public/imgs/pngs/su-binh-yen/card_preview.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

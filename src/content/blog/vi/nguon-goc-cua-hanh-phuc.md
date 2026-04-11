@@ -3,7 +3,7 @@ title: 'Nguồn Gốc của Hạnh Phúc'
 pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên nguyên nhân Ta Hạnh Phúc'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 
@@ -148,4 +148,4 @@ Hạnh Phúc cuối cùng đến từ Cảm thấy Tốt và Cảm thấy Đúng
 | **Seligman & Csikszentmihalyi (2000) – Positive Psychology: An Introduction** | Bài viết khai sinh ngành Tâm lý học Tích cực. Phân biệt giữa hạnh phúc khoái cảm (hedonic) và hạnh phúc ý nghĩa (eudaimonic). Nhấn mạnh rằng hạnh phúc đến từ việc sống có mục tiêu, phát triển năng lực và kết nối xã hội. | [Xem tại đây](https://doi.org/10.1037/0003-066X.55.1.5) | 
 | **Ryan & Deci (2001) – On Happiness and Human Potentials: A Review of Research on Hedonic and Eudaimonic Well-being** | Tổng hợp các nghiên cứu về hai dạng hạnh phúc. Khẳng định rằng hạnh phúc bền vững đến từ việc sống đúng với giá trị cá nhân, phát triển năng lực nội tại và cảm giác tự chủ. | [Xem tại đây](https://selfdeterminationtheory.org/SDT/documents/2001_RyanDeci_Happiness.pdf) | 
 | **Neuroscience Bulletin – Hypothalamic Oxytocin System** | Mô tả hệ thống oxytocin vùng dưới đồi, cách các tế bào thần kinh lan tỏa đến nhiều vùng não và hoạt động qua thụ thể oxytocin để điều chỉnh cảm xúc và hành vi xã hội. | [Xem tại đây](https://link.springer.com/article/10.1007/s12264-025-01424-1) | 
-| **Oxford Research Encyclopedia – Oxytocin and Vasopressin in Social Behavior** | Tổng quan về vai trò của oxytocin trong điều hòa hành vi xã hội, trí nhớ xã hội và phản ứng cảm xúc, đồng thời phân tích sự tương tác giữa oxytocin và hệ serotoninergic trong não. | [Xem tại đây](https://oxfordre.com/neuroscience/display/10.1093/acrefore/9780190264086.001.0001/acrefore-9780190264086-e-10) |  
+| **Oxford Research Encyclopedia – Oxytocin and Vasopressin in Social Behavior** | Tổng quan về vai trò của oxytocin trong điều hòa hành vi xã hội, trí nhớ xã hội và phản ứng cảm xúc, đồng thời phân tích sự tương tác giữa oxytocin và hệ serotoninergic trong não. | [Xem tại đây](https://oxfordre.com/neuroscience/display/10.1093/acrefore/9780190264086.001.0001/acrefore-9780190264086-e-10) |

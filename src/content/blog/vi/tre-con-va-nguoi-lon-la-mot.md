@@ -3,7 +3,7 @@ title: 'Trẻ Con và Người Lớn là Một'
 pubDate: 'Oct 04 2025'
 description: 'Bài viết này nói lên tại sao Người Lớn vẫn chỉ là Trẻ Con'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 

@@ -3,7 +3,7 @@ title: 'Hiểu, Nhớ, Tin là Một'
 pubDate: 'Sep 30 2025'
 description: 'Bài viết này nói lên nguyên nhân của Hiểu, Nhớ, Tin'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 
@@ -94,4 +94,4 @@ Vậy nên mỗi lần Hiểu đều liên tưởng những thứ khác
 | --- | --- | --- | --- | 
 | **Nhớ** | *Benjamin Enke et al. (2020) – Associative Memory and Belief Formation* | Nghiên cứu tại NBER cho thấy ký ức không chỉ là lưu trữ thông tin, mà còn bị ảnh hưởng bởi ngữ cảnh và sự liên kết — từ đó hình thành niềm tin. | [Xem tại đây](https://www.nber.org/papers/w26664) | 
 | **Tin** | *Connors & Halligan (2022) – Revealing the Cognitive Neuroscience of Belief* | Nghiên cứu tại Frontiers phân tích quá trình hình thành niềm tin qua 5 giai đoạn nhận thức, cho thấy niềm tin là kết quả của xử lý thông tin, cảm xúc, và mạng lưới ký ức. | [Xem tại đây](https://www.frontiersin.org/articles/10.3389/fnbeh.2022.926742/full) | 
-| **Hiểu** | *Eichenbaum (2017) – Memory Traces Revisited* | Mô tả cách hippocampus tạo ra bản đồ nhận thức bằng cách liên kết thông tin theo thời gian, không gian và ngữ cảnh — nền tảng cho Hiểu Sâu. | [Xem tại đây](https://www.nature.com/articles/35044572) | 
+| **Hiểu** | *Eichenbaum (2017) – Memory Traces Revisited* | Mô tả cách hippocampus tạo ra bản đồ nhận thức bằng cách liên kết thông tin theo thời gian, không gian và ngữ cảnh — nền tảng cho Hiểu Sâu. | [Xem tại đây](https://www.nature.com/articles/35044572) |

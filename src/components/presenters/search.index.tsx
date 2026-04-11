@@ -1,7 +1,4 @@
-import {
-  ArrowUpRightIcon,
-  SearchIcon,
-} from "lucide-react"
+import { ArrowUpRightIcon, SearchIcon } from "lucide-react";
 
 import {
   CommandDialog,
@@ -10,26 +7,26 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command"
-import { Button } from "@/components/ui/button"
-import type { SearchTypeProps } from "@/types"
-import { devtagsObj, sciencetagsObj } from "@/data"
-import useMenuOpen from "@/components/container/useMenuOpen"
+} from "@/components/ui/command";
+import { Button } from "@/components/ui/button";
+import type { SearchTypeProps } from "@/types";
+import { devtagsObj, personalTagsObj, sciencetagsObj } from "@/data";
+import useMenuOpen from "@/components/container/useMenuOpen";
 
-export default function Component({ posts, configTranslations }: SearchTypeProps) {
-  const { open, setOpen } = useMenuOpen()
+export default function Component({
+  posts,
+  configTranslations,
+}: SearchTypeProps) {
+  const { open, setOpen } = useMenuOpen();
 
   return (
     <>
       <Button
-        variant='ghost'
+        variant="ghost"
         className="translate-x-1/8"
         onClick={() => setOpen(true)}
       >
-        <SearchIcon
-          size={16}
-          aria-hidden="true"
-        />
+        <SearchIcon size={16} aria-hidden="true" />
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder={configTranslations.searchCMDplaceholder} />
@@ -43,7 +40,7 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
                 <CommandItem
                   onSelect={() => {
                     window.location.href = `/${configTranslations.lang}/tag/${name.toLowerCase()}`;
-                  }}                
+                  }}
                 >
                     <tag.icon
                       size={16}
@@ -57,38 +54,75 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
           </CommandGroup> */}
           <CommandGroup heading={configTranslations.searchCMDscience}>
             {sciencetagsObj.map((tag, i) => {
-              const name = configTranslations.lang === 'vi' ? tag.nameVi : tag.nameEn
-              return (
-              <a key={`tags_${i}`} href={`/${configTranslations.lang}/tag/${name}`}>
-                <CommandItem
-                  onSelect={() => {
-                    window.location.href = `/${configTranslations.lang}/tag/${name}`;
-                  }}                
-                >
-                    <tag.icon
-                      size={16}
-                      aria-hidden="true"
-                      className="opacity-60"
-                    />
-                    <span>{name}</span>
-                </CommandItem>
-              </a>
-            )})}
+              const name =
+                configTranslations.lang === "vi" ? tag.nameVi : tag.nameEn;
+              if (!tag.hide) {
+                return (
+                  <a
+                    key={`tags_${i}`}
+                    href={`/${configTranslations.lang}/tag/${name}`}
+                  >
+                    <CommandItem
+                      onSelect={() => {
+                        window.location.href = `/${configTranslations.lang}/tag/${name}`;
+                      }}
+                    >
+                      <tag.icon
+                        size={16}
+                        aria-hidden="true"
+                        className="opacity-60"
+                      />
+                      <span>{name}</span>
+                    </CommandItem>
+                  </a>
+                );
+              }
+            })}
+          </CommandGroup>
+          <CommandGroup heading={configTranslations.searchCMDpersonal}>
+            {personalTagsObj.map((tag, i) => {
+              const name =
+                configTranslations.lang === "vi" ? tag.nameVi : tag.nameEn;
+              if (!tag.hide) {
+                return (
+                  <a
+                    key={`tags_${i}`}
+                    href={`/${configTranslations.lang}/tag/${name}`}
+                  >
+                    <CommandItem
+                      onSelect={() => {
+                        window.location.href = `/${configTranslations.lang}/tag/${name}`;
+                      }}
+                    >
+                      <tag.icon
+                        size={16}
+                        aria-hidden="true"
+                        className="opacity-60"
+                      />
+                      <span>{name}</span>
+                    </CommandItem>
+                  </a>
+                );
+              }
+            })}
           </CommandGroup>
           <CommandGroup heading={configTranslations.searchCMDpost}>
             {posts.map((post, i) => (
-              <a href={`/${configTranslations.lang}/blog/${post.slug}`} key={`blog_${i}`}>
+              <a
+                href={`/${configTranslations.lang}/blog/${post.slug}`}
+                key={`blog_${i}`}
+              >
                 <CommandItem
                   onSelect={() => {
                     window.location.href = `/${configTranslations.lang}/blog/${post.slug}`;
                   }}
                 >
-                    <ArrowUpRightIcon
-                        size={16}
-                        className="opacity-60"
-                        aria-hidden="true"
-                      />
-                    <span>{post.data.title}</span>
+                  <ArrowUpRightIcon
+                    size={16}
+                    className="opacity-60"
+                    aria-hidden="true"
+                  />
+                  <span>{post.data.title}</span>
                 </CommandItem>
               </a>
             ))}
@@ -96,5 +130,5 @@ export default function Component({ posts, configTranslations }: SearchTypeProps
         </CommandList>
       </CommandDialog>
     </>
-  )
+  );
 }

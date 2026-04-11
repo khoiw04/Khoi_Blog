@@ -3,7 +3,7 @@ title: 'Tại sao và Hậu quả Hại Người Khác'
 pubDate: 'Oct 03 2025'
 description: 'Bài viết này nói lên Tại sao Chúng Ta hại lẫn Nhau'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

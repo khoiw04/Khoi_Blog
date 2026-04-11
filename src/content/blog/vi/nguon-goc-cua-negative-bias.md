@@ -3,7 +3,7 @@ title: 'Tại sao phải là Negative Bias?'
 pubDate: 'Sep 29 2025'
 description: 'Bài viết này nói lên tại sao ta Yếu Đuối, Mệt Mỏi, Thèm Khát'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Nguồn Gốc", "Tại Sao"]
+tags: ["Nguồn Gốc", "Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

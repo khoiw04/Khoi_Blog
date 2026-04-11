@@ -3,7 +3,7 @@ title: 'Nguồn Gốc của Kỉ Luật'
 pubDate: 'Sep 26 2025'
 description: 'Bài viết này nói lên tại sao ta Yếu Đuối, Mệt Mỏi, Thèm Khát'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 

@@ -3,7 +3,7 @@ title: 'Nguồn Gốc của Áp Lực'
 pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên tại sao ta Yếu Đuối'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 
@@ -75,4 +75,4 @@ Bài viết tiếp theo là *[Tại sao Cơ thể luôn lướt Điện Thoại,
 | **Ghasemi F., Beversdorf D. Q., Herman K. C. (2024)** | Định nghĩa **stressors** là các tác nhân gây mất cân bằng nội môi; phân loại cấp tính và mãn tính | [Xem tại đây](https://doi.org/10.1177/18344909241289222) | 
 | **James K. A., Stromin J. I., Steenkamp N., Combrinck M. I. (2023)** | Mô hình Transactional stress: primary & secondary **appraisal** xác định phản ứng stress | [Xem tại đây](https://doi.org/10.3389/fendo.2023.1085950) | 
 | **PubMed Central – Chronic Stress and Cortisol** | Nghiên cứu cho thấy căng thẳng kéo dài làm tăng cortisol, **dẫn đến rối loạn giấc ngủ, suy giảm miễn dịch, tăng nguy cơ trầm cảm và các bệnh tim mạch**. | [Xem tại đây](https://pmc.ncbi.nlm.nih.gov/articles/PMC5579396) | 
-| **ScholarHub – Cortisol và phản ứng stress** | Tổng hợp các nghiên cứu khoa học về vai trò của **cortisol** trong điều hòa miễn dịch, chuyển hóa năng lượng, và ảnh hưởng đến hệ thần kinh. | [Xem tại đây](https://scholarhub.vn/topic/cortisol) | 
+| **ScholarHub – Cortisol và phản ứng stress** | Tổng hợp các nghiên cứu khoa học về vai trò của **cortisol** trong điều hòa miễn dịch, chuyển hóa năng lượng, và ảnh hưởng đến hệ thần kinh. | [Xem tại đây](https://scholarhub.vn/topic/cortisol) |

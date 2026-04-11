@@ -3,7 +3,7 @@ title: 'Kẻ Mạnh Nhất và Kẻ Thích Nghi: Ai Sống Lâu hơn?'
 pubDate: 'Oct 04 2025'
 description: 'Bài viết này nói lên Ưu Việt của Kẻ Thích Nghi'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

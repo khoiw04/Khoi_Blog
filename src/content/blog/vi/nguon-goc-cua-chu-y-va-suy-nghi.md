@@ -3,7 +3,7 @@ title: 'Nguồn Gốc của Chú Ý và Suy Nghĩ'
 pubDate: 'Sep 29 2025'
 description: 'Bài viết này nói lên tại sao ta hoài nghi về Chú Ý và Suy Nghĩ'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 

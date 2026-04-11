@@ -3,7 +3,7 @@ title: 'Con Và Người'
 pubDate: 'Oct 01 2025'
 description: 'Bài viết này nói lên Phần Người và Phần Con'
 heroImage: '../../../assets/blog-placeholder-3.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

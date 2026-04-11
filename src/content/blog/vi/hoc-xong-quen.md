@@ -3,7 +3,7 @@ title: 'Học xong Quên'
 pubDate: 'Oct 03 2025'
 description: 'Bài viết này nói lên Tại sao Học xong Quên'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

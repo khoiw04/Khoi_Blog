@@ -3,7 +3,7 @@ title: 'Vượt Qua Cơn Nghiện'
 pubDate: 'Feb 22 2026'
 description: 'Bài viết này nói lên cách vượt vượt qua Dopamine nền thấp'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

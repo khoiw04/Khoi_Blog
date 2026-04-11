@@ -3,7 +3,7 @@ title: 'Tại sao Con người Suy nghĩ Tiêu cực'
 pubDate: 'Feb 11 2026'
 description: 'Thực ra không phải do Negative Bias, nguyên nhân cốt lõi nằm ở cách não bộ con người hoạt động'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

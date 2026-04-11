@@ -3,7 +3,7 @@ title: 'Nguồn Gốc của Trưởng Thành'
 pubDate: 'Oct 01 2025'
 description: 'Bài viết này nói lên tại sao ta Tệ Hại, Vui Vẻ, Nhiệt Huyết'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 

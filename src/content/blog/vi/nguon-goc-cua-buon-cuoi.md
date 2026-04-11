@@ -3,7 +3,7 @@ title: 'Nguồn Gốc của Buồn Cười'
 pubDate: 'Sep 27 2025'
 description: 'Bài viết này nói lên tại sao ta Buồn Cười'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 
@@ -59,4 +59,4 @@ Giờ Tôi vẫn chưa hiểu tại sao tôi lại cười Dark Meme...
 | --- | --- | --- | 
 | Nature Neuroscience – “Explaining dopamine through prediction errors and beyond” | Bài viết phân tích sâu về **phasic dopamine** – tức là sự tăng đột ngột dopamine khi có phần thưởng bất ngờ. Đây chính là cơ chế “dopamine spike” bạn đang nói đến, dù họ dùng thuật ngữ “reward prediction error” (RPE). | [Xem tại đây](https://www.nature.com/articles/s41593-024-01705-4.pdf) | 
 | Neuroscience News – “Dopamine Surge Boosts Brain’s Ability to Adapt” | Nghiên cứu sử dụng PET scan để đo **sự tăng dopamine** trong não khi người tham gia chuyển đổi nhiệm vụ. Họ gọi đó là “dopamine surge” – một cách gọi tương đương với “dopamine spike”. | [Xem tại đây](https://neurosciencenews.com/dopamine-adaption-neuroscience-28518/) | 
-| Frontiers in Cellular Neuroscience – “The learning primacy hypothesis of dopamine” | Bài tổng hợp về vai trò của dopamine trong học tập và hành vi, có đề cập đến **dopaminergic bursts** trong quá trình nhận thưởng – rất gần với khái niệm “dopamine spike”. | [Xem tại đây](https://www.frontiersin.org/articles/10.3389/fncel.2025.1538500/full) | 
+| Frontiers in Cellular Neuroscience – “The learning primacy hypothesis of dopamine” | Bài tổng hợp về vai trò của dopamine trong học tập và hành vi, có đề cập đến **dopaminergic bursts** trong quá trình nhận thưởng – rất gần với khái niệm “dopamine spike”. | [Xem tại đây](https://www.frontiersin.org/articles/10.3389/fncel.2025.1538500/full) |

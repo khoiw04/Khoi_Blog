@@ -3,7 +3,7 @@ title: 'Tại sao Thế Hế Trẻ ngày càng Yếu Đuối?'
 pubDate: 'Oct 06 2025'
 description: 'Bài viết này nói lên tại sao Thế Hế Trẻ ngày càng Yếu Đuối?'
 heroImage: '../../../assets/blog-placeholder-4.jpg'
-tags: ["Tại Sao"]
+tags: ["Tại Sao", "Tâm Thần"]
 collection: vi
 ---
 

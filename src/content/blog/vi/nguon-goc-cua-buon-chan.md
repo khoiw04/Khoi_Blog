@@ -3,7 +3,7 @@ title: 'Nguồn Gốc của Buồn Chán'
 pubDate: 'Sep 29 2025'
 description: 'Bài viết này nói lên tại sao ta ghét Buồn Chán'
 heroImage: '../../../assets/blog-placeholder-2.jpg'
-tags: ["Nguồn Gốc"]
+tags: ["Nguồn Gốc", "Tâm Thần"]
 collection: vi
 ---
 
