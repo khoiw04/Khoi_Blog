@@ -14,6 +14,7 @@ import remarkEmbeddedMedia from "./src/plugins/remark-embedded-media.mjs";
 import rehypeAddButtonClass from "./src/plugins/rehype-add-button-class.js";
 import rehypeImageProcessor from "./src/plugins/rehype-image-processor.mjs";
 import rehypeAstroRelativeLinks from "./src/plugins/rehype-astro-relative-links.js";
+import rehypeOlStartCounter from "./src/plugins/rehype-ol-start-counter.ts";
 import remarkGridColumnClass from "./src/plugins/remark-grid-column-class.ts";
 import remarkAdmonitions from "./src/plugins/remark-admonitions.mjs";
 import remarkCollapse from "./src/plugins/remark-collapse.ts";
@@ -38,6 +39,7 @@ const plugins = {
     rehypeKatex,
     rehypeArrows,
     rehypeCleanup,
+    rehypeOlStartCounter,
     rehypeImageProcessor,
     rehypeAddButtonClass,
     rehypeAstroRelativeLinks,

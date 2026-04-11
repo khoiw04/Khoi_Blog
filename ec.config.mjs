@@ -18,7 +18,7 @@ export default defineEcConfig({
       collapseStyle: "collapsible-auto",
       showLineNumbers: false,
       overridesByLang: {
-        "js,ts,html,rust,ts,tsx,jsx": {
+        "js,ts,html,rust,ts,tsx,jsx,rs": {
           showLineNumbers: true,
         },
       },
@@ -69,7 +69,7 @@ export default defineEcConfig({
       tooltipSuccessBackground: ({ theme }) => "var(--accent)",
     },
   },
-  useDarkModeMediaQuery: true,
+  useDarkModeMediaQuery: false,
   themeCssSelector: (theme) => ".dark",
   minSyntaxHighlightingColorContrast: 5.8,
   shiki: {
