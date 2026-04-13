@@ -117,6 +117,9 @@
 
     --active-bg: oklch(0.2 0.048 184.704);
     --active-fg: oklch(0.6 0.118 184.704);
+
+    --active-bg: oklch(0.2 0.1 26);
+    --active-fg: oklch(0.8 0.1175 26);
 }
 
 @theme inline {
