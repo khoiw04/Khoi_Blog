@@ -5,7 +5,7 @@ import {
   NEWSLETTER_KHOI_BLOG_EN,
 } from "astro:env/server";
 import { defineAction } from "astro:actions";
-import { z } from "astro:schema";
+import { z } from "astro/zod";
 import { Resend } from "resend";
 
 const resend = new Resend(RESEND_API_KEY);
