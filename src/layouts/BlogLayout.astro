@@ -66,11 +66,7 @@ const { title, description, pubDate, heroImage } = Astro.props;
                         )
                     }
                     <slot />
-                    {
-                        !path.endsWith("/form") && (
-                            <WalineComments client:visible />
-                        )
-                    }
+                    {!path.endsWith("/form") && <WalineComments />}
                 </div>
             </article>
             {themeConfig.post.imageViewer && <ImageViewer />}
