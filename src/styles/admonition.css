@@ -1,5 +1,5 @@
 .admonition {
-    padding: 0rem 1.5rem;
+    padding: 0rem 1.5rem !important;
     margin: 1.5rem 0;
     border: 1px solid var(--border);
     /*border: 1px solid var(--sidebar-border);*/
