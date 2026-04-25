@@ -90,7 +90,7 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
-  output: "static",
+  output: "server",
   adapter: cloudflare({
     imageService: "compile",
   }),
