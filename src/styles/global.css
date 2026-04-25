@@ -27,9 +27,9 @@
     --font-serif:
         Besley, Baskerville, Georgia, Cambria, "Times New Roman", Times, serif;
 
-    --font-size-s: 0.8125rem;
-    --font-size-m: 0.9375rem;
-    --font-size-l: 1.0625rem;
+    --font-size-s: 0.875rem;
+    --font-size-m: 1rem;
+    --font-size-l: 1.125rem;
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -75,8 +75,8 @@
     --sidebar-border: oklch(0.95 0.004 286.32);
     --sidebar-ring: oklch(0.705 0.015 286.067);
 
-    --active-bg: oklch(91.483% 0.01938 41.573);
-    --active-fg: oklch(0.6 0.12 38.6);
+    --active-bg: oklch(86% 0.015 235);
+    --active-fg: oklch(42% 0.08 240);
 }
 
 .dark {
