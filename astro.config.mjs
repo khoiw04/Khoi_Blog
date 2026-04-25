@@ -87,7 +87,7 @@ export default defineConfig({
     locales: ["vi", "en"],
     defaultLocale: "vi",
     routing: {
-      prefixDefaultLocale: false,
+      prefixDefaultLocale: true,
     },
   },
   output: "server",
@@ -138,7 +138,6 @@ export default defineConfig({
       TURNSTILE_SECRETKEY: envField.string({
         context: "server",
         access: "secret",
-        optional: true,
       }),
       WALINE_SITE_URL: envField.string({
         context: "server",
