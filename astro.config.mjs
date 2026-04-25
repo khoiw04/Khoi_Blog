@@ -117,23 +117,23 @@ export default defineConfig({
       }),
       NEWSLETTER_KHOI_BLOG_EN: envField.string({
         context: "server",
-        access: "secret",
+        access: "public",
       }),
       NEWSLETTER_KHOI_BLOG_VI: envField.string({
         context: "server",
-        access: "secret",
+        access: "public",
       }),
       PUBLIC_SITE_URL: envField.string({
         context: "server",
-        access: "secret",
+        access: "public",
       }),
       DEV_SITE_URL: envField.string({
         context: "server",
-        access: "secret",
+        access: "public",
       }),
       TURNSTILE_SITEKEY: envField.string({
         context: "server",
-        access: "secret",
+        access: "public",
       }),
       TURNSTILE_SECRETKEY: envField.string({
         context: "server",
@@ -141,7 +141,7 @@ export default defineConfig({
       }),
       WALINE_SITE_URL: envField.string({
         context: "server",
-        access: "secret",
+        access: "public",
       }),
     },
   },

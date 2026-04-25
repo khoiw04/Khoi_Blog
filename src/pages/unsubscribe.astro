@@ -7,17 +7,18 @@ import Footer from "@/components/Layouts/Footer.astro";
 import { Resend } from "resend";
 import { useGetTranslations } from "@/i18n";
 import { themeConfig } from "@/config";
-import { RESEND_API_KEY } from "astro:env/server";
 
 let success = false;
 let errorDescription = "";
 const { url } = Astro;
 const token = url.searchParams.get("email");
 const configTranslations = useGetTranslations(Astro);
-const resend = new Resend(RESEND_API_KEY);
 
 if (token) {
     try {
+        const { RESEND_API_KEY } = await import("astro:env/server");
+        const resend = new Resend(RESEND_API_KEY);
+
         await resend.contacts.update({
             email: token,
             unsubscribed: true,
@@ -25,11 +26,8 @@ if (token) {
 
         success = true;
     } catch (err) {
-        errorDescription =
-            err?.message || err?.error?.message || JSON.stringify(err);
+        errorDescription = err?.message ?? "Error";
     }
-} else {
-    errorDescription = "Missing email";
 }
 ---
 
