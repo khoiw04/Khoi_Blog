@@ -114,42 +114,34 @@ export default defineConfig({
       RESEND_API_KEY: envField.string({
         context: "server",
         access: "secret",
-        optional: true,
       }),
       NEWSLETTER_KHOI_BLOG_EN: envField.string({
         context: "server",
         access: "public",
-        optional: true,
       }),
       NEWSLETTER_KHOI_BLOG_VI: envField.string({
         context: "server",
         access: "public",
-        optional: true,
       }),
       PUBLIC_SITE_URL: envField.string({
         context: "server",
         access: "public",
-        optional: true,
       }),
       DEV_SITE_URL: envField.string({
         context: "server",
         access: "public",
-        optional: true,
       }),
       TURNSTILE_SITEKEY: envField.string({
         context: "server",
         access: "public",
-        optional: true,
       }),
       TURNSTILE_SECRETKEY: envField.string({
         context: "server",
         access: "secret",
-        optional: true,
       }),
       WALINE_SITE_URL: envField.string({
         context: "server",
         access: "public",
-        optional: true,
       }),
     },
   },
