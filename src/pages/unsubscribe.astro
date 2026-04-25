@@ -17,7 +17,9 @@ const configTranslations = useGetTranslations(Astro);
 if (token) {
     try {
         const { RESEND_API_KEY } = await import("astro:env/server");
-        const resend = new Resend(RESEND_API_KEY);
+        const resend = new Resend(
+            RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build",
+        );
 
         await resend.contacts.update({
             email: token,

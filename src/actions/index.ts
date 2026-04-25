@@ -8,7 +8,9 @@ import { defineAction } from "astro:actions";
 import { z } from "astro/zod";
 import { Resend } from "resend";
 
-const resend = new Resend(RESEND_API_KEY);
+const resend = new Resend(
+  RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build",
+);
 
 const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeLxkB8RlhS5BqOOk3xWNoSlQrOBzH1i2Sb53SWtAcjEjwZ3A/formResponse";
