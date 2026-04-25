@@ -15,6 +15,7 @@ const blog = defineCollection({
       tags: z.array(z.enum(alltagsEnum)).optional(),
       collection: z.enum(["vi", "en"]),
       dev: z.boolean().optional(),
+      pin: z.boolean().optional(),
     }),
 });
 

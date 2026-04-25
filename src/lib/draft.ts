@@ -26,7 +26,9 @@ export async function getSortedFilteredBlog() {
   );
 }
 
-export async function getSortedVietnamBlog() {
+export async function getSortedVietnamBlog({
+  pin = false,
+}: { pin?: boolean } = {}) {
   const blog = await getSortedFilteredBlog();
   return blog
     .filter((post) => post.id.startsWith("vi/"))
