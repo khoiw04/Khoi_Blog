@@ -91,6 +91,9 @@ export default defineConfig({
     },
   },
   output: "static",
+  adapter: cloudflare({
+    imageService: "compile",
+  }),
   redirects: {
     "/go/zen": "https://zen-browser.app/",
     "/go/zed": "https://zed.dev/",
