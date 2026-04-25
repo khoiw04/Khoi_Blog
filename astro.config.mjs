@@ -114,7 +114,6 @@ export default defineConfig({
       RESEND_API_KEY: envField.string({
         context: "server",
         access: "secret",
-        optional: true,
       }),
       NEWSLETTER_KHOI_BLOG_EN: envField.string({
         context: "server",
@@ -139,7 +138,6 @@ export default defineConfig({
       TURNSTILE_SECRETKEY: envField.string({
         context: "server",
         access: "secret",
-        optional: true,
       }),
       WALINE_SITE_URL: envField.string({
         context: "server",
