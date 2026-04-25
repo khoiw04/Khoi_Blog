@@ -81,6 +81,7 @@ li.button p {
     border: 1px solid var(--border);
     border-radius: 0.65rem;
     overflow: hidden;
+    background: var(--primary-foreground) !important;
 }
 
 /* Table cells */
