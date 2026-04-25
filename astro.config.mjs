@@ -90,10 +90,7 @@ export default defineConfig({
       prefixDefaultLocale: true,
     },
   },
-  output: "server",
-  adapter: cloudflare({
-    imageService: "compile",
-  }),
+  output: "static",
   redirects: {
     "/go/zen": "https://zen-browser.app/",
     "/go/zed": "https://zed.dev/",
