@@ -5,6 +5,7 @@ pubDate: 'Feb 17 2026'
 heroImage: 'public/imgs/pngs/how-i-rice-my-window-for-productivity/card_preview.png'
 collection: en
 tags: [".dotfiles", "Share"]
+pin: true
 ---
 
 * "Convinient, Instant, Fast!"
