@@ -21,6 +21,8 @@ const { posts } = Astro.props;
                     <Image
                         src={post.data.heroImage}
                         loading={index < 4 ? "eager" : "lazy"}
+                        widths={[400, 800, 1200]}
+                        sizes="(max-width: 768px) 100vw, 800px"
                         alt=""
                     />
                 )}
