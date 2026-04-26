@@ -78,7 +78,7 @@ export default defineConfig({
       filter: (page) => !page.includes("/mail/"),
     }),
     react(),
-    // compress(),
+    compress(),
   ],
   vite: {
     plugins: [tailwindcss()],

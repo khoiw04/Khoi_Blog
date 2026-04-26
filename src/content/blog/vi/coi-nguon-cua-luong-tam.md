@@ -42,7 +42,7 @@ Cách hoạt động: **mPFC (giữa Não Thuỳ Trán)** sẽ sử dụng thôn
 Định nghĩa: Làm trái / Bị làm trái với lương tâm của mình   
 Cách hoạt đông:   
 - Não bộ **lấy thông tin** hiện tại ngoài đời   
-- **Đối chiếu** qua thông tin hiện có trong não *(Dự đoán của Não, Những gì đã học)*   
+- **Đối chiếu** qua thông tin hiện có trong não *(Dự đoán của Lương Tâm, Những gì đã học)*   
 - Không khớp nhau   
 
 :::wide
