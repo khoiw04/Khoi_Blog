@@ -11,7 +11,7 @@ import ComponentItem from "@/components/Layouts/ComponentItem.astro";
 const configTranslations = useGetTranslations(Astro);
 const posts = (await getSortedVietnamBlog())
     .filter((post) => !post.data.pin)
-    .slice(0, 4);
+    .slice(0, 3);
 const mainPost = (await getSortedVietnamBlog()).filter((post) => post.data.pin);
 ---
 
