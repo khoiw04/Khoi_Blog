@@ -97,30 +97,6 @@ Hệ Thần Kinh giao cảm vẫn còn đó + Dễ xây thói quen hại ngườ
    
 **Đầu càng đau, Adrenaline càng tăng** → Càng không phải điều mình muốn   
 :::
-
-<!--### **Cách tôi ngộ ra cơ chế Lương Tâm (bạn có thể bỏ qua, chỉ là nhật ký của tác giả)**   
-**Bối cảnh:**   
-Tôi là người ADHD nhẹ? (tăng động)   
-Ban đầu, Tôi cố định để sức khoẻ tôi yếu để tránh hại người khác vì suy nghĩ của mình không tốt, sống trong môi trường nơi ai cũng hại nhau.   
-Tôi để sức khoẻ mình yếu để tránh nuôi thói quen hại người khác   
-> Vậy nên, lời nói vô hình trong đầu tôi hiện ra nhiều hơn người bình thường   
-
-   
-**Động lực:**   
-Từ đó, tôi muốn tìm hiểu tận gốc cách lời nói và hình ảnh tiêu cực đó cứ hiện hữu   
-   
-**Cách phát hiện:**   
-Tôi học được từ việc Thiền Chánh Niệm. Tại sao tôi mong họ hạnh phúc, thì người thoải mãi hơn nhưng khi suy nghĩ hại họ, thì Adrenaline lại -^?   
-   
-Điều đó tôi nhận ra rằng: Xung đột nó không nằm ở họ, mà là nằm ở mình   
-Dần dần theo kinh nghiệm, tôi càng rút ra kết quả → Xung đột với Dây Thần Kinh càng chắc chắn, Adrenaline thì càng tiết ra   
-**Và khi giải quyết hết tất cả các Xung đột, Tâm đủ tính, Sức khoẻ đủ tốt,** tôi rút ra kết quả → Hệ Thần Kinh giao cảm chỉ tiết ra khi có Xung Đột   
-   
-**Sau 2 năm healing, kết quả Xung đột là:**   
-- 50% Là xung đột với Lương Tâm của mình vì mình có suy nghĩ hại người khác (dù không hại)   
-- 40% Là xung đột do mình bị hại   
-- 10% Là xung đột với điều mình kì vọng   -->
-   
    
 ### **Cách tôi đọc Lương Tâm của người khác**   
 *(Nghe khá biến thái, ngay cả bản thân tôi không dám thừa nhận nhưng cách tôi vượt qua sự Xung Đột trong tâm trí)*   
