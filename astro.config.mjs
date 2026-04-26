@@ -67,9 +67,9 @@ export default defineConfig({
     },
   },
   integrations: [
-    playformInline({
-      Exclude: [(file) => file.toLowerCase().includes("katex")],
-    }),
+    // playformInline({
+    //   Exclude: [(file) => file.toLowerCase().includes("katex")],
+    // }),
     expressiveCode(),
     mdx({
       ...plugins,
