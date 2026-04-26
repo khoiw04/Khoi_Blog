@@ -1,16 +1,8 @@
 import { typeMissionContactVi, typeMissionContactEn } from "@/data";
-import {
-  RESEND_API_KEY,
-  NEWSLETTER_KHOI_BLOG_VI,
-  NEWSLETTER_KHOI_BLOG_EN,
-} from "astro:env/server";
+import { env } from "cloudflare:workers";
 import { defineAction } from "astro:actions";
 import { z } from "astro/zod";
 import { Resend } from "resend";
-
-const resend = new Resend(
-  RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build",
-);
 
 const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeLxkB8RlhS5BqOOk3xWNoSlQrOBzH1i2Sb53SWtAcjEjwZ3A/formResponse";
@@ -33,6 +25,12 @@ export const server = {
         .email("Email không hợp lệ"),
     }),
     handler: async ({ email }) => {
+      const RESEND_API_KEY =
+        (env as any).RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build";
+      const resend = new Resend(RESEND_API_KEY);
+      const NEWSLETTER_KHOI_BLOG_EN = (env as any).NEWSLETTER_KHOI_BLOG_EN;
+      const NEWSLETTER_KHOI_BLOG_VI = (env as any).NEWSLETTER_KHOI_BLOG_VI;
+
       const { error } = await resend.contacts.create({
         email,
         segments: [
@@ -52,6 +50,11 @@ export const server = {
       email: z.string({ message: "Email is not empty" }).email("Email invaild"),
     }),
     handler: async ({ email }) => {
+      const RESEND_API_KEY =
+        (env as any).RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build";
+      const resend = new Resend(RESEND_API_KEY);
+      const NEWSLETTER_KHOI_BLOG_EN = (env as any).NEWSLETTER_KHOI_BLOG_EN;
+
       const { error } = await resend.contacts.create({
         email,
         segments: [{ id: NEWSLETTER_KHOI_BLOG_EN }],
@@ -68,6 +71,10 @@ export const server = {
       email: z.string({ message: "Email is not empty" }).email("Email invaild"),
     }),
     handler: async ({ email }) => {
+      const RESEND_API_KEY =
+        (env as any).RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build";
+      const resend = new Resend(RESEND_API_KEY);
+
       const { error } = await resend.contacts.update({
         email,
         unsubscribed: true,

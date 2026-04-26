@@ -127,18 +127,6 @@ export default defineConfig({
         context: "server",
         access: "public",
       }),
-      DEV_SITE_URL: envField.string({
-        context: "server",
-        access: "public",
-      }),
-      TURNSTILE_SITEKEY: envField.string({
-        context: "server",
-        access: "public",
-      }),
-      TURNSTILE_SECRETKEY: envField.string({
-        context: "server",
-        access: "secret",
-      }),
       WALINE_SITE_URL: envField.string({
         context: "server",
         access: "public",

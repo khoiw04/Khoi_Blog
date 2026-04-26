@@ -4,6 +4,7 @@ import transformEmailHtml from "@/lib/transform-email-html";
 import EmailLayout from "@/layouts/EmailLayout.astro";
 import { getSortedEnglishBlog } from "@/lib";
 import { useGetTranslations } from "@/i18n";
+import { env } from "cloudflare:workers";
 
 export const prerender = true;
 export async function getStaticPaths() {
@@ -22,7 +23,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const SITE =
-    (await import.meta.env.PUBLIC_SITE_URL) || "https://blog.khoiwn04.com";
+    (await (env as any).PUBLIC_SITE_URL) || "https://blog.khoiwn04.com";
 const post = Astro.props;
 const configTranslations = useGetTranslations(Astro);
 const postUrl = `${SITE}/${configTranslations.lang as string}/blog/${post.slug}`;

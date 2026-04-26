@@ -34,7 +34,7 @@ export const ui = {
     "contact.form.placeholderLastName": "Họ",
     "contact.form.placeholderMessage": "Hãy để lời bình luận",
 
-    "index.info.description": "Một người máy biết nói",
+    "index.info.description": "Healed",
     "index.nav.blog": "Bài Viết",
     "index.nav.about": "Về Tôi",
     "index.nav.send": "Gửi",
@@ -94,7 +94,7 @@ export const ui = {
     "contact.form.placeholderLastName": "Last Name",
     "contact.form.placeholderMessage": "Leave the comment",
 
-    "index.info.description": "The errors showing up.",
+    "index.info.description": "Healed",
     "index.nav.blog": "Blog",
     "index.nav.about": "About",
     "index.nav.send": "Send",

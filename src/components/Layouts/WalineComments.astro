@@ -1,5 +1,5 @@
 ---
-import { WALINE_SITE_URL } from "astro:env/server";
+import { env } from "cloudflare:workers";
 
 const pathname = Astro.url.pathname.replace(/\/$/, "");
 const { path = pathname } = Astro.props;
@@ -8,7 +8,8 @@ const segments = pathname.split("/");
 const currentLang =
     segments[1] === "vi" || segments[1] === "en" ? segments[1] : "vi";
 
-const serverURL = WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
+const serverURL =
+    (env as any).WALINE_SITE_URL || "https://blog-comment.khoiwn04.com";
 ---
 
 <link
