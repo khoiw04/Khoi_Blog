@@ -20,9 +20,15 @@ export default function remarkAdmonitions() {
         }
 
         const data = node.data || (node.data = {});
+        const align = node.attributes?.align;
+
         data.hName = "div";
         data.hProperties = {
-          className: ["admonition", `admonition-${type}`],
+          className: [
+            "admonition",
+            `admonition-${type}`,
+            align === "center" ? "is-centered" : "",
+          ],
         };
 
         node.children.unshift({

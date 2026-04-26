@@ -2,14 +2,14 @@
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "@/components/Layouts/FormattedDate.astro";
 import { useGetTranslations } from "@/i18n";
-import { env } from "cloudflare:workers";
 
 type Props = CollectionEntry<"blog">["data"];
 
+const cfEnv = (Astro.locals as any).runtime?.env || {};
 const configTranslations = useGetTranslations(Astro);
 const { title, pubDate, heroImage, postUrl } = Astro.props;
 
-const unsubscribeLink = `${(env as any).PUBLIC_SITE_URL}/unsubscribe?email={{USER_EMAIL}}`;
+const unsubscribeLink = `${(cfEnv as any).PUBLIC_SITE_URL}/unsubscribe?email={{USER_EMAIL}}`;
 ---
 
 <html lang={configTranslations.lang}>

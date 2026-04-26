@@ -45,6 +45,7 @@ Cách hoạt đông:
 - **Đối chiếu** qua thông tin hiện có trong não *(Dự đoán của Não, Những gì đã học)*   
 - Không khớp nhau   
 
+:::wide
 :::result[Kết quả]
 → Tạo xung đột   
 
@@ -84,9 +85,11 @@ Hệ Thần Kinh giao cảm vẫn còn đó + Dễ xây thói quen hại ngườ
 :::
    
 ### **Làm sao để tôi nhận biết Lương Tâm mình như nào?**   
+:::info[]
 **Nếu nghĩ gì đó, mà bụng của mình bị thắt (dấu hiệu vào Hệ Thần Kinh giao cảm)** → Không phải điều Lương Tâm mình muốn   
    
 **Đầu càng đau, Adrenaline càng tăng** → Càng không phải điều mình muốn   
+:::
 
 <!--### **Cách tôi ngộ ra cơ chế Lương Tâm (bạn có thể bỏ qua, chỉ là nhật ký của tác giả)**   
 **Bối cảnh:**   
@@ -120,7 +123,7 @@ Nhưng nhờ vào kiến thức trên và trải nghiệm của mình:
 - Căng cơ hoặc bụng thắt (Hệ Thần Kinh giao cảm hiện)
 
 
-:::result[Kết quả]
+:::result[Info]
 → Họ không thừa nhận bản thân mình điều gì đó khi thực hiện hành vi   
 
 - Ví dụ:
@@ -131,12 +134,16 @@ Nhưng nhờ vào kiến thức trên và trải nghiệm của mình:
 |     Đánh bạn |           → |         Không muốn đánh bạn |
 :::
 
+### **Khi giải hết Xung Đột trong đầu (trừ ~~Xung đột gốc~~)**
+Không còn nữa, Não Bộ bị kẹt ở Xung Đột đó (không phải Xung đột gốc) và Mình vô tình vào trạng thái Thiền Chánh Niệm, khá ảo
+
 ## 3. Kết luận   
 Tôi viết bài viết này vì tôi nhận ra rằng chỉ tôi nhận ra điều này. Lương tâm tôi muốn giúp mọi người, vậy thôi.
 
 > *"Con người không nổi giận khi hại ai đó. Con người nổi giận chỉ khi làm trái / bị trái với lương tâm của mình"*
 > -- **Khôi**
 
-:::info[Còn bạn thì sao?]
+:::full
+:::info[Còn bạn thì sao?]{align="center"}
 Bạn sẽ dựa vào bài viết của tôi để biết mình là một người như nào chứ?   
 :::

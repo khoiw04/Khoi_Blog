@@ -4,15 +4,15 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && rm -f dist/server/wrangler.json dist/server/.prerender/wrangler.json",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "send-newsletter": "node script/send-dev.ts"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "13.2.1",
-    "@astrojs/mdx": "5.0.4",
-    "@astrojs/react": "5.0.4",
+    "@astrojs/cloudflare": "^12.0.0",
+    "@astrojs/mdx": "^4.0.0",
+    "@astrojs/react": "^4.0.0",
     "@astrojs/rss": "4.0.18",
     "@astrojs/sitemap": "3.7.2",
     "@radix-ui/react-avatar": "^1.1.11",
@@ -24,7 +24,7 @@
     "@tailwindcss/vite": "^4.2.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "astro": "6.1.9",
+    "astro": "^5.4.0",
     "astro-expressive-code": "^0.41.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

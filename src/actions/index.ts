@@ -1,5 +1,4 @@
 import { typeMissionContactVi, typeMissionContactEn } from "@/data";
-import { env } from "cloudflare:workers";
 import { defineAction } from "astro:actions";
 import { z } from "astro/zod";
 import { Resend } from "resend";
@@ -24,7 +23,9 @@ export const server = {
         .string({ message: "Email không được để trống" })
         .email("Email không hợp lệ"),
     }),
-    handler: async ({ email }) => {
+    handler: async ({ email }, context) => {
+      const env = (context.locals as any).runtime?.env || {};
+
       const RESEND_API_KEY =
         (env as any).RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build";
       const resend = new Resend(RESEND_API_KEY);
@@ -49,7 +50,9 @@ export const server = {
     input: z.object({
       email: z.string({ message: "Email is not empty" }).email("Email invaild"),
     }),
-    handler: async ({ email }) => {
+    handler: async ({ email }, context) => {
+      const env = (context.locals as any).runtime?.env || {};
+
       const RESEND_API_KEY =
         (env as any).RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build";
       const resend = new Resend(RESEND_API_KEY);
@@ -70,7 +73,9 @@ export const server = {
     input: z.object({
       email: z.string({ message: "Email is not empty" }).email("Email invaild"),
     }),
-    handler: async ({ email }) => {
+    handler: async ({ email }, context) => {
+      const env = (context.locals as any).runtime?.env || {};
+
       const RESEND_API_KEY =
         (env as any).RESEND_API_KEY || "re_123456789_tam_bo_cho_qua_luc_build";
       const resend = new Resend(RESEND_API_KEY);
