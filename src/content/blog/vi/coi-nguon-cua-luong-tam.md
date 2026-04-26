@@ -31,6 +31,13 @@ pin: true
 
 :::collapse{title="ACC" as="h3"}
 Định nghĩa: Bộ phận điều hướng chú ý vào sự nổi bật, sự xung đột 
+![ACC region](https://cdn.flintrehab.com/uploads/2020/07/anterior-cingulate-cortex-damage.png)
+:::
+
+:::collapse{title="Những kiến thức quan trọng" as="h3"}
+- **Hệ Thần Kinh giao cảm chỉ hiện khi có Xung Đột**
+- Adrenaline -^ chỉ khi có Xung Đột với Niềm Tin mạnh (tức là Dây Thần Kinh chắc chắn)
+- Nếu Xung Đột gốc không giải quyết được, Não Bộ tìm Xung Đột khác lúc quá khứ trong DMN 
 :::
 
 ## 2. Quy luật
