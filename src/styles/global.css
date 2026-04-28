@@ -11,9 +11,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
-:root body {
-    margin-top: 15.6rem;
-    padding-bottom: 7rem;
+@media screen and (min-width: 769px) {
+    body {
+        margin-top: 15.6rem;
+        padding-bottom: 7rem;
+    }
 }
 
 :root {

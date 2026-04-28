@@ -34,7 +34,7 @@ export default function Newsletter({
             e.preventDefault();
             await onSubNewsletterSubmit(e, configTranslations.lang);
           }}
-          className="h-[60dvh] flex flex-col justify-center items-center pt-1 px-4"
+          className="h-[60dvh] flex flex-col justify-center items-center text-center pt-1 px-4"
         >
           <div className="relative flex flex-col items-center">
             <h3 className="text-2xl/relaxed font-bold ">

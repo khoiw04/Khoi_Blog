@@ -156,11 +156,11 @@ Mức độ nổi giận = (Niềm tin * Mức độ vững chắc) * Xung độ
 - Xung đột: 0 hoặc >= 1
 :::
 
-Niềm tin (Dây Thần Kinh) Vững Chắc chỉ xảy ra 3 dữ liệu:
+(Dây Thần Kinh) Vững Chắc chỉ xảy ra 3 dữ liệu:
 - Lương tâm của họ (DMN)
 - Điều họ kỳ vọng (Dopamine)
 - Kiến thức nền tảng (Kiến thức hay dùng)
-> (Không có bạn) vì họ không bao giờ có thể nghĩ cho bạn đủ nhiều để luyện Dây Thần Kinh Vững Chắc, kể cả họ quý bạn nhất trên đời
+> ~~(Không có bạn)~~ vì họ không bao giờ có thể nghĩ cho bạn đủ nhiều để luyện Dây Thần Kinh Vững Chắc, kể cả họ quý bạn nhất trên đời
 
 :::result[Kết quả]
 Cơ thể họ phản ứng tức giận, không phải vì bạn. Mà là vì xung đột với lương tâm của họ
