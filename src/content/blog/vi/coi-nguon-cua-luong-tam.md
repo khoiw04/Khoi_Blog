@@ -30,7 +30,7 @@ pin: true
 
 :::collapse{title="PPC" as="h3"}
 Định nghĩa: Vỏ não đỉnh sau, xử lý thông tin hiện tại (âm thanh, hình ảnh, thời-không, nhận thức) 
-![PCC region](https://neuroscientificallychallenged.com/app/cms/assets/thumbnails/posterior-parietal-cortex.jpg)
+![PPC region](https://neuroscientificallychallenged.com/app/cms/assets/thumbnails/posterior-parietal-cortex.jpg)
 :::
 
 :::collapse{title="PCC" as="h3"}
