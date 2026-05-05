@@ -202,7 +202,7 @@ Tôi thấy vừa **ép mình** tập trung công việc, rồi *Suy nghĩ lan m
 3. plPFC: Thay vì gồng mình tập trung, tôi **thừa nhận lương tâm tự động** để tránh xung đột nhiều nhất có thể -> Cortisol v-, tránh mệt
 
 :::result[Kết quả]
-Thà tốn ít sức + tài nguyên để tránh mệt, còn hơn là tốn nhiều
+Thà tốn ít sức + tài nguyên để tránh mệt + làm chủ tâm trí, còn hơn là tốn nhiều + dễ cấu
 :::
 :::
 
