@@ -193,6 +193,19 @@ Working Memory chỉ có 4 đơn vị, vậy nên:
 > *Lí do để trống: Nếu lắp đầy 4 đơn vị ngoài đời, nếu có gì đó chen ngang -> **Tạo xung đột, dễ mệt***
 :::
 
+:::collapse{title="Giai đoạn 3: Tập trung vô công việc (tôi bỏ cuộc)" as="h3"}
+*(Nhờ kinh nghiệm giai đoạn 2, theo kịch bản thì áp dụng vô công việc rất ngon. Nhưng rất tiếc, kịch bản đó đẹp nhưng không xảy ra)*
+
+Tôi thấy vừa **ép mình** tập trung công việc, rồi *Suy nghĩ lan man / Ai đó xuất hiện* làm tôi khó tập trung thêm  
+1. Căng thẳng: Việc **ép mình** đã xung đột với Lương tâm rồi. Nếu xung đột gốc không giải quyết được, ACC sẽ kéo theo các xung đột khác dựa trên *State-Dependent Memory* -> **Càng căng thẳng, khó tập trung hơn**
+2. Basal Ganglia xử lý hộ việc: **Tập trung nhìn, vung chuột, gõ phím** thì nhờ Basal Ganglia giải quyết rồi
+3. plPFC: Thay vì gồng mình tập trung, tôi **thừa nhận lương tâm tự động** để tránh xung đột nhiều nhất có thể -> Cortisol v-, tránh mệt
+
+:::result[Kết quả]
+Thà tốn ít sức + tài nguyên để tránh mệt, còn hơn là tốn nhiều
+:::
+:::
+
 ## 5. Kết luận
 Thiền sâu sẽ rất khó, cần tập nhiều.  
 
