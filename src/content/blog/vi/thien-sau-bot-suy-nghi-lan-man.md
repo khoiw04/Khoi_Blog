@@ -197,13 +197,14 @@ Working Memory chỉ có 4 đơn vị, vậy nên:
 *(Nhờ kinh nghiệm giai đoạn 2, theo kịch bản thì áp dụng vô công việc rất ngon. Nhưng rất tiếc, kịch bản đó đẹp nhưng không xảy ra)*
 
 Tôi thấy vừa **ép mình** tập trung công việc, rồi *Suy nghĩ lan man / Ai đó xuất hiện* làm tôi khó tập trung thêm  
-1. Căng thẳng: Việc **ép mình** đã xung đột với Lương tâm rồi. Nếu xung đột gốc không giải quyết được, ACC sẽ kéo theo các xung đột khác dựa trên *State-Dependent Memory* -> **Càng căng thẳng, khó tập trung hơn**
-2. Basal Ganglia xử lý hộ việc: **Tập trung nhìn, vung chuột, gõ phím** thì nhờ Basal Ganglia giải quyết rồi
-3. plPFC: Thay vì gồng mình tập trung, tôi **thừa nhận lương tâm tự động** để tránh xung đột nhiều nhất có thể -> Cortisol v-, tránh mệt
+1. Căng thẳng: Việc **ép mình** đã xung đột với Lương tâm rồi. Nếu xung đột gốc không giải quyết được, ACC sẽ kéo theo các xung đột khác dựa trên *State-Dependent Memory* -> **Càng căng thẳng, càng mệt**, **gợi lại chuyện tiêu cực thì càng khó tập trung hơn**
+> Thay vì gồng mình tập trung, tôi **thừa nhận lương tâm tự động** để tránh xung đột nhiều nhất có thể -> Cortisol v-, tránh mệt
+
+2. Việc nhẹ: **Tập trung nhìn, vung chuột, gõ phím** thì nhờ Basal Ganglia giải quyết rồi
+3. Việc nặng: **Tư duy giải bài**, lúc có ý tưởng thì nghĩ, không thì thôi => Tránh mệt + lối mòn tư duy
 
 :::result[Kết quả]
-Thà tốn ít sức + tài nguyên để tránh mệt + làm chủ tâm trí, còn hơn là tốn nhiều + dễ cấu
-:::
+Thà tốn ít sức + tài nguyên để tránh mệt + làm chủ tâm trí, còn hơn là tốn nhiều + dễ cáu
 :::
 
 ## 5. Kết luận
