@@ -185,7 +185,9 @@ Giai đoạn này rèn luyện sự tập trung:
 
 :::info[Lưu ý QUAN TRỌNG]
 Working Memory chỉ có 4 đơn vị, vậy nên:
-  1. *Bước 1:* Tập trung **2 đơn vị** ngoài đời, để trống 2 đơn vị
+  1. *Bước 1:* Tập trung **2 đơn vị** ngoài đời (Logic + Hành động), để trống 2 đơn vị  
+      - Logic: Luồng tư duy hiện tại (ví dụ: dòng code Rust đang viết dở, cái node sắp nối, nét cọ chuẩn bị đi, số đếm 1,2,3,4).  
+      - Hành động: Mắt dán chặt vào màn hình, tay tương tác với phím/chuột, bụng đang thở.
   2. *Bước 2:* **2 đơn vị còn lại** để nhường Suy nghĩ / Sự việc chen ngang hiện, và sau đó thừa nhận Suy nghĩ xung đột / Sự việc có tồn tại
   3. *Bước 3:* Không chú ý vào đơn vị vừa chấp nhận nữa do dọn rồi, **chuyển ngay sự chú ý 2 đơn vị ngoài đời**
 > *Lí do để trống: Nếu lắp đầy 4 đơn vị ngoài đời, nếu có gì đó chen ngang -> **Tạo xung đột, dễ mệt***
