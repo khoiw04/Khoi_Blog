@@ -94,8 +94,12 @@ Lợi ích:
   - CEN hoạt động mạnh hơn -- Tăng khả năng dlPFC chỉ đạo -> **Tập trung cao độ**
   - *Tự động Tập trung* vào ngoài đời -- **thay vì suy nghĩ lan man**
   - Làm không cần nghĩ -- **Điều khiển suy nghĩ không cần lời**
+
+Cách hoạt động:  
+  - **SN và CEN không chạm** vùng DMN
+  - **SN và CEN tăng tương tác** lẫn nhau  
    
-Cách làm:  
+Cách thực hiện:  
   - Nằm thả lỏng
   - dlPFC **ghim hơi thở 4-6-7**
   - Insula *kiểm tra ý nghĩa* 
